@@ -14,10 +14,10 @@ comments: true
   <h4>
     <a href="#thenumbers">The numbers</a> |
     <a href="#easy1">Easy 1</a> |
-    <a href="#documents">Documents</a> |
-    <a href="#bugs-and-issues">Bugs and Issues</a> |
-    <a href="#screenshots">Screenshots</a> |
-    <a href="#license">License</a> |
+    <a href="#13">13</a> |
+    <a href="#caesar">Caesar</a> |
+    <a href="#tapping">Tapping</a> |
+    <a href="#loi-ket">Lời kết</a> |
     <a href="#about-me">About me</a>
   </h4>
 </div>
@@ -34,7 +34,7 @@ Sau khi chúng ta download file ảnh từ challenge về ta được hình bên
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/141735086-20dca9f2-4583-48c0-b635-558647e4c21d.png"><img src="https://user-images.githubusercontent.com/86739367/141735086-20dca9f2-4583-48c0-b635-558647e4c21d.png"></a>
 	<figcaption><a href="#" title="">Hình ảnh minh họa sau khi mở file</a></figcaption>
-</figure align="center">
+</figure>
 
 Từ hình trên ta chú ý rằng phần đầu dãy số là `16 9 3 15 3 20 6{`và kết hợp với gợi ý của đề bài  ta sẽ phát hiện ra khi convert dãy số `16 9 3 15 3 20 6` ra bảng chữ cái thì sẽ cho ra được chữ `PICOCTF` (các số chính là vị trí các chữ cái trong bảng chữ cái latin). Ta làm tương tự với các dãy số sau, ta sẽ thấy được flag
 
