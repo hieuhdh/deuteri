@@ -1,16 +1,16 @@
 # Site navigation links
 
-- title: Home
-  url: /
-
-- title: Blog
-  url: /blog/
+# - title: Home
+#   url: /
 
 - title: Projects
   url: /projects/
 
-- title: About
-  url: /about/
+- title: Blog
+  url: /blog/
 
-- title: Moon
-  url: http://taylantatli.me/Moon
+# - title: About
+#   url: /about/
+
+# - title: Moon
+#   url: http://taylantatli.me/Moon
