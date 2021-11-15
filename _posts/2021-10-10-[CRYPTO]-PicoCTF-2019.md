@@ -12,7 +12,7 @@ comments: true
 
 <div align="center">
   <h4>
-    <a href="#thenumbers">The numbers</a> |
+    <a href="#the-numbers">The numbers</a> |
     <a href="#easy1">Easy 1</a> |
     <a href="#13">13</a> |
     <a href="#caesar">Caesar</a> |
