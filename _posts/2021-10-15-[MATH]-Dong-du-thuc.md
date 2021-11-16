@@ -24,29 +24,31 @@ comments: true
 ### Phép lấy phần dư trong phép chia
 
 Xét $$ a , b ∈ \mathbb{Z} , b \ne 0 $$, kí hiệu $$ a \ mod \ b $$ là số dư khi chia a cho b . Ví dụ:
-$$ \begin{align*} 
-    \bullet &\ \ 20 \ mod \ 5 = 0 \\
-    \bullet &\ \ 3 \ mod \ 2 = 1 \\
-    \bullet &\ \ 1 \ mod \ 9 = 1 \ hay \ 1 \  mod \ 9 = -8 
-\end{align*}$$
+$$
+\left[\begin{array}{l}
+    20 \ mod \ 5 = 0 \\
+    3 \ mod \ 2 = 1 \\
+    1 \ mod \ 9 = 1 \ hay \ 1 \  mod \ 9 = -8
+\end{array}\right.
+$$
 
 Định nghĩa một cách chuẩn mực, xét phép chia Euclide a cho b: $$ \begin{align*} 
     \begin{cases}   q \in \mathbb{Z} \\  
                     a = bq + r \\ 
                     | r | < | b |  
     \end{cases}
-\end{align*}$$
-
-Thì ta có $$ a \ mod \ b = r $$
+\end{align*}$$. Thì ta có $$ a \ mod \ b = r $$
 
 ### Đồng dư thức
 
 Xét số nguyên $$ n > 1 $$ và 2 số nguyên $$ a, b $$. Ta kí hiệu $$ a \equiv b \ ( mod \ n ) $$ khi $$ a $$ và $$ b $$ có cùng số dư khi chia cho $$ n $$, đọc là $$ a $$ đồng dư với $$ b $$ theo module $$ n $$. Ví dụ:
-$$ \begin{align*} 
-    \bullet &\ \ 12\equiv5 \ (mod \ 8) \\
-    \bullet &\ \ 17\equiv1 \ (mod \ 16)  \\
-    \bullet &\ \ 1\equiv-8 \ (mod \ 9) 
-\end{align*}$$
+$$
+\left[\begin{array}{l}
+    12\equiv5 \ (mod \ 8) \\
+    17\equiv1 \ (mod \ 16) \\
+    1\equiv-8 \ (mod \ 9)
+\end{array}\right.
+$$
 
 Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 
@@ -54,44 +56,51 @@ Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 
 Trong lí thuyết vành, ta có: 
 $$ \begin{align*} 
-    \bullet & \ \ \overline{a_n} + \overline{b_n} = \overline{a+b}_n \\
-    \bullet &\ \ \overline{a_n} - \overline{b_n} = \overline{a-b}_n  \\
-    \bullet &\ \ \overline{a_n} \overline{b_n} = \overline{ab}_n 
+    \begin{cases}   \overline{a_n} + \overline{b_n} = \overline{a+b}_n \\
+                    \overline{a_n} - \overline{b_n} = \overline{a-b}_n  \\
+                    \overline{a_n} \overline{b_n} = \overline{ab}_n 
+    \end{cases}
 \end{align*}$$
 
 Ví dụ, $$ \overline{4_{10}} +\overline{9_{10}} = \overline{4+9}_{10} = \overline{13}_{10} = \overline{10 + 3}_{10} = \overline{10_{10}} + \overline{3}_{10} = 0 + \overline{3}_{10} $$
 
-Với $$ a , b , c \in \mathbb{Z} $$, nếu $$ a \equiv b \ (mod \ n) $$, thì:
+Với $$ a , b , c \in \mathbb{Z} $$, nếu $$ a \equiv b \ (mod \ n) $$
 
+Thì:
 $$ \begin{align*} 
-    \bullet &\ \ -a\equiv-b \ (mod \ n) \\
-    \bullet &\ \ a + c \equiv b + c \ ( mod \ n )  \\
-    \bullet &\ \ a - c \equiv b - c \ ( mod \ n ) \\
-    \bullet &\ \ ca \equiv cb\ (mod\ n )  \\
-    \bullet &\ \ a^c \equiv b^c \ ( mod \ n )  \\
-    \bullet &\ \ p ( a ) \equiv p ( b ) \ ( mod \ n ) \ với \ p \ là \ một \ đa \ thức \ có \ nghiệm\ nguyên. 
+    \begin{cases}   -a\equiv-b \ (mod \ n) \\  
+                    a + c \equiv b + c \ ( mod \ n ) \\ 
+                    a - c \equiv b - c \ ( mod \ n ) \\
+                    ca \equiv cb\ (mod\ n )  \\
+                    a^c \equiv b^c \ ( mod \ n )  \\
+                    p ( a ) \equiv p ( b ) \ ( mod \ n ) \ với \ p \ là \ một \ đa \ thức \ có \ nghiệm\ nguyên. 
+    \end{cases}
 \end{align*}$$
 
 Ngược lại nếu: 
+$$\left[\begin{array}{l}
+    a + c \equiv b + c \ ( mod \ n ) \Longleftrightarrow  a \equiv b \ ( mod \ n ) \\
+    \begin{cases}   c a \equiv c b \ ( mod \ n ) \\   (n,c) = 1 \end{cases} \Longrightarrow \ a \equiv b \ ( mod \ n ) 
+\end{array}\right.
+$$
 
+Xét $$ a_1 ≡ b_1 \ ( mod \ n ) \ và \ a_2 ≡ b_2 \ ( mod \ n ) $$
+
+Ta có:
 $$ \begin{align*} 
-    \bullet & \ \ a + c \equiv b + c \ ( mod \ n ) \Longleftrightarrow  a \equiv b \ ( mod \ n ) \\
-    \bullet &\ \ \begin{cases}   c a \equiv c b \ ( mod \ n ) \\   (n,c) = 1 \end{cases} \Longrightarrow \ a \equiv b \ ( mod \ n ) 
+    \begin{cases}   a_1 + a_2 \equiv b_1 + b_2 \ ( mod \ n ) \\
+                    a_1 - a_2 \equiv b_1 - b_2 \ ( mod \ n )  \\
+                    a_1 a_2 \equiv b_1 b_2 \ ( mod \ n )
+    \end{cases}
 \end{align*}$$
 
-Xét $$ a_1 ≡ b_1 \ ( mod \ n ) \ và \ a_2 ≡ b_2 \ ( mod \ n ) $$, ta có:
+Với $$ a , b , c \in \mathbb{Z} $$, ta gọi $$ a \ mod \ b $$ là phép chia lấy phần dư của $$ a $$ cho $$ b $$.
 
+Ta có hai điều cần lưu ý:
 $$ \begin{align*} 
-    \bullet & \ \ a_1 + a_2 \equiv b_1 + b_2 \ ( mod \ n ) \\
-    \bullet &\ \ a_1 - a_2 \equiv b_1 - b_2 \ ( mod \ n )  \\
-    \bullet &\ \ a_1 a_2 \equiv b_1 b_2 \ ( mod \ n )
-\end{align*}$$
-
-Với $$ a , b , c \in \mathbb{Z} $$, ta gọi $$ a \ mod \ b $$ là phép chia lấy phần dư của $$ a $$ cho $$ b $$, ta có một vài điều cần lưu ý:
-
-$$ \begin{align*} 
-    \bullet & \ \ (a + b) \ mod \ c = (a \ mod \ c + b \ mod \ c) \ mod \ c \\
-    \bullet &\ \ ab \ mod \ c = (a \ mod \ c )( b \ mod \ c) \ mod \ c = \Big[(a \ mod \ c) (b \ mod \ c) \Big] \ mod \ c
+    \begin{cases}   (a + b) \ mod \ c = (a \ mod \ c + b \ mod \ c) \ mod \ c \\
+                    ab \ mod \ c = (a \ mod \ c )( b \ mod \ c) \ mod \ c = \Big[(a \ mod \ c) (b \ mod \ c) \Big] \ mod \ c
+    \end{cases}
 \end{align*}$$
 
 <h2 id="mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh">Một số ví dụ về xử lí đồng dư trong lập trình</h2>
@@ -144,7 +153,9 @@ Từ cách phép biến đổi trên, ta đã biến phân tích biểu thức t
 
 Đúng vậy, lúc này hiện tượng <a href="https://vi.wikipedia.org/wiki/Tr%C3%A0n_s%E1%BB%91_nguy%C3%AAn" title="">tràn số nguyên</a> sẽ xảy ra, vì phạm vi tối đa của kiểu dữ liệu `int` chỉ là $$2^{31}-1$$ tức $$2147483647$$.
 
-Ví dụ tôi xét module là 1 số mà bình phương của nó vượt quá $$2^{63} -1$$ tức là phạm vi tối đa của kiểu dữ liệu `long long`. Để ý sẽ thấy rằng, tôi đã tách tổng trên thành 1 tích với 2 thừa số là `n-1` và `n+3`, và tôi nhận xét: $$ \begin{cases}   n-1 \ mod  \ M < M \\   n + 3 \ mod \ M < M  \end{cases}   \Longrightarrow \Big[\big(n-1\big) \ mod \ M \Big] \Big[\big(n+3\big) \ mod \ M \Big] < M^2 $$ 
+Ví dụ tôi xét module là 1 số mà bình phương của nó vượt quá $$2^{63} -1$$ tức là phạm vi tối đa của kiểu dữ liệu `long long`. Để ý sẽ thấy rằng, tôi đã tách tổng trên thành 1 tích với 2 thừa số là `n-1` và `n+3`.
+
+Tôi có nhận xét: $$ \begin{cases}   n-1 \ mod  \ M < M \\   n + 3 \ mod \ M < M  \end{cases}   \Longrightarrow \Big[\big(n-1\big) \ mod \ M \Big] \Big[\big(n+3\big) \ mod \ M \Big] < M^2 $$ 
 
 Dựa vào nhận xét trên, dễ dàng ta có thể nhập 1 số nguyên `n` đủ mạnh kết hợp với số module (tôi đặt là `M`) đủ lớn thì hiện tượng tràn số sẽ xuất hiện. Ví dụ `M = 4294967296` và `n = 4294967292` thì lúc này cả $$n-1$$ và $$n+3$$ đều nhỏ hơn số module và nó gần bằng với số module, hay nói cách khác thì tích 2 thừa số này gần bằng $$M^2$$ và điều quan trọng là $$M^2 = 4294967296^2 = 2^{64} > ll$$. Lúc này đây, chính xác chúng ta phải tìm 1 hướng tiếp cận khác đối với bài toán này.
 
