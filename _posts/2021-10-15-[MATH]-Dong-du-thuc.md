@@ -7,7 +7,7 @@ tags: [Math, Module, Đồng dư thức]
 comments: true
 ---
 <h1 align="center">
-  Đồng dư thức
+  Nội dung
 </h1> 
 
 <div align="center">
@@ -30,12 +30,11 @@ $$ \begin{align*}
     \bullet &\ \ 1 \ mod \ 9 = 1 \ hay \ 1 \  mod \ 9 = -8 
 \end{align*}$$
 
-Định nghĩa một cách chuẩn mực, xét phép chia Euclide a cho b: 
-
-$$ \begin{align*} 
-    \bullet &\ \ q \in \mathbb{Z} \\
-    \bullet &\ \ a = bq + r  \\
-    \bullet &\ \ | r | < | b | 
+Định nghĩa một cách chuẩn mực, xét phép chia Euclide a cho b: $$ \begin{align*} 
+    \begin{cases}   q \in \mathbb{Z} \\  
+                    a = bq + r \\ 
+                    | r | < | b |  
+    \end{cases}
 \end{align*}$$
 
 Thì ta có $$ a \ mod \ b = r $$
@@ -43,7 +42,6 @@ Thì ta có $$ a \ mod \ b = r $$
 ### Đồng dư thức
 
 Xét số nguyên $$ n > 1 $$ và 2 số nguyên $$ a, b $$. Ta kí hiệu $$ a \equiv b \ ( mod \ n ) $$ khi $$ a $$ và $$ b $$ có cùng số dư khi chia cho $$ n $$, đọc là $$ a $$ đồng dư với $$ b $$ theo module $$ n $$. Ví dụ:
-
 $$ \begin{align*} 
     \bullet &\ \ 12\equiv5 \ (mod \ 8) \\
     \bullet &\ \ 17\equiv1 \ (mod \ 16)  \\
@@ -55,7 +53,6 @@ Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 <h2 id="mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module">Một số tính chất và các phép toán đồng dư trên vành Module</h2>
 
 Trong lí thuyết vành, ta có: 
-
 $$ \begin{align*} 
     \bullet & \ \ \overline{a_n} + \overline{b_n} = \overline{a+b}_n \\
     \bullet &\ \ \overline{a_n} - \overline{b_n} = \overline{a-b}_n  \\
@@ -114,7 +111,10 @@ Dựa vào xử lí đồng dư, tôi có một ý tưởng về một hướng 
 #### Hướng tiếp cận thứ 2
 
 Bước 1: Việc đầu tiên là xét bình phương số module:
-$$ 1000000009^2=1000000018000000081 \approx 10^{18} = {(10^3)}^6 = 1000^6 < {(1024)}^6 \\ và \ {(1024)}^6 = {(2^{10})}^6 = 2^{60}< 2^{63}-1 $$
+$$ \begin{align*} 
+    1000000009^2=100000&0018000000081 \approx 10^{18} = {(10^3)}^6 = 1000^6 < {(1024)}^6  \\
+    và& \ {(1024)}^6 = {(2^{10})}^6 = 2^{60}< 2^{63}-1
+\end{align*}$$
 
 Mà phạm vi tối đa của kiểu dữ liệu `long long` (tôi đặt là $$ll$$) trong C++ là $$ll=2^{63}-1$$. Vậy là hướng tiếp cận này của tôi có vẻ khả thi.
 
@@ -129,20 +129,22 @@ $$ \begin{align*}
 
 Từ cách phép biến đổi trên, ta đã biến phân tích biểu thức tổng một cách mạch lạc cũng như làm gọn vấn đề hơn, lúc này chỉ cần ta nhận được tham số $$n$$ truyền vào thì ta dễ dàng đưa ra kết quả cho bài toán trong việc code bằng C++. Vậy hướng tiếp cận này của tôi đã đúng với tất cả các trường hợp thử nghiệm của $$n$$ thỏa $$2 \le n \le 10^{18}$$ chưa? Đến thời điểm hiện tại, tôi nghĩ là hướng tiếp cận này chắc chắn đúng với toàn bộ trường hợp thử nghiệm trên.
 
-| :question:| Vì sao bình phương của Module phải bé hơn phạm vi tối đa của kiểu dữ liệu lớn nhất trong C++?|
-|-----------|:------------------------------------------------------------------------------------------------------------|
+<table>
+  <thead>
+    <tr>
+      <td align="left">
+        ❓ 
+      </td>
+<td style = "font-weight: bold">Vì sao bình phương của Module phải bé hơn phạm vi tối đa của kiểu dữ liệu lớn nhất trong C++?</td>
+    </tr>
+  </thead>
+</table>
 
-| :question:| Vì sao ?|
-|-----------|:-------------|
-
-| :question:| Vì sao bình phương của Module phải bé hơn phạm vi tối đa của kiểu dữ liệu lớn nhất trong C++?|
-|-----------|:-------------|
-
-Để trả lời cho câu hỏi này, tôi sẽ đưa ra một bài toán nho nhỏ là: Xuất ra giá trị của số nguyên $$n$$ (kiểu dữ liệu integer - từ khóa `int`)được nhập từ bàn phím. Điều này chẳng có gì phải bàn nếu ta nhập các giá trị nhỏ như `1, 2, 3,...` từ bàn phím. Nhưng nếu chúng ta nhập `2147483648` từ bàn phím thì sao?
+Để trả lời cho câu hỏi trên, tôi sẽ đưa ra một bài toán nho nhỏ là: Xuất ra giá trị của số nguyên $$n$$ (kiểu dữ liệu integer - từ khóa `int`)được nhập từ bàn phím. Điều này chẳng có gì phải bàn nếu ta nhập các giá trị nhỏ như `1, 2, 3,...` từ bàn phím. Nhưng nếu chúng ta nhập `2147483648` từ bàn phím thì sao?
 
 Đúng vậy, lúc này hiện tượng <a href="https://vi.wikipedia.org/wiki/Tr%C3%A0n_s%E1%BB%91_nguy%C3%AAn" title="">tràn số nguyên</a> sẽ xảy ra, vì phạm vi tối đa của kiểu dữ liệu `int` chỉ là $$2^{31}-1$$ tức $$2147483647$$.
 
-Ví dụ tôi xét module là 1 số mà bình phương của nó vượt quá $$2^{63} -1$$ tức là phạm vi tối đa của kiểu dữ liệu `long long`. Để ý sẽ thấy rằng, tôi đã tách tổng trên thành 1 tích với 2 thừa số là `n-1` và `n+3`, và tôi nhận xét: $$ \begin{cases}   n-1 \ mod  \ M < M \\   n + 3 \ mod \ M < M  \end{cases}   \Rightarrow \Big[\big(n-1\big) \ mod \ M \Big] \Big[\big(n+3\big) \ mod \ M \Big] < M^2 $$ 
+Ví dụ tôi xét module là 1 số mà bình phương của nó vượt quá $$2^{63} -1$$ tức là phạm vi tối đa của kiểu dữ liệu `long long`. Để ý sẽ thấy rằng, tôi đã tách tổng trên thành 1 tích với 2 thừa số là `n-1` và `n+3`, và tôi nhận xét: $$ \begin{cases}   n-1 \ mod  \ M < M \\   n + 3 \ mod \ M < M  \end{cases}   \Longrightarrow \Big[\big(n-1\big) \ mod \ M \Big] \Big[\big(n+3\big) \ mod \ M \Big] < M^2 $$ 
 
 Dựa vào nhận xét trên, dễ dàng ta có thể nhập 1 số nguyên `n` đủ mạnh kết hợp với số module (tôi đặt là `M`) đủ lớn thì hiện tượng tràn số sẽ xuất hiện. Ví dụ `M = 4294967296` và `n = 4294967292` thì lúc này cả $$n-1$$ và $$n+3$$ đều nhỏ hơn số module và nó gần bằng với số module, hay nói cách khác thì tích 2 thừa số này gần bằng $$M^2$$ và điều quan trọng là $$M^2 = 4294967296^2 = 2^{64} > ll$$. Lúc này đây, chính xác chúng ta phải tìm 1 hướng tiếp cận khác đối với bài toán này.
 
