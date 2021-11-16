@@ -110,8 +110,8 @@ Và đúng, tôi có nghiên cứu về loại mật mã này, đây là mật m
 ### Xem thêm
 
 <div align="left">
-    <a href="https://morsedecoder.com/vi/" class="btn" style="font-size: 10px; width: 20px; height: 40px">Mã morse</a> 
-    <a href="https://morsecode.world/international/translator.html" class="btn" style="font-size: 10px">Giải mã mã morse</a>
+    <a href="https://morsedecoder.com/vi/" class="btn" style="font-size: 13px; height: 30px">Mã morse</a> 
+    <a href="https://morsecode.world/international/translator.html" class="btn" style="font-size: 13px; height: 30px">Giải mã mã morse</a>
 </div>
 
 ## List of challenge
