@@ -88,12 +88,10 @@ Vì bảng chữ cái có 26 kí tự, tức là có tối đa 25 khoảng dịc
 
 ### Xem thêm
 
-<div align="center">
-  <h5>
-    <a href="https://vi.wikipedia.org/wiki/M%E1%BA%ADt_m%C3%A3_Caesar" class="btn btn-success">Mật mã caesar</a> 
-    <a href="https://privacycanada.net/classical-encryption/caesar-cipher/" class="btn btn-success">Mật mã caesar</a>
-    <a href="https://cryptii.com/pipes/caesar-cipher" class="btn btn-success">Decode caesar online</a>
-  </h5>
+<div align="left" style = "font-size: 12px">
+    <a href="https://vi.wikipedia.org/wiki/M%E1%BA%ADt_m%C3%A3_Caesar" class="btn">Mật mã caesar</a> 
+    <a href="https://privacycanada.net/classical-encryption/caesar-cipher/" class="btn">Mật mã caesar</a>
+    <a href="https://cryptii.com/pipes/caesar-cipher" class="btn">Decode caesar online</a>
 </div>
 
 ## Tapping
@@ -131,4 +129,4 @@ Và đúng, tôi có nghiên cứu về loại mật mã này, đây là mật m
   Epilogue
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" class="btn btn-success">tại đây</a>.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" class="btn btn-info" style = "font-size: 12px">tại đây</a>.
