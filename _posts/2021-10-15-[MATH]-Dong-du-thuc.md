@@ -25,7 +25,7 @@ comments: true
 
 Xét $$ a , b ∈ \mathbb{Z} , b \ne 0 $$, kí hiệu $$ a \ mod \ b $$ là số dư khi chia a cho b . Ví dụ:
 
-* $$ 20 \ mod \ 5 = 0 $$
+$$ * \displaystyle 20 \ mod \ 5 = 0 $$
 * $$ 3 \ mod \ 2 = 1 $$
 * $$ 1 \ mod \ 9 = 1 \ hay \ 1 \  mod \ 9 = -8 $$
 
@@ -99,7 +99,7 @@ Dựa vào xử lí đồng dư, tôi có một ý tưởng về một hướng 
 #### Hướng tiếp cận thứ 2
 
 Bước 1: Việc đầu tiên là xét bình phương số module:
-$$ 1000000009^2=1000000018000000081 \approx 10^{18} = {(10^3)}^6 = 1000^6 < {(1024)}^6 = {(2^{10})}^6 = 2^{60}< 2^{63}-1 $$
+$$ \displaystyle 1000000009^2=1000000018000000081 \approx 10^{18} = {(10^3)}^6 = 1000^6 < {(1024)}^6 \ {(1024)}^6 = {(2^{10})}^6 = 2^{60}< 2^{63}-1 $$
 
 Mà phạm vi tối đa của kiểu dữ liệu `long long` (tôi đặt là $$ll$$) trong C++ là $$ll=2^{63}-1$$. Vậy là hướng tiếp cận này của tôi có vẻ khả thi.
 
