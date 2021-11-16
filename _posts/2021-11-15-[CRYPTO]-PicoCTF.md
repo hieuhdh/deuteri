@@ -3,6 +3,7 @@ layout: post
 title: "[CRYPTO] PicoCTF"
 date: 2021-10-10
 excerpt: "Some writeup of me about Crypto"
+blog: true
 tags: [Crypto CTF]
 comments: true
 ---
