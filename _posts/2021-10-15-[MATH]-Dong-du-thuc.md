@@ -19,7 +19,7 @@ comments: true
   </h4>
 </div>
 
-## Định nghĩa
+<h2 id="dinh-nghia">Định nghĩa</h2>
 
 ### Phép lấy phần dư trong phép chia
 
@@ -52,7 +52,7 @@ $$ \begin{align*}
 
 Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 
-## Một số tính chất và các phép toán đồng dư trên vành Module
+<h2 id="mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module">Một số tính chất và các phép toán đồng dư trên vành Module</h2>
 
 Trong lí thuyết vành, ta có: 
 
@@ -97,7 +97,7 @@ $$ \begin{align*}
     \bullet &\ \ ab \ mod \ c = (a \ mod \ c )( b \ mod \ c) \ mod \ c = \Big[(a \ mod \ c) (b \ mod \ c) \Big] \ mod \ c
 \end{align*}$$
 
-## Một số ví dụ về xử lí đồng dư trong lập trình
+<h2 id="mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh">Một số ví dụ về xử lí đồng dư trong lập trình</h2>
 
 ### Ví dụ 1
 
@@ -132,6 +132,12 @@ Từ cách phép biến đổi trên, ta đã biến phân tích biểu thức t
 | :question:| Vì sao bình phương của Module phải bé hơn phạm vi tối đa của kiểu dữ liệu lớn nhất trong C++?|
 |-----------|:------------------------------------------------------------------------------------------------------------|
 
+| :question:| Vì sao ?|
+|-----------|:-------------|
+
+| :question:| Vì sao bình phương của Module phải bé hơn phạm vi tối đa của kiểu dữ liệu lớn nhất trong C++?|
+|-----------|:-------------|
+
 Để trả lời cho câu hỏi này, tôi sẽ đưa ra một bài toán nho nhỏ là: Xuất ra giá trị của số nguyên $$n$$ (kiểu dữ liệu integer - từ khóa `int`)được nhập từ bàn phím. Điều này chẳng có gì phải bàn nếu ta nhập các giá trị nhỏ như `1, 2, 3,...` từ bàn phím. Nhưng nếu chúng ta nhập `2147483648` từ bàn phím thì sao?
 
 Đúng vậy, lúc này hiện tượng <a href="https://vi.wikipedia.org/wiki/Tr%C3%A0n_s%E1%BB%91_nguy%C3%AAn" title="">tràn số nguyên</a> sẽ xảy ra, vì phạm vi tối đa của kiểu dữ liệu `int` chỉ là $$2^{31}-1$$ tức $$2147483647$$.
@@ -142,7 +148,7 @@ Dựa vào nhận xét trên, dễ dàng ta có thể nhập 1 số nguyên `n` 
 
 Và những lập luận trên của tôi cũng đã giải thích cho việc tại sao trong hướng tiếp cận của tôi chỉ đúng với điều kiện số Module có bình phương phải nhỏ hơn hoặc bằng phạm vi tối đa của kiểu dữ liệu có phạm vi lớn nhất trong C++.
 
-## Có thể bạn đã biết
+<h2 id="co-the-ban-da-biet">Có thể bạn đã biết</h2>
 
 <div align="left">
     <a href="https://en.wikipedia.org/wiki/Fermat's_little_theorem" class="btn">Định lí fermat nhỏ</a> 
