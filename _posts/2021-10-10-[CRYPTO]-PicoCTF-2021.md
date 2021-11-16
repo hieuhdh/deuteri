@@ -54,6 +54,13 @@ Sau khi chạy đoạn code trên, ta sẽ nhận được flag
 
 ## List of challenge
 
+<div align="center">
+  <h5>
+    <a href="https://play.picoctf.org/practice/challenge/144?category=2&originalEvent=34&page=1" class="btn btn-success">Mod 26</a> 
+    <a href="https://play.picoctf.org/practice/challenge/162?category=2&originalEvent=34&page=1" class="btn btn-success">Mind your Ps and Qs</a>
+  </h5>
+</div>
+
 <h1 align="center">
   Epilogue
 </h1> 

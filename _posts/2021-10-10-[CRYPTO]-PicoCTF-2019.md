@@ -88,11 +88,13 @@ Vì bảng chữ cái có 26 kí tự, tức là có tối đa 25 khoảng dịc
 
 ### Xem thêm
 
-<a href="https://vi.wikipedia.org/wiki/M%E1%BA%ADt_m%C3%A3_Caesar">Mật mã caesar</a>
-
-<a href="https://privacycanada.net/classical-encryption/caesar-cipher/">Mật mã caesar</a>
-
-<a href="https://cryptii.com/pipes/caesar-cipher">Decode caesar online</a>
+<div align="center">
+  <h5>
+    <a href="https://vi.wikipedia.org/wiki/M%E1%BA%ADt_m%C3%A3_Caesar" class="btn btn-success">Mật mã caesar</a> 
+    <a href="https://privacycanada.net/classical-encryption/caesar-cipher/" class="btn btn-success">Mật mã caesar</a>
+    <a href="https://cryptii.com/pipes/caesar-cipher" class="btn btn-success">Decode caesar online</a>
+  </h5>
+</div>
 
 ## Tapping
 
@@ -114,6 +116,16 @@ Và đúng, tôi có nghiên cứu về loại mật mã này, đây là mật m
 <a href="https://morsecode.world/international/translator.html">Giải mã mã morse</a>
 
 ## List of challenge
+
+<div align="center">
+  <h5>
+    <a href="https://play.picoctf.org/practice/challenge/68?category=2&originalEvent=1&page=1" class="btn btn-success">The numbers</a> 
+    <a href="https://play.picoctf.org/practice/challenge/43?category=2&originalEvent=1&page=1" class="btn btn-success">Easy1</a>
+    <a href="https://play.picoctf.org/practice/challenge/62?category=2&originalEvent=1&page=1" class="btn btn-success">13</a>
+    <a href="https://play.picoctf.org/practice/challenge/64?category=2&originalEvent=1&page=1" class="btn btn-success">caesar</a>
+    <a href="https://play.picoctf.org/practice/challenge/21?category=2&originalEvent=1&page=1" class="btn btn-success">Tapping</a>
+  </h5>
+</div>
 
 <h1 align="center">
   Epilogue
