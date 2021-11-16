@@ -2,7 +2,7 @@
 layout: post
 title: "[Crypto] Pico CTF - 2019"
 date: 2021-10-10
-excerpt: "Some writeup of me about Crypto"
+excerpt: "Some writeup of me about Crypto in Pico CTF"
 tags: [Crypto CTF]
 comments: true
 ---
