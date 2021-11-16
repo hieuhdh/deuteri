@@ -99,7 +99,7 @@ $$
         \end{cases}
     \end{align*}
 $$ 
-Ta có:
+, thì ta có:
 $$ \begin{align*} 
     \begin{cases}   a_1 + a_2 \equiv b_1 + b_2 \ ( mod \ n ) \\
                     a_1 - a_2 \equiv b_1 - b_2 \ ( mod \ n )  \\
@@ -107,9 +107,7 @@ $$ \begin{align*}
     \end{cases}
 \end{align*}$$
 
-Với $$ a , b , c \in \mathbb{Z} $$, ta gọi $$ a \ mod \ b $$ là phép chia lấy phần dư của $$ a $$ cho $$ b $$.
-
-Ta có hai điều cần lưu ý:
+Với $$ a , b , c \in \mathbb{Z} $$, ta gọi $$ a \ mod \ b $$ là phép chia lấy phần dư của $$ a $$ cho $$ b $$. Ta có hai điều cần lưu ý:
 
 $$ \begin{align*} 
     \begin{cases}   (a + b) \ mod \ c = (a \ mod \ c + b \ mod \ c) \ mod \ c \\
@@ -134,6 +132,7 @@ Dựa vào xử lí đồng dư, tôi có một ý tưởng về một hướng 
 #### Hướng tiếp cận thứ 2
 
 Bước 1: Việc đầu tiên là xét bình phương số module:
+
 $$ \begin{align*} 
     1000000009^2=100000&0018000000081 \approx 10^{18} = {(10^3)}^6 = 1000^6 < {(1024)}^6  \\
     và& \ {(1024)}^6 = {(2^{10})}^6 = 2^{60}< 2^{63}-1
