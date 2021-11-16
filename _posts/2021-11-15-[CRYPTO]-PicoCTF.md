@@ -17,9 +17,3 @@ comments: true
     <a href="https://hieuhdh.github.io/deuteri/CRYPTO-PicoCTF-2021/" class="btn btn-success">[CRYPTO] Pico CTF 2021</a>
   </h4>
 </div>
-
-<div align="center">
-  <h4>
-    <a href="https://hieuhdh.github.io/deuteri/CRYPTO-PicoCTF-2021/" class="btn btn-success">[CRYPTO] Pico CTF 2021</a> 
-  </h4>
-</div>
