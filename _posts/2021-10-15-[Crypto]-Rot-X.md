@@ -2,7 +2,7 @@
 layout: post
 title: "[Crypto] ROT-X"
 date: 2021-10-15
-excerpt: "Một vài vấn đề nhỏ về đồng dư thức và ứng dụng xử lí đồng dư trong lập trình"
+excerpt: "Something about ROT-X which I know"
 tags: [Crypto, ROT]
 comments: true
 ---
@@ -25,9 +25,9 @@ comments: true
 
 <p>In a general way: encrypt(message) with ROT-X = decrypt(message) with ROT-(26-X)</p>
 <p><b>Example:</b>
-<li>Encrypt(message) with ROT1 = decrypt(message) with ROT25 </li>
-<li>Decrypt(message) with ROT1 = encrypt(message) with ROT25</li>
-<li>Special case with <strong>ROT13</strong>: decrypt(message) = encrypt(encrypt(message))</li>
+<li style="text-indent: 50px;">Encrypt(message) with ROT1 = decrypt(message) with ROT25 </li>
+<li style="text-indent: 50px;">Decrypt(message) with ROT1 = encrypt(message) with ROT25</li>
+<li style="text-indent: 50px;">Special case with <strong>ROT13</strong>: decrypt(message) = encrypt(encrypt(message))</li>
 </p>
 <p>Expanding the alphabet (can add a special character such as "[, ], {, }, 1, 2, 3, 4, 5, 6, 7, 8, 9, ), ...", then according to the operating mechanism of the ROT-X cipher, we can easily decode or encode them.</p>
 
