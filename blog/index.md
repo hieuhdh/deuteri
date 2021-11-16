@@ -1,6 +1,6 @@
 ---
 layout: blog
 title: All Posts
-excerpt: "A list of main posts"
+excerpt: "A List of main posts"
 comments: false
 ---
