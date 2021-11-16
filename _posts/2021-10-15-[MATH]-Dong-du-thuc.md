@@ -23,7 +23,9 @@ comments: true
 
 ### Phép lấy phần dư trong phép chia
 
-Xét $$ a , b ∈ \mathbb{Z} , b \ne 0 $$, kí hiệu $$ a \ mod \ b $$ là số dư khi chia a cho b . Ví dụ:
+Xét $$ a , b ∈ \mathbb{Z} , b \ne 0 $$, kí hiệu $$ a \ mod \ b $$ là số dư khi chia a cho b . 
+
+Ví dụ:
 $$
 \left[\begin{array}{l}
     20 \ mod \ 5 = 0 \\
@@ -37,11 +39,15 @@ $$
                     a = bq + r \\ 
                     | r | < | b |  
     \end{cases}
-\end{align*}$$. Thì ta có $$ a \ mod \ b = r $$
+\end{align*}$$. 
+
+Thì ta có: $$ a \ mod \ b = r $$
 
 ### Đồng dư thức
 
-Xét số nguyên $$ n > 1 $$ và 2 số nguyên $$ a, b $$. Ta kí hiệu $$ a \equiv b \ ( mod \ n ) $$ khi $$ a $$ và $$ b $$ có cùng số dư khi chia cho $$ n $$, đọc là $$ a $$ đồng dư với $$ b $$ theo module $$ n $$. Ví dụ:
+Xét số nguyên $$ n > 1 $$ và 2 số nguyên $$ a, b $$. Ta kí hiệu $$ a \equiv b \ ( mod \ n ) $$ khi $$ a $$ và $$ b $$ có cùng số dư khi chia cho $$ n $$, đọc là $$ a $$ đồng dư với $$ b $$ theo module $$ n $$. 
+
+Ví dụ:
 $$
 \left[\begin{array}{l}
     12\equiv5 \ (mod \ 8) \\
@@ -84,8 +90,15 @@ $$\left[\begin{array}{l}
 \end{array}\right.
 $$
 
-Xét $$ a_1 ≡ b_1 \ ( mod \ n ) \ và \ a_2 ≡ b_2 \ ( mod \ n ) $$
-
+Xét
+$$ 
+    \begin{align*} 
+        \begin{cases}   
+            a_1 ≡ b_1 \ ( mod \ n ) \\
+            a_2 ≡ b_2 \ ( mod \ n )                
+        \end{cases}
+    \end{align*}
+$$ 
 Ta có:
 $$ \begin{align*} 
     \begin{cases}   a_1 + a_2 \equiv b_1 + b_2 \ ( mod \ n ) \\
@@ -97,6 +110,7 @@ $$ \begin{align*}
 Với $$ a , b , c \in \mathbb{Z} $$, ta gọi $$ a \ mod \ b $$ là phép chia lấy phần dư của $$ a $$ cho $$ b $$.
 
 Ta có hai điều cần lưu ý:
+
 $$ \begin{align*} 
     \begin{cases}   (a + b) \ mod \ c = (a \ mod \ c + b \ mod \ c) \ mod \ c \\
                     ab \ mod \ c = (a \ mod \ c )( b \ mod \ c) \ mod \ c = \Big[(a \ mod \ c) (b \ mod \ c) \Big] \ mod \ c
@@ -153,9 +167,9 @@ Từ cách phép biến đổi trên, ta đã biến phân tích biểu thức t
 
 Đúng vậy, lúc này hiện tượng <a href="https://vi.wikipedia.org/wiki/Tr%C3%A0n_s%E1%BB%91_nguy%C3%AAn" title="">tràn số nguyên</a> sẽ xảy ra, vì phạm vi tối đa của kiểu dữ liệu `int` chỉ là $$2^{31}-1$$ tức $$2147483647$$.
 
-Ví dụ tôi xét module là 1 số mà bình phương của nó vượt quá $$2^{63} -1$$ tức là phạm vi tối đa của kiểu dữ liệu `long long`. Để ý sẽ thấy rằng, tôi đã tách tổng trên thành 1 tích với 2 thừa số là `n-1` và `n+3`.
+Ví dụ tôi xét module là 1 số mà bình phương của nó vượt quá $$2^{63} -1$$ tức là phạm vi tối đa của kiểu dữ liệu `long long`. Để ý sẽ thấy rằng, tôi đã tách tổng trên thành 1 tích với 2 thừa số là `n-1` và `n+3`, và tôi nhận xét: 
 
-Tôi có nhận xét: $$ \begin{cases}   n-1 \ mod  \ M < M \\   n + 3 \ mod \ M < M  \end{cases}   \Longrightarrow \Big[\big(n-1\big) \ mod \ M \Big] \Big[\big(n+3\big) \ mod \ M \Big] < M^2 $$ 
+$$ \begin{cases}   n-1 \ mod  \ M < M \\   n + 3 \ mod \ M < M  \end{cases}   \Longrightarrow \Big[\big(n-1\big) \ mod \ M \Big] \Big[\big(n+3\big) \ mod \ M \Big] < M^2 $$ 
 
 Dựa vào nhận xét trên, dễ dàng ta có thể nhập 1 số nguyên `n` đủ mạnh kết hợp với số module (tôi đặt là `M`) đủ lớn thì hiện tượng tràn số sẽ xuất hiện. Ví dụ `M = 4294967296` và `n = 4294967292` thì lúc này cả $$n-1$$ và $$n+3$$ đều nhỏ hơn số module và nó gần bằng với số module, hay nói cách khác thì tích 2 thừa số này gần bằng $$M^2$$ và điều quan trọng là $$M^2 = 4294967296^2 = 2^{64} > ll$$. Lúc này đây, chính xác chúng ta phải tìm 1 hướng tiếp cận khác đối với bài toán này.
 
