@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Crypto] Pico CTF - 2021"
+title: "[Crypto] picoCTF - 2021"
 date: 2021-10-10
-excerpt: "Some writeup of me about Crypto in PicoCTF"
+excerpt: "Some writeup of me about Crypto in picoCTF"
 tags: [Crypto CTF, Writeup]
 feature: https://user-images.githubusercontent.com/86739367/141987523-68a87eae-f4b0-4c0e-b40d-5c5415491fe9.png
 comments: true
