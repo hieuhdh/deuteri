@@ -24,16 +24,19 @@ comments: true
 ### Phép lấy phần dư trong phép chia
 
 Xét $$ a , b ∈ \mathbb{Z} , b \ne 0 $$, kí hiệu $$ a \ mod \ b $$ là số dư khi chia a cho b . Ví dụ:
-
-$$ * \displaystyle 20 \ mod \ 5 = 0 $$
-* $$ 3 \ mod \ 2 = 1 $$
-* $$ 1 \ mod \ 9 = 1 \ hay \ 1 \  mod \ 9 = -8 $$
+$$ \begin{align*} 
+    \bullet &\ \ 20 \ mod \ 5 = 0 \\
+    \bullet &\ \ 3 \ mod \ 2 = 1 \\
+    \bullet &\ \ 1 \ mod \ 9 = 1 \ hay \ 1 \  mod \ 9 = -8 
+\end{align*}$$
 
 Định nghĩa một cách chuẩn mực, xét phép chia Euclide a cho b: 
 
-* $$ q \in \mathbb{Z} $$
-* $$ a = bq + r $$
-* $$ | r | < | b |  $$
+$$ \begin{align*} 
+    \bullet &\ \ q \in \mathbb{Z} \\
+    \bullet &\ \ a = bq + r  \\
+    \bullet &\ \ | r | < | b | 
+\end{align*}$$
 
 Thì ta có $$ a \ mod \ b = r $$
 
@@ -41,9 +44,11 @@ Thì ta có $$ a \ mod \ b = r $$
 
 Xét số nguyên $$ n > 1 $$ và 2 số nguyên $$ a, b $$. Ta kí hiệu $$ a \equiv b \ ( mod \ n ) $$ khi $$ a $$ và $$ b $$ có cùng số dư khi chia cho $$ n $$, đọc là $$ a $$ đồng dư với $$ b $$ theo module $$ n $$. Ví dụ:
 
-* $$ 12\equiv5 \ (mod \ 8) $$
-* $$ 17\equiv1 \ (mod \ 16) $$
-* $$ 1\equiv-8 \ (mod \ 9) $$
+$$ \begin{align*} 
+    \bullet &\ \ 12\equiv5 \ (mod \ 8) \\
+    \bullet &\ \ 17\equiv1 \ (mod \ 16)  \\
+    \bullet &\ \ 1\equiv-8 \ (mod \ 9) 
+\end{align*}$$
 
 Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 
@@ -51,36 +56,46 @@ Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 
 Trong lí thuyết vành, ta có: 
 
-* $$ \overline{a_n} + \overline{b_n} = \overline{a+b}_n $$
-* $$ \overline{a_n} - \overline{b_n} = \overline{a-b}_n $$
-* $$ \overline{a_n} \overline{b_n} = \overline{ab}_n $$
+$$ \begin{align*} 
+    \bullet & \ \ \overline{a_n} + \overline{b_n} = \overline{a+b}_n \\
+    \bullet &\ \ \overline{a_n} - \overline{b_n} = \overline{a-b}_n  \\
+    \bullet &\ \ \overline{a_n} \overline{b_n} = \overline{ab}_n 
+\end{align*}$$
 
 Ví dụ, $$ \overline{4_{10}} +\overline{9_{10}} = \overline{4+9}_{10} = \overline{13}_{10} = \overline{10 + 3}_{10} = \overline{10_{10}} + \overline{3}_{10} = 0 + \overline{3}_{10} $$
 
 Với $$ a , b , c \in \mathbb{Z} $$, nếu $$ a \equiv b \ (mod \ n) $$, thì:
 
-* $$ -a\equiv-b \ (mod \ n) $$
-* $$ a + c \equiv b + c \ ( mod \ n ) $$
-* $$ a - c \equiv b - c \ ( mod \ n ) $$
-* $$ ca \equiv cb\ (mod\ n ) $$
-* $$ a^c \equiv b^c \ ( mod \ n ) $$
-* $$ p ( a ) \equiv p ( b ) \ ( mod \ n ) \ với \ p \ là \ một \ đa \ thức \ có \ nghiệm\ nguyên.$$
+$$ \begin{align*} 
+    \bullet &\ \ -a\equiv-b \ (mod \ n) \\
+    \bullet &\ \ a + c \equiv b + c \ ( mod \ n )  \\
+    \bullet &\ \ a - c \equiv b - c \ ( mod \ n ) \\
+    \bullet &\ \ ca \equiv cb\ (mod\ n )  \\
+    \bullet &\ \ a^c \equiv b^c \ ( mod \ n )  \\
+    \bullet &\ \ p ( a ) \equiv p ( b ) \ ( mod \ n ) \ với \ p \ là \ một \ đa \ thức \ có \ nghiệm\ nguyên. 
+\end{align*}$$
 
 Ngược lại nếu: 
 
-* $$ a + c \equiv b + c \ ( mod \ n ) \Longleftrightarrow  a \equiv b \ ( mod \ n ) $$
-* $$ \begin{cases}   c a \equiv c b \ ( mod \ n ) \\   (n,c) = 1 \end{cases} \Longrightarrow \ a \equiv b \ ( mod \ n ) $$
+$$ \begin{align*} 
+    \bullet & \ \ a + c \equiv b + c \ ( mod \ n ) \Longleftrightarrow  a \equiv b \ ( mod \ n ) \\
+    \bullet &\ \ \begin{cases}   c a \equiv c b \ ( mod \ n ) \\   (n,c) = 1 \end{cases} \Longrightarrow \ a \equiv b \ ( mod \ n ) 
+\end{align*}$$
 
 Xét $$ a_1 ≡ b_1 \ ( mod \ n ) \ và \ a_2 ≡ b_2 \ ( mod \ n ) $$, ta có:
 
-* $$ a_1 + a_2 \equiv b_1 + b_2 \ ( mod \ n ) $$
-* $$ a_1 - a_2 \equiv b_1 - b_2 \ ( mod \ n ) $$
-* $$ a_1 a_2 \equiv b_1 b_2 \ ( mod \ n ) $$
+$$ \begin{align*} 
+    \bullet & \ \ a_1 + a_2 \equiv b_1 + b_2 \ ( mod \ n ) \\
+    \bullet &\ \ a_1 - a_2 \equiv b_1 - b_2 \ ( mod \ n )  \\
+    \bullet &\ \ a_1 a_2 \equiv b_1 b_2 \ ( mod \ n )
+\end{align*}$$
 
 Với $$ a , b , c \in \mathbb{Z} $$, ta gọi $$ a \ mod \ b $$ là phép chia lấy phần dư của $$ a $$ cho $$ b $$, ta có một vài điều cần lưu ý:
 
-* $$ (a + b) \ mod \ c = (a \ mod \ c + b \ mod \ c) \ mod \ c  $$
-* $$ ab \ mod \ c = (a \ mod \ c )( b \ mod \ c) \ mod \ c = \Big[(a \ mod \ c) (b \ mod \ c) \Big] \ mod \ c $$
+$$ \begin{align*} 
+    \bullet & \ \ (a + b) \ mod \ c = (a \ mod \ c + b \ mod \ c) \ mod \ c \\
+    \bullet &\ \ ab \ mod \ c = (a \ mod \ c )( b \ mod \ c) \ mod \ c = \Big[(a \ mod \ c) (b \ mod \ c) \Big] \ mod \ c
+\end{align*}$$
 
 ## Một số ví dụ về xử lí đồng dư trong lập trình
 
@@ -99,21 +114,23 @@ Dựa vào xử lí đồng dư, tôi có một ý tưởng về một hướng 
 #### Hướng tiếp cận thứ 2
 
 Bước 1: Việc đầu tiên là xét bình phương số module:
-$$ \displaystyle 1000000009^2=1000000018000000081 \approx 10^{18} = {(10^3)}^6 = 1000^6 < {(1024)}^6 \ {(1024)}^6 = {(2^{10})}^6 = 2^{60}< 2^{63}-1 $$
+$$ 1000000009^2=1000000018000000081 \approx 10^{18} = {(10^3)}^6 = 1000^6 < {(1024)}^6 \\ và \ {(1024)}^6 = {(2^{10})}^6 = 2^{60}< 2^{63}-1 $$
 
 Mà phạm vi tối đa của kiểu dữ liệu `long long` (tôi đặt là $$ll$$) trong C++ là $$ll=2^{63}-1$$. Vậy là hướng tiếp cận này của tôi có vẻ khả thi.
 
 Bước 2: Đặt $$ M= 1000000009 $$. Tiến hành phân tích tổng $$S$$
 
-$$S(n) + 4 = 1 + 3+ 5 + 7 + 9 +...+ (2n + 1) = (n + 1)^2 $$
-$$\Rightarrow S(n)   = (n + 1)^2 - 4  = (n-1)(n+3) $$
-$$\Rightarrow S(n) \ mod  \ M   = \big(n-1 \big)\big(n+3\big) \ mod \ M $$
-$$ \Rightarrow S(n) \ mod  \ M    =\bigg \{ \Big[\big(n-1\big) \ mod \ M \Big] \Big[\big(n+3\big) \ mod \ M \Big] \bigg\} \ mod \ M $$
+$$ \begin{align*} 
+    S(n)& + 4 = 1 + 3+ 5 + 7 + 9 +...+ (2n + 1) = (n + 1)^2 \\
+    \Longrightarrow S(n)&   = (n + 1)^2 - 4  = (n-1)(n+3) \\
+    \Longrightarrow S(n)& \ mod  \ M   = \big(n-1 \big)\big(n+3\big) \ mod \ M \\
+    \Longrightarrow S(n)& \ mod  \ M    =\bigg \{ \Big[\big(n-1\big) \ mod \ M \Big] \Big[\big(n+3\big) \ mod \ M \Big] \bigg\} \ mod \ M 
+\end{align*}$$
 
 Từ cách phép biến đổi trên, ta đã biến phân tích biểu thức tổng một cách mạch lạc cũng như làm gọn vấn đề hơn, lúc này chỉ cần ta nhận được tham số $$n$$ truyền vào thì ta dễ dàng đưa ra kết quả cho bài toán trong việc code bằng C++. Vậy hướng tiếp cận này của tôi đã đúng với tất cả các trường hợp thử nghiệm của $$n$$ thỏa $$2 \le n \le 10^{18}$$ chưa? Đến thời điểm hiện tại, tôi nghĩ là hướng tiếp cận này chắc chắn đúng với toàn bộ trường hợp thử nghiệm trên.
 
-| :question:        | Vì sao bình phương của Module phải bé hơn phạm vi tối đa của kiểu dữ liệu lớn nhất trong C++?      |
-|---------------|:------------------------|
+| :question:| Vì sao bình phương của Module phải bé hơn phạm vi tối đa của kiểu dữ liệu lớn nhất trong C++?|
+|-----------|:------------------------------------------------------------------------------------------------------------|
 
 Để trả lời cho câu hỏi này, tôi sẽ đưa ra một bài toán nho nhỏ là: Xuất ra giá trị của số nguyên $$n$$ (kiểu dữ liệu integer - từ khóa `int`)được nhập từ bàn phím. Điều này chẳng có gì phải bàn nếu ta nhập các giá trị nhỏ như `1, 2, 3,...` từ bàn phím. Nhưng nếu chúng ta nhập `2147483648` từ bàn phím thì sao?
 
