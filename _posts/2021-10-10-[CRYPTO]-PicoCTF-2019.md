@@ -37,7 +37,8 @@ Sau khi chúng ta download file ảnh từ challenge về ta được hình bên
 
 Từ hình trên ta chú ý rằng phần đầu dãy số là `16 9 3 15 3 20 6{`và kết hợp với gợi ý của đề bài  ta sẽ phát hiện ra khi convert dãy số `16 9 3 15 3 20 6` ra bảng chữ cái thì sẽ cho ra được chữ `PICOCTF` (các số chính là vị trí các chữ cái trong bảng chữ cái latin). Ta làm tương tự với các dãy số sau, ta sẽ thấy được flag
 
->flag: **PICOCTF{THENUMBERSMASON}**
+flag: **PICOCTF{THENUMBERSMASON}**
+{: .notice}
 
 ## Easy1
 
