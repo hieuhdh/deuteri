@@ -88,7 +88,7 @@ Vì bảng chữ cái có 26 kí tự, tức là có tối đa 25 khoảng dịc
 
 ### Xem thêm
 
-<div align="left" style = "font-size: 12px">
+<div align="left">
     <a href="https://vi.wikipedia.org/wiki/M%E1%BA%ADt_m%C3%A3_Caesar" class="btn">Mật mã caesar</a> 
     <a href="https://privacycanada.net/classical-encryption/caesar-cipher/" class="btn">Mật mã caesar</a>
     <a href="https://cryptii.com/pipes/caesar-cipher" class="btn">Decode caesar online</a>
@@ -110,8 +110,8 @@ Và đúng, tôi có nghiên cứu về loại mật mã này, đây là mật m
 ### Xem thêm
 
 <div align="left">
-    <a href="https://morsedecoder.com/vi/" class="btn" style="font-size: 13px; height: 30px">Mã morse</a> 
-    <a href="https://morsecode.world/international/translator.html" class="btn" style="font-size: 13px; height: 30px">Giải mã mã morse</a>
+    <a href="https://morsedecoder.com/vi/" class="btn">Mã morse</a> 
+    <a href="https://morsecode.world/international/translator.html" class="btn" >Giải mã mã morse</a>
 </div>
 
 ## List of challenge
@@ -130,4 +130,4 @@ Và đúng, tôi có nghiên cứu về loại mật mã này, đây là mật m
   Epilogue
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" class="btn btn-info" style = "font-size: 12px">tại đây</a>.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/">tại đây</a>.
