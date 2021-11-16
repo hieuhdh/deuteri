@@ -17,7 +17,7 @@ comments: true
     <a href="#13">13</a> |
     <a href="#caesar">Caesar</a> |
     <a href="#tapping">Tapping</a> |
-    <a href="#Epilogue">Lời kết</a> 
+    <a href="#list-of-challenge">List of challenge</a> 
   </h4>
 </div>
 
@@ -113,6 +113,10 @@ Và đúng, tôi có nghiên cứu về loại mật mã này, đây là mật m
 
 <a href="https://morsecode.world/international/translator.html">Giải mã mã morse</a>
 
-## Epilogue
+## List of challenge
+
+<h1 align="center">
+  Epilogue
+</h1> 
 
 Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/">tại đây</a>.

@@ -13,7 +13,8 @@ comments: true
 <div align="center">
   <h4>
     <a href="#mod-26">Mod 26</a> |
-    <a href="#mind-your-ps-and-qs">Mind your Ps and Qs</a> 
+    <a href="#mind-your-ps-and-qs">Mind your Ps and Qs</a> |
+    <a href="#list-of-challenge">List of challenge</a> 
   </h4>
 </div>
 
@@ -51,6 +52,10 @@ Sau khi chạy đoạn code trên, ta sẽ nhận được flag
 
 >Flag: **picoCTF{sma11_N_n0_g0od_00264570}**
 
-## Epilogue
+## List of challenge
+
+<h1 align="center">
+  Epilogue
+</h1> 
 
 Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/">tại đây</a>.
