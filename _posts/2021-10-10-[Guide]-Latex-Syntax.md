@@ -28,6 +28,9 @@ comments: true
 |5      | $$\Epsilon$$, $$\epsilon$$ $$\varepsilon$$    | \Epsilon, \epsilon và \varepsilon |               |
 |6      | $$\Zeta$$ và $$\zeta$$                        | \Zeta và \zeta                    |               |
 |7      | $$\Eta$$ và $$\eta$$                          | \Eta và \eta                      |               |
+|8      | $$\Theta$$, $$\theta$$ và $$\vartheta$$       | \Theta, \theta và \vartheta       |               |
+|9      | $$\Iota$$ và $$\iota$$                        | \Iota và \iota                    |               | 
+{: rules="groups"}      
 
 <h1 align="center">
   Lời kết
