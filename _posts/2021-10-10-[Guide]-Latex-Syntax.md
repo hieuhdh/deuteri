@@ -19,19 +19,27 @@ comments: true
 
 <h2 id="bang-chu-cai-hi-lap">Bảng chữ cái Hi Lạp</h2>
 
-|:---   | :---                                          |    :----                          |          ---: |
+| ---   |  ---                                          |     ----                          |          ---  |
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú       |
 |:---   | :---                                          |    :----                          |          ---: |
 |1      | A và $$\alpha$$                               | A và \apha                        |               |
-|:---   | :---                                          |    :----                          |          ---: |
+| ---   |  ---                                          |     ----                          |          ---  |
 |2      | B và $$\beta$$                                | B và \beta                        |               |
+| ---   |  ---                                          |     ----                          |          ---  |
 |3      | $$\Gamma$$ và $$\gamma$$                      | \Gamma và \gamma                  |               |
+| ---   |  ---                                          |     ----                          |          ---  |
 |4      | $$\Delta$$ và $$\delta$$                      | \Delta và \delta                  |               |
-|5      | $$\Epsilon$$, $$\epsilon$$ $$\varepsilon$$    | \Epsilon, \epsilon và \varepsilon |               |
-|6      | $$\Zeta$$ và $$\zeta$$                        | \Zeta và \zeta                    |               |
-|7      | $$\Eta$$ và $$\eta$$                          | \Eta và \eta                      |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|5      | $$E$$, $$\epsilon$$ và $$\varepsilon$$        | E, \epsilon và \varepsilon        |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|6      | $$Z$$ và $$\zeta$$                            | Z và \zeta                        |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|7      | $$H$$ và $$\eta$$                             | H và \eta                         |               |
+| ---   |  ---                                          |     ----                          |          ---  |
 |8      | $$\Theta$$, $$\theta$$ và $$\vartheta$$       | \Theta, \theta và \vartheta       |               |
-|9      | $$\Iota$$ và $$\iota$$                        | \Iota và \iota                    |               | 
+| ---   |  ---                                          |     ----                          |          ---  |
+|9      | $$I$$ và $$\iota$$                            | I và \iota                        |               | 
+| ---   |  ---                                          |     ----                          |          ---  |
 {: rules="groups"}      
 
 <h1 align="center">
