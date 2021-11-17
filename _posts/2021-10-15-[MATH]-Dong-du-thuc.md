@@ -60,7 +60,7 @@ Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 
 <h2 id="mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module">Một số tính chất và các phép toán đồng dư trên vành Module</h2>
 
-Trong <a href="https://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_v%C3%A0nh" style="text-decoration: none">lí thuyết vành</a>, ta có: 
+Trong <a href="https://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_v%C3%A0nh" style="text-decoration: none; color:blue">lí thuyết vành</a>, ta có: 
 $$ \begin{align*} 
     \begin{cases}   \overline{a_n} + \overline{b_n} = \overline{a+b}_n \\
                     \overline{a_n} - \overline{b_n} = \overline{a-b}_n  \\
@@ -187,5 +187,5 @@ Và những lập luận trên của tôi cũng đã giải thích cho việc t�
   Lời kết
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; text-color:blue" ><strong>tại đây</strong></a>.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" ><strong>tại đây</strong></a>.
 {: .notice}
