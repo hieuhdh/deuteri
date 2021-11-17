@@ -10,7 +10,7 @@ comments: true
 ---
 
 <h2 align="center">
-  I send all you guys some topics that I have written. I'm really stupid at English, so I write all in Vietnamese ::v
+    I send all you guys some topics that I have written. I'm really stupid at English, so I write all in Vietnamese ::v
 </h2> 
 <br><br>
 <div align="center">

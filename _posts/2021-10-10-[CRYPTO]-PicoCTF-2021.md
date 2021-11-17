@@ -8,7 +8,7 @@ feature: https://user-images.githubusercontent.com/86739367/141987523-68a87eae-f
 comments: true
 ---
 <h1 align="center">
-  Write up
+    Write up
 </h1> 
 
 <div align="center">
