@@ -20,7 +20,7 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	@media #{$small} {
-	    background-image: none !important;
+        background-image: none !important;
 		background: $white;
 	}
 }
@@ -44,7 +44,7 @@ body {
 		display: block !important;
 	}
 	@media only screen and (max-height: 500px) {
-	    display: block !important;
+        display: block !important;
 	}
 }
 .flex {
@@ -83,7 +83,7 @@ body {
 	@include transition(.5s);
 	@media #{$small} {
 		width: 100%;
-	    box-shadow: none;
+        box-shadow: none;
 	}
 	@media #{$medium} {
 		width: 80%;
@@ -93,8 +93,8 @@ body {
 	margin-top: 15px;
 	text-align: center;
 	.title {
-	    margin-top: 0;
-	    margin-bottom: 5px;
+        margin-top: 0;
+        margin-bottom: 5px;
 	}
 	@media #{$small} {
 		padding: 0 1em;
@@ -113,7 +113,7 @@ body {
 	@media #{$small} {
 		width: 90%;
 		padding: 2em 0;
-	    box-shadow: none;
+        box-shadow: none;
 	}
 }
 #disqus_thread {
@@ -129,7 +129,7 @@ body {
 	@media #{$small} {
 		width: 90%;
 		padding: 2em 0;
-	    box-shadow: none;
+        box-shadow: none;
 	}
 }
 // entry meta
@@ -142,11 +142,11 @@ body {
 		color: lighten($color_tuatara,60);
 	}
 	li {
-	    list-style-type: none;
-	    display: inline;
+        list-style-type: none;
+        display: inline;
 	}
 	.tag {
-	    display: inline-block;
+        display: inline-block;
         border: 1px solid;
         border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
         @include rounded(3px);

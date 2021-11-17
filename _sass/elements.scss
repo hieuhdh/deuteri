@@ -23,52 +23,52 @@
 	margin: 4px auto;
 	@extend %btnextend;
 	&.btn-success {
-      background-color: $success;
-      color: $white;
-      border-color: $success;
-      &:visited {
+        background-color: $success;
         color: $white;
-      }
-      &:hover {
-        background-color: $white;
-        color: $success;
-      }
+        border-color: $success;
+        &:visited {
+            color: $white;
+        }
+        &:hover {
+            background-color: $white;
+            color: $success;
+        }
     }
     &.btn-warning {
-      background-color: $warning;
-      color: $white;
-      border-color: $warning;
-      &:visited {
+        background-color: $warning;
         color: $white;
-      }
-      &:hover {
-        background-color: $white;
-        color: $warning;
-      }
+        border-color: $warning;
+        &:visited {
+            color: $white;
+        }
+        &:hover {
+            background-color: $white;
+            color: $warning;
+        }
     }
     &.btn-danger {
-      background-color: $danger;
-      color: $white;
-      border-color: $danger;
-      &:visited {
+        background-color: $danger;
         color: $white;
-      }
-      &:hover {
-        background-color: $white;
-        color: $danger;
-      }
+        border-color: $danger;
+        &:visited {
+            color: $white;
+        }
+        &:hover {
+            background-color: $white;
+            color: $danger;
+        }
     }
     &.btn-info {
-      background-color: $info;
-      color: $white;
-      border-color: $info;
-      &:visited {
+        background-color: $info;
         color: $white;
-      }
-      &:hover {
-        background-color: $white;
-        color: $info;
-      }
+        border-color: $info;
+        &:visited {
+            color: $white;
+        }
+        &:hover {
+            background-color: $white;
+            color: $info;
+        }
     }
 }
 .title .btn {
@@ -78,7 +78,7 @@
 }
 .post-list {
     .btn {
-        @include font-rem(14);
+            @include font-rem(14);
     }
 }
 
@@ -132,43 +132,43 @@ img {
     margin-top: 0;
 }
 figure {
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  @include clearfix();
-  img {
-    margin-bottom: 10px;
-    @include rounded(4px);
-  }
-  &.half {
-    @media only screen and (min-width: 62.5em) {
-      img {
-        width: calc(50% - 4px);
-        float: left;
-        margin-left: 1px;
-        margin-right: 1px;
-      }
-      figcaption {
-        clear: left;
-      }
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    @include clearfix();
+    img {
+        margin-bottom: 10px;
+        @include rounded(4px);
     }
-  }
-  &.third {
-    @media only screen and (min-width: 62.5em) {
-      img {
-        width: calc(33.3% - 6px);
-        float: left;
-        margin-left: 1px;
-        margin-right: 1px;
-      }
-      figcaption {
-        clear: left;
-      }
+    &.half {
+        @media only screen and (min-width: 62.5em) {
+            img {
+                width: calc(50% - 4px);
+                float: left;
+                margin-left: 1px;
+                margin-right: 1px;
+            }
+            figcaption {
+                clear: left;
+            }
+        }
     }
-  }
+    &.third {
+        @media only screen and (min-width: 62.5em) {
+            img {
+                width: calc(33.3% - 6px);
+                float: left;
+                margin-left: 1px;
+                margin-right: 1px;
+            }
+            figcaption {
+                clear: left;
+            }
+        }
+    }
 }
 svg:not(:root) {
-  overflow: hidden; 
+    overflow: hidden; 
 }
 
 // keyboard tag
