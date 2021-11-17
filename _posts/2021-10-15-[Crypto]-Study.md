@@ -3,7 +3,7 @@ layout: post
 title: "[Crypto] Cryptography"
 date: 2021-10-15
 excerpt: "Some of topics I've written about Cryptography"
-blog: true
+blogs: true
 tags: [Crypto]
 feature: https://user-images.githubusercontent.com/86739367/141987523-68a87eae-f4b0-4c0e-b40d-5c5415491fe9.png
 comments: true
