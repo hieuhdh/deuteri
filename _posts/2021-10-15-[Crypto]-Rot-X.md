@@ -42,5 +42,5 @@ comments: true
   Epilogue
 </h1> 
 
-After what I have shared above, I hope it will be of some help to readers. If you have any questions or comments, you can contact me <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" ><strong>here</strong></a>.
+After what I have shared above, I hope it will be of some help to readers. If you have any questions or comments, you can contact me <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >here</a>.
 {: .notice}

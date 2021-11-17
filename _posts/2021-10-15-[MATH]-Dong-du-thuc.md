@@ -164,7 +164,7 @@ Từ cách phép biến đổi trên, ta đã biến phân tích biểu thức t
 
 Để trả lời cho câu hỏi trên, tôi sẽ đưa ra một bài toán nho nhỏ là: Xuất ra giá trị của số nguyên $$n$$ (kiểu dữ liệu integer - từ khóa `int`)được nhập từ bàn phím. Điều này chẳng có gì phải bàn nếu ta nhập các giá trị nhỏ như `1, 2, 3,...` từ bàn phím. Nhưng nếu chúng ta nhập `2147483648` từ bàn phím thì sao?
 
-Đúng vậy, lúc này hiện tượng <a href="https://vi.wikipedia.org/wiki/Tr%C3%A0n_s%E1%BB%91_nguy%C3%AAn" title="">tràn số nguyên</a> sẽ xảy ra, vì phạm vi tối đa của kiểu dữ liệu `int` chỉ là $$2^{31}-1$$ tức $$2147483647$$.
+Đúng vậy, lúc này hiện tượng <a href="https://vi.wikipedia.org/wiki/Tr%C3%A0n_s%E1%BB%91_nguy%C3%AAn" style="text-decoration: none; color:blue">tràn số nguyên</a> sẽ xảy ra, vì phạm vi tối đa của kiểu dữ liệu `int` chỉ là $$2^{31}-1$$ tức $$2147483647$$.
 
 Ví dụ tôi xét module là 1 số mà bình phương của nó vượt quá $$2^{63} -1$$ tức là phạm vi tối đa của kiểu dữ liệu `long long`. Để ý sẽ thấy rằng, tôi đã tách tổng trên thành 1 tích với 2 thừa số là `n-1` và `n+3`, và tôi nhận xét: 
 
@@ -187,5 +187,5 @@ Và những lập luận trên của tôi cũng đã giải thích cho việc t�
   Lời kết
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" ><strong>tại đây</strong></a>.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.
 {: .notice}

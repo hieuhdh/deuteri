@@ -13,12 +13,12 @@ comments: true
 
 <div align="center">
   <h4>
-    <a href="#the-numbers">The numbers</a> |
-    <a href="#easy1">Easy 1</a> |
-    <a href="#13">13</a> |
-    <a href="#caesar">Caesar</a> |
-    <a href="#tapping">Tapping</a> |
-    <a href="#list-of-challenge">List of challenge</a> 
+    <a href="#the-numbers" style="text-decoration: none; color:#823af7">The numbers</a> |
+    <a href="#easy1" style="text-decoration: none; color:#823af7">Easy 1</a> |
+    <a href="#13" style="text-decoration: none; color:#823af7">13</a> |
+    <a href="#caesar" style="text-decoration: none; color:#823af7">Caesar</a> |
+    <a href="#tapping" style="text-decoration: none; color:#823af7">Tapping</a> |
+    <a href="#list-of-challenge" style="text-decoration: none; color:#823af7">List of challenge</a> 
   </h4>
 </div>
 
@@ -136,5 +136,5 @@ Flag: **PICOCTF{M0RS3C0D31SFUN3902019519}**
   Epilogue
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" ><strong>tại đây</strong></a>.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.
 {: .notice}
