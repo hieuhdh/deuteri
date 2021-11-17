@@ -68,5 +68,5 @@ Flag: **picoCTF{sma11_N_n0_g0od_00264570}**
   Epilogue
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/">tại đây</a>.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; text-color:blue" ><strong>tại đây</strong></a>.
 {: .notice}
