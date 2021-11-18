@@ -55,43 +55,52 @@ Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có b
 <h3 id="bien-boole">Biến Boole</h3>
 <h4 id="dinh-nghia-bien-boole">Định nghĩa</h4>
 
-Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \big| x_i \in \big \{0, 1 \big \}, 1\le i \le n$$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
-Ví dụ: $$F \big(x, y, z \big) = x + y + z$$
+Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \big| x_i \in \big \{0, 1 \big \}, 1\le i \le n  \Big\}$$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
+
+Ví dụ: $$F \big(x, y, z \big) = x + y + z$$ được gọi là hàm Boole bậc 3.
 
 <h2 id="dang-noi-roi-chinh-tac-cua-ham-boole">Dạng nối rời chính tắc của hàm Boole</h2>
 <h3 id="mot-vai-dieu-can-biet">Một vài điều cần biết</h3>
 <h4 id="cac-dinh-nghia">Định nghĩa về từ đơn, đơn thức, từ tối tiểu (đơn thức tối tiểu), công thức đa thức </h4>
 
 Từ đơn là mỗi biến Boole $$x_i$$ hoặc $$\neg x_i$$ trong tập hợp các hàm Boole $$n$$ biến $$F_n$$ theo $$n$$ biến $$x_1, x_2, ..., x_n$$.
+
 Đơn thức là tích khác không của một số hữu hạn từ đơn.
+
 Từ tối tiểu (đơn thức tối tiểu) là tích khác không của đúng $$n$$ từ đơn.
+
 Công thức đa thức là công thức biểu diễn hàm Boole thành tổng của các đơn thức.
+
 Dạng nối rời chính tắc bản chất chính là công thức biểu diễn hàm Bool <strong>thành tổng của các từ tối tiểu</strong>.
 
-<h4 id="vi-du">Ví dụ</h4>
-
+<div id="vi-du">Ví dụ</div>
 Xét hàm Boole với ba biến $$x,y,z$$ ta có: 
 
 $$ \begin{align*} 
-    \bullet \ \ & x, y,z, \neg x, \neg y, \neg z \ \text{là các từ đơn.} \\  
-    \bullet \ \ & xyz \ \text{là từ tối tiểu (đơn thức tối tiểu).} \\ 
-    \bullet \ \ & xy, xz, \neg yz \text{là các đơn thức.}  \\
-    \bullet \ \ & xyz \wedge x\neg yz \ text{là một dạng nối rời chính tắc.}
+    \bullet \ \ & x, y,z, \neg x, \neg y, \neg z \ là \ các \ từ \ đơn.\\  
+    \bullet \ \ & xyz \ là \ từ \ tối \ tiểu \ (đơn \ thức\ tối\ tiểu). \\ 
+    \bullet \ \ & xy, xz, \neg yz \ là \ các\ đơn\ thức.  \\
+    \bullet \ \ & xyz \wedge x\neg yz \ là \ một \ dạng \ nối \ rời \ chính \ tắc.
 \end{align*}$$
 
-<h4 id="luu-y">Lưu ý</h4>
-<div>Công thức đa thức F được gọi là tối tiểu nếu với bất kì công thức G của hàm Boole đã cho mà đơn giản hơn F <strong>thì G và F đơn giản như nhau.</strong> </div>
+<div id="luu-y"><strong>Lưu ý</strong></d>
+<div>Công thức đa thức F được gọi là tối tiểu nếu với bất kì công thức G của hàm Boole đã cho mà đơn giản hơn F thì <strong>G và F đơn giản như nhau.</strong> </div>
 <h4 id="cach-tim-dang-noi-roi-chinh-tac-co-ban">Cách tìm dạng nối rời chính tắc cơ bản</h4>
-<div><strong>Bước 1:</strong>Bổ sung các từ đơn còn thiếu vào các đơn thức.</div>
+<div><strong>Bước 1:</strong> Bổ sung các từ đơn còn thiếu vào các đơn thức.</div>
 <div><strong>Bước 2:</strong> Với mỗi đơn thức thu được ở bước 1, ta nhân đơn thức đó với tổng của những từ đơn bị thiếu và phần bù của nó trong đơn thức đó.</div>
 <div><strong>Bước 3:</strong> Tiếp tục khai triển hàm thu được ở bước 2 và loại bỏ những đơn thức bị trùng. Công thức đa thức thu được chính là dạng nối rời chính tắc của hàm Boole ban đầu.</div>
 <h4 id="bai-toan-1">Bài toán 1</h4>
 
 Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến) 
+
 $$F \big( x,y,z,t \big) = xz \neg t \vee \neg y \neg z \neg t \vee xyt \vee \neg x yz \vee \neg x \neg y \neg z \neg t \vee \neg x yz \neg t$$
+
 **Giải:**
+
 **Bước 1:** Các từ đơn còn thiếu: $$x, \neg x, y, \neg y, z, \neg z$$
+
 **Bước 2:** Các từ đơn ở bước 1 tạo thành bộ đối ngẫu (hay gọi là phần bù của nhau). Tiến hành thêm và nhân: 
+
 $$ \begin{align*} 
     F& \big( x,y,z,t \big) = f \\ 
     f& = xz \neg t \vee \neg y \neg z \neg t \vee xyt \vee \neg x yz \vee \neg x \neg y \neg z \neg t \vee \neg x yz \neg t \\  
@@ -99,10 +108,11 @@ $$ \begin{align*}
     f& = x \big( y + \neg y \big) z \neg t + \big( x + \neg x \big)\neg y \neg z \neg t + xy \big(z + \neg z \big)t + \neg x yz \big(t + \neg t \big) +  \neg x \neg y \neg z \neg t + \neg x yz \neg t \\
     f& = xyz \neg t + x \neg y zt + x\neg y \neg z \neg t + \neg x \neg y \neg z \neg t + xyzt + xy \neg z t + \neg x yzt + \neg x yz \neg t + \neg x \neg y \neg z \neg t + \neg x y \neg z t
 \end{align*}$$
+
 **Bước 3:** Loại bỏ những đơn thức bị trùng 
+
 $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \neg z \neg t + xyzt + xy \neg z t + \neg x yzt + \neg x yz \neg t + \neg x y \neg z t$$
 <div><strong>Đây cũng chính là dạng nối rời chính tắc cần tìm.</strong></div>
-<br>
 <h2 id="bia-karnaugh">Bìa Karnaugh (bìa Kar)</h2>
 <h3 id="mot-vai-thong-tin">Một vài thông tin</h3>
 <h4 id="thong-tin-ve-bia-kar">Thông tin về bìa Kar</h4>
@@ -134,7 +144,9 @@ $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \n
 <h4 id="te-bao-te-bao-lon">Tế bào, tế bào lớn</h4>
 
 T là tế bào của bìa Kar thì T là hình chữ nhật (theo nghĩa rộng) gồm $$2^{n-k}$$ ô với $$0 \le k \le n$$
+
 Giả sử T là 1 tế bào lớn của bìa Kar thì:
+
 $$ \begin{align*} 
     \bullet \ \ & \text{T là một tế bào và} T \subseteq Kar \big(f\big) \\  
     \bullet \ \ & \nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big) 
@@ -143,9 +155,7 @@ $$ \begin{align*}
 <h2 id="cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole</h2>
 <h4>Cách dùng</h4>
 <div>Đối chiếu các đơn thức trong biểu thức đại số Boole xem từ đơn nào không xuất hiện trong các đơn thức đấy, thì chúng ta sẽ điền vào bảng các kí số 0 hoặc 1 (các kí số này là do người ra đề quy định) vào bảng sao cho các kí số này tạo thành 1 tế bào là cho chúng từ đơn trong biểu thức đại số Boole ban đầu không xuất hiện. </div>
-<br>
 <div><strong>Lưu ý:</strong> Khi gom nhóm cái kí số thì phải gom theo dạng lũy thừa bậc n của 2, tuyệt đối không được gom 1 số lẽ các kí số.</div>
-<br>
 <div>Ta cùng quay lại bài toán 1, ở đây ta sẽ điền các kí số 0 hoặc 1 vào bìa Kar sao cho hợp lí</div>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142408551-b59d37fb-3c2d-4ea2-80b5-5aa71af33c97.png"><img src="https://user-images.githubusercontent.com/86739367/142408551-b59d37fb-3c2d-4ea2-80b5-5aa71af33c97.png"></a>
@@ -193,8 +203,8 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 
 $$ \begin{align*} 
     \text{1. }&\text{Các tế bào lớn: } x\neg t \neg t, xz \neg t, yz, yt, \neg y \neg z \neg t  \\  
-    \text{2. }&\text{Một vài hàm Boole được rút gọn: } \left[ \begin{array}{cc}  f& = x \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f& = xz \neg t + yz + yt + \neg y \neg z \neg t \\ f& = x \neg y \neg t + xz \neg t + yz + yt \\  &... \end{array} \right. \\
-    \text{3. }&\text{Hàm Boole được rút gọn tối giản: } \left[ \begin{array}{cc}  f& = x \neg y \neg t + xz \neg t + yz + yt \\ f& = xz \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.
+    \text{2. }&\text{Một vài hàm Boole được rút gọn: } \left[ \begin{array}{cc}  f =& x \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f =& xz \neg t + yz + yt + \neg y \neg z \neg t \\ f =& x \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right. \\
+    \text{3. }&\text{Hàm Boole được rút gọn tối giản: } \left[ \begin{array}{cc}  f =& x \neg y \neg t + xz \neg t + yz + yt \\ f =& xz \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.
 \end{align*}$$
 
 <table>
@@ -207,8 +217,8 @@ $$ \begin{align*}
     </tr>
   </thead>
 </table>
-<div>Để trả lời cho câu hỏi này thì cũng khó có thể trả lời sao cho hợp lí, vì mỗi người mỗi cách nhận định về vấn đề này, bạn đọc có thể tìm hiểu kĩ hoặc làm cách nào đó nếu muốn hiểu bản chất của cách trên hoặc có thể bắt đầu từ 1 cách cơ sở nhất mà tôi sắp trình bày.</div>
 <br>
+<div>Để trả lời cho câu hỏi này thì cũng khó có thể trả lời sao cho hợp lí, vì mỗi người mỗi cách nhận định về vấn đề này, bạn đọc có thể tìm hiểu kĩ hoặc làm cách nào đó nếu muốn hiểu bản chất của cách trên hoặc có thể bắt đầu từ 1 cách cơ sở nhất mà tôi sắp trình bày.</div>
 <div><strong>Dưới đây tôi sẽ cung cấp thêm 1 cách chính quy khác để thực hiện việc tối giản biểu thức hàm Boole dễ dàng hơn. </strong></div>
 
 <h2 id="[CHINHQUY]-cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Một cách chính quy khác trong việc dùng bìa Kar để tối giản hàm Boole </h2>
@@ -249,7 +259,9 @@ Thuật toán trên nếu mà đọc thì sẽ có phần rất khó hiểu, đ�
 </figure>
 
 **Bước 2:** Ta có các tế bào lớn: $$T_1 = yt, T_2 = \neg y \neg t, T_3 = xy, T_4 = x\neg t $$
+
 **Bước 3:** Từ hình trên ta nhận thấy có 4 ô (mỗi ô chỉ có 1 chỉ số duy nhất) thỏa mãn để ta bắt buộc chọn các tế bào lớn mà có mặt các chỉ số đó, tức là tế bào lớn $$T_1$$ và tế bào lớn $$T_2$$ là 2 tế bào lớn bắt buộc phải chọn. 
+
 **Bước 4:** Sau khi chọn xong 2 tế bào lớn thì vẫn chưa phủ hết bìa $$Kar$$, lúc này trên bìa $$Kar$$ các ô còn lại đều có 2 chỉ số trong 1 ô, cụ thể là thuộc 2 tế bào lớn $$T_3$$ và $$T_4$$. Tức là ta có 2 cách chọn tiếp. 
 Từ các bước trên, ta có sơ đồ phủ dưới đây: 
 <figure align="center">
@@ -260,11 +272,13 @@ Từ các bước trên, ta có sơ đồ phủ dưới đây:
 Từ sơ đồ phủ trên, dễ dàng thấy được $$\left[ \begin{array}{cc}  Kar\big(f\big) = T_1 \cup T_2 \cup T_3 \ \big(1\big) \\  Kar\big(f\big) = T_1 \cup T_2 \cup T_4 \ \big(2\big) \end{array} \right. $$
 
 Do $$\big(1\big)$$ và $$\big(2\big)$$ đều là các phủ tối tiểu nên ta nhận cả 2.
+
 **Bước 5:** Từ hai phủ tối tiểu của bước 4, ta lập ra 2 công thức đa thức mà đều đơn giản như nhau, do đó ta kết luận hàm Boole $$f$$ đã cho có 2 công thức đa thức tối tiểu.
 Cụ thể 2 công thức tối tiểu đó là $$\left[ \begin{array}{cc}  f = yt + \neg y \neg t + xy \\  f = yt + \neg y \neg t + x\neg t \end{array} \right.$$
 
 #### Thông tin thêm
 Hàm Boole $$f$$ ngoài việc biểu diễn bằng các biến Boole (hay còn gọi là dạng chuẩn tắc) như phần trên, người ta còn biểu diễn hàm Boole $$f$$ bằng ánh xạ như sau:
+
 $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$
 
 <h1 align="center">
