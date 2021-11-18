@@ -129,8 +129,12 @@ li .highlight pre {
 }
 
 // table - Tinh chỉnh border
-table,th,td {
+table{
 	width: 100%;
+    border:1px solid black;
+}
+
+table,th,td {
     border:1px solid black;
 }
 
