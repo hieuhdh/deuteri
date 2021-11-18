@@ -12,13 +12,21 @@ comments: true
 
 <div align="center">
   <h4>
+    <a href="#so-luoc" style="text-decoration: none; color:#823af7">Sơ lược | </a>
     <a href="#bang-chu-cai-hi-lap" style="text-decoration: none; color:#823af7">Bảng chữ cái Hy Lạp | </a>
     <a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Boole | </a> 
     <a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Quan hệ | </a> 
+    <a href="#toan-tu-trong-logic-vi-tu" style="text-decoration: none; color:#823af7">Toán tử trong Logic vị từ | </a> 
+    <a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#823af7">Kí hiệu trong Tập hợp | </a> 
   </h4>
 </div>
 
-<h2 id="bang-chu-cai-hi-lap">Bảng chữ cái Hi Lạp</h2>
+<h2 id="so-luoc">Sơ lược</h2>
+<div> Dưới đây là một vài kí tự cơ bản của Latex mà tôi thường dùng để viết trên Markdown.
+<br>  Lưu ý khi viết kí tự Latex trong Markdown ta cần đặt cú pháp của chúng vào giữa cặp $$ và $$. Ví dụ muốn viết chữ alpha thì ta phải viết $$\alpha$$ chứ không phải \alpha
+</div>
+
+<h3 id="bang-chu-cai-hi-lap">Bảng chữ cái Hi Lạp</h3>
 
 |:---:  | :---:                                         |    :----:                         |         :---: |
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú       |
@@ -50,17 +58,20 @@ comments: true
 |24     | $$F$$ và $$\digamma$$                         | F và \digamma                     |               | 
 {: rules="groups"}
 
-<h2 id="toan-tu-trong-dai-so-boole">Toán tử trong Đại số Boole</h2>
+<h3 id="toan-tu-trong-dai-so-boole">Toán tử trong Đại số Boole</h3>
+
+<div>Vì trong đại số Boole có một phần người ta dựa vào đó kết hợp với lý thuyết mã Grey để tạo nên cổng logic và phép toán tuyển với phép toán hội trong cổng logic lúc này tương ứng là <strong>or</strong> và <strong>and</strong>, do đó mới có bộ kí hiệu mới là <strong>\lor</strong> và <strong>\land</strong>. </div>
+<div>Để có thể thao tác đúng về mặt ý nghĩa, việc ta lựa chọn loại cú pháp đúng cho các trường hợp thích hợp là điều cần thiết.</div>
 
 |:---:  |  :---:                                        |     :----:                        |         :---:     |
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú           |
 |:---:  | :---                                          |    :----                          |          :---     |
-|1      | $$\wedge$$                                    | \wedge                            | Phép toán hội     |
-|2      | $$\vee$$                                      | \vee                              | Phép toán tuyển   |
-|3      | $$\neg$$                                      | \neg                              | Phép toán phủ định |
+|1      | $$\wedge$$ hoặc $$\land$$                     | \wedge hoặc \land                  | Phép toán hội     |
+|2      | $$\vee$$   hoặc $$\lor$$                      | \vee hoặc \lor                     | Phép toán tuyển   |
+|3      | $$\neg$$                                      | \neg                               | Phép toán phủ định |
 {: rules="groups"}
 
-<h2 id="toan-tu-trong-dai-so-quan-he">Toán tử trong Đại số Quan hệ</h2>
+<h3 id="toan-tu-trong-dai-so-quan-he">Toán tử trong Đại số Quan hệ</h3>
 
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
@@ -92,7 +103,41 @@ comments: true
 |24     | $$\smile$$ và $$\frown$$                                              | \smile và \frown                                      |               | 
 {: rules="groups"}
 
+<h3 id="toan-tu-trong-logic-vi-tu">Toán tử trong Logic vị từ</h3>
 
+|:---:  | :---:                                                                 |    :----:                                             |         :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
+|:---:  | :---                                                                  |    :----                                              |          :--- |
+|1      | $$\exists$$                                                            | \exists                                               |Tồn tại        |
+|2      | $$\exists!$$                                                          | \exists!                             | Tồn tại duy nhất              |
+|3      | $$\nexists$$          | \nexists      |  Không tồn tại             |
+|4      | $$\forall$$                      | \forall                        | Với mọi              |
+|5      | $$\neg$$                | \neg                | Phép toán phủ định              |
+|6      | $$\Rightarrow$$ hoặc $$\Longrightarrow$$                      | \Rightarrow hoặc \Longrightarrow                            | Suy ra (kéo theo)|
+|7      | $$\Leftarrow$$ hoặc $$\Longleftarrow$$              | \Leftarrow hoặc \Longleftarrow                                     | Suy ra chiều ngược  |
+|8      | $$\Leftrightarrow$$ hoặc $$\Longleftrightarrow$$    | \Leftrightarrow hoặc \Longleftrightarrow         | Tương đương mệnh đề              |
+|9      | $$\top$$         | \top        |               |  
+|10      | $$\bot$$	| \bot	                                            |               |   
+{: rules="groups"}
+
+<h3 id="ki-hieu-trong-tap-hop">Kí hiệu trong Tập hợp</h3>
+
+|:---:  | :---:                                                                 |    :----:                                             |         :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
+|:---:  | :---                                                                  |    :----                                              |          :--- |
+|1      | $$\emptyset$$                                                            | \emptyset                                          |Tập rỗng       |
+|2      | $$\varnothing$$                             | \varnothing                             | Tập không có giá trị              |
+|3      | $$\\mathbb{N,Z,Q,I,R,C}$$          | \\mathbb{N,Z,Q,I,R,C}     |  Các trường số             |
+|4      | $$\in$$                      | \in                        |              |
+|5      | $$\notin$$                | \notin                |               |
+|6      | $$\subset$$                      | \subset                            | Tập con thực sự|
+|7      | $$\subseteq$$              | \subseteq                                     | Tập con  |
+|8      | $$\supset$$    | \supset         |           |
+|9      | $$\supseteq$$         | \supseteq        |               |  
+|10      | $$\cup$$	| \cup	                                            |               |   
+|11      | $$\cap$$	| \cap	                                            |               |
+|12      | $$\setminus$$	| \setminus	                                            | Tập hiệu              |
+{: rules="groups"}
 <!-- <h3>
 <span id="1">1. Bảng chữ cái Hy Lạp (Greek letters)</span></h3>
 <table class="w3-table-all w3-hoverable">
