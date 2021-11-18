@@ -11,10 +11,10 @@ comments: true
 </h1> 
 
 <div align="center">
-  <h4>
-    <a href="#some-thing-about-rot-x" style="text-decoration: none; color:#823af7">Something about ROT-X | </a>
-    <a href="#learn-more" style="text-decoration: none; color:#823af7">Learn more</a> 
-  </h4>
+    <h4>
+        <a href="#some-thing-about-rot-x" style="text-decoration: none; color:#823af7">Something about ROT-X | </a>
+        <a href="#learn-more" style="text-decoration: none; color:#823af7">Learn more</a> 
+    </h4>
 </div>
 
 <h2 id="some-thing-about-rot-x">Something about ROT-X</h2>

@@ -12,11 +12,11 @@ comments: true
 </h1> 
 
 <div align="center">
-  <h4>
-    <a href="#mod-26" style="text-decoration: none; color:#823af7">Mod 26 | </a>
-    <a href="#mind-your-ps-and-qs" style="text-decoration: none; color:#823af7">Mind your Ps and Qs | </a>
-    <a href="#list-of-challenge" style="text-decoration: none; color:#823af7">List of challenge</a> 
-  </h4>
+    <h4>
+        <a href="#mod-26" style="text-decoration: none; color:#823af7">Mod 26 | </a>
+        <a href="#mind-your-ps-and-qs" style="text-decoration: none; color:#823af7">Mind your Ps and Qs | </a>
+        <a href="#list-of-challenge" style="text-decoration: none; color:#823af7">List of challenge</a> 
+    </h4>
 </div>
 
 ## Mod 26

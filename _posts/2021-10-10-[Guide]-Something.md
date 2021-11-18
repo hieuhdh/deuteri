@@ -14,8 +14,8 @@ comments: true
 </h2> 
 <br><br>
 <div align="center">
-  <h4>
-    <a href="https://hieuhdh.github.io/deuteri/Guide-Latex-Syntax/" class="btn btn-success">[Guide] Latex Syntax</a> 
-    <a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn btn-success">[Guide] Markdown Syntax</a>
-  </h4>
+    <h4>
+        <a href="https://hieuhdh.github.io/deuteri/Guide-Latex-Syntax/" class="btn btn-success">[Guide] Latex Syntax</a> 
+        <a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn btn-success">[Guide] Markdown Syntax</a>
+    </h4>
 </div>

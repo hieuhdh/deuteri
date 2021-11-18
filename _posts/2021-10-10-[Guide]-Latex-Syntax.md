@@ -11,14 +11,14 @@ comments: true
 </h1> 
 
 <div align="center">
-  <h4>
-    <a href="#so-luoc" style="text-decoration: none; color:#823af7">Sơ lược | </a>
-    <a href="#bang-chu-cai-hi-lap" style="text-decoration: none; color:#823af7">Bảng chữ cái Hy Lạp | </a>
-    <a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Boole | </a> 
-    <a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Quan hệ | </a> 
-    <a href="#toan-tu-trong-logic-vi-tu" style="text-decoration: none; color:#823af7">Toán tử trong Logic vị từ | </a> 
-    <a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#823af7">Kí hiệu trong Tập hợp | </a> 
-  </h4>
+    <h4>
+        <a href="#so-luoc" style="text-decoration: none; color:#823af7">Sơ lược | </a>
+        <a href="#bang-chu-cai-hi-lap" style="text-decoration: none; color:#823af7">Bảng chữ cái Hy Lạp | </a>
+        <a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Boole | </a> 
+        <a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Quan hệ | </a> 
+        <a href="#toan-tu-trong-logic-vi-tu" style="text-decoration: none; color:#823af7">Toán tử trong Logic vị từ | </a> 
+        <a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#823af7">Kí hiệu trong Tập hợp | </a> 
+    </h4>
 </div>
 
 <h2 id="so-luoc">Sơ lược</h2>

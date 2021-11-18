@@ -11,12 +11,12 @@ comments: true
 </h1> 
 
 <div align="center">
-  <h4>
-    <a href="#dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa | </a>
-    <a href="#mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module" style="text-decoration: none; color:#823af7">Một số tính chất và các phép toán đồng dư trên vành Module | </a>
-    <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong lập trình | </a> 
-    <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a> 
-  </h4>
+    <h4>
+        <a href="#dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa | </a>
+        <a href="#mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module" style="text-decoration: none; color:#823af7">Một số tính chất và các phép toán đồng dư trên vành Module | </a>
+        <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong lập trình | </a> 
+        <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a> 
+    </h4>
 </div>
 
 <h2 id="dinh-nghia">Định nghĩa</h2>

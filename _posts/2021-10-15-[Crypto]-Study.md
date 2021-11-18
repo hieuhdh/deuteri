@@ -14,8 +14,8 @@ comments: true
 </h2> 
 <br><br>
 <div align="center">
-  <h4>
-    <a href="https://hieuhdh.github.io/deuteri/Crypto-Rot-X/" class="btn btn-success">[Crypto] ROT-X</a> 
-    <a href="https://hieuhdh.github.io/deuteri/Crypto-RSA/" class="btn btn-success">[Crypto] RSA</a>
-  </h4>
+    <h4>
+        <a href="https://hieuhdh.github.io/deuteri/Crypto-Rot-X/" class="btn btn-success">[Crypto] ROT-X</a> 
+        <a href="https://hieuhdh.github.io/deuteri/Crypto-RSA/" class="btn btn-success">[Crypto] RSA</a>
+    </h4>
 </div>
