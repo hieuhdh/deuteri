@@ -42,17 +42,33 @@ comments: true
 | ---   |  ---                                          |     ----                          |          ---  | 
 {: rules="groups"}
 
-$$
-\begin{tabular}{|l||c||r|}
-    \hline 
-        abc&\\
-    \hline 
-        abc&\\
-    \hline 
-        abc&\\
-    \hline 
-\end{tabular}
-$$
+<h3>
+<span id="1">1. Bảng chữ cái Hy Lạp (Greek letters)</span></h3>
+<table class="w3-table-all w3-hoverable">
+  <thead>
+<tr class="w3-green">
+    <th>Ký tự</th>
+    <th>Lệnh</th>
+    <th>Ghi chú</th>
+  </tr>
+</thead>
+  <tbody>
+<tr>
+    <td>$A$ và $\alpha$</td>
+    <td><code>A</code> và <code>\alpha</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>$B$ và $\beta$</td>
+    <td><code>B</code> và <code>\beta</code></td>
+    <td></td>
+  </tr>
+<tr>
+<td>$\Gamma$ và $\gamma$</td>
+    <td><code>\Gamma</code> và <code>\gamma</code></td>
+    <td></td>
+</tr>
+</tbody></table>
 
 <h1 align="center">
   Lời kết
