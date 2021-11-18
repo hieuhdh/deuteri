@@ -128,12 +128,10 @@ li .highlight pre {
     border: 0;
 }
 
-// table
-table {
+// table - Tinh chỉnh border
+table,th,td,tbody {
 	width: 100%;
-    table, th, td{
-        border:1px solid black;
-    }
+    border:1px solid black;
 }
 
 // notice
