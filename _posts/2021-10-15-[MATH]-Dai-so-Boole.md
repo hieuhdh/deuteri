@@ -62,22 +62,17 @@ Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \vert x_i \in \big
 Ví dụ: $$F \big(x, y, z \big) = x + y + z $$ được gọi là hàm Boole bậc 3.
 
 <h2 id="dang-noi-roi-chinh-tac-cua-ham-boole">Dạng nối rời chính tắc của hàm Boole</h2>
-
-### Một vài điều cần biết
-
-#### Định nghĩa về từ đơn, đơn thức, từ tối tiểu (đơn thức tối tiểu), công thức đa thức 
+<h3 id="mot-vai-dieu-can-biet">Một vài điều cần biết</h3>
+<h4 id="cac-dinh-nghia">Định nghĩa về từ đơn, đơn thức, từ tối tiểu (đơn thức tối tiểu), công thức đa thức </h4>
 
 Từ đơn là mỗi biến Boole $$x_i$$ hoặc $$\neg x_i$$ trong tập hợp các hàm Boole $$n$$ biến $$F_n$$ theo $$n$$ biến $$x_1, x_2, ..., x_n$$.
 
-Đơn thức là tích khác không của một số hữu hạn từ đơn.
+<div>Đơn thức là tích khác không của một số hữu hạn từ đơn.</div>
+<div>Từ tối tiểu (đơn thức tối tiểu) là tích khác không của đúng n từ đơn.</div>
+<div>Công thức đa thức là công thức biểu diễn hàm Boole thành tổng của các đơn thức. </div>
+<div>Dạng nối rời chính tắc bản chất chính là công thức biểu diễn hàm Bool <strong>thành tổng của các từ tối tiểu</strong>.</div>
 
-Từ tối tiểu (đơn thức tối tiểu) là tích khác không của đúng $$n$$ từ đơn.
-
-Công thức đa thức là công thức biểu diễn hàm Boole thành tổng của các đơn thức.
-
-Dạng nối rời chính tắc bản chất chính là công thức biểu diễn hàm Bool <strong>thành tổng của các từ tối tiểu</strong>.
-
-<div id="vi-du">Ví dụ</div>
+<h4 id="vi-du">Ví dụ</h4>
 Xét hàm Boole với ba biến $$x,y,z$$ ta có: 
 
 $$ \begin{align*} 
