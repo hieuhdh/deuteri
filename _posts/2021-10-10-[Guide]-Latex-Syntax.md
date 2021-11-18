@@ -26,6 +26,7 @@ comments: true
 <br>  <strong>Lưu ý: </strong>khi viết kí tự Latex trong Markdown ta cần đặt cú pháp của chúng vào giữa cặp "$ $" và "$ $". Ví dụ muốn viết chữ alpha thì ta phải viết "$ $\alpha$ $" chứ không phải \alpha. Cặp kí hiệu dolar phải viết liền, bỏ khoảng cách.
 </div>
 
+
 <h3 id="bang-chu-cai-hi-lap">Bảng chữ cái Hi Lạp</h3>
 
 |:---:  | :---:                                         |    :----:                         |         :---: |
@@ -58,8 +59,8 @@ comments: true
 |24     | $$F$$ và $$\digamma$$                         | F và \digamma                     |               | 
 {: rules="groups"}
 
-<h3 id="toan-tu-trong-dai-so-boole">Toán tử trong Đại số Boole</h3>
 
+<h3 id="toan-tu-trong-dai-so-boole">Toán tử trong Đại số Boole</h3>
 <div>Vì trong đại số Boole có một phần người ta dựa vào đó kết hợp với lý thuyết mã Grey để tạo nên cổng logic và phép toán tuyển với phép toán hội trong cổng logic lúc này tương ứng là <strong>or</strong> và <strong>and</strong>, do đó mới có bộ kí hiệu mới là <strong>\lor</strong> và <strong>\land</strong>. </div>
 <div>Để có thể thao tác đúng về mặt ý nghĩa, việc ta lựa chọn loại cú pháp đúng cho các trường hợp thích hợp là điều cần thiết.</div>
 
@@ -70,6 +71,7 @@ comments: true
 |2      | $$\vee$$   hoặc $$\lor$$                      | \vee hoặc \lor                     | Phép toán tuyển   |
 |3      | $$\neg$$                                      | \neg                               | Phép toán phủ định |
 {: rules="groups"}
+
 
 <h3 id="toan-tu-trong-dai-so-quan-he">Toán tử trong Đại số Quan hệ</h3>
 
@@ -105,6 +107,7 @@ comments: true
 |27     | $$\smile$$ và $$\frown$$                                              | \smile và \frown                                      |               | 
 {: rules="groups"}
 
+
 <h3 id="toan-tu-trong-logic-vi-tu">Toán tử trong Logic vị từ</h3>
 
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
@@ -124,6 +127,7 @@ comments: true
 |9      | $$\top$$         | \top        |               |  
 |10      | $$\bot$$	| \bot	                                            |               |   
 {: rules="groups"}
+
 
 <h3 id="ki-hieu-trong-tap-hop">Kí hiệu trong Tập hợp</h3>
 
