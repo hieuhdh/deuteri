@@ -85,14 +85,12 @@ $$ \begin{align*}
 \end{align*}$$
 
 <div id="luu-y"><strong>Lưu ý</strong></div>
-<div>Công thức đa thức F được gọi là tối tiểu nếu với bất kì công thức G của hàm Boole đã cho mà đơn giản hơn F thì <strong>G và F đơn giản như nhau.</strong> </div> <br>
+<div>Công thức đa thức F được gọi là tối tiểu nếu với bất kì công thức G của hàm Boole đã cho mà đơn giản hơn F thì <strong>G và F đơn giản như nhau.</strong> </div>
 <h4 id="cach-tim-dang-noi-roi-chinh-tac-co-ban">Cách tìm dạng nối rời chính tắc cơ bản</h4>
 <div><strong>Bước 1:</strong> Bổ sung các từ đơn còn thiếu vào các đơn thức.</div>
 <div><strong>Bước 2:</strong> Với mỗi đơn thức thu được ở bước 1, ta nhân đơn thức đó với tổng của những từ đơn bị thiếu và phần bù của nó trong đơn thức đó.</div>
 <div><strong>Bước 3:</strong> Tiếp tục khai triển hàm thu được ở bước 2 và loại bỏ những đơn thức bị trùng. Công thức đa thức thu được chính là dạng nối rời chính tắc của hàm Boole ban đầu.</div>
-<h4 id="bai-toan-1">Bài toán 1</h4>
-
-<div>Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến)</div> 
+<h4 id="bai-toan-1">Bài toán 1: </h4><div>Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến)</div> 
 
 $$F \big( x,y,z,t \big) = xz \neg t \vee \neg y \neg z \neg t \vee xyt \vee \neg x yz \vee \neg x \neg y \neg z \neg t \vee \neg x yz \neg t$$
 
@@ -200,12 +198,13 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh cho việc khoanh tối giản bìa Kar </i></a></figcaption>
 </figure>
 
+<br>
 <div><strong>Từ hình ảnh trên, ta tìm kiếm được 1 vài thứ </strong></div>
 
 $$ \begin{align*} 
     \text{1. }&\text{Các tế bào lớn: } x\neg t \neg t, xz \neg t, yz, yt, \neg y \neg z \neg t  \\  
-    \text{2. }&\text{Một vài hàm Boole được rút gọn: } \left[ \begin{array}{cc}  f =& x \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f =& xz \neg t + yz + yt + \neg y \neg z \neg t \\ f =& x \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right. \\
-    \text{3. }&\text{Hàm Boole được rút gọn tối giản: } \left[ \begin{array}{cc}  f =& x \neg y \neg t + xz \neg t + yz + yt \\ f =& xz \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.
+    \text{2. }&\text{Một vài hàm Boole được rút gọn: } \left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f = x&z \neg t + yz + yt + \neg y \neg z \neg t \\ f = x& \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right. \\
+    \text{3. }&\text{Hàm Boole được rút gọn tối giản: } \left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt \\ f = x&z \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.
 \end{align*}$$
 
 <br>
