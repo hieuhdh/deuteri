@@ -29,6 +29,7 @@ comments: true
 
 
 <h3 id="bang-chu-cai-hi-lap">Bảng chữ cái Hi Lạp</h3>
+
 |:---:  | :---:                                         |    :----:                         |         :---: |
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú       |
 |:---:  | :---                                          |    :----                          |          :--- |
@@ -72,8 +73,9 @@ comments: true
 |3      | $$\neg$$                                      | \neg                               | Phép toán phủ định |
 {: rules="groups"}
 
-
+<br>
 <h3 id="toan-tu-trong-dai-so-quan-he">Toán tử trong Đại số Quan hệ</h3>
+
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
 |:---:  | :---                                                                  |    :----                                              |          :--- |
@@ -106,8 +108,9 @@ comments: true
 |27     | $$\smile$$ và $$\frown$$                                              | \smile và \frown                                      |               | 
 {: rules="groups"}
 
-
+<br>
 <h3 id="toan-tu-trong-logic-vi-tu">Toán tử trong Logic vị từ</h3>
+
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
 |:---:  | :---                                                                  |    :----                                              |          :--- |
@@ -126,8 +129,9 @@ comments: true
 |10      | $$\bot$$	| \bot	                                            |               |   
 {: rules="groups"}
 
-
+<br>
 <h3 id="cac-ki-hieu-mui-ten">Các kí hiệu mũi tên (bổ sung)</h3>
+
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
 |:---:  | :---                                                                  |    :----                                              |          :--- |
@@ -145,7 +149,9 @@ comments: true
 |9      | $$\leftharpoonup$$         | \leftharpoonup        |               |   
 {: rules="groups"}
 
+<br>
 <h3 id="ki-hieu-trong-tap-hop">Kí hiệu trong Tập hợp</h3>
+
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
 |:---:  | :---                                                                  |    :----                                              |          :--- |
