@@ -132,24 +132,29 @@ li .highlight pre {
 table{
 	width: 100%;
     border-collapse: collapse;
+    th {
+        text-align: center;
+        background-color: #823af7;
+        color: white;
+    }
+    
+    td, th {
+        padding: 10px;
+    }
+
+    tr:nth-child(even) {background-color: #f3f8fe;}
+    tr:nth-child(odd) {background-color: rgb(255, 255, 255);}
 }
 
-td, th {
-    padding: 10px;
-}
 
-th {
-    text-align: center;
-    background-color: #823af7;
-    color: white;
-}
+
+
 
 // table,th,td {
 //     border:1px solid black;
 // }
 
-tr:nth-child(even) {background-color: #f3f8fe;}
-tr:nth-child(odd) {background-color: rgb(255, 255, 255);}
+
 
 // notice
 .notice {
