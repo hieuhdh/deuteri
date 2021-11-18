@@ -14,6 +14,7 @@ comments: true
   <h4>
     <a href="#bang-chu-cai-hi-lap" style="text-decoration: none; color:#823af7">Bảng chữ cái Hy Lạp | </a>
     <a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Boole | </a> 
+    <a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Quan hệ | </a> 
   </h4>
 </div>
 
@@ -86,6 +87,65 @@ comments: true
 |3      | $$\neg$$                                      | \neg                              | Phép toán phủ định |
 | ---   |  ---                                          |     ----                          |          ---      |
 {: rules="groups"}
+
+<h2 id="toan-tu-trong-dai-so-quan-he">Toán tử trong Đại số Quan hệ</h2>
+
+|:---:  | :---:                                         |    :----:                         |         :---: |
+|STT    | Kí tự                                         | Cú pháp                           | Ghi chú       |
+|:---:  | :---                                          |    :----                          |          :--- |
+|1      | $$<$$, $$\nless$$, $$>$$ và $$\ngtr$$         | <, \nless, > và \ngtr             |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|2      | $$\le$$, $$\nleq$$, $$\geq$$ và $$\ngeq$$     | \le, \nleq, \geq và \ngeq         |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|3      | $$\leqslant$$, $$\nleqslant$$, $$\geqslant$$, $$\ngeqslant$$   | \leqslant, \nleqslant, \geqslant, và \ngeqslant    |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|4      | 	$$\prec$$, $$\nprec$$, $$\succ$$ và $$\nsucc$$                    | 	\prec, \nprec, \succ và \nsucc                  |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|5      | $$\preceq$$, $$\npreceq$$, $$\succeq$$ và $$\nsucceq$$        | \preceq, \npreceq, \succeq và \nsucceq       |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|6      | $$\ll$$ và $$\gg$$                            | \ll và \gg                        |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|7      | $$\lll$$ và $$\ggg$$                          | \lll và \ggg                      |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|8      | $$\subset$$, $$\not\subset$$, $$\supset$$ và $$\not\supset$$      | \subset, \not\subset, \supset và \not\supset      |               |
+| ---   |  ---                                          |     ----                          |          ---  |
+|9      | $$\subseteq$$, $$\nsubseteq$$, $$\supseteq$$, $$\nsupseteq$$| \subseteq, \nsubseteq, \supseteq và \nsupseteq     |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|9      | $$\sqsubseteq$$, $$\sqsubseteq$$, $$\sqsupseteq$$ và $$\sqsupseteq$$	| \sqsubseteq, \sqsubseteq, \sqsupseteq và \sqsupseteq	|               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|10     | $$=$$ và $$\ne$$                              | = và \ne                          |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|11     | $$\doteq$$                                    | \doteq                            |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|12     | $$\equiv$$                                    | \equiv                            |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|13     | $$\approx$$                                   | \approx                           |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|14     | $$\cong$$                                     | \cong                             |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|15     | $$\simeq$$                                    | \simeq                            |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|16     | $$\sim$$                                      | \sim                              |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|17     | $$\propto$$                                   | \propto                           |               | 
+| ---   |  ---                                          |     ----                          |          ---  |
+|18     | $$\parallel$$ và $$\nparallel$$               | \parallel và \nparallel           |               | 
+| ---   |  ---                                          |     ----                          |          ---  |  
+|19     | $$\vdash$$ và $$\dashv$$                      | \vdash và \dashv                  |               | 
+| ---   |  ---                                          |     ----                          |          ---  | 
+|20     | $$\in$$, $$\ni$$ và $$\notin$$                | \in, \ni và \notin                |               | 
+| ---   |  ---                                          |     ----                          |          ---  |
+|21     | $$\perp$$                                     | \perp                             |               | 
+| ---   |  ---                                          |     ----                          |          ---  |
+|22     | $$\mid$$                                      | \mid                              |               | 
+| ---   |  ---                                          |     ----                          |          ---  |
+|23     | $$\asymp$$, $$\bowtie$$ và $$\models$$        | \asymp, \bowtie và \models        |               | 
+| ---   |  ---                                          |     ----                          |          ---  |
+|24     | $$\smile$$ và $$\frown$$                      | \smile và \frown                  |               | 
+| ---   |  ---                                          |     ----                          |          ---  |
+{: rules="groups"}
+
+
 <!-- <h3>
 <span id="1">1. Bảng chữ cái Hy Lạp (Greek letters)</span></h3>
 <table class="w3-table-all w3-hoverable">
