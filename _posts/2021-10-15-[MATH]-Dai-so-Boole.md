@@ -148,11 +148,8 @@ $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \n
 T là tế bào của bìa Kar thì T là hình chữ nhật (theo nghĩa rộng) gồm $$2^{n-k}$$ ô với $$0 \le k \le n$$
 
 Giả sử T là 1 tế bào lớn của bìa Kar thì:
-
-$$ \begin{align*} 
-    \bullet \ \ & \text{T là một tế bào và} T \subseteq Kar \big(f\big) \\  
-    \bullet \ \ & \nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big) 
-\end{align*}$$
+* $$T$$ là một tế bào và $$T \subseteq Kar \big(f\big)$$  
+* $$\nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big)$$ 
 
 <h2 id="cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole</h2>
 <h4>Cách dùng</h4>
