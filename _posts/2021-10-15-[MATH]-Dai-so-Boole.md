@@ -57,13 +57,15 @@ Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có b
 
 Biến $$x$$ được gọi là biến Boole nếu nó chỉ nhận các giá trị trong tập $$\big\{0, 1\big\}$$
 
-Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \mid x_i \in \big \{0, 1 \big\}, 1\le i \le n \Big\} $$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
+Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \vert x_i \in \big \{0, 1 \big\}, 1\le i \le n \Big\} $$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
 
 Ví dụ: $$F \big(x, y, z \big) = x + y + z $$ được gọi là hàm Boole bậc 3.
 
 <h2 id="dang-noi-roi-chinh-tac-cua-ham-boole">Dạng nối rời chính tắc của hàm Boole</h2>
-<h3 id="mot-vai-dieu-can-biet">Một vài điều cần biết</h3>
-<h4 id="cac-dinh-nghia">Định nghĩa về từ đơn, đơn thức, từ tối tiểu (đơn thức tối tiểu), công thức đa thức </h4>
+
+### Một vài điều cần biết
+
+#### Định nghĩa về từ đơn, đơn thức, từ tối tiểu (đơn thức tối tiểu), công thức đa thức 
 
 Từ đơn là mỗi biến Boole $$x_i$$ hoặc $$\neg x_i$$ trong tập hợp các hàm Boole $$n$$ biến $$F_n$$ theo $$n$$ biến $$x_1, x_2, ..., x_n$$.
 
