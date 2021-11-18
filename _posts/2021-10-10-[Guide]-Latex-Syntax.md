@@ -83,7 +83,7 @@ comments: true
 | ---   |  ---                                          |     ----                          |          ---      |
 |2      | $$\vee$$                                      | \vee                              | Phép toán tuyển   |
 | ---   |  ---                                          |     ----                          |          ---      |
-|3      | $$\neg$$                                      | \neg                              |                   |
+|3      | $$\neg$$                                      | \neg                              | Phép toán phủ định |
 | ---   |  ---                                          |     ----                          |          ---      |
 {: rules="groups"}
 <!-- <h3>
