@@ -83,7 +83,7 @@ $$ \begin{align*}
     \bullet \ \ & xyz \wedge x\neg yz \ là \ một \ dạng \ nối \ rời \ chính \ tắc.
 \end{align*}$$
 
-<div id="luu-y"><strong>Lưu ý</strong></d>
+<div id="luu-y"><strong>Lưu ý</strong></div>
 <div>Công thức đa thức F được gọi là tối tiểu nếu với bất kì công thức G của hàm Boole đã cho mà đơn giản hơn F thì <strong>G và F đơn giản như nhau.</strong> </div>
 <h4 id="cach-tim-dang-noi-roi-chinh-tac-co-ban">Cách tìm dạng nối rời chính tắc cơ bản</h4>
 <div><strong>Bước 1:</strong> Bổ sung các từ đơn còn thiếu vào các đơn thức.</div>
