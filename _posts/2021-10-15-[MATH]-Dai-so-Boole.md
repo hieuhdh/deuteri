@@ -237,12 +237,12 @@ Giả sử $$S$$ là phủ của $$X$$. Khi đó, $$S$$ được gọi là **ph�
 * **Bước 4:** Xác định phủ tối tiểu gồm các tế bào lớn:
     * Nếu các tế bào lớn được chọn ở **Bước 3** đã phủ được $$Kar\big(f\big)$$ thì ta có duy nhất một phủ tối tiểu gồm các tế bào lớn của $$Kar\big(f\big)$$
     * Nếu các tế bào lớn được chọn ở bước 3 chưa phủ được $$Kar\big(f\big)$$ thì:
-        * Xét một ô chưa bị phủ, lúc này sẽ có ít nhất hai tế bào lớn chứa ô này, ta chọn một trong các tế bào lớn này. Cứ tiếp tục như thế, ta sẽ tìm được tất cả các phủ gồm các tế bào lớn của $$Kar\big(f\big)$$ .
-        * Loại bỏ các phủ không tối tiểu, ta tìm được tất cả các phủ tối tiểu gồm các tế bào lớn của $$Kar\big(f\big)$$ .
-* **Bước 5:**: Xác định công thức đa thức tối tiểu củ $$f$$ .
-    * Từ những phủ tối tiểu ta đã tìm được ở **Bước 4**, ta sẽ xác định được các công thức đa thức tối tiểu tương ứng của $$f$$ .
+        * Xét một ô chưa bị phủ, lúc này sẽ có ít nhất hai tế bào lớn chứa ô này, ta chọn một trong các tế bào lớn này. Cứ tiếp tục như thế, ta sẽ tìm được tất cả các phủ gồm các tế bào lớn của $$Kar\big(f\big)$$ 
+        * Loại bỏ các phủ không tối tiểu, ta tìm được tất cả các phủ tối tiểu gồm các tế bào lớn của $$Kar\big(f\big)$$ 
+* **Bước 5:**: Xác định công thức đa thức tối tiểu củ $$f$$ 
+    * Từ những phủ tối tiểu ta đã tìm được ở **Bước 4**, ta sẽ xác định được các công thức đa thức tối tiểu tương ứng của $$f$$ 
     * Loại bỏ các công thức đa thức mà có một công thức đa thức mà đơn giản hơn chúng. 
-    * Các công thức đa thức còn lại chính là công thức đa thức tối tiểu của $$f$$ .
+    * Các công thức đa thức còn lại chính là công thức đa thức tối tiểu của $$f$$ 
 
 Thuật toán trên nếu mà đọc thì sẽ có phần rất khó hiểu, để làm rõ hơn tôi sẽ trình bày thuật toán trên ở bài toán bên dưới.
 
@@ -283,7 +283,6 @@ Cụ thể 2 công thức tối tiểu đó là $$\left[ \begin{array}{cc}  f = 
 
 $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$
 
-<br>
 <h1 align="center">
   Lời kết
 </h1> 
