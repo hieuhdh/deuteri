@@ -19,8 +19,9 @@ comments: true
 
 <h2 id="bang-chu-cai-hi-lap">Bảng chữ cái Hi Lạp</h2>
 
+|:---:  | :---:                                         |    :----:                         |         :---: |
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú       |
-|:---   | :---                                          |    :----                          |          ---: |
+|:---:  | :---                                          |    :----                          |          :--- |
 |1      | A và $$\alpha$$                               | A và \apha                        |               |
 | ---   |  ---                                          |     ----                          |          ---  |
 |2      | B và $$\beta$$                                | B và \beta                        |               |
