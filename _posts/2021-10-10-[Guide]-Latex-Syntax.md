@@ -40,7 +40,7 @@ comments: true
 | ---   |  ---                                          |     ----                          |          ---  |
 |9      | $$I$$ và $$\iota$$                            | I và \iota                        |               | 
 | ---   |  ---                                          |     ----                          |          ---  | 
-|9      | $$\Kappa$$, $$\kappa$$ và $$\varkappa$$       | \Kappa, \kappa và \varkappa       |               | 
+|9      | $$K$$, $$\kappa$$ và $$\varkappa$$            | K, \kappa và \varkappa            |               | 
 | ---   |  ---                                          |     ----                          |          ---  | 
 |10     | $$\Lambda$$ và $$\lambda$$                    | \Lambda và \lambda                |               | 
 | ---   |  ---                                          |     ----                          |          ---  | 
