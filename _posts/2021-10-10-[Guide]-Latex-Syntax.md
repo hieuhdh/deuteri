@@ -19,6 +19,7 @@ comments: true
         <a href="#toan-tu-trong-logic-vi-tu" style="text-decoration: none; color:#823af7">Toán tử trong Logic vị từ | </a> 
         <a href="#cac-ki-hieu-mui-ten" style="text-decoration: none; color:#823af7">Các kí hiệu mũi tên (bổ sung) | </a> 
         <a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#823af7">Kí hiệu trong Tập hợp | </a> 
+        <a href="#ki-hieu-trong-hinh-hoc" style="text-decoration: none; color:#823af7">Kí hiệu trong Hình học | </a> 
     </h4>
 </div>
 
@@ -167,6 +168,27 @@ comments: true
 |10      | $$\cup$$	| \cup	                                            |               |   
 |11      | $$\cap$$	| \cap	                                            |               |
 |12      | $$\backslash$$	| \backslash	                                            | Tập hiệu              |
+{: rules="groups"}
+
+<br>
+<h3 id="ki-hieu-trong-hinh-hoc">Kí hiệu trong Hình học</h3>
+
+|:---:  | :---:                                                                 |    :----:                                             |         :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
+|:---:  | :---                                                                  |    :----                                              |          :--- |
+|1      | $$\overline{\rm AB}$$                                                | \overline{\rm AB}                         | Độ dài đại số AB     |
+|2      | $$\angle$$                             | \angle                             | Góc              |
+|3      | $$\measuredangle$$                             | \measuredangle                             | Góc             |
+|4      | $$\triangle$$          | \triangle     |  Tam giác             |
+|5      | $$\cong$$                      | \cong                        |              |
+|6      | $$\ncong$$                | \ncong                |               |
+|7      | $$\sim$$                      | \sim                            | Tương đồng |
+|8      | $$\nsim$$              | \nsim                                     | Không tương đồng |
+|9      | $$\|$$                | \|         |  Song song         |
+|10      | $$\nparallel$$         | \nparallel        |  Không song song             |  
+|11      | $$\perp$$	| \perp	                                            |    Vuông góc           |   
+|12      | $$\not\perp$$	| \not\perp	                                            | Không vuông góc              |
+|13      | $$\overrightarrow{\rm AB}$$	| \overrightarrow{\rm AB}	                                            |vector AB              |
 {: rules="groups"}
 <!-- <h3>
 <span id="1">1. Bảng chữ cái Hy Lạp (Greek letters)</span></h3>
