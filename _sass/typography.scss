@@ -131,12 +131,16 @@ li .highlight pre {
 // table - Tinh chỉnh border
 table{
 	width: 100%;
-    border:1px solid black;
+    border-collapse: collapse;
 }
 
-table,th,td {
-    border:1px solid black;
+td, th {
+    padding: 10px;
 }
+
+// table,th,td {
+//     border:1px solid black;
+// }
 
 // notice
 .notice {

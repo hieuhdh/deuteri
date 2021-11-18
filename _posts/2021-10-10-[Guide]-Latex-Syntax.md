@@ -76,9 +76,9 @@ comments: true
 
 <h2 id="toan-tu-trong-dai-so-boole">Toán tử trong Đại số Boole</h2>
 
-| ---   |  ---                                          |     ----                          |          ---      |
+|:---:  |  :---:                                        |     :----:                        |         :---:     |
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú           |
-|:---   | :---                                          |    :----                          |          ---:     |
+|:---:  | :---                                          |    :----                          |          :---     |
 |1      | $$\wedge$$                                    | \wedge                            | Phép toán hội     |
 | ---   |  ---                                          |     ----                          |          ---      |
 |2      | $$\vee$$                                      | \vee                              | Phép toán tuyển   |
