@@ -55,7 +55,7 @@ Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có b
 <h3 id="bien-boole">Biến Boole</h3>
 <h4 id="dinh-nghia-bien-boole">Định nghĩa</h4>
 
-Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \big| x_i \in \big \{0, 1 \big \}, 1\le i \le n  \Big\}$$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
+Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \big| x_i \in \big \{0, 1 \big \}, 1\le i \le n  \Big \}$$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
 
 Ví dụ: $$F \big(x, y, z \big) = x + y + z$$ được gọi là hàm Boole bậc 3.
 
@@ -117,7 +117,7 @@ $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \n
 <h3 id="mot-vai-thong-tin">Một vài thông tin</h3>
 <h4 id="thong-tin-ve-bia-kar">Thông tin về bìa Kar</h4>
 <div>Bìa Karnaugh (hay sơ đồ Các-nô, biểu đồ Veitch) là một công cụ vô cùng thuận tiện cho việc đơn giản các biểu thức trong đại số Boole. Hoạt động dựa theo nguyên lí mã Gray (hai bộ kí số liên tiếp đối ngẫu nhau). </div>
-<h4 id="tham khao them">Tham khảo thêm</h4>
+<h4 id="tham-khao-them">Tham khảo thêm</h4>
 
 <div align="left">
     <a href="https://vi.wikipedia.org/wiki/B%C3%ACa_Karnaugh" class="btn">Bìa Karnaugh (VN)</a> 
