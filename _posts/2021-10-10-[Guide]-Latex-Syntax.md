@@ -83,24 +83,26 @@ comments: true
 |5      | $$\preceq$$, $$\npreceq$$, $$\succeq$$ và $$\nsucceq$$                | \preceq, \npreceq, \succeq và \nsucceq                |               |
 |6      | $$\ll$$ và $$\gg$$                                                    | \ll và \gg                                            |               |
 |7      | $$\lll$$ và $$\ggg$$                                                  | \lll và \ggg                                          |               |
-|8      | $$\subset$$, $$\not\subset$$, $$\supset$$ và $$\not\supset$$          | \subset, \not\subset, \supset và \not\supset          |               |
-|9      | $$\subseteq$$, $$\nsubseteq$$, $$\supseteq$$, $$\nsupseteq$$          | \subseteq, \nsubseteq, \supseteq và \nsupseteq        |               |  
-|9      | $$\sqsubseteq$$, $$\sqsubseteq$$, $$\sqsupseteq$$ và $$\sqsupseteq$$	| \sqsubseteq, \sqsubseteq, \sqsupseteq và \sqsupseteq	|               |  
-|10     | $$=$$ và $$\ne$$                                                      | = và \ne                                              |               |  
-|11     | $$\doteq$$                                                            | \doteq                                                |               |  
-|12     | $$\equiv$$                                                            | \equiv                                                |               |  
-|13     | $$\approx$$                                                           | \approx                                               |               |  
-|14     | $$\cong$$                                                             | \cong                                                 |               |  
-|15     | $$\simeq$$                                                            | \simeq                                                |               |  
-|16     | $$\sim$$                                                              | \sim                                                  |               |  
-|17     | $$\propto$$                                                           | \propto                                               |               | 
-|18     | $$\parallel$$ và $$\nparallel$$                                       | \parallel và \nparallel                               |               |   
-|19     | $$\vdash$$ và $$\dashv$$                                              | \vdash và \dashv                                      |               |  
-|20     | $$\in$$, $$\ni$$ và $$\notin$$                                        | \in, \ni và \notin                                    |               | 
-|21     | $$\perp$$                                                             | \perp                                                 |               | 
-|22     | $$\mid$$                                                              | \mid                                                  |               | 
-|23     | $$\asymp$$, $$\bowtie$$ và $$\models$$                                | \asymp, \bowtie và \models                            |               | 
-|24     | $$\smile$$ và $$\frown$$                                              | \smile và \frown                                      |               | 
+|8      | $$\subset$$ và $$\not\subset$$        | \subset và \not\subset          |               |
+|9      | $$\supset$$ và $$\not\supset$$          |\supset và \not\supset          |               |
+|10      | $$\subseteq$$, $$\nsubseteq$$, $$\supseteq$$, $$\nsupseteq$$          | \subseteq, \nsubseteq, \supseteq và \nsupseteq        |               |  
+|11      | $$\sqsubseteq$$ và $$\nsqsubseteq$$                      | \sqsubseteq và \nsqsubseteq                                        |           | 
+|12      | $$\sqsupseteq$$ và $$\nsqsupseteq$$	|  \sqsupseteq và \nsqsupseteq|           |  
+|13     | $$=$$ và $$\ne$$                                                      | = và \ne                                              |               |  
+|14     | $$\doteq$$                                                            | \doteq                                                |               |  
+|15     | $$\equiv$$                                                            | \equiv                                                |               |  
+|16     | $$\approx$$                                                           | \approx                                               |               |  
+|17     | $$\cong$$                                                             | \cong                                                 |               |  
+|18     | $$\simeq$$                                                            | \simeq                                                |               |  
+|19     | $$\sim$$                                                              | \sim                                                  |               |  
+|20     | $$\propto$$                                                           | \propto                                               |               | 
+|21     | $$\parallel$$ và $$\nparallel$$                                       | \parallel và \nparallel                               |               |   
+|22     | $$\vdash$$ và $$\dashv$$                                              | \vdash và \dashv                                      |               |  
+|23     | $$\in$$, $$\ni$$ và $$\notin$$                                        | \in, \ni và \notin                                    |               | 
+|24     | $$\perp$$                                                             | \perp                                                 |               | 
+|25     | $$\mid$$                                                              | \mid                                                  |               | 
+|26     | $$\asymp$$, $$\bowtie$$ và $$\models$$                                | \asymp, \bowtie và \models                            |               | 
+|27     | $$\smile$$ và $$\frown$$                                              | \smile và \frown                                      |               | 
 {: rules="groups"}
 
 <h3 id="toan-tu-trong-logic-vi-tu">Toán tử trong Logic vị từ</h3>
