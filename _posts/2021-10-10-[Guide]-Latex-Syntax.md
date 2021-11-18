@@ -113,9 +113,12 @@ comments: true
 |3      | $$\nexists$$          | \nexists      |  Không tồn tại             |
 |4      | $$\forall$$                      | \forall                        | Với mọi              |
 |5      | $$\neg$$                | \neg                | Phép toán phủ định              |
-|6      | $$\Rightarrow$$ hoặc $$\Longrightarrow$$                      | \Rightarrow hoặc \Longrightarrow                            | Suy ra (kéo theo)|
-|7      | $$\Leftarrow$$ hoặc $$\Longleftarrow$$              | \Leftarrow hoặc \Longleftarrow                                     | Suy ra chiều ngược  |
-|8      | $$\Leftrightarrow$$ hoặc $$\Longleftrightarrow$$    | \Leftrightarrow hoặc \Longleftrightarrow         | Tương đương mệnh đề              |
+|6      | $$\Rightarrow$$                     | \Rightarrow                            | Suy ra (kéo theo)|
+|7      | $$\Longrightarrow$$	| \Longrightarrow	                                            |   Suy ra (kéo theo)            |   
+|8      | $$\Leftarrow$$             | \Leftarrow                                      | Suy ra chiều ngược  |
+|9      | $$\Longleftarrow$$              |  \Longleftarrow                                     | Suy ra chiều ngược  |
+|10      | $$\Leftrightarrow$$ | \Leftrightarrow          | Tương đương mệnh đề              |
+|11      | $$\Longleftrightarrow$$    | \Longleftrightarrow         | Tương đương mệnh đề              |
 |9      | $$\top$$         | \top        |               |  
 |10      | $$\bot$$	| \bot	                                            |               |   
 {: rules="groups"}
@@ -127,7 +130,7 @@ comments: true
 |:---:  | :---                                                                  |    :----                                              |          :--- |
 |1      | $$\emptyset$$                                                            | \emptyset                                          |Tập rỗng       |
 |2      | $$\varnothing$$                             | \varnothing                             | Tập không có giá trị              |
-|3      | $$\\mathbb{N,Z,Q,I,R,C}$$          | \\mathbb{N,Z,Q,I,R,C}     |  Các trường số             |
+|3      | $$\mathbb{N,Z,Q,I,R,C}$$          | \mathbb{N,Z,Q,I,R,C}     |  Các trường số             |
 |4      | $$\in$$                      | \in                        |              |
 |5      | $$\notin$$                | \notin                |               |
 |6      | $$\subset$$                      | \subset                            | Tập con thực sự|
