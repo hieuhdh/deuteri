@@ -282,6 +282,7 @@ Cụ thể 2 công thức tối tiểu đó là $$\left[ \begin{array}{cc}  f = 
 
 $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$ .
 
+<br>
 <h1 align="center">
   Lời kết
 </h1> 
