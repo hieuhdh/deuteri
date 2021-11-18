@@ -55,9 +55,9 @@ Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có b
 <h3 id="bien-boole">Biến Boole</h3>
 <h4 id="dinh-nghia-bien-boole">Định nghĩa</h4>
 
-Biến x được gọi là biến Boole nếu nó chỉ nhận các giá trị trong tập $$\big\{0, 1\big\}$$
+Biến $$x$$ được gọi là biến Boole nếu nó chỉ nhận các giá trị trong tập $$\big\{0, 1\big\}$$
 
-
+Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \big| x_i \in \big \{0, 1 \big\}, 1\le i \le n \Big\}$$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
 
 Ví dụ: $$F \big(x, y, z \big) = x + y + z $$ được gọi là hàm Boole bậc 3.
 
