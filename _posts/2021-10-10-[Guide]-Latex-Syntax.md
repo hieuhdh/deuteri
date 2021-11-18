@@ -23,7 +23,7 @@ comments: true
 
 <h2 id="so-luoc">Sơ lược</h2>
 <div> Dưới đây là một vài kí tự cơ bản của Latex mà tôi thường dùng để viết trên Markdown.
-<br>  Lưu ý khi viết kí tự Latex trong Markdown ta cần đặt cú pháp của chúng vào giữa cặp "$$" và "$$". Ví dụ muốn viết chữ alpha thì ta phải viết "$$\alpha$$" chứ không phải \alpha
+<br>  Lưu ý khi viết kí tự Latex trong Markdown ta cần đặt cú pháp của chúng vào giữa cặp "$ $" và "$ $". Ví dụ muốn viết chữ alpha thì ta phải viết "$ $\alpha$ $" chứ không phải \alpha 
 </div>
 
 <h3 id="bang-chu-cai-hi-lap">Bảng chữ cái Hi Lạp</h3>
