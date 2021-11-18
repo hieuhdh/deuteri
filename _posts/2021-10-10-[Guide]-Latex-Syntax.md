@@ -40,6 +40,19 @@ comments: true
 | ---   |  ---                                          |     ----                          |          ---  |
 |9      | $$I$$ và $$\iota$$                            | I và \iota                        |               | 
 | ---   |  ---                                          |     ----                          |          ---  | 
+{: rules="groups"}
+
+$$
+\begin{tabular}{|l||c||r|}
+    \hline 
+        abc&\\
+    \hline 
+        abc&\\
+    \hline 
+        abc&\\
+    \hline 
+\end{tabular}
+$$
 
 <h1 align="center">
   Lời kết
