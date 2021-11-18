@@ -31,6 +31,16 @@ comments: true
     <a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color:#823af7">Một vài cú pháp khác</a>
 </h3> 
 
+<div align="center">
+    <h4>
+        <a href="#gioi-han" style="text-decoration: none; color:#823af7">Giới hạn | </a>
+        <a href="#tong-sigma" style="text-decoration: none; color:#823af7">Tổng Sigma | </a> 
+        <a href="#tich-phan" style="text-decoration: none; color:#823af7">Tích phân | </a> 
+        <a href="#phan-thuc" style="text-decoration: none; color:#823af7">Phân thức | </a> 
+        <a href="#kai-can" style="text-decoration: none; color:#823af7">Khai căn | </a> 
+    </h4>
+</div>
+
 <h2 id="so-luoc-ve-cac-bang-ki-tu">Sơ lược về về các cú pháp cơ bản</h2>
 <div> <strong>Mô tả: </strong>Dưới đây là một vài bảng thể hiện kí tự cũng như các cú pháp cơ bản của Latex mà tôi thường dùng trong việc viết kí hiệu toán học trên Markdown.
 <br>  <strong>Lưu ý: </strong>khi viết kí tự Latex trong Markdown ta cần đặt cú pháp của chúng vào giữa cặp "$ $" và "$ $". Ví dụ muốn viết kí hiệu alpha thì ta phải viết "$ $\alpha$ $" chứ không phải \alpha. Cặp kí hiệu dolar phải viết liền, bỏ khoảng cách.
