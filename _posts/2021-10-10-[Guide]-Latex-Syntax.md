@@ -141,7 +141,7 @@ comments: true
 |9      | $$\supseteq$$         | \supseteq        |               |  
 |10      | $$\cup$$	| \cup	                                            |               |   
 |11      | $$\cap$$	| \cap	                                            |               |
-|12      | $$\setminus$$	| \setminus	                                            | Tập hiệu              |
+|12      | $$\backslash$$	| \backslash	                                            | Tập hiệu              |
 {: rules="groups"}
 <!-- <h3>
 <span id="1">1. Bảng chữ cái Hy Lạp (Greek letters)</span></h3>
