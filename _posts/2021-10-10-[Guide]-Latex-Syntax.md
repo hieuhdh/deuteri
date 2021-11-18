@@ -79,15 +79,15 @@ comments: true
 |1      | $$<$$, $$\nless$$, $$>$$ và $$\ngtr$$                                 | <, \nless, > và \ngtr                                 |               |
 |2      | $$\le$$, $$\nleq$$, $$\geq$$ và $$\ngeq$$                             | \le, \nleq, \geq và \ngeq                             |               |
 |3      | $$\leqslant$$, $$\nleqslant$$, $$\geqslant$$, $$\ngeqslant$$          | \leqslant, \nleqslant, \geqslant, và \ngeqslant       |               |
-|4      | 	$$\prec$$, $$\nprec$$, $$\succ$$ và $$\nsucc$$                      | \prec, \nprec, \succ và \nsucc                        |               |
+|4      | $$\prec$$, $$\nprec$$, $$\succ$$ và $$\nsucc$$                      | \prec, \nprec, \succ và \nsucc                        |               |
 |5      | $$\preceq$$, $$\npreceq$$, $$\succeq$$ và $$\nsucceq$$                | \preceq, \npreceq, \succeq và \nsucceq                |               |
 |6      | $$\ll$$ và $$\gg$$                                                    | \ll và \gg                                            |               |
 |7      | $$\lll$$ và $$\ggg$$                                                  | \lll và \ggg                                          |               |
 |8      | $$\subset$$ và $$\not\subset$$        | \subset và \not\subset          |               |
 |9      | $$\supset$$ và $$\not\supset$$          |\supset và \not\supset          |               |
-|10      | $$\subseteq$$, $$\nsubseteq$$, $$\supseteq$$, $$\nsupseteq$$          | \subseteq, \nsubseteq, \supseteq và \nsupseteq        |               |  
-|11      | $$\sqsubseteq$$ và $$\nsqsubseteq$$                      | \sqsubseteq và \nsqsubseteq                                        |           | 
-|12      | $$\sqsupseteq$$ và $$\nsqsupseteq$$	|  \sqsupseteq và \nsqsupseteq|           |  
+|10     | $$\subseteq$$, $$\nsubseteq$$, $$\supseteq$$, $$\nsupseteq$$          | \subseteq, \nsubseteq, \supseteq và \nsupseteq        |               |  
+|11     | $$\subseteq$$ và $$\sqsubseteq$$                      | \sqsubseteq và \nsqsubseteq                                        |           | 
+|12     | $$\supseteq$$ và $$\sqsupseteq$$	|  \sqsupseteq và \nsqsupseteq|           |  
 |13     | $$=$$ và $$\ne$$                                                      | = và \ne                                              |               |  
 |14     | $$\doteq$$                                                            | \doteq                                                |               |  
 |15     | $$\equiv$$                                                            | \equiv                                                |               |  
