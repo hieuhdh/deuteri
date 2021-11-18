@@ -24,55 +24,30 @@ comments: true
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú       |
 |:---:  | :---                                          |    :----                          |          :--- |
 |1      | A và $$\alpha$$                               | A và \apha                        |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |2      | B và $$\beta$$                                | B và \beta                        |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |3      | $$\Gamma$$ và $$\gamma$$                      | \Gamma và \gamma                  |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |4      | $$\Delta$$ và $$\delta$$                      | \Delta và \delta                  |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |5      | $$E$$, $$\epsilon$$ và $$\varepsilon$$        | E, \epsilon và \varepsilon        |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |6      | $$Z$$ và $$\zeta$$                            | Z và \zeta                        |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |7      | $$H$$ và $$\eta$$                             | H và \eta                         |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |8      | $$\Theta$$, $$\theta$$ và $$\vartheta$$       | \Theta, \theta và \vartheta       |               |
-| ---   |  ---                                          |     ----                          |          ---  |
-|9      | $$I$$ và $$\iota$$                            | I và \iota                        |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|9      | $$K$$, $$\kappa$$ và $$\varkappa$$            | K, \kappa và \varkappa            |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|10     | $$\Lambda$$ và $$\lambda$$                    | \Lambda và \lambda                |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|11     | $$M$$ và $$\mu$$                              | M và \mu                          |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|12     | $$N$$ và $$\nu$$                              | N và \nu                          |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|13     | $$\Xi$$ và $$\xi$$                            | \Xi và \xi                        |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|14     | $$O$$ và $$\omicron$$                         | O và \omicron                     |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|15     | $$\Pi$$, $$\pi$$ và $$\varpi$$                | \Pi, \pi và \varpi                |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|16     | $$P$$, $$\rho$$ và $$\varrho$$                | P, \rho và \varrho                |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
+|9      | $$I$$ và $$\iota$$                            | I và \iota                        |               |  
+|9      | $$K$$, $$\kappa$$ và $$\varkappa$$            | K, \kappa và \varkappa            |               |  
+|10     | $$\Lambda$$ và $$\lambda$$                    | \Lambda và \lambda                |               |  
+|11     | $$M$$ và $$\mu$$                              | M và \mu                          |               |  
+|12     | $$N$$ và $$\nu$$                              | N và \nu                          |               |  
+|13     | $$\Xi$$ và $$\xi$$                            | \Xi và \xi                        |               |  
+|14     | $$O$$ và $$\omicron$$                         | O và \omicron                     |               |  
+|15     | $$\Pi$$, $$\pi$$ và $$\varpi$$                | \Pi, \pi và \varpi                |               |  
+|16     | $$P$$, $$\rho$$ và $$\varrho$$                | P, \rho và \varrho                |               |  
 |17     | $$\Sigma$$, $$\sigma$$ và $$\varsigma$$       | \Sigma, \sigma và \varsigma       |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
-|18     | $$T$$ và $$\tau$$                             | T và \tau                         |               | 
-| ---   |  ---                                          |     ----                          |          ---  |  
-|19     | $$\Upsilon$$ và $$\upsilon$$                  | \Upsilon và \upsilon              |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
+|18     | $$T$$ và $$\tau$$                             | T và \tau                         |               |   
+|19     | $$\Upsilon$$ và $$\upsilon$$                  | \Upsilon và \upsilon              |               |  
 |20     | $$\Phi$$, $$\phi$$ và $$\varphi$$             | \Phi, \phi và \varphi             |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 |21     | $$X$$ và $$\chi$$                             | X và \chi                         |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 |22     | $$\Psi$$ và $$\psi$$                          | \Psi và \psi                      |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 |23     | $$\Omega$$ và $$\omega$$                      | \Omega và \omega                  |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 |24     | $$F$$ và $$\digamma$$                         | F và \digamma                     |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 {: rules="groups"}
 
 <h2 id="toan-tu-trong-dai-so-boole">Toán tử trong Đại số Boole</h2>
@@ -81,11 +56,8 @@ comments: true
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú           |
 |:---:  | :---                                          |    :----                          |          :---     |
 |1      | $$\wedge$$                                    | \wedge                            | Phép toán hội     |
-| ---   |  ---                                          |     ----                          |          ---      |
 |2      | $$\vee$$                                      | \vee                              | Phép toán tuyển   |
-| ---   |  ---                                          |     ----                          |          ---      |
 |3      | $$\neg$$                                      | \neg                              | Phép toán phủ định |
-| ---   |  ---                                          |     ----                          |          ---      |
 {: rules="groups"}
 
 <h2 id="toan-tu-trong-dai-so-quan-he">Toán tử trong Đại số Quan hệ</h2>
@@ -94,55 +66,30 @@ comments: true
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú       |
 |:---:  | :---                                          |    :----                          |          :--- |
 |1      | $$<$$, $$\nless$$, $$>$$ và $$\ngtr$$         | <, \nless, > và \ngtr             |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |2      | $$\le$$, $$\nleq$$, $$\geq$$ và $$\ngeq$$     | \le, \nleq, \geq và \ngeq         |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |3      | $$\leqslant$$, $$\nleqslant$$, $$\geqslant$$, $$\ngeqslant$$   | \leqslant, \nleqslant, \geqslant, và \ngeqslant    |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |4      | 	$$\prec$$, $$\nprec$$, $$\succ$$ và $$\nsucc$$                    | 	\prec, \nprec, \succ và \nsucc                  |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |5      | $$\preceq$$, $$\npreceq$$, $$\succeq$$ và $$\nsucceq$$        | \preceq, \npreceq, \succeq và \nsucceq       |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |6      | $$\ll$$ và $$\gg$$                            | \ll và \gg                        |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |7      | $$\lll$$ và $$\ggg$$                          | \lll và \ggg                      |               |
-| ---   |  ---                                          |     ----                          |          ---  |
 |8      | $$\subset$$, $$\not\subset$$, $$\supset$$ và $$\not\supset$$      | \subset, \not\subset, \supset và \not\supset      |               |
-| ---   |  ---                                          |     ----                          |          ---  |
-|9      | $$\subseteq$$, $$\nsubseteq$$, $$\supseteq$$, $$\nsupseteq$$| \subseteq, \nsubseteq, \supseteq và \nsupseteq     |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|9      | $$\sqsubseteq$$, $$\sqsubseteq$$, $$\sqsupseteq$$ và $$\sqsupseteq$$	| \sqsubseteq, \sqsubseteq, \sqsupseteq và \sqsupseteq	|               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|10     | $$=$$ và $$\ne$$                              | = và \ne                          |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|11     | $$\doteq$$                                    | \doteq                            |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|12     | $$\equiv$$                                    | \equiv                            |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|13     | $$\approx$$                                   | \approx                           |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|14     | $$\cong$$                                     | \cong                             |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|15     | $$\simeq$$                                    | \simeq                            |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
-|16     | $$\sim$$                                      | \sim                              |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
+|9      | $$\subseteq$$, $$\nsubseteq$$, $$\supseteq$$, $$\nsupseteq$$| \subseteq, \nsubseteq, \supseteq và \nsupseteq     |               |  
+|9      | $$\sqsubseteq$$, $$\sqsubseteq$$, $$\sqsupseteq$$ và $$\sqsupseteq$$	| \sqsubseteq, \sqsubseteq, \sqsupseteq và \sqsupseteq	|               |  
+|10     | $$=$$ và $$\ne$$                              | = và \ne                          |               |  
+|11     | $$\doteq$$                                    | \doteq                            |               |  
+|12     | $$\equiv$$                                    | \equiv                            |               |  
+|13     | $$\approx$$                                   | \approx                           |               |  
+|14     | $$\cong$$                                     | \cong                             |               |  
+|15     | $$\simeq$$                                    | \simeq                            |               |  
+|16     | $$\sim$$                                      | \sim                              |               |  
 |17     | $$\propto$$                                   | \propto                           |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
-|18     | $$\parallel$$ và $$\nparallel$$               | \parallel và \nparallel           |               | 
-| ---   |  ---                                          |     ----                          |          ---  |  
-|19     | $$\vdash$$ và $$\dashv$$                      | \vdash và \dashv                  |               | 
-| ---   |  ---                                          |     ----                          |          ---  | 
+|18     | $$\parallel$$ và $$\nparallel$$               | \parallel và \nparallel           |               |   
+|19     | $$\vdash$$ và $$\dashv$$                      | \vdash và \dashv                  |               |  
 |20     | $$\in$$, $$\ni$$ và $$\notin$$                | \in, \ni và \notin                |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 |21     | $$\perp$$                                     | \perp                             |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 |22     | $$\mid$$                                      | \mid                              |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 |23     | $$\asymp$$, $$\bowtie$$ và $$\models$$        | \asymp, \bowtie và \models        |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 |24     | $$\smile$$ và $$\frown$$                      | \smile và \frown                  |               | 
-| ---   |  ---                                          |     ----                          |          ---  |
 {: rules="groups"}
 
 
