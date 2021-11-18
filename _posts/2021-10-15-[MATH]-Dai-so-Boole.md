@@ -29,12 +29,12 @@ comments: true
     Trong đại số trừu tượng, <strong>đại số Boole</strong> là một cấu trúc đại số có các tính chất cơ bản của cả các phép toán trên tập hợp và các phép toán logic. Cụ thể, phép toán trên tập hợp được quan tâm là phép toán giao, phép toán hợp, phép toán bù và các phép toán logic là <strong>Và</strong>, <strong>Hoặc</strong>, <strong>Không</strong>.
 </div>
 <div>
-    Đại số Boole đươc đặt tên theo George Boole (1815-1864) – Một nhà toán học người Anh.
+    <strong>Đại số Boole</strong> được đặt tên theo George Boole (1815-1864) – Một nhà toán học người Anh.
 </div>
 <div>
-    <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_Boole" style="text-decoration: none; color:blue" >Xem thêm</a>.
+    <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_Boole" style="text-decoration: none; color:blue" >Xem thêm</a>
 </div>
-
+<br>
 <h2 id="tinh-chat">Tính chất</h2>
 
 Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có bảng mô tả các tính chất sau:
@@ -61,6 +61,7 @@ Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \vert x_i \in \big
 
 Ví dụ: $$F \big(x, y, z \big) = x + y + z $$ được gọi là hàm Boole bậc 3.
 
+<br>
 <h2 id="dang-noi-roi-chinh-tac-cua-ham-boole">Dạng nối rời chính tắc của hàm Boole</h2>
 <h3 id="mot-vai-dieu-can-biet">Một vài điều cần biết</h3>
 <h4 id="cac-dinh-nghia">Định nghĩa về từ đơn, đơn thức, từ tối tiểu (đơn thức tối tiểu), công thức đa thức </h4>
@@ -72,8 +73,9 @@ Từ đơn là mỗi biến Boole $$x_i$$ hoặc $$\neg x_i$$ trong tập hợp 
 <div>Công thức đa thức là công thức biểu diễn hàm Boole thành tổng của các đơn thức. </div>
 <div>Dạng nối rời chính tắc bản chất chính là công thức biểu diễn hàm Bool <strong>thành tổng của các từ tối tiểu</strong>.</div>
 
-<h4 id="vi-du">Ví dụ</h4>
-Xét hàm Boole với ba biến $$x,y,z$$ ta có: 
+<h4 id="vi-du">Ví dụ</h4> 
+
+Xét hàm Boole với ba biến $$\x,\y,\z$$ ta có: 
 
 $$ \begin{align*} 
     \bullet \ \ & x, y,z, \neg x, \neg y, \neg z \text{ là các từ đơn.}\\  
@@ -83,14 +85,14 @@ $$ \begin{align*}
 \end{align*}$$
 
 <div id="luu-y"><strong>Lưu ý</strong></div>
-<div>Công thức đa thức F được gọi là tối tiểu nếu với bất kì công thức G của hàm Boole đã cho mà đơn giản hơn F thì <strong>G và F đơn giản như nhau.</strong> </div>
+<div>Công thức đa thức F được gọi là tối tiểu nếu với bất kì công thức G của hàm Boole đã cho mà đơn giản hơn F thì <strong>G và F đơn giản như nhau.</strong> </div> <br>
 <h4 id="cach-tim-dang-noi-roi-chinh-tac-co-ban">Cách tìm dạng nối rời chính tắc cơ bản</h4>
 <div><strong>Bước 1:</strong> Bổ sung các từ đơn còn thiếu vào các đơn thức.</div>
 <div><strong>Bước 2:</strong> Với mỗi đơn thức thu được ở bước 1, ta nhân đơn thức đó với tổng của những từ đơn bị thiếu và phần bù của nó trong đơn thức đó.</div>
 <div><strong>Bước 3:</strong> Tiếp tục khai triển hàm thu được ở bước 2 và loại bỏ những đơn thức bị trùng. Công thức đa thức thu được chính là dạng nối rời chính tắc của hàm Boole ban đầu.</div>
 <h4 id="bai-toan-1">Bài toán 1</h4>
 
-Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến) 
+<div>Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến)</div> 
 
 $$F \big( x,y,z,t \big) = xz \neg t \vee \neg y \neg z \neg t \vee xyt \vee \neg x yz \vee \neg x \neg y \neg z \neg t \vee \neg x yz \neg t$$
 
@@ -112,9 +114,10 @@ $$ \begin{align*}
 
 $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \neg z \neg t + xyzt + xy \neg z t + \neg x yzt + \neg x yz \neg t + \neg x y \neg z t$$
 <div><strong>Đây cũng chính là dạng nối rời chính tắc cần tìm.</strong></div>
+<br>
 <h2 id="bia-karnaugh">Bìa Karnaugh (bìa Kar)</h2>
 <h3 id="mot-vai-thong-tin">Một vài thông tin</h3>
-<h4 id="thong-tin-ve-bia-kar">Thông tin về bìa Kar</h4>
+<h4 id="thong-tin-ve-bia-kar">Thông tin về bìa Kar</h4>     
 <div>Bìa Karnaugh (hay sơ đồ Các-nô, biểu đồ Veitch) là một công cụ vô cùng thuận tiện cho việc đơn giản các biểu thức trong đại số Boole. Hoạt động dựa theo nguyên lí mã Gray (hai bộ kí số liên tiếp đối ngẫu nhau). </div>
 <h4 id="tham-khao-them">Tham khảo thêm</h4>
 
@@ -124,6 +127,7 @@ $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \n
     <a href="https://vi.wikipedia.org/wiki/M%C3%A3_Gray" class="btn">Mã Gray</a>
 </div>
 
+<br>
 <h3 id="cac-cach-bieu-dien-bia-kar">Các cách biểu diễn bìa Kar</h3>
 <h4 id="bieu-dien-bia-kar-theo-tu-don">Biểu diễn theo từ đơn</h4>
 
@@ -145,9 +149,10 @@ $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \n
 T là tế bào của bìa Kar thì T là hình chữ nhật (theo nghĩa rộng) gồm $$2^{n-k}$$ ô với $$0 \le k \le n$$
 
 Giả sử T là 1 tế bào lớn của bìa Kar thì:
-* $$T$$ *là một tế bào và* $$T \subseteq Kar \big(f\big)$$  
-* *Hơn nữa:* $$\nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big)$$ 
+* $$T$$ ***là một tế bào và*** $$T \subseteq Kar \big(f\big)$$  
+* ***Hơn nữa:*** $$\nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big)$$ 
 
+<br>
 <h2 id="cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole</h2>
 <h4>Cách dùng</h4>
 <div>Đối chiếu các đơn thức trong biểu thức đại số Boole xem từ đơn nào không xuất hiện trong các đơn thức đấy, thì chúng ta sẽ điền vào bảng các kí số 0 hoặc 1 (các kí số này là do người ra đề quy định) vào bảng sao cho các kí số này tạo thành 1 tế bào là cho chúng từ đơn trong biểu thức đại số Boole ban đầu không xuất hiện. </div>
@@ -203,6 +208,7 @@ $$ \begin{align*}
     \text{3. }&\text{Hàm Boole được rút gọn tối giản: } \left[ \begin{array}{cc}  f =& x \neg y \neg t + xz \neg t + yz + yt \\ f =& xz \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.
 \end{align*}$$
 
+<br>
 <table>
   <thead>
     <tr>
@@ -216,12 +222,12 @@ $$ \begin{align*}
 <br>
 <div>Để trả lời cho câu hỏi này thì cũng khó có thể trả lời sao cho hợp lí, vì mỗi người mỗi cách nhận định về vấn đề này, bạn đọc có thể tìm hiểu kĩ hoặc làm cách nào đó nếu muốn hiểu bản chất của cách trên hoặc có thể bắt đầu từ 1 cách cơ sở nhất mà tôi sắp trình bày.</div>
 <div><strong>Dưới đây tôi sẽ cung cấp thêm 1 cách chính quy khác để thực hiện việc tối giản biểu thức hàm Boole dễ dàng hơn. </strong></div>
-
+<br>
 <h2 id="[CHINHQUY]-cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Một cách chính quy khác trong việc dùng bìa Kar để tối giản hàm Boole </h2>
 <h3 id = "dinh-nghia-ve-phu">Định nghĩa về phủ tối tiểu của một tập hợp</h3>
 
 Cho $$S =\big\{X_1, X_2, ..., X_n \big\}$$ là họ các tập con của $$X$$. Khi đó $$S$$ được gọi là phủ của $$X$$ nếu $$X=\cup X_i$$
-Giả sử $$S$$ là phủ của $$X$$. Khi đó, $$S$$ được gọi là **phủ tối tiểu** của $$X$$ nếu với mọi $$i$$ sao cho $$S \setminus X_i$$ không là phủ của $$X$$. Ngược lại với điều trên thì $$S$$ được gọi là **phủ không tối tiểu** của $$X$$
+Giả sử $$S$$ là phủ của $$X$$. Khi đó, $$S$$ được gọi là **phủ tối tiểu** của $$X$$ nếu với mọi $$i$$ sao cho $$S \setminus X_i$$ không là phủ của $$X$$. Ngược lại với điều trên thì $$S$$ được gọi là **phủ không tối tiểu** của $$X$$ .
 
 ### Thuật toán tìm công thức đa thức tối tiểu của hàm Boole $$f$$
 
@@ -231,12 +237,12 @@ Giả sử $$S$$ là phủ của $$X$$. Khi đó, $$S$$ được gọi là **ph�
 * **Bước 4:** Xác định phủ tối tiểu gồm các tế bào lớn:
     * Nếu các tế bào lớn được chọn ở **Bước 3** đã phủ được $$Kar\big(f\big)$$ thì ta có duy nhất một phủ tối tiểu gồm các tế bào lớn của $$Kar\big(f\big)$$
     * Nếu các tế bào lớn được chọn ở bước 3 chưa phủ được $$Kar\big(f\big)$$ thì:
-        * Xét một ô chưa bị phủ, lúc này sẽ có ít nhất hai tế bào lớn chứa ô này, ta chọn một trong các tế bào lớn này. Cứ tiếp tục như thế, ta sẽ tìm được tất cả các phủ gồm các tế bào lớn của $$Kar\big(f\big)$$
-        * Loại bỏ các phủ không tối tiểu, ta tìm được tất cả các phủ tối tiểu gồm các tế bào lớn của $$Kar\big(f\big)$$
-* **Bước 5:**: Xác định công thức đa thức tối tiểu củ $$f$$
-    * Từ những phủ tối tiểu ta đã tìm được ở **Bước 4**, ta sẽ xác định được các công thức đa thức tối tiểu tương ứng của $$f$$
+        * Xét một ô chưa bị phủ, lúc này sẽ có ít nhất hai tế bào lớn chứa ô này, ta chọn một trong các tế bào lớn này. Cứ tiếp tục như thế, ta sẽ tìm được tất cả các phủ gồm các tế bào lớn của $$Kar\big(f\big)$$ .
+        * Loại bỏ các phủ không tối tiểu, ta tìm được tất cả các phủ tối tiểu gồm các tế bào lớn của $$Kar\big(f\big)$$ .
+* **Bước 5:**: Xác định công thức đa thức tối tiểu củ $$f$$ .
+    * Từ những phủ tối tiểu ta đã tìm được ở **Bước 4**, ta sẽ xác định được các công thức đa thức tối tiểu tương ứng của $$f$$ .
     * Loại bỏ các công thức đa thức mà có một công thức đa thức mà đơn giản hơn chúng. 
-    * Các công thức đa thức còn lại chính là công thức đa thức tối tiểu của $$f$$
+    * Các công thức đa thức còn lại chính là công thức đa thức tối tiểu của $$f$$ .
 
 Thuật toán trên nếu mà đọc thì sẽ có phần rất khó hiểu, để làm rõ hơn tôi sẽ trình bày thuật toán trên ở bài toán bên dưới.
 
@@ -272,10 +278,10 @@ Do $$\big(1\big)$$ và $$\big(2\big)$$ đều là các phủ tối tiểu nên t
 **Bước 5:** Từ hai phủ tối tiểu của bước 4, ta lập ra 2 công thức đa thức mà đều đơn giản như nhau, do đó ta kết luận hàm Boole $$f$$ đã cho có 2 công thức đa thức tối tiểu.
 Cụ thể 2 công thức tối tiểu đó là $$\left[ \begin{array}{cc}  f = yt + \neg y \neg t + xy \\  f = yt + \neg y \neg t + x\neg t \end{array} \right.$$
 
-#### Thông tin thêm
-Hàm Boole $$f$$ ngoài việc biểu diễn bằng các biến Boole (hay còn gọi là dạng chuẩn tắc) như phần trên, người ta còn biểu diễn hàm Boole $$f$$ bằng ánh xạ như sau:
+<div><strong> Thông tin thêm</strong><div>
+<div>Hàm Boole f ngoài việc biểu diễn bằng các biến Boole (hay còn gọi là dạng chuẩn tắc) như phần trên, người ta còn biểu diễn hàm Boole f bằng ánh xạ như sau:</div>
 
-$$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$
+$$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$ .
 
 <h1 align="center">
   Lời kết
