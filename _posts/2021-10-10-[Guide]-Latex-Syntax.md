@@ -20,6 +20,7 @@ comments: true
         <a href="#cac-ki-hieu-mui-ten" style="text-decoration: none; color:#823af7">Các kí hiệu mũi tên (bổ sung) | </a> 
         <a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#823af7">Kí hiệu trong Tập hợp | </a> 
         <a href="#ki-hieu-trong-hinh-hoc" style="text-decoration: none; color:#823af7">Kí hiệu trong Hình học | </a> 
+        <a href="#ki-hieu-cac-dau-ngoac" style="text-decoration: none; color:#823af7">Kí hiệu các dấu ngoặc | </a>
     </h4>
 </div>
 
@@ -83,15 +84,15 @@ comments: true
 |1      | $$<$$, $$\nless$$, $$>$$ và $$\ngtr$$                                 | <, \nless, > và \ngtr                                 |               |
 |2      | $$\le$$, $$\nleq$$, $$\geq$$ và $$\ngeq$$                             | \le, \nleq, \geq và \ngeq                             |               |
 |3      | $$\leqslant$$, $$\nleqslant$$, $$\geqslant$$, $$\ngeqslant$$          | \leqslant, \nleqslant, \geqslant, và \ngeqslant       |               |
-|4      | $$\prec$$, $$\nprec$$, $$\succ$$ và $$\nsucc$$                      | \prec, \nprec, \succ và \nsucc                        |               |
+|4      | $$\prec$$, $$\nprec$$, $$\succ$$ và $$\nsucc$$                        | \prec, \nprec, \succ và \nsucc                        |               |
 |5      | $$\preceq$$, $$\npreceq$$, $$\succeq$$ và $$\nsucceq$$                | \preceq, \npreceq, \succeq và \nsucceq                |               |
 |6      | $$\ll$$ và $$\gg$$                                                    | \ll và \gg                                            |               |
 |7      | $$\lll$$ và $$\ggg$$                                                  | \lll và \ggg                                          |               |
-|8      | $$\subset$$ và $$\not\subset$$        | \subset và \not\subset          |               |
-|9      | $$\supset$$ và $$\not\supset$$          |\supset và \not\supset          |               |
+|8      | $$\subset$$ và $$\not\subset$$                                        | \subset và \not\subset                                |               |
+|9      | $$\supset$$ và $$\not\supset$$                                        |\supset và \not\supset                                 |               |
 |10     | $$\subseteq$$, $$\nsubseteq$$, $$\supseteq$$, $$\nsupseteq$$          | \subseteq, \nsubseteq, \supseteq và \nsupseteq        |               |  
-|11     | $$\subseteq$$ và $$\sqsubseteq$$                      | \sqsubseteq và \nsqsubseteq                                        |           | 
-|12     | $$\supseteq$$ và $$\sqsupseteq$$	|  \sqsupseteq và \nsqsupseteq|           |  
+|11     | $$\subseteq$$ và $$\sqsubseteq$$                                      | \sqsubseteq và \nsqsubseteq                           |               | 
+|12     | $$\supseteq$$ và $$\sqsupseteq$$	                                    | \sqsupseteq và \nsqsupseteq                           |               |  
 |13     | $$=$$ và $$\ne$$                                                      | = và \ne                                              |               |  
 |14     | $$\doteq$$                                                            | \doteq                                                |               |  
 |15     | $$\equiv$$                                                            | \equiv                                                |               |  
@@ -112,70 +113,73 @@ comments: true
 <br>
 <h3 id="toan-tu-trong-logic-vi-tu">Toán tử trong Logic vị từ</h3>
 
-|:---:  | :---:                                                                 |    :----:                                             |         :---: |
-|STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
-|:---:  | :---                                                                  |    :----                                              |          :--- |
-|1      | $$\exists$$                                                            | \exists                                               |Tồn tại        |
-|2      | $$\exists!$$                                                          | \exists!                             | Tồn tại duy nhất              |
-|3      | $$\nexists$$          | \nexists      |  Không tồn tại             |
-|4      | $$\forall$$                      | \forall                        | Với mọi              |
-|5      | $$\neg$$                | \neg                | Phép toán phủ định              |
-|6      | $$\Rightarrow$$                     | \Rightarrow                            | Suy ra (kéo theo)|
-|7      | $$\Longrightarrow$$	| \Longrightarrow	                                            |   Suy ra (kéo theo)            |   
-|8      | $$\Leftarrow$$             | \Leftarrow                                      | Suy ra chiều ngược  |
-|9      | $$\Longleftarrow$$              |  \Longleftarrow                                     | Suy ra chiều ngược  |
-|10      | $$\Leftrightarrow$$ | \Leftrightarrow          | Tương đương mệnh đề              |
-|11      | $$\Longleftrightarrow$$    | \Longleftrightarrow         | Tương đương mệnh đề              |
-|9      | $$\top$$         | \top        |               |  
-|10      | $$\bot$$	| \bot	                                            |               |   
+|:---:  | :---:                                                                 |    :----:                                        |               :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                          | Ghi chú             |
+|:---:  | :---                                                                  |    :----                                         |                :--- |
+|1      | $$\exists$$                                                           | \exists                                          | Tồn tại             |
+|2      | $$\exists!$$                                                          | \exists!                                         | Tồn tại duy nhất    |
+|3      | $$\nexists$$                                                          | \nexists                                         | Không tồn tại       |
+|4      | $$\forall$$                                                           | \forall                                          | Với mọi             |
+|5      | $$\neg$$                                                              | \neg                                             | Phép toán phủ định  |
+|6      | $$\Rightarrow$$                                                       | \Rightarrow                                      | Suy ra (kéo theo)   |
+|7      | $$\Longrightarrow$$	                                                | \Longrightarrow	                               | Suy ra (kéo theo)   |   
+|8      | $$\Leftarrow$$                                                        | \Leftarrow                                       | Suy ra chiều ngược  |
+|9      | $$\Longleftarrow$$                                                    |  \Longleftarrow                                  | Suy ra chiều ngược  |
+|10     | $$\Leftrightarrow$$                                                   | \Leftrightarrow                                  | Tương đương mệnh đề  |
+|11     | $$\Longleftrightarrow$$                                               | \Longleftrightarrow                              | Tương đương mệnh đề  |
+|9      | $$\top$$                                                              | \top                                             |                     |  
+|10     | $$\bot$$	                                                            | \bot	                                           |                     |   
 {: rules="groups"}
 
 <br>
 <h3 id="cac-ki-hieu-mui-ten">Các kí hiệu mũi tên (bổ sung)</h3>
 
-|:---:  | :---:                                                                 |    :----:                                             |         :---: |
-|STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
-|:---:  | :---                                                                  |    :----                                              |          :--- |
-|1      | $$\Uparrow$$                                                            | \Uparrow                                               |Mũi tên lên   |
-|2      | $$\Downarrow$$                                                          | \Downarrow                             | Mũi tên xuống    |
-|3      | $$\Updownarrow$$          | \Updownarrow      |  Mũi tên lên xuống             |
-|4      | $$\leftarrow$$                      | \leftarrow                        | Mũi tên trái 1 nét              |
-|5      | $$\rightarrow$$                | \rightarrow                | Mũi tên phải 1 nét              |
-|6      | $$\leftrightarrow$$                     | \leftrightarrow                            | Mũi tên 2 chiều 1 nét|
-|7      | $$x \to y$$	| x \to y	                                            |            |   
-|8      | $$\mapsto$$             | \mapsto                                      |  |
-|9      | $$\rightharpoondown$$              |  \rightharpoondown                                     |   |
-|10      | $$\leftharpoondown$$ | \leftharpoondown          |         |
-|11      | $$\rightharpoonup$$    | \rightharpoonup         |           |
-|9      | $$\leftharpoonup$$         | \leftharpoonup        |               |   
+|:---:  | :---:                                                                 |    :----:                                       |                :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                         | Ghi chú              |
+|:---:  | :---                                                                  |    :----                                        |                 :--- |
+|1      | $$\Uparrow$$                                                          | \Uparrow                                        | Mũi tên lên          |
+|2      | $$\Downarrow$$                                                        | \Downarrow                                      | Mũi tên xuống        |
+|3      | $$\Updownarrow$$                                                      | \Updownarrow                                    | Mũi tên lên xuống    |
+|4      | $$\leftarrow$$                                                        | \leftarrow                                      | Mũi tên trái 1 nét   |
+|5      | $$\rightarrow$$                                                       | \rightarrow                                     | Mũi tên phải 1 nét   |
+|6      | $$\leftrightarrow$$                                                   | \leftrightarrow                                 | Mũi tên 2 chiều 1 nét|
+|7      | $$x \to y$$	                                                        | x \to y	                                      |                      |   
+|8      | $$\mapsto$$                                                           | \mapsto                                         |                      |
+|9      | $$\longmapsto$$                                                       | \longmapsto                                     |                      |
+|10     | $$\rightharpoondown$$                                                 |  \rightharpoondown                              |                      |
+|11     | $$\leftharpoondown$$                                                  | \leftharpoondown                                |                      |
+|12     | $$\rightharpoonup$$                                                   | \rightharpoonup                                 |                      |
+|13     | $$\leftharpoonup$$                                                    | \leftharpoonup                                  |                      | 
+|14     | $$\longrightarrow$$                                                   | \longrightarrow                                 |                      | 
+|15     | $$\longleftarrow$$                                                    | \longleftarrow                                  |                      |  
 {: rules="groups"}
 
 <br>
 <h3 id="ki-hieu-trong-tap-hop">Kí hiệu trong Tập hợp</h3>
 
-|:---:  | :---:                                                                 |    :----:                                             |         :---: |
-|STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
-|:---:  | :---                                                                  |    :----                                              |          :--- |
-|1      | $$\emptyset$$                                                            | \emptyset                                          |Tập rỗng       |
-|2      | $$\varnothing$$                             | \varnothing                             | Tập không có giá trị              |
-|3      | $$\mathbb{N,Z,Q,I,R,C}$$          | \mathbb{N,Z,Q,I,R,C}     |  Các trường số             |
-|4      | $$\in$$                      | \in                        |              |
-|5      | $$\notin$$                | \notin                |               |
-|6      | $$\subset$$                      | \subset                            | Tập con thực sự|
-|7      | $$\subseteq$$              | \subseteq                                     | Tập con  |
-|8      | $$\supset$$    | \supset         |           |
-|9      | $$\supseteq$$         | \supseteq        |               |  
-|10      | $$\cup$$	| \cup	                                            |               |   
-|11      | $$\cap$$	| \cap	                                            |               |
-|12      | $$\backslash$$	| \backslash	                                            | Tập hiệu              |
+|:---:  | :---:                                                                 |    :----:                                      |                 :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
+|:---:  | :---                                                                  |    :----                                       |                  :--- |
+|1      | $$\emptyset$$                                                         | \emptyset                                      | Tập rỗng              |
+|2      | $$\varnothing$$                                                       | \varnothing                                    | Tập không có giá trị   |
+|3      | $$\mathbb{N,Z,Q,I,R,C}$$                                              | \mathbb{N,Z,Q,I,R,C}                           | Các trường số         |
+|4      | $$\in$$                                                               | \in                                            |                       |
+|5      | $$\notin$$                                                            | \notin                                         |                       |
+|6      | $$\subset$$                                                           | \subset                                        | Tập con thực sự        |
+|7      | $$\subseteq$$                                                         | \subseteq                                      | Tập con               |
+|8      | $$\supset$$                                                           | \supset                                        |                       |
+|9      | $$\supseteq$$                                                         | \supseteq                                      |                       | 
+|10     | $$\cup$$	                                                            | \cup	                                         |                       |  
+|11     | $$\cap$$	                                                            | \cap	                                         |                       |
+|12     | $$\backslash$$	                                                    | \backslash	                                 | Tập hiệu               |
 {: rules="groups"}
 
 <br>
 <h3 id="ki-hieu-trong-hinh-hoc">Kí hiệu trong Hình học</h3>
 
-|:---:  | :---:                                                                 |    :----:                                             |         :---: |
-|STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
-|:---:  | :---                                                                  |    :----                                              |          :--- |
+|:---:  | :---:                                                                 |    :----:                                      |                 :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
+|:---:  | :---                                                                  |    :----                                       |          :--- |
 |1      | $$\overline{\rm AB}$$                                                | \overline{\rm AB}                         | Độ dài đại số AB     |
 |2      | $$\angle$$                             | \angle                             | Góc              |
 |3      | $$\measuredangle$$                             | \measuredangle                             | Góc             |
@@ -185,10 +189,24 @@ comments: true
 |7      | $$\sim$$                      | \sim                            | Tương đồng |
 |8      | $$\nsim$$              | \nsim                                     | Không tương đồng |
 |9      | $$\|$$                | \|         |  Song song         |
-|10      | $$\nparallel$$         | \nparallel        |  Không song song             |  
-|11      | $$\perp$$	| \perp	                                            |    Vuông góc           |   
-|12      | $$\not\perp$$	| \not\perp	                                            | Không vuông góc              |
-|13      | $$\overrightarrow{\rm AB}$$	| \overrightarrow{\rm AB}	                                            |vector AB              |
+|10     | $$\nparallel$$         | \nparallel        |  Không song song             |  
+|11     | $$\perp$$	| \perp	                                            |    Vuông góc           |   
+|12     | $$\not\perp$$	| \not\perp	                                            | Không vuông góc              |
+|13     | $$\overrightarrow{\rm AB}$$	| \overrightarrow{\rm AB}	                                            |vector AB              |
+{: rules="groups"}
+
+<br>
+<h3 id="ki-hieu-cac-dau-ngoac">Kí hiệu các dấu ngoặc</h3>
+
+|:---:  | :---:                                                                 |    :----:                                      |                 :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
+|:---:  | :---                                                                  |    :----                                       |          :--- |
+|1      | $$\($$, $$\big($$, $$\Big($$ và $$\bigg($$ và $$\Bigg($$ | \(, \big(, \Big(, \bigg( và \Bigg( | Dấu ngoặc tròn mở     |
+|2      | $$\)$$, $$\big)$$, $$\Big)$$ và $$\bigg)$$ và $$\Bigg)$$ | \), \big), \Big), \bigg) và \Bigg) | Dấu ngoặc tròn đóng   |
+|3      | $$\[$$, $$\big[$$, $$\Big[$$ và $$\bigg[$$ và $$\Bigg[$$ | \[, \big[, \Big[, \bigg[ và \Bigg[ | Dấu ngoặc vuông mở    |
+|4      | $$\]$$, $$\big]$$, $$\Big]$$ và $$\bigg]$$ và $$\Bigg]$$ | \], \big], \Big], \bigg] và \Bigg] | Dấu ngoặc vuông đóng  |
+|5      | $$\{$$, $$\big{$$, $$\Big{$$ và $$\bigg{$$ và $$\Bigg{$$ | \{, \big{, \Big{, \bigg{ và \Bigg{ | Dấu ngoặc nhọn mở     |
+|6      | $$\}$$, $$\big}$$, $$\Big}$$ và $$\bigg}$$ và $$\Bigg}$$ | \}, \big}, \Big}, \bigg} và \Bigg} | Dấu ngoặc nhọn đóng   |
 {: rules="groups"}
 <!-- <h3>
 <span id="1">1. Bảng chữ cái Hy Lạp (Greek letters)</span></h3>
