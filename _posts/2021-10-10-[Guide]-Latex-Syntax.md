@@ -10,9 +10,12 @@ comments: true
     Nội dung
 </h1> 
 
+<h3 align="center">
+    <a href="#so-luoc" style="text-decoration: none; color:#823af7">Sơ lược về các cú pháp cơ bản</a>
+</h3> 
+
 <div align="center">
     <h4>
-        <a href="#so-luoc" style="text-decoration: none; color:#823af7">Sơ lược | </a>
         <a href="#bang-chu-cai-hi-lap" style="text-decoration: none; color:#823af7">Bảng chữ cái Hy Lạp | </a>
         <a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Boole | </a> 
         <a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Quan hệ | </a> 
@@ -24,9 +27,13 @@ comments: true
     </h4>
 </div>
 
-<h2 id="so-luoc">Sơ lược</h2>
-<div> Dưới đây là một vài kí tự cơ bản của Latex mà tôi thường dùng để viết trên Markdown.
-<br>  <strong>Lưu ý: </strong>khi viết kí tự Latex trong Markdown ta cần đặt cú pháp của chúng vào giữa cặp "$ $" và "$ $". Ví dụ muốn viết chữ alpha thì ta phải viết "$ $\alpha$ $" chứ không phải \alpha. Cặp kí hiệu dolar phải viết liền, bỏ khoảng cách.
+<h3 align="center">
+    <a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color:#823af7">Một vài cú pháp khác</a>
+</h3> 
+
+<h2 id="so-luoc-ve-cac-bang-ki-tu">Sơ lược về về các cú pháp cơ bản</h2>
+<div> <strong>Mô tả: </strong>Dưới đây là một vài bảng thể hiện kí tự cũng như các cú pháp cơ bản của Latex mà tôi thường dùng trong việc viết kí hiệu toán học trên Markdown.
+<br>  <strong>Lưu ý: </strong>khi viết kí tự Latex trong Markdown ta cần đặt cú pháp của chúng vào giữa cặp "$ $" và "$ $". Ví dụ muốn viết kí hiệu alpha thì ta phải viết "$ $\alpha$ $" chứ không phải \alpha. Cặp kí hiệu dolar phải viết liền, bỏ khoảng cách.
 </div>
 
 
@@ -62,7 +69,7 @@ comments: true
 |24     | $$F$$ và $$\digamma$$                         | F và \digamma                     |               | 
 {: rules="groups"}
 
-
+<br>
 <h3 id="toan-tu-trong-dai-so-boole">Toán tử trong Đại số Boole</h3>
 <div>Vì trong đại số Boole có một phần người ta dựa vào đó kết hợp với lý thuyết mã Grey để tạo nên cổng logic và phép toán tuyển với phép toán hội trong cổng logic lúc này tương ứng là <strong>or</strong> và <strong>and</strong>, do đó mới có bộ kí hiệu mới là <strong>\lor</strong> và <strong>\land</strong>. </div>
 <div>Để có thể thao tác đúng về mặt ý nghĩa, việc ta lựa chọn loại cú pháp đúng cho các trường hợp thích hợp là điều cần thiết.</div>
@@ -138,20 +145,24 @@ comments: true
 |STT    | Kí tự                                                                 | Cú pháp                                         | Ghi chú              |
 |:---:  | :---                                                                  |    :----                                        |                 :--- |
 |1      | $$\Uparrow$$                                                          | \Uparrow                                        | Mũi tên lên          |
-|2      | $$\Downarrow$$                                                        | \Downarrow                                      | Mũi tên xuống        |
-|3      | $$\Updownarrow$$                                                      | \Updownarrow                                    | Mũi tên lên xuống    |
-|4      | $$\leftarrow$$                                                        | \leftarrow                                      | Mũi tên trái 1 nét   |
-|5      | $$\rightarrow$$                                                       | \rightarrow                                     | Mũi tên phải 1 nét   |
-|6      | $$\leftrightarrow$$                                                   | \leftrightarrow                                 | Mũi tên 2 chiều 1 nét|
-|7      | $$x \to y$$	                                                        | x \to y	                                      |                      |   
-|8      | $$\mapsto$$                                                           | \mapsto                                         |                      |
-|9      | $$\longmapsto$$                                                       | \longmapsto                                     |                      |
-|10     | $$\rightharpoondown$$                                                 |  \rightharpoondown                              |                      |
-|11     | $$\leftharpoondown$$                                                  | \leftharpoondown                                |                      |
-|12     | $$\rightharpoonup$$                                                   | \rightharpoonup                                 |                      |
-|13     | $$\leftharpoonup$$                                                    | \leftharpoonup                                  |                      | 
-|14     | $$\longrightarrow$$                                                   | \longrightarrow                                 |                      | 
-|15     | $$\longleftarrow$$                                                    | \longleftarrow                                  |                      |  
+|2      | $$\uparrow$$                                                          | \uparrow                                        | Mũi tên lên          |
+|3      | $$\Downarrow$$                                                        | \Downarrow                                      | Mũi tên xuống        |
+|4      | $$\downarrow$$                                                        | \downarrow                                      | Mũi tên xuống        |
+|5      | $$\searrow$$                                                          | \searrow                                        | Mũi tên xéo xuống    |
+|6      | $$\nearrow  $$                                                        | \nearrow                                        | Mũi tên xéo lên      |
+|7      | $$\Updownarrow$$                                                      | \Updownarrow                                    | Mũi tên lên xuống    |
+|8      | $$\leftarrow$$                                                        | \leftarrow                                      | Mũi tên trái 1 nét   |
+|9      | $$\rightarrow$$                                                       | \rightarrow                                     | Mũi tên phải 1 nét   |
+|10     | $$\leftrightarrow$$                                                   | \leftrightarrow                                 | Mũi tên 2 chiều 1 nét|
+|11     | $$x \to y$$	                                                        | x \to y	                                      |                      |   
+|12     | $$\mapsto$$                                                           | \mapsto                                         |                      |
+|13     | $$\longmapsto$$                                                       | \longmapsto                                     |                      |
+|14     | $$\rightharpoondown$$                                                 |  \rightharpoondown                              |                      |
+|15     | $$\leftharpoondown$$                                                  | \leftharpoondown                                |                      |
+|16     | $$\rightharpoonup$$                                                   | \rightharpoonup                                 |                      |
+|17     | $$\leftharpoonup$$                                                    | \leftharpoonup                                  |                      | 
+|18     | $$\longrightarrow$$                                                   | \longrightarrow                                 |                      | 
+|19     | $$\longleftarrow$$                                                    | \longleftarrow                                  |                      |  
 {: rules="groups"}
 
 <br>
@@ -172,6 +183,7 @@ comments: true
 |10     | $$\cup$$	                                                            | \cup	                                         |                       |  
 |11     | $$\cap$$	                                                            | \cap	                                         |                       |
 |12     | $$\backslash$$	                                                    | \backslash	                                 | Tập hiệu               |
+|13     | $$\vert A \vert$$	                                                    | \vert A \vert	                                 | Lực lượng tập hợp      |
 {: rules="groups"}
 
 <br>
@@ -188,7 +200,7 @@ comments: true
 |6      | $$\ncong$$                | \ncong                |               |
 |7      | $$\sim$$                      | \sim                            | Tương đồng |
 |8      | $$\nsim$$              | \nsim                                     | Không tương đồng |
-|9      | $$\|$$                | \|         |  Song song         |
+|9      | $$\Vert$$                | \Vert         |  Song song         |
 |10     | $$\nparallel$$         | \nparallel        |  Không song song             |  
 |11     | $$\perp$$	| \perp	                                            |    Vuông góc           |   
 |12     | $$\not\perp$$	| \not\perp	                                            | Không vuông góc              |
@@ -201,13 +213,68 @@ comments: true
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
 |:---:  | :---                                                                  |    :----                                       |          :--- |
-|1      | $$\($$, $$\big($$, $$\Big($$ và $$\bigg($$ và $$\Bigg($$ | \(, \big(, \Big(, \bigg( và \Bigg( | Dấu ngoặc tròn mở     |
-|2      | $$\)$$, $$\big)$$, $$\Big)$$ và $$\bigg)$$ và $$\Bigg)$$ | \), \big), \Big), \bigg) và \Bigg) | Dấu ngoặc tròn đóng   |
-|3      | $$\[$$, $$\big[$$, $$\Big[$$ và $$\bigg[$$ và $$\Bigg[$$ | \[, \big[, \Big[, \bigg[ và \Bigg[ | Dấu ngoặc vuông mở    |
-|4      | $$\]$$, $$\big]$$, $$\Big]$$ và $$\bigg]$$ và $$\Bigg]$$ | \], \big], \Big], \bigg] và \Bigg] | Dấu ngoặc vuông đóng  |
-|5      | $$\{$$, $$\big{$$, $$\Big{$$ và $$\bigg{$$ và $$\Bigg{$$ | \{, \big{, \Big{, \bigg{ và \Bigg{ | Dấu ngoặc nhọn mở     |
-|6      | $$\}$$, $$\big}$$, $$\Big}$$ và $$\bigg}$$ và $$\Bigg}$$ | \}, \big}, \Big}, \bigg} và \Bigg} | Dấu ngoặc nhọn đóng   |
+|1      | $$\big($$, $$\Big($$ và $$\bigg($$ và $$\Bigg($$             |  \big(, \Big(, \bigg( và \Bigg(        | Dấu ngoặc tròn mở     |
+|2      | $$\big)$$, $$\Big)$$ và $$\bigg)$$ và $$\Bigg)$$             |  \big), \Big), \bigg) và \Bigg)        | Dấu ngoặc tròn đóng   |
+|3      | $$\big[$$, $$\Big[$$ và $$\bigg[$$ và $$\Bigg[$$             |  \big[, \Big[, \bigg[ và \Bigg[        | Dấu ngoặc vuông mở    |
+|4      | $$\big]$$, $$\Big]$$ và $$\bigg]$$ và $$\Bigg]$$             |  \big], \Big], \bigg] và \Bigg]        | Dấu ngoặc vuông đóng  |
+|5      | $$\{$$, $$\big\{$$, $$\Big\{$$ và $$\bigg\{$$ và $$\Bigg\{$$ | \{, \big\{, \Big\{, \bigg\{ và \Bigg\{ | Dấu ngoặc nhọn mở     |
+|6      | $$\}$$, $$\big\}$$, $$\Big\}$$ và $$\bigg\}$$ và $$\Bigg\}$$ | \}, \big\}, \Big\}, \bigg\} và \Bigg\} | Dấu ngoặc nhọn đóng   |
 {: rules="groups"}
+
+<br>
+<h2 id="so-luoc-ve-cac-cu-phap">Một vài cú pháp khác</h2>
+
+<h3 id="gioi-han">Giới hạn</h3>
+
+|:---:  | :---:                                                                 |    :----:                                      |                 :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
+|:---:  | :---                                                                  |    :----                                       |          :--- |
+|1      | $$\lim_{x\to\infty}(x+1)^{666}$$             |  \lim_{x\to\infty}(x+1)^{666}|  Giới hạn dạng to   |
+|2      | $$\displaystyle \lim_{x\to\infty}(x+1)^{666}$$        | \displaystyle \lim_{x\to\infty}(x+1)^{666}| Giới hạn dạng nhỏ   |
+{: rules="groups"}
+
+<br>
+<h3 id="tong-sigma">Tổng Sigma</h3>
+
+|:---:  | :---:                                                                 |    :----:                                      |                 :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
+|:---:  | :---                                                                  |    :----                                       |          :--- |
+|1      | $$\sum_{i=1}^n(C^i_na^ib^{n-i})$$             |  \sum_{i=1}^n(C^i_na^ib^{n-i})| Tổng dạng nhỏ     |
+|2      | $$\displaystyle \sum_{i=1}^n(C^i_na^ib^{n-i})$$        | \displaystyle \sum_{i=1}^n(C^i_na^ib^{n-i})| Tổng dạng to   |
+{: rules="groups"}
+
+<br>
+<h3 id="tich-phan">Tích phân</h3>
+
+|:---:  | :---:                                                                 |    :----:                                      |                 :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
+|:---:  | :---                                                                  |    :----                                       |          :--- |
+|1      | $$\int_1^2(x+1)^{666}dx$$             |  \int_1^2(x+1)^{666}dx |   Tích phân dạng nhỏ   |
+|2      | $$\displaystyle \int_1^2(x+1)^{666}dx$$        | \displaystyle \int_1^2(x+1)^{666}dx | Tích phân dạng to  |
+{: rules="groups"}
+
+<br>
+<h3 id="phan-thuc">Phân thức</h3>
+
+|:---:  | :---:                                                                 |    :----:                                      |                 :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
+|:---:  | :---                                                                  |    :----                                       |          :--- |
+|1      | $$\dfrac{x}{y}$$             |  \dfrac{x}{y} |     |
+|2      | $$\dfrac{x^{12}+xy+xy^{10}}{2xy+x+y^{10}}$$        | \dfrac{x^{12}+xy+xy^{10}}{2xy+x+y^{10}} |   |
+{: rules="groups"}
+
+<br>
+<h3 id="khai-can">Khai căn</h3>
+
+|:---:  | :---:                                                                 |    :----:                                      |                 :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
+|:---:  | :---                                                                  |    :----                                       |          :--- |
+|1      | $$\sqrt{xy}$$             |  \sqrt{xy} |     |
+|2      | $$\sqrt[n]{xy}$$        | \sqrt[n]{xy} |   |
+|3      | $$\dfrac{x+y}{2} \geq \sqrt{xy}$$        | \dfrac{x+y}{2} \geq \sqrt{xy} | Vận dụng   |
+{: rules="groups"}
+
+
 <!-- <h3>
 <span id="1">1. Bảng chữ cái Hy Lạp (Greek letters)</span></h3>
 <table class="w3-table-all w3-hoverable">
