@@ -57,7 +57,7 @@ Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có b
 
 Biến $$x$$ được gọi là biến Boole nếu nó chỉ nhận các giá trị trong tập $$\big\{0, 1\big\}$$
 
-Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \big| x_i \in \big \{0, 1 \big\}, 1\le i \le n \Big\}$$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
+Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \mid x_i \in \big \{0, 1 \big\}, 1\le i \le n \Big\} $$ tới tập $$\big \{0, 1\big \}$$ được gọi là một hàm Boole bậc $$n$$.
 
 Ví dụ: $$F \big(x, y, z \big) = x + y + z $$ được gọi là hàm Boole bậc 3.
 
@@ -79,10 +79,10 @@ Dạng nối rời chính tắc bản chất chính là công thức biểu di�
 Xét hàm Boole với ba biến $$x,y,z$$ ta có: 
 
 $$ \begin{align*} 
-    \bullet \ \ & x, y,z, \neg x, \neg y, \neg z \ là \ các \ từ \ đơn.\\  
-    \bullet \ \ & xyz \ là \ từ \ tối \ tiểu \ (đơn \ thức\ tối\ tiểu). \\ 
-    \bullet \ \ & xy, xz, \neg yz \ là \ các\ đơn\ thức.  \\
-    \bullet \ \ & xyz \wedge x\neg yz \ là \ một \ dạng \ nối \ rời \ chính \ tắc.
+    \bullet \ \ & x, y,z, \neg x, \neg y, \neg z \text{ là các từ đơn.}\\  
+    \bullet \ \ & xyz \text{ là từ tối tiểu (đơn thức tối tiểu).} \\ 
+    \bullet \ \ & xy, xz, \neg yz \text{ là các đơn thức.}  \\
+    \bullet \ \ & xyz \wedge x\neg yz \text{ là một dạng nối rời chính tắc.}
 \end{align*}$$
 
 <div id="luu-y"><strong>Lưu ý</strong></div>
