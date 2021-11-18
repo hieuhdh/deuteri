@@ -17,6 +17,7 @@ comments: true
         <a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Boole | </a> 
         <a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Quan hệ | </a> 
         <a href="#toan-tu-trong-logic-vi-tu" style="text-decoration: none; color:#823af7">Toán tử trong Logic vị từ | </a> 
+        <a href="#cac-ki-hieu-mui-ten" style="text-decoration: none; color:#823af7">Các kí hiệu mũi tên (bổ sung) | </a> 
         <a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#823af7">Kí hiệu trong Tập hợp | </a> 
     </h4>
 </div>
@@ -28,7 +29,6 @@ comments: true
 
 
 <h3 id="bang-chu-cai-hi-lap">Bảng chữ cái Hi Lạp</h3>
-
 |:---:  | :---:                                         |    :----:                         |         :---: |
 |STT    | Kí tự                                         | Cú pháp                           | Ghi chú       |
 |:---:  | :---                                          |    :----                          |          :--- |
@@ -74,7 +74,6 @@ comments: true
 
 
 <h3 id="toan-tu-trong-dai-so-quan-he">Toán tử trong Đại số Quan hệ</h3>
-
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
 |:---:  | :---                                                                  |    :----                                              |          :--- |
@@ -109,7 +108,6 @@ comments: true
 
 
 <h3 id="toan-tu-trong-logic-vi-tu">Toán tử trong Logic vị từ</h3>
-
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
 |:---:  | :---                                                                  |    :----                                              |          :--- |
@@ -129,8 +127,25 @@ comments: true
 {: rules="groups"}
 
 
-<h3 id="ki-hieu-trong-tap-hop">Kí hiệu trong Tập hợp</h3>
+<h3 id="cac-ki-hieu-mui-ten">Các kí hiệu mũi tên (bổ sung)</h3>
+|:---:  | :---:                                                                 |    :----:                                             |         :---: |
+|STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
+|:---:  | :---                                                                  |    :----                                              |          :--- |
+|1      | $$\Uparrow$$                                                            | \Uparrow                                               |Mũi tên lên   |
+|2      | $$\Downarrow$$                                                          | \Downarrow                             | Mũi tên xuống    |
+|3      | $$\Updownarrow$$          | \Updownarrow      |  Mũi tên lên xuống             |
+|4      | $$\leftarrow$$                      | \leftarrow                        | Mũi tên trái 1 nét              |
+|5      | $$\rightarrow$$                | \rightarrow                | Mũi tên phải 1 nét              |
+|6      | $$\leftrightarrow$$                     | \leftrightarrow                            | Mũi tên 2 chiều 1 nét|
+|7      | $$x \to y$$	| x \to y	                                            |            |   
+|8      | $$\mapsto$$             | \mapsto                                      |  |
+|9      | $$\rightharpoondown$$              |  \rightharpoondown                                     |   |
+|10      | $$\leftharpoondown$$ | \leftharpoondown          |         |
+|11      | $$\rightharpoonup$$    | \rightharpoonup         |           |
+|9      | $$\leftharpoonup$$         | \leftharpoonup        |               |   
+{: rules="groups"}
 
+<h3 id="ki-hieu-trong-tap-hop">Kí hiệu trong Tập hợp</h3>
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                               | Ghi chú       |
 |:---:  | :---                                                                  |    :----                                              |          :--- |
