@@ -184,7 +184,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 ## About me
 
-<div align="left">
+<div align="center">
     <h4>
         <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info">Facebook</a> 
     </h4>
