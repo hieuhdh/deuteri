@@ -148,8 +148,8 @@ $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \n
 T là tế bào của bìa Kar thì T là hình chữ nhật (theo nghĩa rộng) gồm $$2^{n-k}$$ ô với $$0 \le k \le n$$
 
 Giả sử T là 1 tế bào lớn của bìa Kar thì:
-* $$T$$ ***là một tế bào và*** $$T \subseteq Kar \big(f\big)$$  
-* ***Hơn nữa:*** $$\nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big)$$ 
+* $$T$$ *là một tế bào và* $$T \subseteq Kar \big(f\big)$$  
+* *Hơn nữa:* $$\nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big)$$ 
 
 <br>
 <h2 id="cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole</h2>
@@ -281,7 +281,14 @@ Cụ thể 2 công thức tối tiểu đó là $$\left[ \begin{array}{cc}  f = 
 
 $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$
 
-## Note
+<h2 id="co-the-ban-da-biet">Có thể bạn đã biết</h2>
+
+<div align="left">
+    <a href="https://en.wikipedia.org/wiki/George_Boole" class="btn">George Boole</a> 
+    <a href="https://en.wikipedia.org/wiki/Gray_code" class="btn">Grey code</a>
+    <a href="https://en.wikipedia.org/wiki/Boolean" class="btn">Boolean</a>
+    <a href="https://en.wikipedia.org/wiki/Euler's_theorem" class="btn">Định lí Euler</a>
+</div>
 
 <h1 align="center">
   Lời kết
