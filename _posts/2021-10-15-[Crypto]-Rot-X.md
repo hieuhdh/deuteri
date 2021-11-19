@@ -38,6 +38,7 @@ comments: true
     <a href="https://github.com/hieuhdh/Cryptography/tree/master/ROT" class="btn">Some code about ROT-X</a>
 </div>
 
+<br>
 <h1 align="center">
   Epilogue
 </h1> 
