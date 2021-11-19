@@ -53,8 +53,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 ## **Install**
 
-<details open>
-<summary>Git clone</summary>
+### Git clone
 
 * Create any folder, then git clone package there
 
@@ -86,19 +85,13 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     ```command
     pip install -r requirements.txt
     ```
-    
-</details>
 
-<details open>
-  <summary>Run program</summary>
+### Run program
 
-  * Make sure you have done created a folder before.
-
-  * Run `main.py` in package.
-
-  * You have to create a account first, then log in.
-
-  * Experience this app application
+* Make sure you have done created a folder before.
+* Run `main.py` in package.
+* You have to create a account first, then log in.
+* Experience this app application
 
 </details>
 
