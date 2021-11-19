@@ -2,7 +2,7 @@
 layout: post
 title:  "Multi tasking program"
 date:   2021-09-13
-excerpt: "Minimal, one column Jekyll theme for your blog."
+excerpt: "This program that provides login framework, registration framework and basic applications."
 project: true
 tag:
 - Python 
@@ -23,6 +23,7 @@ comments: true
 
 <div align="center">
     <h4>
+        <a href="#about-project" style="text-decoration: none; color:#823af7">About project | </a>
         <a href="#features" style="text-decoration: none; color:#823af7">Features | </a>
         <a href="#install" style="text-decoration: none; color:#823af7">Install | </a>
         <a href="#documents" style="text-decoration: none; color:#823af7">Documents | </a>
@@ -35,6 +36,16 @@ comments: true
 
 ![something](https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png)
 
+
+## About project
+
+With the sketchy knowledge that I learned from tkinter, I tried to create a software with many functions, to help users monitor system time, display RAM. More specifically, the login as well as the system registration with a rudimentary data encryption algorithm. Hope this project can help readers have a new look at python language.
+
+<div align="left">
+    <a href="https://github.com/hieuhdh/Multi-tasking-program" class="btn">Source code</a> 
+</div>
+
+
 ## Features
 
 * `Sign up account`
@@ -46,7 +57,6 @@ comments: true
 
 <details open>
 <summary>Git clone</summary>
-
 
 * Create any folder, then git clone package there
 
@@ -95,39 +105,48 @@ comments: true
 
 ## Documents
 
-  For help getting started with python, view our online [documentation](https://www.python.org/).
+  For help getting started with python, view our online <a href="https://www.python.org/" style="text-decoration: none; color:blue" >documentation.</a>.
+
 
 ## Bugs and Issues
 
-  Have a bug or an issue with this project? [Open a new issue](https://github.com/hieuhdh/Multi-tasking-program/issues) here on GitHub.
+  Have a bug or an issue with this project? <a href="https://github.com/hieuhdh/Multi-tasking-program/issues" style="text-decoration: none; color:blue" >Open a new issue</a> here on GitHub.
 
 ## Screenshots
 
-1. Home screen
+**1. Home screen**
 
     ![main](https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png)
 
-2. Home interface
+**2. Home interface**
 
     ![home](https://user-images.githubusercontent.com/86739367/132999147-b5fe975b-dc5c-455c-ad82-aa496a7919f7.png)
 
-3. Login 
+**3. Login** 
 
     ![login](https://user-images.githubusercontent.com/86739367/132989561-425cf48d-c77e-4c7c-a3a1-f849134299ae.png)
 
-4. Sign up 
+**4. Sign up** 
 
     ![signup](https://user-images.githubusercontent.com/86739367/132989641-7acb111d-7d45-463b-83e1-d0dd89d1280b.png)
 
-5. Applications 
+**5. Applications** 
 
-6. About me 
+**6. About me** 
 
     ![aboutme](https://user-images.githubusercontent.com/86739367/133070589-ade6b1c2-188d-4710-87a9-9f87f2f3dfaa.png)
 
-7. Notifications
+**7. Notifications**
 
-    ![have_to_login](https://user-images.githubusercontent.com/86739367/132998794-33f72299-8ad6-48c7-8913-62ecc2bcf789.png)  ![name](https://user-images.githubusercontent.com/86739367/132998735-8f5bce02-252c-4696-9563-c044d6ae74f0.png)  ![didnt_match](https://user-images.githubusercontent.com/86739367/132998719-9a01ce11-0f51-4f02-83c9-1ea059e59c45.png)  ![signup_succ](https://user-images.githubusercontent.com/86739367/132998737-15115ab7-3ea6-493c-be7c-5993f8319441.png)  ![login_succ](https://user-images.githubusercontent.com/86739367/132998733-80475b56-ba7c-4b82-be20-7a449651dd32.png)  ![login_fail](https://user-images.githubusercontent.com/86739367/132998732-f78dfeae-a7bf-48d3-947e-b4d22bf81499.png)
+<figure class="six">
+	<img src="https://user-images.githubusercontent.com/86739367/132998794-33f72299-8ad6-48c7-8913-62ecc2bcf789.png">
+	<img src="https://user-images.githubusercontent.com/86739367/132998735-8f5bce02-252c-4696-9563-c044d6ae74f0.png">
+	<img src="https://user-images.githubusercontent.com/86739367/132998719-9a01ce11-0f51-4f02-83c9-1ea059e59c45.png">
+    <img src="https://user-images.githubusercontent.com/86739367/132998737-15115ab7-3ea6-493c-be7c-5993f8319441.png">
+	<img src="https://user-images.githubusercontent.com/86739367/132998733-80475b56-ba7c-4b82-be20-7a449651dd32.png">
+	<img src="https://user-images.githubusercontent.com/86739367/132998732-f78dfeae-a7bf-48d3-947e-b4d22bf81499.png">
+	<figcaption></figcaption>
+</figure>
     
 8. User information
 
@@ -140,10 +159,14 @@ comments: true
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT)
+<div align="left">
+    <a href="https://opensource.org/licenses/MIT" class="btn">MIT</a> 
+</div>
 
 ## About me
 
-<a href="https://github.com/hieuhdh" target="_blank"><img alt="Github" src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=Github&logoColor=white" /></a> 
-<a href="https://www.linkedin.com/in/hieuhdh" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://www.facebook.com/ao.lncb/" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?&style=flat-square&logo=facebook&logoColor=white" alt="Facebook"></a>
+<div align="center">
+    <h4>
+        <a href="https://hieuhdh.github.io/deuteri/" class="btn btn-success">Click here</a> 
+    </h4>
+</div>
