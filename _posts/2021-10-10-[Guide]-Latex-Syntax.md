@@ -11,7 +11,7 @@ comments: true
 </h1> 
 
 <h3 align="center">
-    <a href="#so-luoc" style="text-decoration: none; color:#823af7">Sơ lược về các cú pháp cơ bản</a>
+    <a href="#so-luoc" style="text-decoration: none; color: black">Sơ lược về các cú pháp cơ bản</a>
 </h3> 
 
 <div align="center">
@@ -28,7 +28,7 @@ comments: true
 </div>
 
 <h3 align="center">
-    <a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color:#823af7">Một vài cú pháp khác</a>
+    <a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color: black">Một vài cú pháp khác</a>
 </h3> 
 
 <div align="center">
