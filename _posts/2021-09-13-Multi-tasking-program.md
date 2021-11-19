@@ -93,8 +93,6 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 * You have to create a account first, then log in.
 * Experience this app application
 
-</details>
-
 ## Documents
 
   For help getting started with python, view our online <a href="https://www.python.org/" style="text-decoration: none; color:blue" >documentation.</a>
@@ -151,10 +149,13 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 <br>
 <h3>7. Notifications</h3>
 
-<figure class="six" align = "left">
+<figure class="third">
 	<img src="https://user-images.githubusercontent.com/86739367/132998794-33f72299-8ad6-48c7-8913-62ecc2bcf789.png">
 	<img src="https://user-images.githubusercontent.com/86739367/132998735-8f5bce02-252c-4696-9563-c044d6ae74f0.png">
 	<img src="https://user-images.githubusercontent.com/86739367/132998719-9a01ce11-0f51-4f02-83c9-1ea059e59c45.png">
+	<figcaption> <div style = "text-align: center">Screenshot for some notifications</div></figcaption>
+</figure>
+<figure class="third">
     <img src="https://user-images.githubusercontent.com/86739367/132998737-15115ab7-3ea6-493c-be7c-5993f8319441.png">
 	<img src="https://user-images.githubusercontent.com/86739367/132998733-80475b56-ba7c-4b82-be20-7a449651dd32.png">
 	<img src="https://user-images.githubusercontent.com/86739367/132998732-f78dfeae-a7bf-48d3-947e-b4d22bf81499.png">
