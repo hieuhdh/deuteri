@@ -75,9 +75,6 @@ Từ đơn là mỗi biến Boole $$x_i$$ hoặc $$\neg x_i$$ trong tập hợp 
 
 <h4 id="vi-du">Ví dụ</h4> 
 
-textmax
-{: .notice}
-
 Xét hàm Boole với ba biến $$x,y,z$$ ta có: 
 
 $$ \begin{align*} 
@@ -206,8 +203,8 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 <div><strong>Từ hình ảnh trên, ta tìm kiếm được 1 vài thứ </strong></div>
 
 1. Các tế bào lớn: $$x\neg t \neg t, xz \neg t, yz, yt, \neg y \neg z \neg t $$ 
-2. Một vài hàm Boole được rút gọn: $$\left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f = x&z \neg t + yz + yt + \neg y \neg z \neg t \\ f = x& \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right.$$ 
-3. Hàm Boole được rút gọn tối giản: $$\left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt \\ f = x&z \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.$$
+2. Một vài hàm Boole được rút gọn: $$\left[ \begin{array}{cc}  f = x \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f = xz \neg t + yz + yt + \neg y \neg z \neg t \\ f = x \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right.$$ 
+3. Hàm Boole được rút gọn tối giản: $$\left[ \begin{array}{cc}  f = x \neg y \neg t + xz \neg t + yz + yt \\ f = xz \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.$$
 
 <br>
 <table>
