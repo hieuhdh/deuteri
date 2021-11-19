@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Math] Đại số Boole"
-date: 2021-10-15
+date: 2021-07-06
 excerpt: "Một vài vấn đề nhỏ trong đại số Boole và sơ lược cách xử lí hàm Boole trên bìa Karnaugh"
 tags: [Math, Boolean]
 comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Crypto] ROT-X"
-date: 2021-10-15
+date: 2020-12-15
 excerpt: "Something about ROT-X which I know"
 tags: [Crypto, ROT]
 comments: true

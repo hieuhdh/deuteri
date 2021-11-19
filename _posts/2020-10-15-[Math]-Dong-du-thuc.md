@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Math] Đồng dư thức"
-date: 2021-10-15
+date: 2020-10-15
 excerpt: "Một vài vấn đề nhỏ về đồng dư thức và ứng dụng xử lí đồng dư trong lập trình"
 tags: [Math, Module, Đồng dư thức]
 comments: true
@@ -14,6 +14,7 @@ comments: true
     <h4>
         <a href="#dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa | </a>
         <a href="#mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module" style="text-decoration: none; color:#823af7">Một số tính chất và các phép toán đồng dư trên vành Module | </a>
+        <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-toan-hoc" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong toán học | </a>
         <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong lập trình | </a> 
         <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a> 
     </h4>
@@ -117,9 +118,42 @@ $$ \begin{align*}
 \end{align*}$$
 
 <br>
-<h2 id="mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh">Một số ví dụ về xử lí đồng dư trong lập trình</h2>
+<h2 id="mot-so-vi-du-ve-xu-li-dong-du-trong-toan-hoc">Một số ví dụ về xử lí đồng dư trong toán học</h2>
 
 ### Ví dụ 1
+
+Chúng ta cần chứng minh 1 số chia hết cho 5 khi và chỉ khi số đó có chữ số tận cùng bằng 0 hoặc 5. 
+
+#### Tiếp cận bài toán theo hướng xử lí đồng dư
+
+#### Giải
+
+Không mất tính tổng quát, giả sử số chúng ta cần xét là: $$A = a_na_{n-1}...a_1$$
+
+Yêu cầu bài toán tương đương với $$A \equiv 0 \big(\text{ mod 5}\big) \ \big(1\big)$$
+
+Mà $$A = a_na_{n-1}...a_1 = a_n10^{n-1} + a_{n-1}10^{n-2} +...+a_1 \ \big(2\big)$$
+
+Kết hợp $$\big(1\big)$$ và $$\big(1\big)$$ suy ra $$a_n10^{n-1} + a_{n-1}10^{n-2} +...+a_1 \equiv 0 \big(\text{ mod }5\big) \ \big(3\big) $$
+
+Mặc khác vì $$10 \equiv 0 \text{ mod 5} \Longrightarrow 10^{k} \equiv 0 \text{ mod 5} \big( \forall k \in \mathbb{N} \big)
+
+Do đó, $$\big(3\big) \Longleftrightarrow 0 + 0 +...+ a_1 \equiv 0 \big(\text{ mod }5\big) \Longleftrightarrow a_1 \equiv 0 \big(\text{ mod }5\big) $$
+
+Nói cách khác, để $$A$$ chia hết cho 5 khi và chỉ khi $$a_1$$ chia hết cho 5. Và để $$a_1$$ chia hết cho 5 khi và chỉ khi 
+$$
+\left[\begin{array}{l}
+    a_1 = 0 \\
+    a_1 = 5
+\end{array}\right.
+$$
+
+Ta có điều phải chứng minh.
+
+<br>
+<h2 id="mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh">Một số ví dụ về xử lí đồng dư trong lập trình</h2>
+
+### Ví dụ 2
 
 Chúng ta cần tính tổng của dãy số $$ S(n) = 5+7+...+(2n+1) $$ và kết quả sẽ lấy module cho $$1000000009$$.
 

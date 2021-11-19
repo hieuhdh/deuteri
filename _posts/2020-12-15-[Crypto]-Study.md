@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Crypto] Cryptography"
-date: 2021-10-15
+date: 2020-12-15
 excerpt: "Some of topics I've written about Cryptography"
 blog: true
 tags: [Crypto]

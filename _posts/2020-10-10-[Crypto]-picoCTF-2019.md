@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Crypto] picoCTF - 2019"
-date: 2021-10-10
+date: 2020-10-10
 excerpt: "Some writeup of me about Crypto in picoCTF"
 tags: [Crypto CTF, Writeup]
 feature: https://user-images.githubusercontent.com/86739367/141987523-68a87eae-f4b0-4c0e-b40d-5c5415491fe9.png

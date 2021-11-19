@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Guide] Markdown Syntax"
-date:   2021-10-09
+date:   2021-03-09
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 tag:
 - Markdown 
