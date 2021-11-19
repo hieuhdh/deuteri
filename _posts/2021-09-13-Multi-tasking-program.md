@@ -153,7 +153,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 	<img src="https://user-images.githubusercontent.com/86739367/132998794-33f72299-8ad6-48c7-8913-62ecc2bcf789.png">
 	<img src="https://user-images.githubusercontent.com/86739367/132998735-8f5bce02-252c-4696-9563-c044d6ae74f0.png">
 	<img src="https://user-images.githubusercontent.com/86739367/132998719-9a01ce11-0f51-4f02-83c9-1ea059e59c45.png">
-	<figcaption> <div style = "text-align: center">Screenshot for some notifications</div></figcaption>
+	<figcaption></figcaption>
 </figure>
 <figure class="third">
     <img src="https://user-images.githubusercontent.com/86739367/132998737-15115ab7-3ea6-493c-be7c-5993f8319441.png">
@@ -184,8 +184,14 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 ## About me
 
-<div align="center">
+<div align="left">
     <h4>
-        <a href="https://hieuhdh.github.io/deuteri/" class="btn btn-success">Click here</a> 
+        <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info">Facebook</a> 
+    </h4>
+    <h4>
+        <a href="https://github.com/hieuhdh/" class="btn btn-info">Github</a> 
+    </h4>
+    <h4>
+        <a href="https://www.linkedin.com/in/hieuhdh/" class="btn btn-info">LinkedIn</a> 
     </h4>
 </div>
