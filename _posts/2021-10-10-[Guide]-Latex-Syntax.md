@@ -3,7 +3,7 @@ layout: post
 title: "[Guide] Latex Syntax"
 date: 2021-10-10
 excerpt: "Một vài cú pháp Latex mà tôi thường dùng trong Markdown"
-tags: [Guide, Math]
+tags: [Guide, Math, Syntax]
 comments: true
 ---
 <h1 align="center">

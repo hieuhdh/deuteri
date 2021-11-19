@@ -42,7 +42,7 @@ Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có b
 |:---:  | :---:                                         |    :----                         |      
 |STT    | Tên tính chất                                 | Thể hiện                           | 
 |:---:  | :---                                          |    :----                          |     
-|1| $$\text{Tính giao hoán}$$| $$\forall x, y, z \in A \text{. Ta có} \begin{cases}  x \wedge y = y \wedge x \\ x \vee y = y \vee x \end{cases} $$    |    
+|1| Tính giao hoán| $$\forall x, y, z \in A \text{. Ta có} \begin{cases}  x \wedge y = y \wedge x \\ x \vee y = y \vee x \end{cases} $$    |    
 |2| Tính kết hợp | $$\forall x, y, z \in A \text{. Ta có} \begin{cases}  (x \wedge y ) \wedge z = x \wedge  (y \wedge z ) \\  ( x \vee y ) \vee z = x  \vee  (y \vee z ) \end{cases} $$|           
 |3| Tính phân phối   | $$\forall x, y, z \in A \text{. Ta có} \begin{cases}  x \wedge ( y \vee z )= (x \wedge y  ) \vee (x \wedge z ) \\  x \vee ( y \wedge z )= (x \vee y  ) \wedge (x \vee z )\end{cases}  $$|               
 |4|Tính hấp thụ|$$\forall x, y\in A \text{. Ta có} \begin{cases}x \vee (x \wedge y ) = x\\ x \wedge(x \vee y ) = x\end{cases}$$|               
@@ -202,10 +202,9 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 <br>
 <div><strong>Từ hình ảnh trên, ta tìm kiếm được 1 vài thứ </strong></div>
 
-$$ \begin{align*} 
-    \text{1. }&\text{Các tế bào lớn: } x\neg t \neg t, xz \neg t, yz, yt, \neg y \neg z \neg t  \\  
-    \text{2. }&\text{Một vài hàm Boole được rút gọn: } \left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f = x&z \neg t + yz + yt + \neg y \neg z \neg t \\ f = x& \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right. \\
-    \text{3. }&\text{Hàm Boole được rút gọn tối giản: } \left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt \\ f = x&z \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.
+1. Các tế bào lớn: x\neg t \neg t, xz \neg t, yz, yt, \neg y \neg z \neg t  
+2. Một vài hàm Boole được rút gọn: \left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f = x&z \neg t + yz + yt + \neg y \neg z \neg t \\ f = x& \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right. 
+3. Hàm Boole được rút gọn tối giản: \left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt \\ f = x&z \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.
 \end{align*}$$
 
 <br>
