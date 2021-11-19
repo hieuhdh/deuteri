@@ -75,6 +75,9 @@ Từ đơn là mỗi biến Boole $$x_i$$ hoặc $$\neg x_i$$ trong tập hợp 
 
 <h4 id="vi-du">Ví dụ</h4> 
 
+textmax
+{: .notice}
+
 Xét hàm Boole với ba biến $$x,y,z$$ ta có: 
 
 $$ \begin{align*} 
@@ -287,12 +290,11 @@ $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big
     <a href="https://en.wikipedia.org/wiki/George_Boole" class="btn">George Boole</a> 
     <a href="https://en.wikipedia.org/wiki/Gray_code" class="btn">Grey code</a>
     <a href="https://en.wikipedia.org/wiki/Boolean" class="btn">Boolean</a>
-    <a href="https://en.wikipedia.org/wiki/Euler's_theorem" class="btn">Định lí Euler</a>
 </div>
 
 <h1 align="center">
   Lời kết
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ tại đây.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.
 {: .notice}
