@@ -15,7 +15,7 @@ comments: true
 <br><br>
 <div align="center">
     <h4>
-        <a href="https://hieuhdh.github.io/deuteri/CRYPTO-PicoCTF-2019/" class="btn btn-success">[Crypto] picoCTF 2019</a> 
-        <a href="https://hieuhdh.github.io/deuteri/CRYPTO-PicoCTF-2021/" class="btn btn-success">[Crypto] picoCTF 2021</a>
+        <a href="https://hieuhdh.github.io/deuteri/Crypto-picoCTF-2019/" class="btn btn-success">[Crypto] picoCTF 2019</a> 
+        <a href="https://hieuhdh.github.io/deuteri/Crypto-picoCTF-2021/" class="btn btn-success">[Crypto] picoCTF 2021</a>
     </h4>
 </div>

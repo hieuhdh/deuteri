@@ -130,15 +130,16 @@ Chúng ta cần chứng minh 1 số chia hết cho 5 khi và chỉ khi số đó
 
 Không mất tính tổng quát, giả sử số chúng ta cần xét là: $$A = a_na_{n-1}...a_1$$
 
-Yêu cầu bài toán tương đương với $$A \equiv 0 \big(\text{ mod 5}\big) \ \big(1\big)$$
+Yêu cầu bài toán tương đương với $$A \equiv 0 \ \big(\text{ mod 5}\big) \ \big(1\big)$$
 
 Mà $$A = a_na_{n-1}...a_1 = a_n10^{n-1} + a_{n-1}10^{n-2} +...+a_1 \ \big(2\big)$$
 
-Kết hợp $$\big(1\big)$$ và $$\big(1\big)$$ suy ra $$a_n10^{n-1} + a_{n-1}10^{n-2} +...+a_1 \equiv 0 \big(\text{ mod }5\big) \ \big(3\big) $$
+Kết hợp $$\big(1\big)$$ và $$\big(2\big)$$ suy ra $$a_n10^{n-1} + a_{n-1}10^{n-2} +...+a_1 \equiv 0 \ \big(\text{ mod }5\big) \ \big(3\big) $$
 
-Mặc khác vì $$10 \equiv 0 \text{ mod 5} \Longrightarrow 10^{k} \equiv 0 \text{ mod 5} \big( \forall k \in \mathbb{N} \big)
+Mặc khác vì 
+$$10 \equiv 0 \text{ mod 5} \Longrightarrow 10^{k} \equiv 0 \text{ mod 5} \big( \forall k \in \mathbb{N} \big)
 
-Do đó, $$\big(3\big) \Longleftrightarrow 0 + 0 +...+ a_1 \equiv 0 \big(\text{ mod }5\big) \Longleftrightarrow a_1 \equiv 0 \big(\text{ mod }5\big) $$
+Do đó, $$\big(3\big) \Longleftrightarrow 0 + 0 +...+ a_1 \equiv 0 \ \big(\text{ mod }5\big) \Longleftrightarrow a_1 \equiv 0 \big(\text{ mod }5\big) $$
 
 Nói cách khác, để $$A$$ chia hết cho 5 khi và chỉ khi $$a_1$$ chia hết cho 5. Và để $$a_1$$ chia hết cho 5 khi và chỉ khi 
 $$
@@ -148,7 +149,7 @@ $$
 \end{array}\right.
 $$
 
-Ta có điều phải chứng minh.
+**Từ các lập luận trên, có điều phải chứng minh.**
 
 <br>
 <h2 id="mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh">Một số ví dụ về xử lí đồng dư trong lập trình</h2>
