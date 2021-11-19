@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Guide] Latex Syntax"
+title: "Latex Syntax"
 date: 2021-10-18
 excerpt: "Một vài cú pháp Latex mà tôi thường dùng trong Markdown"
 tags: [Guide, Math, Syntax]

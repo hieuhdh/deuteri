@@ -184,14 +184,9 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 ## About me
 
-<div align="center">
-    <h4>
-        <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info">Facebook</a> 
-    </h4>
-    <h4>
-        <a href="https://github.com/hieuhdh/" class="btn btn-info">Github</a> 
-    </h4>
-    <h4>
-        <a href="https://www.linkedin.com/in/hieuhdh/" class="btn btn-info">LinkedIn</a> 
-    </h4>
+<div align="left">
+    <a href="https://www.facebook.com/ao.lncb/" class="btn">Facebook</a> 
+    <a href="https://github.com/hieuhdh/" class="btn">Github</a>
+    <a href="https://www.linkedin.com/in/hieuhdh/" class="btn">LinkedIn</a>
+    <a href="https://en.wikipedia.org/wiki/Euler's_theorem" class="btn">Định lí Euler</a>
 </div>

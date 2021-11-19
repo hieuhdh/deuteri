@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Math] Đồng dư thức"
+title: "Đồng dư thức"
 date: 2020-10-15
 excerpt: "Một vài vấn đề nhỏ về đồng dư thức và ứng dụng xử lí đồng dư trong lập trình"
 tags: [Math, Module, Đồng dư thức]
