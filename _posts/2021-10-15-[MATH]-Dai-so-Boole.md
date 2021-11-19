@@ -202,10 +202,9 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 <br>
 <div><strong>Từ hình ảnh trên, ta tìm kiếm được 1 vài thứ </strong></div>
 
-1. Các tế bào lớn: x\neg t \neg t, xz \neg t, yz, yt, \neg y \neg z \neg t  
-2. Một vài hàm Boole được rút gọn: \left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f = x&z \neg t + yz + yt + \neg y \neg z \neg t \\ f = x& \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right. 
-3. Hàm Boole được rút gọn tối giản: \left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt \\ f = x&z \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.
-\end{align*}$$
+1. Các tế bào lớn: $$x\neg t \neg t, xz \neg t, yz, yt, \neg y \neg z \neg t $$ 
+2. Một vài hàm Boole được rút gọn: $$\left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt + \neg y \neg z \neg t \\  f = x&z \neg t + yz + yt + \neg y \neg z \neg t \\ f = x& \neg y \neg t + xz \neg t + yz + yt \\  ... \end{array} \right.$$ 
+3. Hàm Boole được rút gọn tối giản: $$\left[ \begin{array}{cc}  f = x& \neg y \neg t + xz \neg t + yz + yt \\ f = x&z \neg t + \neg y \neg z \neg t + yz + yt  \end{array} \right.$$
 
 <br>
 <table>
@@ -281,6 +280,8 @@ Cụ thể 2 công thức tối tiểu đó là $$\left[ \begin{array}{cc}  f = 
 <div>Hàm Boole f ngoài việc biểu diễn bằng các biến Boole (hay còn gọi là dạng chuẩn tắc) như phần trên, người ta còn biểu diễn hàm Boole f bằng ánh xạ như sau:</div>
 
 $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$
+
+## Note
 
 <h1 align="center">
   Lời kết
