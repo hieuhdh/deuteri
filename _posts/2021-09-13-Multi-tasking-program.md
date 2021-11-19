@@ -8,8 +8,6 @@ tag:
 - Python 
 - Multi
 - Thread
-- about
-- theme
 comments: true
 ---
 
@@ -88,6 +86,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     ```command
     pip install -r requirements.txt
     ```
+    
 </details>
 
 <details open>
@@ -105,38 +104,59 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 ## Documents
 
-  For help getting started with python, view our online <a href="https://www.python.org/" style="text-decoration: none; color:blue" >documentation.</a>.
+  For help getting started with python, view our online <a href="https://www.python.org/" style="text-decoration: none; color:blue" >documentation.</a>
 
 
 ## Bugs and Issues
 
   Have a bug or an issue with this project? <a href="https://github.com/hieuhdh/Multi-tasking-program/issues" style="text-decoration: none; color:blue" >Open a new issue</a> here on GitHub.
 
-## Screenshots
+<h2 id = "screenshots">Screenshots</h2>
 
-**1. Home screen**
+<h3>1. Home screen</h3>
 
-    ![main](https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png)
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png"><img src="https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for home screen</i></a></figcaption>
+</figure>
 
-**2. Home interface**
+<br>
+<h3>2. Home interface</h3>
 
-    ![home](https://user-images.githubusercontent.com/86739367/132999147-b5fe975b-dc5c-455c-ad82-aa496a7919f7.png)
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/132999147-b5fe975b-dc5c-455c-ad82-aa496a7919f7.png"><img src="https://user-images.githubusercontent.com/86739367/132999147-b5fe975b-dc5c-455c-ad82-aa496a7919f7.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for Home interface</i></a></figcaption>
+</figure>
 
-**3. Login** 
+<br>
+<h3>3. Login</h3>
 
-    ![login](https://user-images.githubusercontent.com/86739367/132989561-425cf48d-c77e-4c7c-a3a1-f849134299ae.png)
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/132989561-425cf48d-c77e-4c7c-a3a1-f849134299ae.png"><img src="https://user-images.githubusercontent.com/86739367/132989561-425cf48d-c77e-4c7c-a3a1-f849134299ae.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for Login interface</i></a></figcaption>
+</figure>
 
-**4. Sign up** 
+<br>
+<h3>4. Sign up</h3>
 
-    ![signup](https://user-images.githubusercontent.com/86739367/132989641-7acb111d-7d45-463b-83e1-d0dd89d1280b.png)
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/132989641-7acb111d-7d45-463b-83e1-d0dd89d1280b.png"><img src="https://user-images.githubusercontent.com/86739367/132989641-7acb111d-7d45-463b-83e1-d0dd89d1280b.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for Sign up interface</i></a></figcaption>
+</figure>
 
-**5. Applications** 
+<br>
+<h3>5. Applications</h3>
 
-**6. About me** 
+<br>
+<h3>6. About me</h3>
 
-    ![aboutme](https://user-images.githubusercontent.com/86739367/133070589-ade6b1c2-188d-4710-87a9-9f87f2f3dfaa.png)
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/133070589-ade6b1c2-188d-4710-87a9-9f87f2f3dfaa.png"><img src="https://user-images.githubusercontent.com/86739367/133070589-ade6b1c2-188d-4710-87a9-9f87f2f3dfaa.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for About me interface</i></a></figcaption>
+</figure>
 
-**7. Notifications**
+<br>
+<h3>7. Notifications</h3>
 
 <figure class="six">
 	<img src="https://user-images.githubusercontent.com/86739367/132998794-33f72299-8ad6-48c7-8913-62ecc2bcf789.png">
@@ -145,14 +165,19 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <img src="https://user-images.githubusercontent.com/86739367/132998737-15115ab7-3ea6-493c-be7c-5993f8319441.png">
 	<img src="https://user-images.githubusercontent.com/86739367/132998733-80475b56-ba7c-4b82-be20-7a449651dd32.png">
 	<img src="https://user-images.githubusercontent.com/86739367/132998732-f78dfeae-a7bf-48d3-947e-b4d22bf81499.png">
-	<figcaption></figcaption>
+	<figcaption>Screenshot for some notifications</figcaption>
 </figure>
     
-8. User information
+<br>
+<h3>8. User information</h3>
 
-    ![pass](https://user-images.githubusercontent.com/86739367/132998817-2a0cb670-ab77-4a3e-89f8-39b4380f7538.png)
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/132998817-2a0cb670-ab77-4a3e-89f8-39b4380f7538.png"><img src="https://user-images.githubusercontent.com/86739367/132998817-2a0cb670-ab77-4a3e-89f8-39b4380f7538.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for database of user</i></a></figcaption>
+</figure>
 
-    **User information is saved as a `log_sign.txt` file in the order of fullname, username and password. In particular, the password is encrypted one-way into a string of numbers**
+
+<div>User information is saved as a <strong>log_sign.txt</strong> file in the order of fullname, username and password. In particular, the password is encrypted one-way into a string of numbers.</div>
 
 
 **As you can see from the screenshots above, Im not really good at design things and this repo is just a part of me practice making an app with little knowledges about tkinter, encoding, creating a file, some layout stuff in Python. The content for the app will be in the application part as I will try to make it even better**
