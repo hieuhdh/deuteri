@@ -70,6 +70,30 @@
             color: $info;
         }
     }
+
+    &.btn-contact-me {
+        $btn-color: random-color($max:200);
+        $btn-color-dark: shade($btn-color, 40%);
+        color: tint($btn-color);
+        
+            &:before {
+                content: '';
+                @include absolute(0,-50px,0,0);
+                border-right: 50px solid transparent;
+                border-bottom: $btn-height solid $btn-color-dark;
+                transform: translateX(-100%);
+            }
+        
+            &:hover {
+                color: tint($btn-color, 75%);
+        
+                &:before {
+                    transform: translateX(0);
+                }
+            }
+    }
+        
+
 }
 .title .btn {
     margin: 10px;

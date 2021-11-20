@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cryptography"
+title: "[Crypto] Overview"
 date: 2020-12-15
 excerpt: "Some of topics I've written about Cryptography"
 blog: true
