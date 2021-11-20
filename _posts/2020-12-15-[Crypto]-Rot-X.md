@@ -31,6 +31,10 @@ comments: true
 </p>
 <p>Expanding the alphabet (can add a special character such as "[, ], {, }, 1, 2, 3, 4, 5, 6, 7, 8, 9, ), ...", then according to the operating mechanism of the ROT-X cipher, we can easily decode or encode them.</p>
 
+<br>
+
+---
+
 <h2 id="learn-more">Learn more</h2>
 
 <div align="left">
