@@ -182,18 +182,20 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <a href="https://opensource.org/licenses/MIT" class="btn">MIT</a> 
 </div>
 
+---
+
 <br>
-<h2 id = "about-me">About me</h2>
+<h2 id = "about-me" align="right">About me</h2>
 
 <div align="left">
     <h4>
-        <div class="btn btn-info">
-            <div class="icon">
-                <i class="fa fa-fw fa-facebook-square"></i>
-            </div>
+        <!-- <div class="btn btn-info">
+            <div class="icon"><i class="fa fa-fw fa-facebook-square"></i></div>
             <span>Facebook</span>
-        </div> 
-        <a href="#" class="btn btn-info">Github</a>
+        </div>  -->
+        <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info">Facebook</a>
+        <a href="https://github.com/hieuhdh/" class="btn btn-info">Github</a>
+        <a href="https://www.linkedin.com/in/hieuhdh/" class="btn btn-info">LinkedIn</a>
     </h4>
 </div><br><br>
 
