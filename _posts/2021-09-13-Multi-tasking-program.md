@@ -183,9 +183,3 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </div>
 
 ## About me
-
-<div align="left">
-    <button class="slide_from_left_contact"><a href="https://www.facebook.com/ao.lncb/" style = "text-decoration: none">Facebook</a> </button>
-    <button class="slide_from_left_contact"><a href="https://github.com/hieuhdh/" style = "text-decoration: none">Github</a> </button>
-    <button class="slide_from_left_contact"><a href="https://www.linkedin.com/in/hieuhdh/" style = "text-decoration: none">LinkedIn</a> </button>
-</div>
