@@ -182,7 +182,14 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <a href="https://opensource.org/licenses/MIT" class="btn">MIT</a> 
 </div>
 
-<br>
+<div align="left">
+    <h4>
+        <a href="#" class="btn btn-info">Facebook</a> 
+        <a href="#" class="btn btn-info">Github</a>
+    </h4>
+</div>
+
+<!-- <br>
 <h2 id = "about-me">About me</h2>
 
 <div class="button">
@@ -202,7 +209,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
         <i class="fab fa-linkedin-in"></i>
     </div>
     <span>LinkedIn</span>
-</div>
+</div> -->
 
 <!-- 
 <div align="left">
