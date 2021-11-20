@@ -182,7 +182,8 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <a href="https://opensource.org/licenses/MIT" class="btn">MIT</a> 
 </div>
 
-## About me
+<br>
+<h2 id = "about-me">About me</h2>
 
 <div class="wrapper">
     <div class="button">
