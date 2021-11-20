@@ -187,7 +187,12 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <div align="left">
     <h4>
-        <a href="#" class="btn btn-info">Facebook</a> 
+        <a href="#" class="btn btn-info">
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+        </a> 
         <a href="#" class="btn btn-info">Github</a>
     </h4>
 </div><br><br>
