@@ -43,9 +43,6 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <a href="https://github.com/hieuhdh/Multi-tasking-program" class="btn">Source code</a> 
 </div>
 
----
-
-<br>
 
 ## Features
 
@@ -53,10 +50,6 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 * `Login in account`
 * `Encode password`
 * `Display hardware information (use thread)`
-
----
-
-<br>
 
 ## **Install**
 
@@ -108,10 +101,6 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 ## Bugs and Issues
 
   Have a bug or an issue with this project? <a href="https://github.com/hieuhdh/Multi-tasking-program/issues" style="text-decoration: none; color:blue" >Open a new issue</a> here on GitHub.
-
----
-
-<br>
 
 <h2 id = "screenshots">Screenshots</h2>
 
@@ -187,10 +176,6 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 **As you can see from the screenshots above, Im not really good at design things and this repo is just a part of me practice making an app with little knowledges about tkinter, encoding, creating a file, some layout stuff in Python. The content for the app will be in the application part as I will try to make it even better**
 
----
-
-<br>
-
 ## License
 
 <div align="left">
@@ -204,7 +189,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <h4>
         <div class="btn btn-info">
             <div class="icon">
-                <i class="fab fa-facebook-f"></i>
+                <i class="\f230"></i>
             </div>
             <span>Facebook</span>
         </div> 

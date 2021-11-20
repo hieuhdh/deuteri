@@ -41,10 +41,6 @@ comments: true
     </h4>
 </div>
 
----
-
-<br>
-
 <h2 id="so-luoc-ve-cac-bang-ki-tu">Sơ lược về về các cú pháp cơ bản</h2>
 <div> <strong>Mô tả: </strong>Dưới đây là một vài bảng thể hiện kí tự cũng như các cú pháp cơ bản của Latex mà tôi thường dùng trong việc viết kí hiệu toán học trên Markdown.
 <br>  <strong>Lưu ý: </strong>khi viết kí tự Latex trong Markdown ta cần đặt cú pháp của chúng vào giữa cặp "$ $" và "$ $". Ví dụ muốn viết kí hiệu alpha thì ta phải viết "$ $\alpha$ $" chứ không phải \alpha. Cặp kí hiệu dolar phải viết liền, bỏ khoảng cách.
@@ -83,10 +79,7 @@ comments: true
 |24     | $$F$$ và $$\digamma$$                         | F và \digamma                     |               | 
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="toan-tu-trong-dai-so-boole">Toán tử trong Đại số Boole</h3>
 <div>Vì trong đại số Boole có một phần người ta dựa vào đó kết hợp với lý thuyết mã Grey để tạo nên cổng logic và phép toán tuyển với phép toán hội trong cổng logic lúc này tương ứng là <strong>or</strong> và <strong>and</strong>, do đó mới có bộ kí hiệu mới là <strong>\lor</strong> và <strong>\land</strong>. </div>
 <div>Để có thể thao tác đúng về mặt ý nghĩa, việc ta lựa chọn loại cú pháp đúng cho các trường hợp thích hợp là điều cần thiết.</div>
@@ -99,10 +92,7 @@ comments: true
 |3      | $$\neg$$                                      | \neg                               | Phép toán phủ định |
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="toan-tu-trong-dai-so-quan-he">Toán tử trong Đại số Quan hệ</h3>
 
 |:---:  | :---:                                                                 |    :----:                                             |         :---: |
@@ -137,10 +127,7 @@ comments: true
 |27     | $$\smile$$ và $$\frown$$                                              | \smile và \frown                                      |               | 
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="toan-tu-trong-logic-vi-tu">Toán tử trong Logic vị từ</h3>
 
 |:---:  | :---:                                                                 |    :----:                                        |               :---: |
@@ -161,10 +148,7 @@ comments: true
 |10     | $$\bot$$	                                                            | \bot	                                           |                     |   
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="cac-ki-hieu-mui-ten">Các kí hiệu mũi tên (bổ sung)</h3>
 
 |:---:  | :---:                                                                 |    :----:                                       |                :---: |
@@ -191,10 +175,7 @@ comments: true
 |19     | $$\longleftarrow$$                                                    | \longleftarrow                                  |                      |  
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="ki-hieu-trong-tap-hop">Kí hiệu trong Tập hợp</h3>
 
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |
@@ -215,10 +196,7 @@ comments: true
 |13     | $$\vert A \vert$$	                                                    | \vert A \vert	                                 | Lực lượng tập hợp      |
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="ki-hieu-trong-hinh-hoc">Kí hiệu trong Hình học</h3>
 
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |
@@ -239,10 +217,7 @@ comments: true
 |13     | $$\overrightarrow{\rm AB}$$	| \overrightarrow{\rm AB}	                                            |vector AB              |
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="ki-hieu-cac-dau-ngoac">Kí hiệu các dấu ngoặc</h3>
 
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |
@@ -256,10 +231,7 @@ comments: true
 |6      | $$\}$$, $$\big\}$$, $$\Big\}$$ và $$\bigg\}$$ và $$\Bigg\}$$ | \}, \big\}, \Big\}, \bigg\} và \Bigg\} | Dấu ngoặc nhọn đóng   |
 {: rules="groups"}
 
----
-
 <br>
-
 <h2 id="so-luoc-ve-cac-cu-phap">Một vài cú pháp khác</h2>
 
 <h3 id="gioi-han">Giới hạn</h3>
@@ -271,10 +243,7 @@ comments: true
 |2      | $$\displaystyle \lim_{x\to\infty}(x+1)^{666}$$        | \displaystyle \lim_{x\to\infty}(x+1)^{666}| Giới hạn dạng nhỏ   |
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="tong-sigma">Tổng Sigma</h3>
 
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |
@@ -284,10 +253,7 @@ comments: true
 |2      | $$\displaystyle \sum_{i=1}^n(C^i_na^ib^{n-i})$$        | \displaystyle \sum_{i=1}^n(C^i_na^ib^{n-i})| Tổng dạng to   |
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="tich-phan">Tích phân</h3>
 
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |
@@ -297,10 +263,7 @@ comments: true
 |2      | $$\displaystyle \int_1^2(x+1)^{666}dx$$        | \displaystyle \int_1^2(x+1)^{666}dx | Tích phân dạng to  |
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="phan-thuc">Phân thức</h3>
 
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |
@@ -310,10 +273,7 @@ comments: true
 |2      | $$\dfrac{x^{12}+xy+xy^{10}}{2xy+x+y^{10}}$$        | \dfrac{x^{12}+xy+xy^{10}}{2xy+x+y^{10}} |   |
 {: rules="groups"}
 
----
-
 <br>
-
 <h3 id="khai-can">Khai căn</h3>
 
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |

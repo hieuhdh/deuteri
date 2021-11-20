@@ -41,10 +41,6 @@ Từ hình trên ta chú ý rằng phần đầu dãy số là `16 9 3 15 3 20 6
 flag: **PICOCTF{THENUMBERSMASON}**
 {: .notice}
 
----
-
-<br>
-
 ## Easy1
 
 <figure align="center">
@@ -69,10 +65,6 @@ Sau khi chạy đoạn code trên, ta dễ dàng tìm ra được decoder là `C
 Flag: **picoCTF{CRYPTOISFUN}**
 {: .notice}
 
----
-
-<br>
-
 ## 13
 
 <figure align="center">
@@ -84,10 +76,6 @@ Ngay đầu dòng mô tả, ta cũng nhận ra đây là 1 challenge về <a hre
 
 Flag: **picoCTF{not_too_bad_of_a_problem}**
 {: .notice}
-
----
-
-<br>
 
 ## caesar
 
@@ -103,10 +91,6 @@ Vì bảng chữ cái có 26 kí tự, tức là có tối đa 25 khoảng dịc
 Flag: **picoCTF{crossingtherubiconzaqjsscr}**
 {: .notice}
 
----
-
-<br>
-
 ### Xem thêm
 
 <div align="left">
@@ -114,10 +98,6 @@ Flag: **picoCTF{crossingtherubiconzaqjsscr}**
     <a href="https://privacycanada.net/classical-encryption/caesar-cipher/" class="btn">Mật mã caesar</a>
     <a href="https://cryptii.com/pipes/caesar-cipher" class="btn">Decode caesar online</a>
 </div>
-
----
-
-<br>
 
 ## Tapping
 
@@ -139,10 +119,6 @@ Flag: **PICOCTF{M0RS3C0D31SFUN3902019519}**
     <a href="https://morsedecoder.com/vi/" class="btn">Mã morse</a> 
     <a href="https://morsecode.world/international/translator.html" class="btn" >Giải mã mã morse</a>
 </div>
-
----
-
-<br>
 
 ## List of challenge
 

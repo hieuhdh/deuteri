@@ -31,10 +31,6 @@ Cũng tương tự challenge `13` trong <a href="https://hieuhdh.github.io/deute
 flag: **picoCTF{next_time_I'll_try_2_rounds_of_rot13_aFxtzQWR}**
 {: .notice}
 
----
-
-<br>
-
 ## Mind your Ps and Qs
 
 <figure align="center">
@@ -58,10 +54,6 @@ Sau khi chạy đoạn code trên, ta sẽ nhận được flag
 
 Flag: **picoCTF{sma11_N_n0_g0od_00264570}**
 {: .notice}
-
----
-
-<br>
 
 ## List of challenge
 
