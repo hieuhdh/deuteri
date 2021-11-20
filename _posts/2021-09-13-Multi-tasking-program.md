@@ -187,19 +187,19 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 <div class="wrapper">
     <div class="button">
        <div class="icon">
-          <i class="\f230"></i>
+          <i class="fab fa-facebook-f"></i>
        </div>
        <span>Facebook</span>
     </div>
     <div class="button">
        <div class="icon">
-          <i class="\f09b"></i>
+          <i class="fab fa-github"></i>
        </div>
        <span>Github</span>
     </div>
     <div class="button">
        <div class="icon">
-          <i class="\f0e1"></i>
+          <i class="fab fa-linkedin-in"></i>
        </div>
        <span>LinkedIn</span>
     </div>
