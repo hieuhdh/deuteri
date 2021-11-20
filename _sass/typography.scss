@@ -176,16 +176,14 @@ dt {
 
 
 button {
-    font-size: 12px;
     background: #823af7;
     color: #fff;
     border: 1px solid #823af7;
     padding: 10px 10px;
-    margin: 1rem;
+    // margin: 1rem;
     position: relative;
     z-index: 1;
     overflow: hidden;
-    border-radius: 5%;
 }
 button:hover {
     color: #823af7;
@@ -208,7 +206,7 @@ button[class^="slide"]:hover::after {
     bottom: 0;
     transition: all 0.35s;
 }
-button.slide_from_left::after {
+button.slide_from_left_contact::after {
     top: 0;
     bottom: 0;
     left: -100%;
