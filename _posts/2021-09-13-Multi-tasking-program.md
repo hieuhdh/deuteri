@@ -183,6 +183,39 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </div>
 
 ## About me
+
+<div class="wrapper">
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-twitter"></i>
+            </div>
+            <span>Twitter</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-github"></i>
+            </div>
+            <span>Github</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-youtube"></i>
+            </div>
+            <span>YouTube</span>
+         </div>
+      </div>
 <!-- 
 <div align="left">
     <button class="slide_from_left_contact"><a href="https://www.facebook.com/ao.lncb/" style = "text-decoration: none">Facebook</a> </button>
@@ -190,7 +223,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <button class="slide_from_left_contact"><a href="https://www.linkedin.com/in/hieuhdh/" style = "text-decoration: none">LinkedIn</a> </button>
 </div> -->
 
-<div class = "hover-box">
+<!-- <div class = "hover-box">
     <a class = "btnn" href = "#">
         <span class = "name-desc">Facebook</span>
         <div class = "btn-icon fb">
@@ -210,4 +243,4 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
         </div>
     </a>
     
-</div>
+</div> -->
