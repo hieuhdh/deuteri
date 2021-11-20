@@ -65,8 +65,8 @@
         
         text-align: center;
         display: inline-block;
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
         float: center;
         margin: 0 5px;
         overflow: hidden;
@@ -74,7 +74,7 @@
         border-radius: 50px;
         cursor: pointer;
         box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-        transition: all 0.3s ease-out;
+        transition: all 0.5s ease-out;
         &:visited {
             color: $white;
         }
@@ -83,32 +83,32 @@
             background-color: $white;
             color: $color_purple;
         }
-        &.btn-info .icon{
-            display: inline-block;
-            height: 40px;
-            width: 40px;
-            text-align: center;
-            border-radius: 50%;
-            box-sizing: border-box;
-            line-height: 40px;
-            transition: all 0.3s ease-out;
-        }
+        // &.btn-info .icon{
+        //     display: inline-block;
+        //     height: 40px;
+        //     width: 40px;
+        //     text-align: center;
+        //     border-radius: 50%;
+        //     box-sizing: border-box;
+        //     line-height: 40px;
+        //     transition: all 0.3s ease-out;
+        // }
 
-        &.btn-info .icon i{
-            line-height: 50px;
-            transition: all 0.3s ease-out;
-        }
+        // &.btn-info .icon i{
+        //     line-height: 50px;
+        //     transition: all 0.3s ease-out;
+        // }
 
-        &.btn-info .icon i{
-            color: #fff;
-        }
+        // &.btn-info .icon i{
+        //     color: #fff;
+        // }
 
-        &.btn-info span{
-            font-weight: 500px;
-            line-height: 50px;
-            margin-left: 10px;
-            transition: all 0.3s ease-out;
-        }
+        // &.btn-info span{
+        //     font-weight: 500px;
+        //     line-height: 50px;
+        //     margin-left: 10px;
+        //     transition: all 0.3s ease-out;
+        // }
 
         // position: relative;
         // padding: 10px 30px;
