@@ -69,30 +69,23 @@
             background-color: $white;
             color: $info;
         }
-    }
 
-    &.btn-contact-me {
-        $btn-color: random-color($max:200);
-        $btn-color-dark: shade($btn-color, 40%);
-        color: tint($btn-color);
-        
-            &:before {
-                content: '';
-                @include absolute(0,-50px,0,0);
-                border-right: 50px solid transparent;
-                border-bottom: $btn-height solid $btn-color-dark;
-                transform: translateX(-100%);
-            }
-        
-            &:hover {
-                color: tint($btn-color, 75%);
-        
-                &:before {
-                    transform: translateX(0);
-                }
-            }
+        // position: relative;
+        // padding: 10px 30px;
+        // border: 2px solid #41f321;
+        // margin: 10px;
+        // display: inline-block;
+        // text-decoration: none;
+        // color: #41f321;
+        // letter-spacing: 2px;
+        // text-transform: uppercase;
+        // transition: 0.5s;
+
+        // &:hover {
+        //     background-color: $white;
+        //     color: $info;
+        // }
     }
-        
 
 }
 .title .btn {
