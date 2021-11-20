@@ -304,13 +304,14 @@ dt {
 //     box-sizing: border-box;
 //     font-family: 'Poppins', sans-serif;
 // }
-html,body{
-    display: grid;
-    height: 100%;
-    width: 100%;
-    place-items: center;
-    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-}
+// html,body{
+//     display: grid;
+//     height: 100%;
+//     width: 100%;
+//     place-items: center;
+//     background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+// }
+
 .wrapper .button{
   display: inline-block;
   height: 60px;
@@ -329,12 +330,12 @@ html,body{
 }
 .wrapper .button .icon{
   display: inline-block;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   text-align: center;
   border-radius: 50px;
   box-sizing: border-box;
-  line-height: 60px;
+  line-height: 40px;
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1):hover .icon{
@@ -349,7 +350,7 @@ html,body{
 
 .wrapper .button .icon i{
   font-size: 25px;
-  line-height: 60px;
+  line-height: 40px;
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover .icon i{
@@ -358,7 +359,7 @@ html,body{
 .wrapper .button span{
   font-size: 20px;
   font-weight: 500;
-  line-height: 60px;
+  line-height: 40px;
   margin-left: 10px;
   transition: all 0.3s ease-out;
 }
