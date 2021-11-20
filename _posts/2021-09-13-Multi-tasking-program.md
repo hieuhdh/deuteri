@@ -190,7 +190,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
         <a href="#" class="btn btn-info">Facebook</a> 
         <a href="#" class="btn btn-info">Github</a>
     </h4>
-</div>
+</div><br><br>
 
 <!-- <br>
 <h2 id = "about-me">About me</h2>
