@@ -186,22 +186,22 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 <h2 id = "about-me">About me</h2>
 
 <div class="button">
-       <div class="icon">
-          <i class="fab fa-facebook-f"></i>
-       </div>
-       <span>Facebook</span>
+    <div class="icon">
+        <i class="fab fa-facebook-f"></i>
     </div>
-    <div class="button">
-       <div class="icon">
-          <i class="fab fa-github"></i>
-       </div>
-       <span>Github</span>
+    <span>Facebook</span>
+</div>
+<div class="button">
+    <div class="icon">
+        <i class="fab fa-github"></i>
     </div>
-    <div class="button">
-       <div class="icon">
-          <i class="fab fa-linkedin-in"></i>
-       </div>
-       <span>LinkedIn</span>
+    <span>Github</span>
+</div>
+<div class="button">
+    <div class="icon">
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+    <span>LinkedIn</span>
 </div>
 
 <!-- 
