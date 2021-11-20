@@ -187,7 +187,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 <br>
 <h2 id = "about-me" align="center">About me</h2>
 
-<div align="left">
+<div align="center">
     <h4>
         <!-- <div class="btn btn-info">
             <div class="icon"><i class="fa fa-fw fa-facebook-square"></i></div>
