@@ -35,9 +35,9 @@ comments: true
     <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_Boole" style="text-decoration: none; color:blue" >Xem thêm</a>
 </div>
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="tinh-chat">Tính chất</h2>
 
@@ -54,9 +54,9 @@ Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có b
 |6| Tính bù |$$\forall x\in A \text{. Ta có} \begin{cases}  x \wedge \neg x = 0 \\ x \vee \neg x = 1 \end{cases} $$ |              |
 {: rules="groups"}
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="ham-boole">Hàm Boole</h2>
 <h3 id="bien-boole">Biến Boole</h3>
@@ -68,9 +68,9 @@ Một hàm từ tập $$\Big\{ \big( x_1, x_2, ..., x_n \big) \vert x_i \in \big
 
 Ví dụ: $$F \big(x, y, z \big) = x + y + z $$ được gọi là hàm Boole bậc 3.
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="dang-noi-roi-chinh-tac-cua-ham-boole">Dạng nối rời chính tắc của hàm Boole</h2>
 <h3 id="mot-vai-dieu-can-biet">Một vài điều cần biết</h3>
@@ -161,9 +161,9 @@ Giả sử T là 1 tế bào lớn của bìa Kar thì:
 * $$T$$ *là một tế bào và* $$T \subseteq Kar \big(f\big)$$  
 * *Hơn nữa:* $$\nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big)$$ 
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole</h2>
 <h4>Cách dùng</h4>
@@ -234,9 +234,9 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 <div>Để trả lời cho câu hỏi này thì cũng khó có thể trả lời sao cho hợp lí, vì mỗi người mỗi cách nhận định về vấn đề này, bạn đọc có thể tìm hiểu kĩ hoặc làm cách nào đó nếu muốn hiểu bản chất của cách trên hoặc có thể bắt đầu từ 1 cách cơ sở nhất mà tôi sắp trình bày.</div>
 <div><strong>Dưới đây tôi sẽ cung cấp thêm 1 cách chính quy khác để thực hiện việc tối giản biểu thức hàm Boole dễ dàng hơn. </strong></div>
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="[CHINHQUY]-cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Một cách chính quy khác trong việc dùng bìa Kar để tối giản hàm Boole </h2>
 <h3 id = "dinh-nghia-ve-phu">Định nghĩa về phủ tối tiểu của một tập hợp</h3>
@@ -298,9 +298,9 @@ Cụ thể 2 công thức tối tiểu đó là $$\left[ \begin{array}{cc}  f = 
 
 $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="co-the-ban-da-biet">Có thể bạn đã biết</h2>
 

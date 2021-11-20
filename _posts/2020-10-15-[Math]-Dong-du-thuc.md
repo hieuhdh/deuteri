@@ -59,8 +59,9 @@ $$
 
 Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 
-<br>
 ---
+
+<br>
 
 <h2 id="mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module">Một số tính chất và các phép toán đồng dư trên vành Module</h2>
 
@@ -119,9 +120,9 @@ $$ \begin{align*}
     \end{cases}
 \end{align*}$$
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="mot-so-vi-du-ve-xu-li-dong-du-trong-toan-hoc">Một số ví dụ về xử lí đồng dư trong toán học</h2>
 
@@ -156,9 +157,9 @@ $$
 
 **Từ các lập luận trên, có điều phải chứng minh.**
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh">Một số ví dụ về xử lí đồng dư trong lập trình</h2>
 
@@ -219,9 +220,9 @@ Dựa vào nhận xét trên, dễ dàng ta có thể nhập 1 số nguyên `n` 
 
 Và những lập luận trên của tôi cũng đã giải thích cho việc tại sao trong hướng tiếp cận của tôi chỉ đúng với điều kiện số Module có bình phương phải nhỏ hơn hoặc bằng phạm vi tối đa của kiểu dữ liệu có phạm vi lớn nhất trong C++.
 
-<br>
-
 ---
+
+<br>
 
 <h2 id="co-the-ban-da-biet">Có thể bạn đã biết</h2>
 
