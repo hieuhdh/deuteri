@@ -183,3 +183,31 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </div>
 
 ## About me
+<!-- 
+<div align="left">
+    <button class="slide_from_left_contact"><a href="https://www.facebook.com/ao.lncb/" style = "text-decoration: none">Facebook</a> </button>
+    <button class="slide_from_left_contact"><a href="https://github.com/hieuhdh/" style = "text-decoration: none">Github</a> </button>
+    <button class="slide_from_left_contact"><a href="https://www.linkedin.com/in/hieuhdh/" style = "text-decoration: none">LinkedIn</a> </button>
+</div> -->
+
+<div class = "hover-box">
+    <a class = "btnn" href = "#">
+        <span class = "name-desc">Facebook</span>
+        <div class = "btn-icon fb">
+            <i class = "\f230">
+        </div>
+    </a>
+    <a class = "btnn" href = "#">
+        <span class = "name-desc">Github</span>
+        <div class = "btn-icon github">
+            <i class = "\f09b">
+        </div>
+    </a>
+    <a class = "btnn" href = "#">
+        <span class = "name-desc">LinkedIn</span>
+        <div class = "btn-icon linkedin">
+            <i class = "\f0e1">
+        </div>
+    </a>
+    
+</div>
