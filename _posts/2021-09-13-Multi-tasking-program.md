@@ -189,7 +189,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <h4>
         <div class="btn btn-info">
             <div class="icon">
-                <i class="\f230"></i>
+                <i class="fa fa-fw fa-facebook-square"></i>
             </div>
             <span>Facebook</span>
         </div> 
