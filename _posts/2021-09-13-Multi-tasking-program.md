@@ -185,7 +185,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 ## About me
 
 <div align="left">
-    <button class="slide_from_left"><a href="https://www.facebook.com/ao.lncb/">Facebook</a> </button>
+    <button class="slide_from_left"><a href="https://www.facebook.com/ao.lncb/" style = "text-decoration: none">Facebook</a> </button>
     <a href="https://github.com/hieuhdh/" class="slide_from_left">Github</a>
     <a href="https://www.linkedin.com/in/hieuhdh/" class="slide_from_left">LinkedIn</a>
 </div>
