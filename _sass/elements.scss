@@ -8,8 +8,9 @@
 	background: $white;
 	color: $color_shark;
 	&:hover {
+        width: 100px;
 		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
-		color: $red;
+		color: $color_purple;
 	}
 }
 .social-btn {
@@ -63,10 +64,10 @@
         // color: $white;
         // border-color: $info;
         
-
+        text-align: center;
         display: inline-block;
-        height: 40px;
-        width: 40px;
+        height: 45px;
+        width: 45px;
         float: left;
         margin: 0 5px;
         overflow: hidden;

@@ -185,7 +185,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 ---
 
 <br>
-<h2 id = "about-me" align="right">About me</h2>
+<h2 id = "about-me" align="center">About me</h2>
 
 <div align="left">
     <h4>
