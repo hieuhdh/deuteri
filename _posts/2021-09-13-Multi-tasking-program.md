@@ -182,6 +182,9 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <a href="https://opensource.org/licenses/MIT" class="btn">MIT</a> 
 </div>
 
+<br>
+<h2 id = "about-me">About me</h2>
+
 <div align="left">
     <h4>
         <a href="#" class="btn btn-info">Facebook</a> 
