@@ -3,7 +3,7 @@ layout: post
 title:  "Multi tasking program"
 date:   2021-09-13
 excerpt: "This program that provides login framework, registration framework and basic applications."
-feature: https://user-images.githubusercontent.com/86739367/142738625-090ea455-c13a-47b6-8351-edea8ba9203a.jpg
+feature: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
 project: true
 tag:
 - Python 
