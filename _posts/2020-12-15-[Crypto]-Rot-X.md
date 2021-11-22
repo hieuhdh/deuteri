@@ -46,6 +46,7 @@ comments: true
 After what I have shared above, I hope it will be of some help to readers. If you have any questions or comments, you can contact me <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >here</a>.
 {: .notice}
 
+<br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%;">
   <div class="item item1" style="text-align: right"><a href="https://hieuhdh.github.io/deuteri/Math-Overview/" class="btn" style="width: 100%">Previous: [Math] Overview<div style = "text-align: left">&laquo; </div></a></div>
   <div class="item item2" style="text-align: left"><a href="https://hieuhdh.github.io/deuteri/Crypto-RSA/" class="btn" style="width: 100%">Next: RSA <div style = "text-align: right">&raquo;</div></a></div>

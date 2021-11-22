@@ -110,6 +110,7 @@ Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move your car. **Midto
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
 {: .notice}
 
+<br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%;">
   <div class="item item1" style="text-align: right"><a href="https://hieuhdh.github.io/deuteri/Guide-Latex-Syntax/" class="btn" style="width: 100%">Previous: Latex Syntax<div style = "text-align: left">&laquo; </div></a></div>
   <div class="item item2" style="text-align: left"><a href="https://hieuhdh.github.io/deuteri/Crypto-picoCTF/" class="btn" style="width: 100%">Next: [Crypto] picoCTF<div style = "text-align: right">&raquo;</div></a></div>
