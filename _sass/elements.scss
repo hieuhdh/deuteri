@@ -9,7 +9,7 @@
 	// color: $color_shark;
     color: $color_bg;
 	&:hover {
-		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
+		box-shadow: 0 0 1px 0 rgba($color_purple,0.5);
 		color: $color_purple;
 	}
 }
@@ -264,3 +264,7 @@ kbd {
     font-weight: 300;
     margin-bottom: 10px;
 }
+
+
+// pre_next
+
