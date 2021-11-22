@@ -230,5 +230,7 @@ Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích đ
 {: .notice}
 
 <div align="right"> 
-    <div style = "float: right;"><a href="https://hieuhdh.github.io/deuteri/Math-Dai-so-Boole/" class="btn">Next<br> Đại số Boole &raquo;</a></div>
+    <div style = "float: left;"><a style = "float: right;">&laquo; Previous</a> <br><a href="#" class="btn" style="text-decoration: none; color:#823af7">None</a></div>
+    <div style = "float: right;"><a style = "float: left;">Next</a><br><a href="https://hieuhdh.github.io/deuteri/Math-Dai-so-Boole/" class="btn" style="text-decoration: none; color:#823af7" > Đại số Boole <img src = "https://user-images.githubusercontent.com/86739367/142813509-c4b0b634-1bfa-4080-bcd7-d356b262c07d.png"></a></div>
 </div>
+
