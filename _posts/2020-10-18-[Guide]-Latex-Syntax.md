@@ -322,7 +322,7 @@ Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích đ
 {: .notice}
 
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%;">
-  <div class="item item1" style="text-align: right"><div style = "text-align: left">&laquo; </div><a href="https://hieuhdh.github.io/deuteri/Crypto-Overview/" class="btn" style="width: 100%">Previous: [Crypto] Overview</a></div>
-  <div class="item item2" style="text-align: left"><div style = "text-align: right">&raquo;</div><a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn" style="width: 100%">Next: Markdown Syntax</a></div>
+  <div class="item item1" style="text-align: right"><a href="https://hieuhdh.github.io/deuteri/Crypto-Overview/" class="btn" style="width: 100%">Previous: [Crypto] Overview<div style = "text-align: left">&laquo; </div></a></div>
+  <div class="item item2" style="text-align: left"><a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn" style="width: 100%">Next: Markdown Syntax<div style = "text-align: right">&raquo;</div></a></div>
 
 </div>
