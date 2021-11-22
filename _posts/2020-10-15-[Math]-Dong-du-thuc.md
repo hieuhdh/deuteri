@@ -230,5 +230,7 @@ Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích đ
 {: .notice}
 
 <div align="right"> 
-    <a href="https://hieuhdh.github.io/deuteri/Math-Dai-so-Boole/" class="btn"><img src ="https://user-images.githubusercontent.com/86739367/142805585-aa40b2ff-d151-4ebc-8f8b-a3db851344ce.png" >Next <br>Đại số Boole</a>
+    <div><img src ="https://user-images.githubusercontent.com/86739367/142805585-aa40b2ff-d151-4ebc-8f8b-a3db851344ce.png" style="float: left;"></div>
+    <div><a href="https://hieuhdh.github.io/deuteri/Math-Dai-so-Boole/" class="btn" style = "float: right;">Next <br>Đại số Boole</a></div>
+    
 </div>
