@@ -252,9 +252,10 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     
 </div> -->
 
-<div align="right"> 
-    <div style = "float: left;"><a href="https://hieuhdh.github.io/deuteri/Math-Overview/" class="btn">&laquo; Previous: [Math] Overview<img src = "https://user-images.githubusercontent.com/86739367/142817013-870bcedc-8544-4fbc-86c4-4acdba141e0b.png"></a></div>
-    <div style = "float: right;"><a href="#" class="btn">Next: None &raquo;<img src = "https://user-images.githubusercontent.com/86739367/142817022-00b897d0-f9ab-4a22-8bc3-273d991ff228.png"></a></div>
+<div class="wrapperr" style = "display: grid;grid-template-columns: 50% 50% 20px;grid-template-rows: 50px 50px;grid-column-gap: 5%;">
+  <div class="item item1" style="text-align: left"><a href="https://hieuhdh.github.io/deuteri/Math-Overview/" class="btn">&laquo; Previous: [Math] Overview<img src = "https://user-images.githubusercontent.com/86739367/142817013-870bcedc-8544-4fbc-86c4-4acdba141e0b.png"></a></div>
+  <div class="item item2" style="text-align: right"><a href="#" class="btn">Next: None &raquo;<img src = "https://user-images.githubusercontent.com/86739367/142817022-00b897d0-f9ab-4a22-8bc3-273d991ff228.png"></a></div>
+
 </div>
 
 <br><br>
