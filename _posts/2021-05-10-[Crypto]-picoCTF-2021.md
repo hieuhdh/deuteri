@@ -71,3 +71,10 @@ Flag: **picoCTF{sma11_N_n0_g0od_00264570}**
 
 Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.
 {: .notice}
+
+<div align="right"> 
+    <div style = "float: left;"><a href="https://hieuhdh.github.io/deuteri/Crypto-picoCTF-2019/" class="btn">&laquo; Previous: picoCTF-2019<img src = "https://user-images.githubusercontent.com/86739367/142817013-870bcedc-8544-4fbc-86c4-4acdba141e0b.png"></a></div>
+    <div style = "float: right;"><a href="#" class="btn">Next: None &raquo;<img src = "https://user-images.githubusercontent.com/86739367/142817022-00b897d0-f9ab-4a22-8bc3-273d991ff228.png"></a></div>
+</div>
+
+<br><br>
