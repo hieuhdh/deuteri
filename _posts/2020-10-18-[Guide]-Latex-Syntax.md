@@ -321,9 +321,8 @@ comments: true
 Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.
 {: .notice}
 
-<div align="right"> 
-    <div style = "float: left;"><a href="#" class="btn">&laquo; Previous: None<img src = "https://user-images.githubusercontent.com/86739367/142817013-870bcedc-8544-4fbc-86c4-4acdba141e0b.png"></a></div>
-    <div style = "float: right;"><a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn">Next: Markdown Syntax &raquo;<img src = "https://user-images.githubusercontent.com/86739367/142817022-00b897d0-f9ab-4a22-8bc3-273d991ff228.png"></a></div>
-</div>
+<div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%;">
+  <div class="item item1" style="text-align: right"><div style = "text-align: left">&laquo; </div><a href="https://hieuhdh.github.io/deuteri/Crypto-Overview/" class="btn" style="width: 100%">Previous: [Crypto] Overview</a></div>
+  <div class="item item2" style="text-align: left"><div style = "text-align: right">&raquo;</div><a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn" style="width: 100%">Next: Markdown Syntax</a></div>
 
-<br><br>
+</div>
