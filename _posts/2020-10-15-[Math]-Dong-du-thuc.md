@@ -230,6 +230,5 @@ Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích đ
 {: .notice}
 
 <h4 align="right"> 
-    <div style="float: left;">Next &raquo;</div>
-    <div style = "float: right;"><a href="https://hieuhdh.github.io/deuteri/Math-Dai-so-Boole/" class="btn" >Đại số Boole</a></div>
+    <div style = "float: right;"><a href="https://hieuhdh.github.io/deuteri/Math-Dai-so-Boole/" class="btn" style="padding-left: 20%">Next &nbsp; &raquo; <br> Đại số Boole</a></div>
 </h4>
