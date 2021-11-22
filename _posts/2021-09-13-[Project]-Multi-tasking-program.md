@@ -253,7 +253,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </div> -->
 
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%;">
-  <div class="item item1" style="text-align: right"><a href="https://hieuhdh.github.io/deuteri/Math-Overview/" class="btn" style="width: 100%"> <div style = "text-align: left">&laquo; </div>Previous: [Math] Overview<img src = "https://user-images.githubusercontent.com/86739367/142817013-870bcedc-8544-4fbc-86c4-4acdba141e0b.png"></a></div>
+  <div class="item item1" style="text-align: right"><a href="https://hieuhdh.github.io/deuteri/Math-Overview/" class="btn" style="width: 100%">Previous: [Math] Overview<div style = "text-align: left">&laquo; </div></a></div>
   <div class="item item2" style="text-align: left"><a href="#" class="btn" style="width: 100%">Next: None <div style = "text-align: right">&raquo;</div></a></div>
 
 </div>
