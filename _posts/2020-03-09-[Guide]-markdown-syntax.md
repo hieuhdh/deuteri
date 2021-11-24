@@ -110,13 +110,13 @@ Dùng `![<alt tên ảnh>](<link>)` để chèn 1 hình ảnh nào đó vào vă
 
 Ví dụ tôi gõ
 ```
-[Đây là một link dẫn đến facebook](www.facebook.com)
+[Đây là một link dẫn đến facebook](https://vi-vn.facebook.com/)
 ![Test](https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg)
 ```
 
 Và dưới đây là kết quả
 
-[Đây là một link dẫn đến facebook](www.facebook.com)
+<a href="https://vi-vn.facebook.com/" style="text-decoration: none; color:#823af7">Đây là một link dẫn đến facebook</a>
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg"><img src="https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg"></a>
