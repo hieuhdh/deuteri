@@ -7,7 +7,7 @@ tags: [Guide, Math, Syntax]
 comments: true
 ---
 <h1 align="center">
-    Mở đầu
+    Nội dung
 </h1> 
 
 <h4>
@@ -15,7 +15,7 @@ comments: true
 </h4>
 <div align="left" >
     <h4>
-    	<ol>
+    	<ol type = "I">
         	<li style = "font-size:13px; color: #823af7">
                 <a href="#so-luoc-ve-cac-bang-ki-tu" style="text-decoration: none; color: #823af7">Sơ lược về các cú pháp cơ bản
                     <ol style = "font-size: 12px">
@@ -30,14 +30,16 @@ comments: true
                     </ol>
                 </a>
         	</li>
-        	<li style = "font-size:13px; color: #823af7"><a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color: #823af7">Một vài cú pháp khác</a>
-            	<ol style = "font-size: 12px">
-                    <li style = "color: #823af7"><a href="#gioi-han" style="text-decoration: none; color:#823af7">Giới hạn</a></li>
-                    <li style = "color: #823af7"><a href="#tong-sigma" style="text-decoration: none; color:#823af7">Tổng Sigma</a></li>
-                    <li style = "color: #823af7"><a href="#tich-phan" style="text-decoration: none; color:#823af7">Tích phân</a></li>
-                    <li style = "color: #823af7"><a href="#phan-thuc" style="text-decoration: none; color:#823af7">Phân thức</a></li>
-                    <li style = "color: #823af7"><a href="#khai-can" style="text-decoration: none; color:#823af7">Khai căn</a></li>
-               	</ol>
+        	<li style = "font-size:13px; color: #823af7">
+                <a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color: #823af7">Một vài cú pháp khác
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7"><a href="#gioi-han" style="text-decoration: none; color:#823af7">Giới hạn</a></li>
+                        <li style = "color: #823af7"><a href="#tong-sigma" style="text-decoration: none; color:#823af7">Tổng Sigma</a></li>
+                        <li style = "color: #823af7"><a href="#tich-phan" style="text-decoration: none; color:#823af7">Tích phân</a></li>
+                        <li style = "color: #823af7"><a href="#phan-thuc" style="text-decoration: none; color:#823af7">Phân thức</a></li>
+                        <li style = "color: #823af7"><a href="#khai-can" style="text-decoration: none; color:#823af7">Khai căn</a></li>
+                    </ol>
+                </a>
         	</li>
         </ol>
     </h4>

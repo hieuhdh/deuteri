@@ -9,17 +9,113 @@ comments: true
 <h1 align="center">
     Nội dung
 </h1> 
-
-<div align="center">
+<h4>
+	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
+</h4>
+<div align="left" >
     <h4>
-        <a href="#dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa | </a>
-        <a href="#tinh-chat" style="text-decoration: none; color:#823af7">Tính chất Đại số Boole | </a>
-        <a href="#ham-boole" style="text-decoration: none; color:#823af7">Hàm Boole | </a>
-        <a href="#dang-noi-roi-chinh-tac-cua-ham-boole" style="text-decoration: none; color:#823af7">Dạng nối rời chính tắc của hàm Boole | </a>
-        <a href="#bia-karnaugh" style="text-decoration: none; color:#823af7">Bìa Karnaugh | </a> 
-        <a href="#cach-dung-bia-kar-trong-viec-don-gian-ham-boole" style="text-decoration: none; color:#823af7">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole | </a> 
-        <a href="#[CHINHQUY]-cach-dung-bia-kar-trong-viec-don-gian-ham-boole" style="text-decoration: none; color:#823af7">Một cách chính quy khác trong việc dùng bìa Kar để tối giản hàm Boole | </a> 
-        <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a> 
+    	<ol type = "I">
+        	<li style = "font-size:13px; color: #823af7">
+                <a href="#dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa</a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#tinh-chat" style="text-decoration: none; color:#823af7">Tính chất Đại số Boole</a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#ham-boole" style="text-decoration: none; color:#823af7">Hàm Boole
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7">
+                            <a href="#bien-boole" style="text-decoration: none; color:#823af7">Biến Boole
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li style = "color: #823af7"><a href="#dinh-nghia-bien-boole" style="text-decoration: none; color:#823af7">Định nghĩa</a> </li>
+                                </ol>
+                            </a> 
+                        </li>
+        		    </ol>
+                </a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#dang-noi-roi-chinh-tac-cua-ham-boole" style="text-decoration: none; color:#823af7">Dạng nối rời chính tắc của hàm Boole
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7">
+                            <a href="#mot-vai-dieu-can-biet" style="text-decoration: none; color:#823af7">Một vài điều cần biết
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li style = "color: #823af7"><a href="#cac-dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa về từ đơn, đơn thức, từ tối tiểu (đơn thức tối tiểu), công thức đa thức</a> </li>
+                                    <li style = "color: #823af7"><a href="#vi-du" style="text-decoration: none; color:#823af7">Ví dụ</a> </li>
+                                    <li style = "color: #823af7"><a href="#cach-tim-dang-noi-roi-chinh-tac-co-ban" style="text-decoration: none; color:#823af7">Cách tìm dạng nối rời chính tắc cơ bản</a> </li>
+                                    <li style = "color: #823af7"><a href="#bai-toan-1" style="text-decoration: none; color:#823af7">Bài toán 1</a> </li>
+                                </ol>
+                            </a> 
+                        </li>
+        		    </ol>
+                </a>
+            </li>
+        	<li style = "font-size:13px; color: #823af7">
+                <a href="#bia-karnaugh" style="text-decoration: none; color:#823af7">Bìa Karnaugh
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7">
+                            <a href="#mot-vai-thong-tin" style="text-decoration: none; color:#823af7">Một vài thông tin
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li><a href="#thong-tin-ve-bia-kar" style="text-decoration: none; color:#823af7">Thông tin về bìa Kar</a></li>
+                                    <li><a href="#tham-khao-them" style="text-decoration: none; color:#823af7">Tham khảo thêm</a></li>
+                                </ol>
+                            </a> 
+                        </li>
+                        <li style = "color: #823af7">
+                            <a href="#cac-cach-bieu-dien-bia-kar" style="text-decoration: none; color:#823af7">Các cách biểu diễn bìa Kar
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li><a href="#bieu-dien-bia-kar-theo-tu-don" style="text-decoration: none; color:#823af7">Biểu diễn theo từ đơn</a></li>
+                                    <li><a href="#bieu-dien-bia-kar-theo-ki-so" style="text-decoration: none; color:#823af7">Biểu diễn theo dạng kí số (đưa từ đơn ra ngoài)</a></li>
+                                </ol>
+                            </a> 
+                        </li>
+                        <li style = "color: #823af7">    
+                            <a href="#mot-vai-thuat-ngu-trong-bia-kar" style="text-decoration: none; color:#823af7">Một vài thuật ngữ trong bìa Kar
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li><a href="#te-bao-te-bao-lon" style="text-decoration: none; color:#823af7">Tế bào, tế bào lớn</a></li>
+                                </ol>
+                            </a> 
+                        </li>
+        		    </ol>
+                </a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#cach-dung-bia-kar-trong-viec-don-gian-ham-boole" style="text-decoration: none; color:#823af7">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7">
+                            <a href="#cach-dung" style="text-decoration: none; color:#823af7">Cách dùng</a> 
+                        </li>
+                        <li style = "color: #823af7">
+                            <a href="#huong-tiep-can-bia-kar-theo-dang-the-hien-ki-so" style="text-decoration: none; color:#823af7">Hướng tiếp cận bìa Kar theo dạng thể hiện các kí số (ở hình dưới)
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li><a href="#giai-thich-cho-cach-khoanh" style="text-decoration: none; color:#823af7">Giải thích cho cách khoanh</a></li>
+                                    <li><a href="#mo-rong" style="text-decoration: none; color:#823af7">Mở rộng cho việc ứng dụng bìa Kar vào việc rút gọn tốt giản trong hàm Boole</a></li>
+                                </ol>
+                            </a> 
+                        </li>
+        		    </ol>
+                </a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#[CHINHQUY]-cach-dung-bia-kar-trong-viec-don-gian-ham-boole" style="text-decoration: none; color:#823af7">Một cách chính quy khác trong việc dùng bìa Kar để tối giản hàm Boole
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7">
+                            <a href="#dinh-nghia-ve-phu" style="text-decoration: none; color:#823af7">Định nghĩa về phủ tối tiểu của một tập hợp</a> 
+                        </li>
+                        <li style = "color: #823af7">
+                            <a href="#thuật-toán-tìm-công-thức-đa-thức-tối-tiểu-của-hàm-boole-f" style="text-decoration: none; color:#823af7">Thuật toán tìm công thức đa thức tối tiểu của hàm Boole
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li><a href="#bài-toán-2-tìm-các-công-thức-đa-thức-tối-tiểu-của-hàm-boole-f-được-thể-hiện-bằng-bìa-kar-dưới-đây" style="text-decoration: none; color:#823af7">Bài toán 2</a></li>
+                                </ol>
+                            </a> 
+                        </li>
+        		    </ol>
+                </a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a>
+            </li>
+        </ol>
     </h4>
 </div>
 
@@ -90,8 +186,7 @@ $$ \begin{align*}
 <div><strong>Bước 1:</strong> Bổ sung các từ đơn còn thiếu vào các đơn thức.</div>
 <div><strong>Bước 2:</strong> Với mỗi đơn thức thu được ở bước 1, ta nhân đơn thức đó với tổng của những từ đơn bị thiếu và phần bù của nó trong đơn thức đó.</div>
 <div><strong>Bước 3:</strong> Tiếp tục khai triển hàm thu được ở bước 2 và loại bỏ những đơn thức bị trùng. Công thức đa thức thu được chính là dạng nối rời chính tắc của hàm Boole ban đầu.</div>
-<h4 id="bai-toan-1">Bài toán 1 </h4> 
-<div>Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến)</div> 
+<h4 id="bai-toan-1">Bài toán 1: Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến) </h4> 
 
 $$F \big( x,y,z,t \big) = xz \neg t \vee \neg y \neg z \neg t \vee xyt \vee \neg x yz \vee \neg x \neg y \neg z \neg t \vee \neg x yz \neg t$$
 
@@ -153,7 +248,7 @@ Giả sử T là 1 tế bào lớn của bìa Kar thì:
 
 <br>
 <h2 id="cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole</h2>
-<h4>Cách dùng</h4>
+<h3 id = "cach-dung">Cách dùng</h3>
 <div>Đối chiếu các đơn thức trong biểu thức đại số Boole xem từ đơn nào không xuất hiện trong các đơn thức đấy, thì chúng ta sẽ điền vào bảng các kí số 0 hoặc 1 (các kí số này là do người ra đề quy định) vào bảng sao cho các kí số này tạo thành 1 tế bào là cho chúng từ đơn trong biểu thức đại số Boole ban đầu không xuất hiện. </div>
 <div><strong>Lưu ý:</strong> Khi gom nhóm cái kí số thì phải gom theo dạng lũy thừa bậc n của 2, tuyệt đối không được gom 1 số lẽ các kí số.</div>
 <div>Ta cùng quay lại bài toán 1, ở đây ta sẽ điền các kí số 0 hoặc 1 vào bìa Kar sao cho hợp lí</div>
@@ -167,7 +262,7 @@ Từ bìa Kar ở trên ta dễ dàng thấy được dạng nối rời chính 
 
 $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \neg z \neg t + xyzt + xy \neg z t + \neg x yzt + \neg x yz \neg t + \neg x y \neg z t$$
 
-<h4 id = "huong-tiep-can-bia-kar-theo-dang-the-hien-ki-so">Hướng tiếp cận bìa Kar theo dạng thể hiện các kí số (ở hình dưới)</h4>
+<h3 id = "huong-tiep-can-bia-kar-theo-dang-the-hien-ki-so">Hướng tiếp cận bìa Kar theo dạng thể hiện các kí số (ở hình dưới)</h3>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142407432-4f93badc-caff-4cdb-bc90-74c4bfdc98dd.png"><img src="https://user-images.githubusercontent.com/86739367/142407432-4f93badc-caff-4cdb-bc90-74c4bfdc98dd.png"></a>
 	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh biểu diễn bìa Kar theo dạng kí số (đưa từ đơn ra ngoài)</i></a></figcaption>

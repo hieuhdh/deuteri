@@ -9,14 +9,56 @@ comments: true
 <h1 align="center">
     Nội dung
 </h1> 
-
-<div align="center">
+<h4>
+	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
+</h4>
+<div align="left" >
     <h4>
-        <a href="#dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa | </a>
-        <a href="#mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module" style="text-decoration: none; color:#823af7">Một số tính chất và các phép toán đồng dư trên vành Module | </a>
-        <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-toan-hoc" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong toán học | </a>
-        <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong lập trình | </a> 
-        <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a> 
+    	<ol type = "I">
+        	<li style = "font-size:13px; color: #823af7">
+                <a href="#dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7">
+                            <a href="#phép-lấy-phần-dư-trong-phép-chia" style="text-decoration: none; color:#823af7">Phép lấy phần dư trong phép chia</a> 
+                            <a href="#đồng-dư-thức" style="text-decoration: none; color:#823af7">Đồng dư thức</a> 
+                        </li>
+        		    </ol>
+                </a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module" style="text-decoration: none; color:#823af7">Một số tính chất và các phép toán đồng dư trên vành Module</a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-toan-hoc" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong toán học
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7">
+                            <a href="#ví-dụ-1" style="text-decoration: none; color:#823af7">Ví dụ 1
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li style = "color: #823af7"><a href="#giải" style="text-decoration: none; color:#823af7">Giải ví dụ 1</a> </li>
+                                </ol>
+                            </a> 
+                        </li>
+        		    </ol>
+                </a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong lập trình
+                    <ol style = "font-size: 12px">
+                        <li style = "color: #823af7">
+                            <a href="#ví-dụ-2" style="text-decoration: none; color:#823af7">Ví dụ 2
+                                <ol style = "font-size: 12px" type = "i">
+                                    <li style = "color: #823af7"><a href="#hướng-tiếp-cận-cơ-bản" style="text-decoration: none; color:#823af7">Hướng tiếp cận cơ bản</a> </li>
+                                    <li style = "color: #823af7"><a href="#hướng-tiếp-cận-thứ-2" style="text-decoration: none; color:#823af7">Hướng tiếp cận thứ 2</a> </li>
+                                </ol>
+                            </a> 
+                        </li>
+        		    </ol>
+                </a>
+            </li>
+            <li style = "font-size:13px; color: #823af7">
+                <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a>
+            </li>
+        </ol>
     </h4>
 </div>
 
