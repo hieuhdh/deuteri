@@ -20,6 +20,8 @@ comments: true
                     <ol style = "font-size: 12px">
                         <li style = "color: #823af7">
                             <a href="#phép-lấy-phần-dư-trong-phép-chia" style="text-decoration: none; color:#823af7">Phép lấy phần dư trong phép chia</a> 
+                        </li>
+                        <li>
                             <a href="#đồng-dư-thức" style="text-decoration: none; color:#823af7">Đồng dư thức</a> 
                         </li>
         		    </ol>
