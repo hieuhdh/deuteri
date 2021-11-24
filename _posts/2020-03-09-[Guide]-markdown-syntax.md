@@ -40,46 +40,15 @@ comments: true
                                     <li style = "color: #823af7"><a href="#danh-sach-khong-thu-tu" style="text-decoration: none; color:#823af7">Danh sách không thứ tự</a> </li>
                                 </ol>
                             </a> 
-                            <a href="#tao-ghi-chu" style="text-decoration: none; color:#823af7">Tạo ghi chú</a> 
                         </li>
                         <li>
                             <a href="#chen-bang" style="text-decoration: none; color:#823af7">Chèn bảng</a> 
                         </li>
-        		    </ol>
-                </a>
-            </li>
-            <li style = "font-size:13px; color: #823af7">
-                <a href="#mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module" style="text-decoration: none; color:#823af7">Một số tính chất và các phép toán đồng dư trên vành Module</a>
-            </li>
-            <li style = "font-size:13px; color: #823af7">
-                <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-toan-hoc" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong toán học
-                    <ol style = "font-size: 12px">
-                        <li style = "color: #823af7">
-                            <a href="#ví-dụ-1" style="text-decoration: none; color:#823af7">Ví dụ 1
-                                <ol style = "font-size: 12px" type = "i">
-                                    <li style = "color: #823af7"><a href="#giải" style="text-decoration: none; color:#823af7">Giải ví dụ 1</a> </li>
-                                </ol>
-                            </a> 
+                        <li>
+                            <a href="#tao-ghi-chu" style="text-decoration: none; color:#823af7">Tạo ghi chú</a> 
                         </li>
         		    </ol>
                 </a>
-            </li>
-            <li style = "font-size:13px; color: #823af7">
-                <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong lập trình
-                    <ol style = "font-size: 12px">
-                        <li style = "color: #823af7">
-                            <a href="#ví-dụ-2" style="text-decoration: none; color:#823af7">Ví dụ 2
-                                <ol style = "font-size: 12px" type = "i">
-                                    <li style = "color: #823af7"><a href="#hướng-tiếp-cận-cơ-bản" style="text-decoration: none; color:#823af7">Hướng tiếp cận cơ bản</a> </li>
-                                    <li style = "color: #823af7"><a href="#hướng-tiếp-cận-thứ-2" style="text-decoration: none; color:#823af7">Hướng tiếp cận thứ 2</a> </li>
-                                </ol>
-                            </a> 
-                        </li>
-        		    </ol>
-                </a>
-            </li>
-            <li style = "font-size:13px; color: #823af7">
-                <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a>
             </li>
         </ol>
     </h4>
@@ -149,7 +118,11 @@ Và dưới đây là kết quả
 
 [Đây là một link dẫn đến facebook](www.facebook.com)
 
-![Test](https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg)
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg"><img src="https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i></i></a></figcaption>
+</figure>
+
 <h3 id="chen-trich-dan">Chèn trích dẫn</h3>
 
 Dùng `>` để chèn 1 đoạn trích dẫn
@@ -177,13 +150,11 @@ Ví dụ tôi gõ
 ```
 
 và dưới đây là kết quả
-> abc
->>
->> cde
->>
->> efg
->> 
-> akaa
+
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/143188452-e0e37f73-9e67-46a4-8b66-dad961809f8d.png"><img src="https://user-images.githubusercontent.com/86739367/143188452-e0e37f73-9e67-46a4-8b66-dad961809f8d.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i></i></a></figcaption>
+</figure>
 
 <h3 id="chen-danh-sach">Chèn danh sách</h3>
 <h4 id="danh-sach-co-thu-tu">Danh sách có thứ tự</h3>
@@ -334,39 +305,35 @@ Các bạn có thể dùng cú pháp dưới đây để tạo 1 bảng danh sá
 
 Và kết quả hiển thị
 
-![Screenshot 2021-11-24 131848](https://user-images.githubusercontent.com/86739367/143185271-d09acf31-203c-40fa-a390-42984d2561aa.png)
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/143185271-d09acf31-203c-40fa-a390-42984d2561aa.png"><img src="https://user-images.githubusercontent.com/86739367/143185271-d09acf31-203c-40fa-a390-42984d2561aa.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i></i></a></figcaption>
+</figure>
 
 <h3 id="tao-ghi-chu">Tạo ghi chú</h3>
 
 Xem ví dụ về tạo các đoạn ghi chú dưới đây:
+
 * Ghi chú bình thường
 
     `Ghi chú bình thường trên một dòng`
+    
     ```
     Ghi chú bình thường
     Gồm nhiều dòng
     ```
 * Ghi chú đoạn code (thêm loại vào sau đoạn ghi chú)
-    * C++
-        ```C++
-        #include<iostream>
 
-        int main(){
-            std::cout <<"ok";
-        }
-        // Ở đoạn ghi chú này tôi dùng cú pháp 
-        //  ```C++ <ghi code vào> ```
-        ```
-    * python
-        ```python
-        a = int(input())
-        if a == 1:
-            print("ok")
-        else:
-            print("done")
-        # Ở đoạn ghi chú này tôi dùng cú pháp 
-        #  ```python <ghi code vào> ```
-        ```
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/143189277-456ea40e-87ed-4d73-981d-7f423f89fa72.png"><img src="https://user-images.githubusercontent.com/86739367/143189277-456ea40e-87ed-4d73-981d-7f423f89fa72.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Code ghi chú bằng ngôn ngữ C++ </i></a></figcaption>
+</figure>
+
+
+<figure align="center">
+	<a href="https://user-images.githubusercontent.com/86739367/143189054-ef48b2f2-b9bd-4559-9882-6ba62a5ff028.png"><img src="https://user-images.githubusercontent.com/86739367/143189054-ef48b2f2-b9bd-4559-9882-6ba62a5ff028.png"></a>
+	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Code ghi chú bằng ngôn ngữ python</i></a></figcaption>
+</figure>
 
 <br>
 <h1 align="center">
