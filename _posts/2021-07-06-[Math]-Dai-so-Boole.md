@@ -371,7 +371,7 @@ Do $$\big(1\big)$$ và $$\big(2\big)$$ đều là các phủ tối tiểu nên t
 **Bước 5:** Từ hai phủ tối tiểu của bước 4, ta lập ra 2 công thức đa thức mà đều đơn giản như nhau, do đó ta kết luận hàm Boole $$f$$ đã cho có 2 công thức đa thức tối tiểu.
 Cụ thể 2 công thức tối tiểu đó là $$\left[ \begin{array}{cc}  f = yt + \neg y \neg t + xy \\  f = yt + \neg y \neg t + x\neg t \end{array} \right.$$
 
-<div><strong> Thông tin thêm</strong><div>
+<div><strong>Thông tin thêm</strong><div>
 <div>Hàm Boole f ngoài việc biểu diễn bằng các biến Boole (hay còn gọi là dạng chuẩn tắc) như phần trên, người ta còn biểu diễn hàm Boole f bằng ánh xạ như sau:</div>
 
 $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big) = \big \{1111, 0111\big\} = \overline{f}^{-1} \big(0\big)$$
@@ -390,9 +390,13 @@ $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big
   Lời kết
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.
-{: .notice}
-
+<table>
+  <thead>
+    <tr>
+<td style = "font-weight: bold">Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.</td>
+    </tr>
+  </thead>
+</table>
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%;">
   <div class="item item1" style="text-align: right"><a href="https://hieuhdh.github.io/deuteri/Math-Dong-du-thuc/" class="btn" style="width: 100%">Previous: Đồng dư thức<div style = "text-align: left">&laquo; </div></a></div>
