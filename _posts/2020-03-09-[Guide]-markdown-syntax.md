@@ -157,7 +157,7 @@ và dưới đây là kết quả
 </figure>
 
 <h3 id="chen-danh-sach">Chèn danh sách</h3>
-<h4 id="danh-sach-co-thu-tu">Danh sách có thứ tự</h3>
+<h4 id="danh-sach-co-thu-tu">Danh sách có thứ tự</h4>
 
 Để tạo một danh sách có thứ tự, chỉ cần thêm các chữ số và dấu `.` trước đoạn danh sách cần thêm.
 
@@ -222,7 +222,7 @@ Và kết quả hiển thị:
         2. CDE
     3. edf
 
-<h4 id="danh-sach-khong-thu-tu">Danh sách không thứ tự</h3>
+<h4 id="danh-sach-khong-thu-tu">Danh sách không thứ tự</h4>
 
 Để tạo một danh sách có thứ tự, chỉ cần thêm các dạng `- hoặc + hoặc *` trước đoạn danh sách cần thêm.
 
@@ -262,6 +262,7 @@ hay
 ```
 
 Và kết quả hiển thị:
+
 * Đoạn code 1
     - abc
     - cde
@@ -290,6 +291,7 @@ Và kết quả hiển thị:
 <h3 id="chen-bang">Chèn bảng</h3>
 
 Các bạn có thể dùng cú pháp dưới đây để tạo 1 bảng danh sách các sinh viên cơ bản
+
 **Lưu ý:** 
 * Kí tự `:---` dưới cột `STT` tức là căn lề trái
 * Kí tự `:----:` dưới cột Họ và tên tức là căn giữa
