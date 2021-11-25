@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archives
+title: Archive
 excerpt: "Archive of something that I have written in the past time"
 comments: false
 ---
