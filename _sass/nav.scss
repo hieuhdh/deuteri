@@ -97,7 +97,7 @@
 		}
 		&.dl-back > a {
 			padding-left: 30px;
-			background: rgba(0,0,0,0.2);
+			// background: rgba(0,0,0,0.2);
 		}
 		&.dl-back:after,
 		> a:not(:only-child):after {
@@ -346,7 +346,7 @@ All this is done for any sub-level being entered.
 		display: none;
 	}
 	.dl-menuwrapper li > a:not(:only-child) {
-		//background: rgba(0,0,0,0.1);
+		background: rgba(0,0,0,0.1);
 	}
 	.dl-menuwrapper li > a:not(:only-child):after {
 		content: '';
