@@ -253,19 +253,19 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </div> -->
 
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; ">
-    <div class="item item1" style="text-align: right">
+    <div class="item item1" style="text-align: right; position: relative;">
         <a href="#" class="btn" style="width: 100%">
             <div>Previous</div>
-            <div style = "margin-top: -11px;position: absolute; width: 25px; height:25px; padding-right: 100%">
+            <div style = "margin-top: -14px;position: absolute; width: 25px; height:25px">
             	<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
             </div>
             <div style = "position: relative; ">None</div>
         </a>
     </div>
-    <div class="item item2" style="text-align: left; ">
+    <div class="item item2" style="text-align: left; position: relative; ">
         <a href="https://hieuhdh.github.io/deuteri/Math-Overview/" class="btn" style="width: 100%">
         	<div> Next</div>
-        	<div style = "margin-top: -11px;position: absolute; text-align: right; width: 25px; height:25px; padding-left: 43%"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;-webkit-flex-direction: row " ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        	<div style = "margin-top: -14px;position: absolute; right: 18px; width: 25px; height:25px; "><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
             </div>
         	<div style = "position: relative;">[Math] Overview</div>
         </a>
