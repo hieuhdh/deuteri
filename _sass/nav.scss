@@ -1,3 +1,81 @@
+.cc-color-override-1827372716.cc-window {
+    color: rgb(64, 64, 64);
+    background-color: rgb(239, 239, 239);
+}
+
+.cc-banner.cc-bottom {
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cc-window.cc-banner {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.cc-window.cc-banner {
+    padding: 1em 1.8em;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.cc-bottom {
+    bottom: 1em;
+}
+
+.cc-revoke, .cc-window {
+    position: fixed;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Helvetica,Calibri,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    z-index: 9999;
+}
+
+.cc-window {
+    opacity: 1;
+    -webkit-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+.cc-color-override-1827372716 .cc-btn {
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    background-color: rgb(142, 199, 96);
+}
+
+// @media screen and (max-width: 900px)
+// .cc-btn {
+//     white-space: normal;
+// }
+
+.cc-btn {
+    display: block;
+    padding: 0.4em 0.8em;
+    font-size: .9em;
+    font-weight: 700;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.cc-btn, .cc-close, .cc-link, .cc-revoke {
+    cursor: pointer;
+}
+
 .dl-menuwrapper {
 	width: 100%;
 	position: absolute;
