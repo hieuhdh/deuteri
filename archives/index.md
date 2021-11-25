@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 title: Archive
 excerpt: "Archive of something that I have written in the past time"
 comments: false
