@@ -6,11 +6,11 @@
 				<a href="#">About</a>
 				<ul class="dl-submenu">
 					<li>
-						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo" style="background-image:none">
+						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo" style="background-image:#120b26">
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<li><a href=""><span class="btn btn-inverse">Learn More</span></a></li> <!--{{ site.url }}/about/ -->
 					{% if site.email %}<li>
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
