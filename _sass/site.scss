@@ -229,27 +229,30 @@ header .entry-meta {
 ::-webkit-scrollbar {
     width: .3125rem;
     height: .3125rem;
-    background-color: $bg-color-scroll;
+    background-color: $color_gray;
 }
 
 ::-webkit-scrollbar-track {
     border-radius: .3125rem;
-    background-color: $bg-color-scroll;
+    background-color: $color_gray;
+    background: 0 0;
 }
 
 ::-webkit-scrollbar-track-piece {
-    background-color: $bg-color-scroll;
+    background-color: $color_gray;
+    background: 0 0;
 }
 
 ::-webkit-scrollbar-button {
-    background-color: $bg-color-scroll;
+    background-color: $color_gray;
+    background: 0 0;
     /* height:0; */
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 1.25rem;
     background-clip: padding-box;
-    background-color: $--grey-3;
+    background-color: $color_tundora;
     background-image: linear-gradient(45deg, $color-grey-1 25%, transparent 0, transparent 50%, $color-grey-1 0, $color-grey-1 75%, transparent 0, transparent);
 }
 
