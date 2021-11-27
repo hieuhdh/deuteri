@@ -50,6 +50,10 @@
     transition: opacity 1s ease;
 }
 
+.cc-window.cc-invisible {
+    opacity: 0;
+}
+
 .cc-color-override-1827372716 .cc-btn {
     color: rgb(255, 255, 255);
     border-color: transparent;
