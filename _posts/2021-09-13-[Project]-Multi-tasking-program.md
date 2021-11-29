@@ -194,7 +194,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
             <div class="icon"><i class="fa fa-fw fa-facebook-square"></i></div>
             <span>Facebook</span>
         </div>  -->
-        <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info"><img src = "https://user-images.githubusercontent.com/86739367/142802640-4651b56a-f829-4537-8244-650feaf4564e.png"><span>Facebook</span></a>
+        <!-- <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info"><img src = "https://user-images.githubusercontent.com/86739367/142802640-4651b56a-f829-4537-8244-650feaf4564e.png"><span>Facebook</span></a> -->
         <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info">Facebook</a>
         <a href="https://github.com/hieuhdh/" class="btn btn-info">Github</a>
         <a href="https://www.linkedin.com/in/hieuhdh/" class="btn btn-info">LinkedIn</a>
