@@ -1,7 +1,7 @@
 // Buttons
 %btnextend {
 	display: inline-block;
-	// border: 1px solid;
+	border: 1px solid $color_button; 
 	// border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
 	border-radius: 3px;
 	text-decoration: none;
@@ -12,13 +12,20 @@
 		box-shadow: 0 0 1px 0 rgba($color_primary,0.5);
 		color: $color_primary;
         font-weight: 500px;
+        border: 1px solid $color_primary; 
 	}
 }
+
 .social-btn {
 	padding: 10px;
 	margin: 10px;
 	@extend %btnextend;
 }
+
+a:link {
+    color: #e4e6eb;
+}
+
 .btn {
 	padding: 10px 18px;
 	@include font-rem(14);
