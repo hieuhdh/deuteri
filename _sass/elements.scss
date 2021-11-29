@@ -7,7 +7,7 @@
 	text-decoration: none;
 	background: $color_button;
 	// color: $color_shark;
-    color: $color_bg;
+    color: $color_primary_text;
 	&:hover {
 		box-shadow: 0 0 1px 0 rgba($color_primary,0.5);
 		color: $color_primary;
@@ -80,7 +80,7 @@
             color: $color_black;
         }
         &:hover {
-            background-color: #120b26;
+            background-color: $color_background;
             color: $color_primary;
         }
     }
@@ -279,6 +279,7 @@ kbd {
     border-radius: 3px !important;
     border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka !important;
     border: 1px solid;
+    background: $color_primary;
 	@media #{$small} {
 		display: none !important;
 	}
