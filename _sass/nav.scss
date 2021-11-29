@@ -138,7 +138,8 @@
 		top: 0;
 		left: 0;
 		// background: $comp-color;
-        background: $color_bg;
+        background: $color_background;
+        box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
 		border: none;
 		width: 48px;
 		height: 45px;
