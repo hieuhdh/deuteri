@@ -70,7 +70,7 @@ h3.title a {
 blockquote {
 	font-family:$alt-font;
 	font-style:italic;
-	border-left:8px solid $color_tundora;
+	border-left:8px solid $color_primary;
 	padding-left:20px;
 	margin: 0;
 }
@@ -116,8 +116,8 @@ li code,
 p pre,
 li pre {
     @include font(14);
-    background-color: $color_gray;
-    border: 1px solid $color_mischka;
+    background-color: $color_secondary;
+    // border: 1px solid $color_mischka;
     @include rounded(4px);
     margin: 0 2px;
     padding: 0 5px;
@@ -133,19 +133,19 @@ table{
 	width: 100%;
     border-collapse: collapse;
     vertical-align: center;
-    box-shadow: 5px 5px 5px 2px #a7bad3;
+    box-shadow: 5px 5px 5px 2px #000;
     th {
         text-align: center;
-        background-color: #6200ee;
-        color: white;
+        background-color: $color_primary;
+        color: $color_black;
     }
 
     td, th {
         padding: 10px;
     }
 
-    tr:nth-child(even) {background-color: #f3f8fe;}
-    tr:nth-child(odd) {background-color: rgb(255, 255, 255);}
+    tr:nth-child(even) {background-color: $color_button;}
+    tr:nth-child(odd) {background-color: $color_background
 }
 
 
@@ -164,8 +164,8 @@ table{
     padding: .5em 1em;
     text-indent: 0;
     @include font-rem(14);
-    background-color: $color_gray;
-    border: 1px solid $color_pink_swan;
+    background-color: $color_button;
+    border: 1px solid $color_primary;
     @include rounded(3px);
 }
 

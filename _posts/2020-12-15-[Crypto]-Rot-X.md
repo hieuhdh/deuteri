@@ -12,8 +12,8 @@ comments: true
 
 <div align="center">
     <h4>
-        <a href="#some-thing-about-rot-x" style="text-decoration: none; color:#6200ee">Something about ROT-X | </a>
-        <a href="#learn-more" style="text-decoration: none; color:#6200ee">Learn more</a> 
+        <a href="#some-thing-about-rot-x" style="text-decoration: none; color:#bb86fc">Something about ROT-X | </a>
+        <a href="#learn-more" style="text-decoration: none; color:#bb86fc">Learn more</a> 
     </h4>
 </div>
 
@@ -43,7 +43,7 @@ comments: true
   Epilogue
 </h1> 
 
-After what I have shared above, I hope it will be of some help to readers. If you have any questions or comments, you can contact me <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >here</a>.
+After what I have shared above, I hope it will be of some help to readers. If you have any questions or comments, you can contact me <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:#bb86fc" >here</a>.
 {: .notice}
 
 <br>

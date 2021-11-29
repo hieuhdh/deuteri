@@ -1,16 +1,16 @@
 // Buttons
 %btnextend {
 	display: inline-block;
-	border: 1px solid;
-	border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
+	// border: 1px solid;
+	// border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
 	border-radius: 3px;
 	text-decoration: none;
-	background: $white;
+	background: $color_button;
 	// color: $color_shark;
     color: $color_bg;
 	&:hover {
-		box-shadow: 0 0 1px 0 rgba($color_purple,0.5);
-		color: $color_purple;
+		box-shadow: 0 0 1px 0 rgba($color_primary,0.5);
+		color: $color_primary;
         font-weight: 500px;
 	}
 }
@@ -25,15 +25,15 @@
 	margin: 4px auto;
 	@extend %btnextend;
 	&.btn-success {
-        background-color: $success;
+        background-color: $color_primary;
         color: $white;
-        border-color: $success;
+        border-color: $color_primary;
         &:visited {
-            color: $white;
+            color: $color_black;
         }
         &:hover {
-            background-color: $white;
-            color: $success;
+            background-color: $color_background;
+            color: $color_primary;
         }
     }
     &.btn-warning {
@@ -60,6 +60,19 @@
             color: $danger;
         }
     }
+
+    &.btn-inverse{
+        background-color: $color_primary;
+        color: $color_black;
+        &:visited {
+            color: $color_black;
+        }
+        &:hover {
+            background-color: #120b26;
+            color: $color_primary;
+        }
+    }
+
     &.btn-info {
         // background-color: $info;
         // color: $white;
@@ -72,7 +85,7 @@
         float: center;
         margin: 0 5px;
         overflow: hidden;
-        background: #fff;
+        background: $color_button;
         border-radius: 50px;
         cursor: pointer;
         box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
@@ -82,8 +95,8 @@
         }
         &:hover {
             width: 200px;
-            background-color: $white;
-            color: $color_purple;
+            background-color: $color_primary;
+            color: $color_black;
         }
         // &.btn-info .icon{
         //     display: inline-block;
@@ -130,6 +143,7 @@
     }
 
 }
+
 .title .btn {
     margin: 10px;
     @include font-rem(16);
@@ -140,6 +154,8 @@
             @include font-rem(14);
     }
 }
+
+
 
 // hr break
 hr {
@@ -256,7 +272,7 @@ kbd {
 	}
 }
 .goup-arrow {
-    border-color: transparent transparent $color_tuatara !important;
+    border-color: transparent transparent $color_primary !important;
 }
 
 // reading time

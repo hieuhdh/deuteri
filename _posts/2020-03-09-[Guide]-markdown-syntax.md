@@ -18,34 +18,34 @@ comments: true
 <div align="left" >
     <h4>
     	<ol type = "I">
-        	<li style = "font-size:13px; color: #6200ee">
-                <a href="#phan-tu-trong-HTML" style="text-decoration: none; color:#6200ee">Phần tử trong HTML
+        	<li style = "font-size:13px; color: #bb86fc">
+                <a href="#phan-tu-trong-HTML" style="text-decoration: none; color:#bb86fc">Phần tử trong HTML
                     <ol style = "font-size: 12px">
-                        <li style = "color: #6200ee">
-                            <a href="#dinh-dang-tieu-de" style="text-decoration: none; color:#6200ee">Định dạng tiêu đề</a> 
+                        <li style = "color: #bb86fc">
+                            <a href="#dinh-dang-tieu-de" style="text-decoration: none; color:#bb86fc">Định dạng tiêu đề</a> 
                         </li>
                         <li>
-                            <a href="#dinh-dang-cac-doan-van" style="text-decoration: none; color:#6200ee">Định dạng các đoạn văn</a> 
+                            <a href="#dinh-dang-cac-doan-van" style="text-decoration: none; color:#bb86fc">Định dạng các đoạn văn</a> 
                         </li>
                         <li>
-                            <a href="#chen-duong-link" style="text-decoration: none; color:#6200ee">Chèn đường link</a> 
+                            <a href="#chen-duong-link" style="text-decoration: none; color:#bb86fc">Chèn đường link</a> 
                         </li>
                         <li>
-                            <a href="#chen-trich-dan" style="text-decoration: none; color:#6200ee">Chèn trích dẫn</a> 
+                            <a href="#chen-trich-dan" style="text-decoration: none; color:#bb86fc">Chèn trích dẫn</a> 
                         </li>
                         <li>
-                            <a href="#chen-danh-sach" style="text-decoration: none; color:#6200ee">Chèn danh sách
+                            <a href="#chen-danh-sach" style="text-decoration: none; color:#bb86fc">Chèn danh sách
                             <ol style = "font-size: 12px" type = "i">
-                                    <li style = "color: #6200ee"><a href="#danh-sach-co-thu-tu" style="text-decoration: none; color:#6200ee">Danh sách có thứ tự</a> </li>
-                                    <li style = "color: #6200ee"><a href="#danh-sach-khong-thu-tu" style="text-decoration: none; color:#6200ee">Danh sách không thứ tự</a> </li>
+                                    <li style = "color: #bb86fc"><a href="#danh-sach-co-thu-tu" style="text-decoration: none; color:#bb86fc">Danh sách có thứ tự</a> </li>
+                                    <li style = "color: #bb86fc"><a href="#danh-sach-khong-thu-tu" style="text-decoration: none; color:#bb86fc">Danh sách không thứ tự</a> </li>
                                 </ol>
                             </a> 
                         </li>
                         <li>
-                            <a href="#chen-bang" style="text-decoration: none; color:#6200ee">Chèn bảng</a> 
+                            <a href="#chen-bang" style="text-decoration: none; color:#bb86fc">Chèn bảng</a> 
                         </li>
                         <li>
-                            <a href="#tao-ghi-chu" style="text-decoration: none; color:#6200ee">Tạo ghi chú</a> 
+                            <a href="#tao-ghi-chu" style="text-decoration: none; color:#bb86fc">Tạo ghi chú</a> 
                         </li>
         		    </ol>
                 </a>
@@ -116,7 +116,7 @@ Ví dụ tôi gõ
 
 Và dưới đây là kết quả
 
-<a href="https://vi-vn.facebook.com/" style="text-decoration: none; color:#6200ee">Đây là một link dẫn đến facebook</a>
+<a href="https://vi-vn.facebook.com/" style="text-decoration: none; color:#bb86fc">Đây là một link dẫn đến facebook</a>
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg"><img src="https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg"></a>

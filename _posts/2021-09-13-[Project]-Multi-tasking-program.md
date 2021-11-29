@@ -22,14 +22,14 @@ comments: true
 
 <div align="center">
     <h4>
-        <a href="#about-project" style="text-decoration: none; color:#6200ee">About project | </a>
-        <a href="#features" style="text-decoration: none; color:#6200ee">Features | </a>
-        <a href="#install" style="text-decoration: none; color:#6200ee">Install | </a>
-        <a href="#documents" style="text-decoration: none; color:#6200ee">Documents | </a>
-        <a href="#bugs-and-issues" style="text-decoration: none; color:#6200ee">Bugs and Issues | </a>
-        <a href="#screenshots" style="text-decoration: none; color:#6200ee">Screenshots | </a>
-        <a href="#license" style="text-decoration: none; color:#6200ee">License | </a>
-        <a href="#about-me" style="text-decoration: none; color:#6200ee">About me</a>
+        <a href="#about-project" style="text-decoration: none; color:#bb86fc">About project | </a>
+        <a href="#features" style="text-decoration: none; color:#bb86fc">Features | </a>
+        <a href="#install" style="text-decoration: none; color:#bb86fc">Install | </a>
+        <a href="#documents" style="text-decoration: none; color:#bb86fc">Documents | </a>
+        <a href="#bugs-and-issues" style="text-decoration: none; color:#bb86fc">Bugs and Issues | </a>
+        <a href="#screenshots" style="text-decoration: none; color:#bb86fc">Screenshots | </a>
+        <a href="#license" style="text-decoration: none; color:#bb86fc">License | </a>
+        <a href="#about-me" style="text-decoration: none; color:#bb86fc">About me</a>
     </h4>
 </div>
 
@@ -96,12 +96,12 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 ## Documents
 
-  For help getting started with python, view our online <a href="https://www.python.org/" style="text-decoration: none; color:blue" >documentation.</a>
+  For help getting started with python, view our online <a href="https://www.python.org/" style="text-decoration: none; color:#bb86fc" >documentation.</a>
 
 
 ## Bugs and Issues
 
-  Have a bug or an issue with this project? <a href="https://github.com/hieuhdh/Multi-tasking-program/issues" style="text-decoration: none; color:blue" >Open a new issue</a> here on GitHub.
+  Have a bug or an issue with this project? <a href="https://github.com/hieuhdh/Multi-tasking-program/issues" style="text-decoration: none; color:#bb86fc" >Open a new issue</a> here on GitHub.
 
 <h2 id = "screenshots">Screenshots</h2>
 

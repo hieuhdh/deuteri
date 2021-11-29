@@ -13,9 +13,9 @@ comments: true
 
 <div align="center">
     <h4>
-        <a href="#mod-26" style="text-decoration: none; color:#6200ee">Mod 26 | </a>
-        <a href="#mind-your-ps-and-qs" style="text-decoration: none; color:#6200ee">Mind your Ps and Qs | </a>
-        <a href="#list-of-challenge" style="text-decoration: none; color:#6200ee">List of challenge</a> 
+        <a href="#mod-26" style="text-decoration: none; color:#bb86fc">Mod 26 | </a>
+        <a href="#mind-your-ps-and-qs" style="text-decoration: none; color:#bb86fc">Mind your Ps and Qs | </a>
+        <a href="#list-of-challenge" style="text-decoration: none; color:#bb86fc">List of challenge</a> 
     </h4>
 </div>
 
@@ -69,7 +69,7 @@ Flag: **picoCTF{sma11_N_n0_g0od_00264570}**
   Epilogue
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:#bb86fc" >tại đây</a>.
 {: .notice}
 
 <br>
