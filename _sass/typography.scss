@@ -48,15 +48,15 @@ h3.title a {
 		padding: 10px 18px;
 		margin: 0 10px;
 		text-decoration: none;
-		background: $white;
-		color: $color_shark;
+		background: $color_background;
+		color: $color_primary_text;
 		a {
 			@include font-rem(20);
 			text-decoration: none;
-			color: $color_shark;
+			color: $color_primary_text;
 			font-weight: bolder;
             &:hover {
-                color: $color_purple;
+                color: $color_primary;
             }
 		}
 		p {

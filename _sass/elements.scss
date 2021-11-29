@@ -73,6 +73,18 @@
         }
     }
 
+    &.zoombtn{
+        background-color: $color_primary;
+        color: $color_black;
+        &:visited {
+            color: $color_black;
+        }
+        &:hover {
+            background-color: #120b26;
+            color: $color_primary;
+        }
+    }
+
     &.btn-info {
         // background-color: $info;
         // color: $white;
