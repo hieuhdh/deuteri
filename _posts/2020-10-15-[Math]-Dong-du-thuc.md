@@ -15,50 +15,50 @@ comments: true
 <div align="left" >
     <h4>
     	<ol type = "I">
-        	<li style = "font-size:13px; color: #823af7">
-                <a href="#dinh-nghia" style="text-decoration: none; color:#823af7">Định nghĩa
+        	<li style = "font-size:13px; color: #6200ee">
+                <a href="#dinh-nghia" style="text-decoration: none; color:#6200ee">Định nghĩa
                     <ol style = "font-size: 12px">
-                        <li style = "color: #823af7">
-                            <a href="#phép-lấy-phần-dư-trong-phép-chia" style="text-decoration: none; color:#823af7">Phép lấy phần dư trong phép chia</a> 
+                        <li style = "color: #6200ee">
+                            <a href="#phép-lấy-phần-dư-trong-phép-chia" style="text-decoration: none; color:#6200ee">Phép lấy phần dư trong phép chia</a> 
                         </li>
                         <li>
-                            <a href="#đồng-dư-thức" style="text-decoration: none; color:#823af7">Đồng dư thức</a> 
+                            <a href="#đồng-dư-thức" style="text-decoration: none; color:#6200ee">Đồng dư thức</a> 
                         </li>
         		    </ol>
                 </a>
             </li>
-            <li style = "font-size:13px; color: #823af7">
-                <a href="#mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module" style="text-decoration: none; color:#823af7">Một số tính chất và các phép toán đồng dư trên vành Module</a>
+            <li style = "font-size:13px; color: #6200ee">
+                <a href="#mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module" style="text-decoration: none; color:#6200ee">Một số tính chất và các phép toán đồng dư trên vành Module</a>
             </li>
-            <li style = "font-size:13px; color: #823af7">
-                <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-toan-hoc" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong toán học
+            <li style = "font-size:13px; color: #6200ee">
+                <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-toan-hoc" style="text-decoration: none; color:#6200ee">Một số ví dụ về xử lí đồng dư trong toán học
                     <ol style = "font-size: 12px">
-                        <li style = "color: #823af7">
-                            <a href="#ví-dụ-1" style="text-decoration: none; color:#823af7">Ví dụ 1
+                        <li style = "color: #6200ee">
+                            <a href="#ví-dụ-1" style="text-decoration: none; color:#6200ee">Ví dụ 1
                                 <ol style = "font-size: 12px" type = "i">
-                                    <li style = "color: #823af7"><a href="#giải" style="text-decoration: none; color:#823af7">Giải ví dụ 1</a> </li>
+                                    <li style = "color: #6200ee"><a href="#giải" style="text-decoration: none; color:#6200ee">Giải ví dụ 1</a> </li>
                                 </ol>
                             </a> 
                         </li>
         		    </ol>
                 </a>
             </li>
-            <li style = "font-size:13px; color: #823af7">
-                <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh" style="text-decoration: none; color:#823af7">Một số ví dụ về xử lí đồng dư trong lập trình
+            <li style = "font-size:13px; color: #6200ee">
+                <a href="#mot-so-vi-du-ve-xu-li-dong-du-trong-lap-trinh" style="text-decoration: none; color:#6200ee">Một số ví dụ về xử lí đồng dư trong lập trình
                     <ol style = "font-size: 12px">
-                        <li style = "color: #823af7">
-                            <a href="#ví-dụ-2" style="text-decoration: none; color:#823af7">Ví dụ 2
+                        <li style = "color: #6200ee">
+                            <a href="#ví-dụ-2" style="text-decoration: none; color:#6200ee">Ví dụ 2
                                 <ol style = "font-size: 12px" type = "i">
-                                    <li style = "color: #823af7"><a href="#hướng-tiếp-cận-cơ-bản" style="text-decoration: none; color:#823af7">Hướng tiếp cận cơ bản</a> </li>
-                                    <li style = "color: #823af7"><a href="#hướng-tiếp-cận-thứ-2" style="text-decoration: none; color:#823af7">Hướng tiếp cận thứ 2</a> </li>
+                                    <li style = "color: #6200ee"><a href="#hướng-tiếp-cận-cơ-bản" style="text-decoration: none; color:#6200ee">Hướng tiếp cận cơ bản</a> </li>
+                                    <li style = "color: #6200ee"><a href="#hướng-tiếp-cận-thứ-2" style="text-decoration: none; color:#6200ee">Hướng tiếp cận thứ 2</a> </li>
                                 </ol>
                             </a> 
                         </li>
         		    </ol>
                 </a>
             </li>
-            <li style = "font-size:13px; color: #823af7">
-                <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#823af7">Có thể bạn đã biết</a>
+            <li style = "font-size:13px; color: #6200ee">
+                <a href="#co-the-ban-da-biet" style="text-decoration: none; color:#6200ee">Có thể bạn đã biết</a>
             </li>
         </ol>
     </h4>

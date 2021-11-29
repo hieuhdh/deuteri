@@ -13,12 +13,12 @@ comments: true
 
 <div align="center">
   <h4>
-    <a href="#the-numbers" style="text-decoration: none; color:#823af7">The numbers | </a> 
-    <a href="#easy1" style="text-decoration: none; color:#823af7">Easy 1 | </a>
-    <a href="#13" style="text-decoration: none; color:#823af7">13 | </a> 
-    <a href="#caesar" style="text-decoration: none; color:#823af7">Caesar | </a>
-    <a href="#tapping" style="text-decoration: none; color:#823af7">Tapping | </a>
-    <a href="#list-of-challenge" style="text-decoration: none; color:#823af7">List of challenge</a> 
+    <a href="#the-numbers" style="text-decoration: none; color:#6200ee">The numbers | </a> 
+    <a href="#easy1" style="text-decoration: none; color:#6200ee">Easy 1 | </a>
+    <a href="#13" style="text-decoration: none; color:#6200ee">13 | </a> 
+    <a href="#caesar" style="text-decoration: none; color:#6200ee">Caesar | </a>
+    <a href="#tapping" style="text-decoration: none; color:#6200ee">Tapping | </a>
+    <a href="#list-of-challenge" style="text-decoration: none; color:#6200ee">List of challenge</a> 
   </h4>
 </div>
 

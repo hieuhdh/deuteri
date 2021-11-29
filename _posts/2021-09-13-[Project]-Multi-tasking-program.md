@@ -22,14 +22,14 @@ comments: true
 
 <div align="center">
     <h4>
-        <a href="#about-project" style="text-decoration: none; color:#823af7">About project | </a>
-        <a href="#features" style="text-decoration: none; color:#823af7">Features | </a>
-        <a href="#install" style="text-decoration: none; color:#823af7">Install | </a>
-        <a href="#documents" style="text-decoration: none; color:#823af7">Documents | </a>
-        <a href="#bugs-and-issues" style="text-decoration: none; color:#823af7">Bugs and Issues | </a>
-        <a href="#screenshots" style="text-decoration: none; color:#823af7">Screenshots | </a>
-        <a href="#license" style="text-decoration: none; color:#823af7">License | </a>
-        <a href="#about-me" style="text-decoration: none; color:#823af7">About me</a>
+        <a href="#about-project" style="text-decoration: none; color:#6200ee">About project | </a>
+        <a href="#features" style="text-decoration: none; color:#6200ee">Features | </a>
+        <a href="#install" style="text-decoration: none; color:#6200ee">Install | </a>
+        <a href="#documents" style="text-decoration: none; color:#6200ee">Documents | </a>
+        <a href="#bugs-and-issues" style="text-decoration: none; color:#6200ee">Bugs and Issues | </a>
+        <a href="#screenshots" style="text-decoration: none; color:#6200ee">Screenshots | </a>
+        <a href="#license" style="text-decoration: none; color:#6200ee">License | </a>
+        <a href="#about-me" style="text-decoration: none; color:#6200ee">About me</a>
     </h4>
 </div>
 

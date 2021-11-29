@@ -16,28 +16,28 @@ comments: true
 <div align="left" >
     <h4>
     	<ol type = "I">
-        	<li style = "font-size:13px; color: #823af7">
-                <a href="#so-luoc-ve-cac-bang-ki-tu" style="text-decoration: none; color: #823af7">Sơ lược về các cú pháp cơ bản
+        	<li style = "font-size:13px; color: #6200ee">
+                <a href="#so-luoc-ve-cac-bang-ki-tu" style="text-decoration: none; color: #6200ee">Sơ lược về các cú pháp cơ bản
                     <ol style = "font-size: 12px">
-                        <li style = "color: #823af7"><a href="#bang-chu-cai-hi-lap" style="text-decoration: none; color:#823af7">Bảng chữ cái Hy Lạp</a> </li>
-                        <li style = "color: #823af7"><a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Boole</a> </li>
-                        <li style = "color: #823af7"><a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#823af7">Toán tử trong Đại số Quan hệ </a> </li>
-                        <li style = "color: #823af7"><a href="#toan-tu-trong-logic-vi-tu" style="text-decoration: none; color:#823af7">Toán tử trong Logic vị từ</a> </li>
-                        <li style = "color: #823af7"><a href="#cac-ki-hieu-mui-ten" style="text-decoration: none; color:#823af7">Các kí hiệu mũi tên (bổ sung)</a> </li>
-                        <li style = "color: #823af7"><a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#823af7">Kí hiệu trong Tập hợp</a> </li>
-                        <li style = "color: #823af7"><a href="#ki-hieu-trong-hinh-hoc" style="text-decoration: none; color:#823af7">Kí hiệu trong Hình học</a> </li>
-                        <li style = "color: #823af7"><a href="#ki-hieu-cac-dau-ngoac" style="text-decoration: none; color:#823af7">Kí hiệu các dấu ngoặc</a> </li>
+                        <li style = "color: #6200ee"><a href="#bang-chu-cai-hi-lap" style="text-decoration: none; color:#6200ee">Bảng chữ cái Hy Lạp</a> </li>
+                        <li style = "color: #6200ee"><a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#6200ee">Toán tử trong Đại số Boole</a> </li>
+                        <li style = "color: #6200ee"><a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#6200ee">Toán tử trong Đại số Quan hệ </a> </li>
+                        <li style = "color: #6200ee"><a href="#toan-tu-trong-logic-vi-tu" style="text-decoration: none; color:#6200ee">Toán tử trong Logic vị từ</a> </li>
+                        <li style = "color: #6200ee"><a href="#cac-ki-hieu-mui-ten" style="text-decoration: none; color:#6200ee">Các kí hiệu mũi tên (bổ sung)</a> </li>
+                        <li style = "color: #6200ee"><a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#6200ee">Kí hiệu trong Tập hợp</a> </li>
+                        <li style = "color: #6200ee"><a href="#ki-hieu-trong-hinh-hoc" style="text-decoration: none; color:#6200ee">Kí hiệu trong Hình học</a> </li>
+                        <li style = "color: #6200ee"><a href="#ki-hieu-cac-dau-ngoac" style="text-decoration: none; color:#6200ee">Kí hiệu các dấu ngoặc</a> </li>
                     </ol>
                 </a>
         	</li>
-        	<li style = "font-size:13px; color: #823af7">
-                <a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color: #823af7">Một vài cú pháp khác
+        	<li style = "font-size:13px; color: #6200ee">
+                <a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color: #6200ee">Một vài cú pháp khác
                     <ol style = "font-size: 12px">
-                        <li style = "color: #823af7"><a href="#gioi-han" style="text-decoration: none; color:#823af7">Giới hạn</a></li>
-                        <li style = "color: #823af7"><a href="#tong-sigma" style="text-decoration: none; color:#823af7">Tổng Sigma</a></li>
-                        <li style = "color: #823af7"><a href="#tich-phan" style="text-decoration: none; color:#823af7">Tích phân</a></li>
-                        <li style = "color: #823af7"><a href="#phan-thuc" style="text-decoration: none; color:#823af7">Phân thức</a></li>
-                        <li style = "color: #823af7"><a href="#khai-can" style="text-decoration: none; color:#823af7">Khai căn</a></li>
+                        <li style = "color: #6200ee"><a href="#gioi-han" style="text-decoration: none; color:#6200ee">Giới hạn</a></li>
+                        <li style = "color: #6200ee"><a href="#tong-sigma" style="text-decoration: none; color:#6200ee">Tổng Sigma</a></li>
+                        <li style = "color: #6200ee"><a href="#tich-phan" style="text-decoration: none; color:#6200ee">Tích phân</a></li>
+                        <li style = "color: #6200ee"><a href="#phan-thuc" style="text-decoration: none; color:#6200ee">Phân thức</a></li>
+                        <li style = "color: #6200ee"><a href="#khai-can" style="text-decoration: none; color:#6200ee">Khai căn</a></li>
                     </ol>
                 </a>
         	</li>
