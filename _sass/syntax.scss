@@ -3,10 +3,13 @@ pre.highlight {
 }
 
 .highlight {
-	background-color: #21252b;
-	font-family: $font2;
+	// background-color: #21252b;
+    background-color: #1c1925;
+	//font-family: $font1;
+    font-family: Fira Sans,sans-serif;
 	@include font-size(14);
-	color: #f8f8f2;
+	// color: #f8f8f2;
+    color: #e4e6eb;
 	border-radius: 4px;
 	pre {
 		position: relative;

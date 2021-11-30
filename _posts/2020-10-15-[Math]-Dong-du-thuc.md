@@ -9,7 +9,7 @@ comments: true
 <h1 align="center">
     Nội dung
 </h1> 
-<h4>
+<!-- <h4>
 	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
 </h4>
 <div align="left" >
@@ -62,7 +62,7 @@ comments: true
             </li>
         </ol>
     </h4>
-</div>
+</div> -->
 
 <h2 id="dinh-nghia">Định nghĩa</h2>
 
@@ -106,7 +106,7 @@ Như vậy, $$ a \equiv b \ (mod \ n)⟺ a \ mod \ n = b \ mod \ n $$.
 <br>
 <h2 id="mot-so-tinh-chat-va-cac-phep-toan-dong-du-tren-vanh-module">Một số tính chất và các phép toán đồng dư trên vành Module</h2>
 
-Trong <a href="https://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_v%C3%A0nh" style="text-decoration: none; color:blue">lí thuyết vành</a>, ta có: 
+Trong <a href="https://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_v%C3%A0nh" style="text-decoration: none; color:#bb86fc">lí thuyết vành</a>, ta có: 
 $$ \begin{align*} 
     \begin{cases}   \overline{a_n} + \overline{b_n} = \overline{a+b}_n \\
                     \overline{a_n} - \overline{b_n} = \overline{a-b}_n  \\
@@ -245,7 +245,7 @@ Từ cách phép biến đổi trên, ta đã biến phân tích biểu thức t
 
 Để trả lời cho câu hỏi trên, tôi sẽ đưa ra một bài toán nho nhỏ là: Xuất ra giá trị của số nguyên $$n$$ (kiểu dữ liệu integer - từ khóa `int`)được nhập từ bàn phím. Điều này chẳng có gì phải bàn nếu ta nhập các giá trị nhỏ như `1, 2, 3,...` từ bàn phím. Nhưng nếu chúng ta nhập `2147483648` từ bàn phím thì sao?
 
-Đúng vậy, lúc này hiện tượng <a href="https://vi.wikipedia.org/wiki/Tr%C3%A0n_s%E1%BB%91_nguy%C3%AAn" style="text-decoration: none; color:blue">tràn số nguyên</a> sẽ xảy ra, vì phạm vi tối đa của kiểu dữ liệu `int` chỉ là $$2^{31}-1$$ tức $$2147483647$$.
+Đúng vậy, lúc này hiện tượng <a href="https://vi.wikipedia.org/wiki/Tr%C3%A0n_s%E1%BB%91_nguy%C3%AAn" style="text-decoration: none; color:#bb86fc">tràn số nguyên</a> sẽ xảy ra, vì phạm vi tối đa của kiểu dữ liệu `int` chỉ là $$2^{31}-1$$ tức $$2147483647$$.
 
 Ví dụ tôi xét module là 1 số mà bình phương của nó vượt quá $$2^{63} -1$$ tức là phạm vi tối đa của kiểu dữ liệu `long long`. Để ý sẽ thấy rằng, tôi đã tách tổng trên thành 1 tích với 2 thừa số là `n-1` và `n+3`, và tôi nhận xét: 
 

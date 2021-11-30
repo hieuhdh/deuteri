@@ -12,7 +12,7 @@ $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gi
 
 // FitVids options
 $(function() {
-  $(".content").fitVids();
+    $(".content").fitVids();
 });
 
 // All others
@@ -42,16 +42,35 @@ $(document).ready(function() {
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
     },
     image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+        tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
     },
     removalDelay: 300, // Delay in milliseconds before popup is removed
     // Class that is added to body when popup is open. 
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
-  });
+    });
 });
+
+
+// TOC - script
+$(function () {
+    const content = document.querySelector('.post-article');
+    scrollnav.init(content, {
+        debug: false,
+      //easingStyle: 'linear',
+        sections: ($('.post-content > h1').length>0) ? 'h1' : 'h2',
+        subSections: ($('.post-content > h1').length > 0) ? 'h2' : 'h3'
+        
+    });
+});
+
+function sideNav(){
+    var mainRect = document.getElementById('post-content').getBoundingClientRect();
+    var oldReac = document.getElementsByClassName('scroll-nav')[0].getBoundingClientRect();
+    $('#post-content > div.content.loading > nav').css('left', mainRect.right+10+'px'); 
+}

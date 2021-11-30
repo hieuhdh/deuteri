@@ -38,10 +38,10 @@ h3.title a {
 	margin: 4px auto;
 	@extend %btnextend;
     transition: 0.3s;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 	&.btn-success {
         background-color: $color_primary;
-        color: $color_primary_text;
+        color: $color_black;
         border-color: $color_primary;
         &:visited {
             color: $color_black;
@@ -191,19 +191,19 @@ hr {
 	height: 1px;
 	opacity: .8;
     margin: 1em 0;
-	background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+	background-image: -webkit-linear-gradient(left, $color_primary_line, $color_primary, $color_primary_line);
+	background-image: -moz-linear-gradient(left, $color_primary_line, $color_primary, $color_primary_line);
+	background-image: -ms-linear-gradient(left, $color_primary_line, $color_primary, $color_primary_line);
+	background-image: -o-linear-gradient(left, $color_primary_line, $color_primary, $color_primary_line);
 	&.hr-line {
 		border: 0;
 		height: 1px;
 		opacity: .15;
 		margin: 1em 0;
-		background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+		background-image: -webkit-linear-gradient(left, $color_primary_line, $color_primary, $color_primary_line);
+		background-image: -moz-linear-gradient(left, $color_primary_line, $color_primary, $color_primary_line);
+		background-image: -ms-linear-gradient(left, $color_primary_line, $color_primary, $color_primary_line);
+		background-image: -o-linear-gradient(left, $color_primary_line, $color_primary, $color_primary_line);
 	}
 }
 
@@ -292,9 +292,9 @@ kbd {
 
 // go up button
 .goup-container {
-    border-radius: 3px !important;
+    border-radius: 5px !important;
     // border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka !important;
-    border: 1px solid $color_background;
+    border: 3px solid $color_primary;
     background: $color_background !important;
 	@media #{$small} {
 		display: none !important;
@@ -314,3 +314,18 @@ kbd {
 
 // pre_next
 
+.dark .nav-primary {
+    border-bottom-color: rgba(187, 134, 252,.2) !important;
+}
+
+.dark .tab-conversation.active>a {
+    color: $color_primary_text !important;
+}
+
+.dark .nav-tab>a {
+    color: rgba(228, 230, 235,.2) !important;
+    text-shadow: none;
+    &:hover {
+        color: $color_primary_text !important;
+    }
+}

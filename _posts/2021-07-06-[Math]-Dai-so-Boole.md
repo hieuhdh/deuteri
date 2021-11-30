@@ -9,7 +9,7 @@ comments: true
 <h1 align="center">
     Nội dung
 </h1> 
-<h4>
+<!-- <h4>
 	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
 </h4>
 <div align="left" >
@@ -117,7 +117,7 @@ comments: true
             </li>
         </ol>
     </h4>
-</div>
+</div> -->
 
 <h2 id="dinh-nghia">Định nghĩa</h2>
 
@@ -128,7 +128,7 @@ comments: true
     <strong>Đại số Boole</strong> được đặt tên theo George Boole (1815-1864) – Một nhà toán học người Anh.
 </div>
 <div>
-    <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_Boole" style="text-decoration: none; color:blue" >Xem thêm</a>
+    <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_Boole" style="text-decoration: none; color:#bb86fc" >Xem thêm</a>
 </div>
 <br>
 <h2 id="tinh-chat">Tính chất</h2>

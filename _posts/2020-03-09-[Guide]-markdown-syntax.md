@@ -12,7 +12,7 @@ comments: true
 <h1 align="center">
     Nội dung
 </h1> 
-<h4>
+<!-- <h4>
 	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
 </h4>
 <div align="left" >
@@ -52,7 +52,7 @@ comments: true
             </li>
         </ol>
     </h4>
-</div>
+</div> -->
 
 <h2 id =  "phan-tu-trong-HTML"> Phần tử trong HTML</h2>
 <h3 id="dinh-dang-tieu-de">Định dạng tiêu đề</h3>
@@ -342,7 +342,7 @@ Xem ví dụ về tạo các đoạn ghi chú dưới đây:
   Lời kết
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:blue" >tại đây</a>.
+Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:#bb86fc" >tại đây</a>.
 {: .notice}
 
 <br>

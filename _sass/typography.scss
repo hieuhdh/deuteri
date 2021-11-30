@@ -108,7 +108,7 @@ a {
 
 // pre and code
 pre, code {
-	font-family: $font2;
+	font-family: $font1;
 	overflow-x: auto;
 }
 p code,
@@ -116,7 +116,7 @@ li code,
 p pre,
 li pre {
     @include font(14);
-    background-color: $color_secondary;
+    background-color: $color_note_1_line;
     // border: 1px solid $color_mischka;
     @include rounded(4px);
     margin: 0 2px;

@@ -1,43 +1,49 @@
-// .cc-color-override-1827372716.cc-window {
-//     color: rgb(64, 64, 64);
-//     background-color: rgb(239, 239, 239);
-// }
+.cc-color-override-1827372716.cc-window {
+    color: $color_primary_text !important;
+    background-color: $color_secondary !important;
+}
 
-// .cc-banner.cc-bottom {
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-// }
+.cc-banner.cc-bottom {
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
-// .cc-window.cc-banner {
-//     -webkit-box-align: center;
-//     -ms-flex-align: center;
-//     align-items: center;
-// }
+.cc-window.cc-banner {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
-// .cc-window.cc-banner {
-//     padding: 1em 1.8em;
-//     width: 100%;
-//     -webkit-box-orient: horizontal;
-//     -webkit-box-direction: normal;
-//     -ms-flex-direction: row;
-//     flex-direction: row;
-// }
+.cc-window.cc-banner {
+    padding: 1em 1.8em;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
 
-// .cc-bottom {
-//     bottom: 1em;
-// }
+.cc-bottom {
+    bottom: 1em;
+}
 .cc-color-override-1827372716 .cc-link, .cc-color-override-1827372716 .cc-link:active, .cc-color-override-1827372716 .cc-link:visited {
-    color: blue;
+    color: $color_primary_text !important;
     font-weight: 500;
+    text-decoration: none !important;
 }
 
 .cc-link {
     opacity: .8;
     display: inline-block;
     padding: 0.2em;
-
     text-decoration: none;
+}
+
+.cc-color-override-1827372716 .cc-btn {
+    color: $color_black !important;
+    border-color: transparent;
+    background-color: $color_primary !important;
 }
 
 .cc-revoke, .cc-window {
@@ -66,11 +72,7 @@
 //     opacity: 0;
 // }
 
-// .cc-color-override-1827372716 .cc-btn {
-//     color: rgb(255, 255, 255);
-//     border-color: transparent;
-//     background-color: $success;
-// }
+
 
 // // @media screen and (max-width: 900px)
 // // .cc-btn {
@@ -491,4 +493,85 @@ All this is done for any sub-level being entered.
 }
 .dl-menuopen li {
 	display: block
+}
+
+
+// Scroll nav
+.scroll-nav {
+    border-radius: 5px;
+    font-size: 20px;
+    color: $color_primary_text;
+    text-align: center;
+    font-weight: bold;
+    background-color: $color_background;
+    box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+    //border: 1px solid #a2a9b1;
+    padding: 20px 10px 20px 10px;
+    position: fixed;
+    top: 20vh;
+    right: 1vh;
+    @media #{"only screen and (max-width: 992px)"} {
+		display: none;
+	}
+
+    ol{
+        padding-left: 30px;
+        text-align: justify;
+        font-size: 17px;
+    }
+
+    ol ol{
+        padding-left: 30px;
+        font-size: 15px;
+    }
+
+
+    a {
+        color: $color_primary_text;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color:$color_primary;
+    }
+    
+    &:before {
+        content: "Table of contents";
+        font-weight: bold;
+        text-align: center !important;
+        color: $color_primary;
+        font-size: 17px;
+    }
+}
+
+.scroll-nav__list {
+    margin: 0;
+    padding-left: 1.4em;
+    list-style-type: upper-roman;
+}
+
+.scroll-nav__item {
+    margin-bottom: 5px;
+}
+
+.scroll-nav__item--active > a {
+    padding: 5px;
+    font-weight: bold;
+    position: relative;
+    color: $white;
+    border-radius: 3px;
+    background: $color_primary;
+    text-decoration: none;
+    @include transition(0.2s);
+    &:hover{
+        color:$color_black
+    }
+}
+
+.scroll-nav__link {
+    color: $color_primary;
+    text-decoration: none;
+    //display: block;
+    //margin: 0 auto;
+    //padding-left: 42px;
 }

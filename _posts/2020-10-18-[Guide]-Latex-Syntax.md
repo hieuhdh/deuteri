@@ -10,7 +10,7 @@ comments: true
     Nội dung
 </h1> 
 
-<h4>
+<!-- <h4>
 	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
 </h4>
 <div align="left" >
@@ -43,7 +43,7 @@ comments: true
         	</li>
         </ol>
     </h4>
-</div>
+</div> -->
 
 <h2 id="so-luoc-ve-cac-bang-ki-tu">Sơ lược về về các cú pháp cơ bản</h2>
 <div> <strong>Mô tả: </strong>Dưới đây là một vài bảng thể hiện kí tự cũng như các cú pháp cơ bản của Latex mà tôi thường dùng trong việc viết kí hiệu toán học trên Markdown.
