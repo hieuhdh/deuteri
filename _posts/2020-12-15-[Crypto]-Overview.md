@@ -9,9 +9,9 @@ feature: https://user-images.githubusercontent.com/86739367/141987523-68a87eae-f
 comments: true
 ---
 
-<h2 align="center">
+<p align="center" style = "font-size: 20px">
     Some of topics I've written about Cryptography
-</h2> 
+</p> 
 <br><br>
 <div align="center">
     <h4>

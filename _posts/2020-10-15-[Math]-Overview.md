@@ -8,9 +8,9 @@ tags: [Math]
 comments: true
 ---
 
-<h2 align="center">
+<p align="center" style = "font-size: 20px">
     Some of topics I've written about Math
-</h2> 
+</p> 
 <br><br>
 <div align="center">
     <h4>

@@ -243,8 +243,8 @@ comments: true
 |:---:  | :---:                                                                 |    :----:                                      |                 :---: |
 |STT    | Kí tự                                                                 | Cú pháp                                        | Ghi chú               |
 |:---:  | :---                                                                  |    :----                                       |          :--- |
-|1      | $$\lim_{x\to\infty}(x+1)^{666}$$             |  \lim_{x\to\infty}(x+1)^{666}|  Giới hạn dạng to   |
-|2      | $$\displaystyle \lim_{x\to\infty}(x+1)^{666}$$        | \displaystyle \lim_{x\to\infty}(x+1)^{666}| Giới hạn dạng nhỏ   |
+|1      | $$\lim_{x\to\infty}(x+1)^{666}$$             |  \lim_{x\to\infty}(x+1)^{666}|  Giới hạn dạng nhỏ   |
+|2      | $$\displaystyle \lim_{x\to\infty}(x+1)^{666}$$        | \displaystyle \lim_{x\to\infty}(x+1)^{666}| Giới hạn dạng to   |
 {: rules="groups"}
 
 <br>

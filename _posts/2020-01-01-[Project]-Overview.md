@@ -8,9 +8,9 @@ tags: [Project]
 comments: true
 ---
 
-<h2 align="center">
+<p align="center" style = "font-size: 20px">
     An overview of some of projects I've done
-</h2> 
+</p> 
 <br><br>
 <div align="center">
     <h4>
