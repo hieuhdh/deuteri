@@ -562,7 +562,7 @@ All this is done for any sub-level being entered.
     border-radius: 3px;
     background: $color_primary;
     text-decoration: none;
-    @include transition(0.2s);
+    @include transition(0s);
     &:hover{
         color:$color_black
     }
