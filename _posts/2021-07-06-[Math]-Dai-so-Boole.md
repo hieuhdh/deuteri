@@ -160,14 +160,14 @@ Ví dụ: $$F \big(x, y, z \big) = x + y + z $$ được gọi là hàm Boole b�
 <br>
 <h2 id="dang-noi-roi-chinh-tac-cua-ham-boole">Dạng nối rời chính tắc của hàm Boole</h2>
 <h3 id="mot-vai-dieu-can-biet">Một vài điều cần biết</h3>
-<h4 id="cac-dinh-nghia">Định nghĩa về từ đơn, đơn thức, từ tối tiểu (đơn thức tối tiểu), công thức đa thức </h4>
+<h4 id="cac-dinh-nghia">Các định nghĩa</h4>
 
-Từ đơn là mỗi biến Boole $$x_i$$ hoặc $$\neg x_i$$ trong tập hợp các hàm Boole $$n$$ biến $$F_n$$ theo $$n$$ biến $$x_1, x_2, ..., x_n$$.
+**Từ đơn** là mỗi biến Boole $$x_i$$ hoặc $$\neg x_i$$ trong tập hợp các hàm Boole $$n$$ biến $$F_n$$ theo $$n$$ biến $$x_1, x_2, ..., x_n$$.
 
-<div>Đơn thức là tích khác không của một số hữu hạn từ đơn.</div>
-<div>Từ tối tiểu (đơn thức tối tiểu) là tích khác không của đúng n từ đơn.</div>
-<div>Công thức đa thức là công thức biểu diễn hàm Boole thành tổng của các đơn thức. </div>
-<div>Dạng nối rời chính tắc bản chất chính là công thức biểu diễn hàm Bool <strong>thành tổng của các từ tối tiểu</strong>.</div>
+<div><strong>Đơn thức</strong> là tích khác không của một số hữu hạn từ đơn.</div>
+<div><strong>Từ tối tiểu (đơn thức tối tiểu)</strong> là tích khác không của đúng n từ đơn.</div>
+<div><strong>Công thức đa thức</strong> là công thức biểu diễn hàm Boole thành tổng của các đơn thức. </div>
+<div><strong>Dạng nối rời chính tắc bản chất chính</strong> là công thức biểu diễn hàm Bool <strong>thành tổng của các từ tối tiểu</strong>.</div>
 
 <h4 id="vi-du">Ví dụ</h4> 
 
@@ -186,7 +186,9 @@ $$ \begin{align*}
 <div><strong>Bước 1:</strong> Bổ sung các từ đơn còn thiếu vào các đơn thức.</div>
 <div><strong>Bước 2:</strong> Với mỗi đơn thức thu được ở bước 1, ta nhân đơn thức đó với tổng của những từ đơn bị thiếu và phần bù của nó trong đơn thức đó.</div>
 <div><strong>Bước 3:</strong> Tiếp tục khai triển hàm thu được ở bước 2 và loại bỏ những đơn thức bị trùng. Công thức đa thức thu được chính là dạng nối rời chính tắc của hàm Boole ban đầu.</div>
-<h4 id="bai-toan-1">Bài toán 1: Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến) </h4> 
+<h4 id="bai-toan-1">Bài toán 1</h4> 
+
+Trong F4 tìm dạng nối rời chính tắc: (F4 ở đây ám chỉ hàm Boole 4 biến):
 
 $$F \big( x,y,z,t \big) = xz \neg t \vee \neg y \neg z \neg t \vee xyt \vee \neg x yz \vee \neg x \neg y \neg z \neg t \vee \neg x yz \neg t$$
 
@@ -288,7 +290,10 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 
 **Ngoài ra:** Ta chỉ cần tách hình bên trên thành những tế bào gồm 1 ô thì đấy chính xác là dạng nối rời chính tắc cần tìm. Hiển như dạng nối rời chính tắc này trùng với dạng nối rời chính tắc ở 2 cách trên vì bản chất 3 cách này như nhau.
 
-<h4 id = "mo-rong">Mở rộng cho việc ứng dụng bìa Kar vào việc rút gọn tốt giản (hay còn gọi là tìm công thức đa thức tối tiểu) trong hàm Boole (xem ảnh dưới đây)</h4>
+<h4 id = "mo-rong">Mở rộng cho việc ứng dụng bìa Kar vào việc rút gọn tốt giản</h4>
+<div>
+(hay còn gọi là tìm công thức đa thức tối tiểu) trong hàm Boole (xem ảnh dưới đây)
+</div>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142410839-be652e67-43bc-42e5-8021-6265d0c20450.png"><img src="https://user-images.githubusercontent.com/86739367/142410839-be652e67-43bc-42e5-8021-6265d0c20450.png"></a>
 	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh cho việc khoanh tối giản bìa Kar </i></a></figcaption>
@@ -339,7 +344,9 @@ Giả sử $$S$$ là phủ của $$X$$. Khi đó, $$S$$ được gọi là **ph�
 
 Thuật toán trên nếu mà đọc thì sẽ có phần rất khó hiểu, để làm rõ hơn tôi sẽ trình bày thuật toán trên ở bài toán bên dưới.
 
-#### Bài toán 2: Tìm các công thức đa thức tối tiểu của hàm Boole $$f$$ được thể hiện bằng bìa $$Kar$$ dưới đây
+#### Bài toán 2
+
+Tìm các công thức đa thức tối tiểu của hàm Boole $$f$$ được thể hiện bằng bìa $$Kar$$ dưới đây
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142414194-e4c3f84f-c032-49f5-a924-42dd5d2f3f64.png"><img src="https://user-images.githubusercontent.com/86739367/142414194-e4c3f84f-c032-49f5-a924-42dd5d2f3f64.png"></a>

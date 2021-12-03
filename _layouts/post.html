@@ -13,7 +13,7 @@ layout: compress
     {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
+        <div class="wrapper-2 animated fadeIn">
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
@@ -35,6 +35,7 @@ layout: compress
                     </a>
                 </div>
                 <div class='post-content post-article'>
+                    {% include sidebar-toc.html html=content %}
                     {{ content }}
                 </div>
                 <div class="entry-meta">

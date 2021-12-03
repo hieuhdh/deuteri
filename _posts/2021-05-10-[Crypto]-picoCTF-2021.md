@@ -28,8 +28,7 @@ comments: true
 
 Cũng tương tự challenge `13` trong <a href="https://hieuhdh.github.io/deuteri/CRYPTO-PicoCTF-2019/#13" title="" style="text-decoration: none; color:#bb86fc">[Crypto] picoCTF 2019</a> ta cũng dùng chính `ROT13` và ngay lập tức chúng ta sẽ nhận flag
 
-flag: **picoCTF{next_time_I'll_try_2_rounds_of_rot13_aFxtzQWR}**
-{: .notice}
+> Flag: **picoCTF{next_time_I'll_try_2_rounds_of_rot13_aFxtzQWR}**
 
 ## Mind your Ps and Qs
 
@@ -52,8 +51,7 @@ Challenge này cung cấp cho ta một mã hóa <a href="https://vi.wikipedia.or
 
 Sau khi chạy đoạn code trên, ta sẽ nhận được flag
 
-Flag: **picoCTF{sma11_N_n0_g0od_00264570}**
-{: .notice}
+> Flag: **picoCTF{sma11_N_n0_g0od_00264570}**
 
 ## List of challenge
 

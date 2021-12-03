@@ -144,7 +144,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/133070589-ade6b1c2-188d-4710-87a9-9f87f2f3dfaa.png"><img src="https://user-images.githubusercontent.com/86739367/133070589-ade6b1c2-188d-4710-87a9-9f87f2f3dfaa.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for About me interface</i></a></figcaption>
+    <figcaption><div style = "text-align: center">Screenshot for About me interface</div></figcaption>
 </figure>
 
 <br>
@@ -168,7 +168,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132998817-2a0cb670-ab77-4a3e-89f8-39b4380f7538.png"><img src="https://user-images.githubusercontent.com/86739367/132998817-2a0cb670-ab77-4a3e-89f8-39b4380f7538.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for database of user</i></a></figcaption>
+	<figcaption><div style = "text-align: center">Screenshot for database of user</div></figcaption>
 </figure>
 
 

@@ -38,8 +38,7 @@ Sau khi chúng ta download file ảnh từ challenge về ta được hình bên
 
 Từ hình trên ta chú ý rằng phần đầu dãy số là `16 9 3 15 3 20 6{`và kết hợp với gợi ý của đề bài  ta sẽ phát hiện ra khi convert dãy số `16 9 3 15 3 20 6` ra bảng chữ cái thì sẽ cho ra được chữ `PICOCTF` (các số chính là vị trí các chữ cái trong bảng chữ cái latin). Ta làm tương tự với các dãy số sau, ta sẽ thấy được flag
 
-flag: **PICOCTF{THENUMBERSMASON}**
-{: .notice}
+> flag: **PICOCTF{THENUMBERSMASON}**
 
 ## Easy1
 
@@ -62,8 +61,7 @@ Từ hình ảnh trên, ta biết được challenge này đang sử dụng <a h
 
 Sau khi chạy đoạn code trên, ta dễ dàng tìm ra được decoder là `CRYPTOISFUN` và đây cũng chính là 1 phần của flag cần tìm
 
-Flag: **picoCTF{CRYPTOISFUN}**
-{: .notice}
+> Flag: **picoCTF{CRYPTOISFUN}**
 
 ## 13
 
@@ -74,8 +72,7 @@ Flag: **picoCTF{CRYPTOISFUN}**
 
 Ngay đầu dòng mô tả, ta cũng nhận ra đây là 1 challenge về <a href="https://vi.wikipedia.org/wiki/ROT13" tyle="text-decoration: none; text-color:#bb86fc" >ROT13</a> cơ bản, ta có thể dùng 1 số công cụ giải mã code trên google như là <a href="https://rot13.com/" style="text-decoration: none; color:#bb86fc">giải mã ROT13</a>  và tôi cũng có viết 1 đoạn code nhỏ để giải mã cũng như nói 1 vài thứ tôi hiểu về loại mã hóa này, các bạn có thể <a href="https://github.com/hieuhdh/Cryptography/blob/master/ROT/rot13.cpp" style="text-decoration: none; color:#bb86fc">xem tại đây</a> 
 
-Flag: **picoCTF{not_too_bad_of_a_problem}**
-{: .notice}
+> Flag: **picoCTF{not_too_bad_of_a_problem}**
 
 ## caesar
 
@@ -88,8 +85,7 @@ Lại là 1 challenge về mật mã caesar. Hiểu đơn giản thì mã caesar
 Tham vọng của ta là tìm khoảng dịch chuyển các chữ cái hợp lí để biến thông điệp dspttjohuifsvcjdpoabrkttds thành một thông điệp có nghĩa. 
 Vì bảng chữ cái có 26 kí tự, tức là có tối đa 25 khoảng dịch chuyển, tôi đã ngồi chạy  từng khoảng 1 thì biết được rằng khoảng dịch chuyển của message này là 25 kí tự, hay nó còn được gọi là `ROT25` tôi có <a href="https://github.com/hieuhdh/Cryptography/blob/master/ROT/rot25.cpp" style="text-decoration: none; color:#bb86fc">1 script</a> để giải mã chúng 
 
-Flag: **picoCTF{crossingtherubiconzaqjsscr}**
-{: .notice}
+> Flag: **picoCTF{crossingtherubiconzaqjsscr}**
 
 ### Xem thêm
 
@@ -110,8 +106,7 @@ Flag: **picoCTF{crossingtherubiconzaqjsscr}**
 
 Và đúng, tôi có nghiên cứu về loại mật mã này, đây là mật mã morse, sau khi nhận diện được loại mã hóa, ta dễ dàng có thể tự decode hoặc dùng 1 số công cụ decode mã <a href="https://vi.wikipedia.org/wiki/M%C3%A3_Morse" style="text-decoration: none; color:#bb86fc">morse</a> có sẵn ở trên intenet. 
 
-Flag: **PICOCTF{M0RS3C0D31SFUN3902019519}**
-{: .notice}
+> Flag: **PICOCTF{M0RS3C0D31SFUN3902019519}**
 
 ### Xem thêm
 
