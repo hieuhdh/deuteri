@@ -120,9 +120,9 @@ body {
 }
 
 .wrapper-2 {
-	width: 75%;
-	max-width: 700px;
-	margin: 4rem 11rem;
+	width: calc(100% - 15.75em);
+	max-width: 830px;
+	margin: 4rem 6rem;
 	background: $color_background;
 	color: $color_primary_text;
 	padding: 2em;
@@ -140,9 +140,9 @@ body {
 }
 
 #disqus_thread {
-	width: 75%;
-	max-width: 700px;
-	margin: -3rem 11rem 4rem;
+	width: calc(100% - 15.75em);
+	max-width: 830px;
+	margin: -3rem 6rem 4rem;
 	background: $color_background;
 	color: $color_primary_text;
 	padding: 2em;

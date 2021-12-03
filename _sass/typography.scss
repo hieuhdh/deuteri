@@ -1,7 +1,9 @@
 // content area
 .content {
-	@include font-size(12);
+	// @include font-size(12);
+    font-size: 0.875em;
 	padding: 0 2rem;
+    line-height: 1.75em !important;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
 	-moz-font-smoothing: antialiased !important;
