@@ -139,7 +139,7 @@ Giả sử T là 1 tế bào lớn của bìa Kar thì:
 * *Hơn nữa:* $$\nexists \ T^{'}:  T^{'} \ne T \wedge T \subseteq T^{'}   \subseteq Kar \big(f\big)$$ 
 
 <br>
-<h2 id="cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Cách dùng bìa Kar trong việc đơn giản biểu thức trong đại số Boole</h2>
+<h2 id="cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Cách dùng bìa Kar trong việc đơn giản biểu thức</h2>
 <h3 id = "cach-dung">Cách dùng</h3>
 <div>Đối chiếu các đơn thức trong biểu thức đại số Boole xem từ đơn nào không xuất hiện trong các đơn thức đấy, thì chúng ta sẽ điền vào bảng các kí số 0 hoặc 1 (các kí số này là do người ra đề quy định) vào bảng sao cho các kí số này tạo thành 1 tế bào là cho chúng từ đơn trong biểu thức đại số Boole ban đầu không xuất hiện. </div>
 <div><strong>Lưu ý:</strong> Khi gom nhóm cái kí số thì phải gom theo dạng lũy thừa bậc n của 2, tuyệt đối không được gom 1 số lẽ các kí số.</div>
@@ -211,7 +211,8 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 <div>Để trả lời cho câu hỏi này thì cũng khó có thể trả lời sao cho hợp lí, vì mỗi người mỗi cách nhận định về vấn đề này, bạn đọc có thể tìm hiểu kĩ hoặc làm cách nào đó nếu muốn hiểu bản chất của cách trên hoặc có thể bắt đầu từ 1 cách cơ sở nhất mà tôi sắp trình bày.</div>
 <div><strong>Dưới đây tôi sẽ cung cấp thêm 1 cách chính quy khác để thực hiện việc tối giản biểu thức hàm Boole dễ dàng hơn. </strong></div>
 <br>
-<h2 id="[CHINHQUY]-cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Một cách chính quy khác trong việc dùng bìa Kar để tối giản hàm Boole </h2>
+<h2 id="[CHINHQUY]-cach-dung-bia-kar-trong-viec-don-gian-ham-boole">Một cách chính quy khác</h2>
+<div>Dưới đây là một cách chính quy khác trong việc dùng bìa Kar để tối giản hàm Boole </div>
 <h3 id = "dinh-nghia-ve-phu">Định nghĩa về phủ tối tiểu của một tập hợp</h3>
 
 Cho $$S =\big\{X_1, X_2, ..., X_n \big\}$$ là họ các tập con của $$X$$. Khi đó $$S$$ được gọi là phủ của $$X$$ nếu $$X=\cup X_i$$

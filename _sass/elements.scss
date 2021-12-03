@@ -404,13 +404,14 @@ kbd {
 
 .scroll-nav__list {
     margin: 0;
+    margin-top: 1em;
     padding-left: 1.4em;
     list-style-type: upper-roman;
     text-align: justify;
 }
 
 .scroll-nav__item {
-    margin-bottom: 5px;
+   // margin-bottom: 5px;
 }
 
 .scroll-nav__link {
