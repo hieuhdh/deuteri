@@ -58,19 +58,19 @@ $(document).ready(function() {
 
 
 // TOC - script
-$(function () {
-    const content = document.querySelector('.post-article');
-    scrollnav.init(content, {
-        debug: false,
-      //easingStyle: 'linear',
-        sections: ($('.post-content > h1').length>0) ? 'h1' : 'h2',
-        subSections: ($('.post-content > h1').length > 0) ? 'h2' : 'h3'
+// $(function () {
+//     const content = document.querySelector('.post-article');
+//     scrollnav.init(content, {
+//         debug: false,
+//       //easingStyle: 'linear',
+//         sections: ($('.post-content > h1').length>0) ? 'h1' : 'h2',
+//         subSections: ($('.post-content > h1').length > 0) ? 'h2' : 'h3'
         
-    });
-});
+//     });
+// });
 
-function sideNav(){
-    var mainRect = document.getElementById('post-content').getBoundingClientRect();
-    var oldReac = document.getElementsByClassName('scroll-nav')[0].getBoundingClientRect();
-    $('#post-content > div.content.loading > nav').css('left', mainRect.right+10+'px'); 
-}
+// function sideNav(){
+//     var mainRect = document.getElementById('post-content').getBoundingClientRect();
+//     var oldReac = document.getElementsByClassName('scroll-nav')[0].getBoundingClientRect();
+//     $('#post-content > div.content.loading > nav').css('left', mainRect.right+10+'px'); 
+// }
