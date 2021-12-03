@@ -281,7 +281,6 @@ $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big
     <a href="https://en.wikipedia.org/wiki/Gray_code" class="btn">Grey code</a>
     <a href="https://en.wikipedia.org/wiki/Boolean" class="btn">Boolean</a>
 </div>
-<!-- 
 <br>
 <h1 align="center">
   Lời kết
@@ -314,6 +313,4 @@ $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big
         </a>
     </div>
 </div>
- -->
-
 

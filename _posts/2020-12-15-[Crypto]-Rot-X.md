@@ -6,16 +6,6 @@ excerpt: "Something about ROT-X which I know"
 tags: [Crypto, ROT]
 comments: true
 ---
-<!-- <h1 align="center">
-    Contents
-</h1>  -->
-
-<!-- <div align="center">
-    <h4>
-        <a href="#some-thing-about-rot-x" style="text-decoration: none; color:#bb86fc">Something about ROT-X | </a>
-        <a href="#learn-more" style="text-decoration: none; color:#bb86fc">Learn more</a> 
-    </h4>
-</div> -->
 
 <h2 id="some-thing-about-rot-x">Something about ROT-X</h2>
 

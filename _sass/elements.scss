@@ -356,12 +356,13 @@ kbd {
     color: $color_primary_text;
     font-weight: bold;
     text-align: center;
-    background-color: $color_secondary;
+    background-color: $color_background;
+    box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
     //border: 1px solid #a2a9b1;
     padding: 15px 30px;
     position: fixed;
     transform: translate(950px, 10px);
-    margin: -19.2rem 10rem 10rem -7rem;
+    margin: -24.2rem 10rem 10rem -14rem;
     @media #{"only screen and (max-width: 992px)"} {
         display: none;
     }

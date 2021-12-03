@@ -6,44 +6,6 @@ excerpt: "Một vài cú pháp Latex mà tôi thường dùng trong Markdown"
 tags: [Guide, Math, Syntax]
 comments: true
 ---
-<!-- <h1 align="center">
-    Nội dung
-</h1>  -->
-
-<!-- <h4>
-	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
-</h4>
-<div align="left" >
-    <h4>
-    	<ol type = "I">
-        	<li style = "font-size:13px; color: #bb86fc">
-                <a href="#so-luoc-ve-cac-bang-ki-tu" style="text-decoration: none; color: #bb86fc">Sơ lược về các cú pháp cơ bản
-                    <ol style = "font-size: 12px">
-                        <li style = "color: #bb86fc"><a href="#bang-chu-cai-hi-lap" style="text-decoration: none; color:#bb86fc">Bảng chữ cái Hy Lạp</a> </li>
-                        <li style = "color: #bb86fc"><a href="#toan-tu-trong-dai-so-boole" style="text-decoration: none; color:#bb86fc">Toán tử trong Đại số Boole</a> </li>
-                        <li style = "color: #bb86fc"><a href="#toan-tu-trong-dai-so-quan-he" style="text-decoration: none; color:#bb86fc">Toán tử trong Đại số Quan hệ </a> </li>
-                        <li style = "color: #bb86fc"><a href="#toan-tu-trong-logic-vi-tu" style="text-decoration: none; color:#bb86fc">Toán tử trong Logic vị từ</a> </li>
-                        <li style = "color: #bb86fc"><a href="#cac-ki-hieu-mui-ten" style="text-decoration: none; color:#bb86fc">Các kí hiệu mũi tên (bổ sung)</a> </li>
-                        <li style = "color: #bb86fc"><a href="#ki-hieu-trong-tap-hop" style="text-decoration: none; color:#bb86fc">Kí hiệu trong Tập hợp</a> </li>
-                        <li style = "color: #bb86fc"><a href="#ki-hieu-trong-hinh-hoc" style="text-decoration: none; color:#bb86fc">Kí hiệu trong Hình học</a> </li>
-                        <li style = "color: #bb86fc"><a href="#ki-hieu-cac-dau-ngoac" style="text-decoration: none; color:#bb86fc">Kí hiệu các dấu ngoặc</a> </li>
-                    </ol>
-                </a>
-        	</li>
-        	<li style = "font-size:13px; color: #bb86fc">
-                <a href="#so-luoc-ve-cac-cu-phap" style="text-decoration: none; color: #bb86fc">Một vài cú pháp khác
-                    <ol style = "font-size: 12px">
-                        <li style = "color: #bb86fc"><a href="#gioi-han" style="text-decoration: none; color:#bb86fc">Giới hạn</a></li>
-                        <li style = "color: #bb86fc"><a href="#tong-sigma" style="text-decoration: none; color:#bb86fc">Tổng Sigma</a></li>
-                        <li style = "color: #bb86fc"><a href="#tich-phan" style="text-decoration: none; color:#bb86fc">Tích phân</a></li>
-                        <li style = "color: #bb86fc"><a href="#phan-thuc" style="text-decoration: none; color:#bb86fc">Phân thức</a></li>
-                        <li style = "color: #bb86fc"><a href="#khai-can" style="text-decoration: none; color:#bb86fc">Khai căn</a></li>
-                    </ol>
-                </a>
-        	</li>
-        </ol>
-    </h4>
-</div> -->
 
 <h2 id="so-luoc-ve-cac-bang-ki-tu">Sơ lược về về các cú pháp cơ bản</h2>
 <div> <strong>Mô tả: </strong>Dưới đây là một vài bảng thể hiện kí tự cũng như các cú pháp cơ bản của Latex mà tôi thường dùng trong việc viết kí hiệu toán học trên Markdown.

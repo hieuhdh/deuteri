@@ -9,47 +9,6 @@ tag:
 - Guide
 comments: true
 ---
-<!-- <h4>
-	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
-</h4>
-<div align="left" >
-    <h4>
-    	<ol type = "I">
-        	<li style = "font-size:13px; color: #bb86fc">
-                <a href="#phan-tu-trong-HTML" style="text-decoration: none; color:#bb86fc">Phần tử trong HTML
-                    <ol style = "font-size: 12px">
-                        <li style = "color: #bb86fc">
-                            <a href="#dinh-dang-tieu-de" style="text-decoration: none; color:#bb86fc">Định dạng tiêu đề</a> 
-                        </li>
-                        <li>
-                            <a href="#dinh-dang-cac-doan-van" style="text-decoration: none; color:#bb86fc">Định dạng các đoạn văn</a> 
-                        </li>
-                        <li>
-                            <a href="#chen-duong-link" style="text-decoration: none; color:#bb86fc">Chèn đường link</a> 
-                        </li>
-                        <li>
-                            <a href="#chen-trich-dan" style="text-decoration: none; color:#bb86fc">Chèn trích dẫn</a> 
-                        </li>
-                        <li>
-                            <a href="#chen-danh-sach" style="text-decoration: none; color:#bb86fc">Chèn danh sách
-                            <ol style = "font-size: 12px" type = "i">
-                                    <li style = "color: #bb86fc"><a href="#danh-sach-co-thu-tu" style="text-decoration: none; color:#bb86fc">Danh sách có thứ tự</a> </li>
-                                    <li style = "color: #bb86fc"><a href="#danh-sach-khong-thu-tu" style="text-decoration: none; color:#bb86fc">Danh sách không thứ tự</a> </li>
-                                </ol>
-                            </a> 
-                        </li>
-                        <li>
-                            <a href="#chen-bang" style="text-decoration: none; color:#bb86fc">Chèn bảng</a> 
-                        </li>
-                        <li>
-                            <a href="#tao-ghi-chu" style="text-decoration: none; color:#bb86fc">Tạo ghi chú</a> 
-                        </li>
-        		    </ol>
-                </a>
-            </li>
-        </ol>
-    </h4>
-</div> -->
 
 <h2 id =  "phan-tu-trong-HTML"> Phần tử trong HTML</h2>
 <h3 id="dinh-dang-tieu-de">Định dạng tiêu đề</h3>
