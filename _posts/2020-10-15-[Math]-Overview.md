@@ -13,10 +13,10 @@ comments: true
 </p> 
 <br><br>
 <div align="center">
-    <h4>
+    <div>
         <a href="https://hieuhdh.github.io/deuteri/Math-Dong-du-thuc/" class="btn btn-success">Đồng dư thức</a> 
         <a href="https://hieuhdh.github.io/deuteri/Math-Dai-so-Boole/" class="btn btn-success">Đại số Boole</a>
-    </h4>
+    </div>
 </div>
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">

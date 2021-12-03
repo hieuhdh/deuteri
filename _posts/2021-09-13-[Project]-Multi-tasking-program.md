@@ -12,27 +12,6 @@ tag:
 comments: true
 ---
 
-<h1 align="center">
-  <br>Multi-tasking-program<br>
-</h1>
-
-<h4 align="center">
-  This program that provides login framework, registration framework and basic applications.
-</h4> 
-
-<div align="center">
-    <h4>
-        <a href="#about-project" style="text-decoration: none; color:#bb86fc">About project | </a>
-        <a href="#features" style="text-decoration: none; color:#bb86fc">Features | </a>
-        <a href="#install" style="text-decoration: none; color:#bb86fc">Install | </a>
-        <a href="#documents" style="text-decoration: none; color:#bb86fc">Documents | </a>
-        <a href="#bugs-and-issues" style="text-decoration: none; color:#bb86fc">Bugs and Issues | </a>
-        <a href="#screenshots" style="text-decoration: none; color:#bb86fc">Screenshots | </a>
-        <a href="#license" style="text-decoration: none; color:#bb86fc">License | </a>
-        <a href="#about-me" style="text-decoration: none; color:#bb86fc">About me</a>
-    </h4>
-</div>
-
 ![something](https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png)
 
 
@@ -189,7 +168,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 <h2 id = "about-me" align="center">About me</h2>
 
 <div align="center">
-    <h4>
+    <div>
         <!-- <div class="btn btn-info">
             <div class="icon"><i class="fa fa-fw fa-facebook-square"></i></div>
             <span>Facebook</span>
@@ -198,7 +177,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
         <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info">Facebook</a>
         <a href="https://github.com/hieuhdh/" class="btn btn-info">Github</a>
         <a href="https://www.linkedin.com/in/hieuhdh/" class="btn btn-info">LinkedIn</a>
-    </h4>
+    </div>
 </div><br><br>
 
 <!-- <br>

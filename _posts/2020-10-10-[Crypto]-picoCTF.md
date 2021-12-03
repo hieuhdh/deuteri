@@ -14,10 +14,10 @@ comments: true
 </p> 
 <br><br>
 <div align="center">
-    <h4>
+    <div>
         <a href="https://hieuhdh.github.io/deuteri/Crypto-picoCTF-2019/" class="btn btn-success">[Crypto] picoCTF 2019</a> 
         <a href="https://hieuhdh.github.io/deuteri/Crypto-picoCTF-2021/" class="btn btn-success">[Crypto] picoCTF 2021</a>
-    </h4>
+    </div>
 </div>
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">

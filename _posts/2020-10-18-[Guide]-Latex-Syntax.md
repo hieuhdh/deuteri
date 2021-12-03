@@ -6,9 +6,9 @@ excerpt: "Một vài cú pháp Latex mà tôi thường dùng trong Markdown"
 tags: [Guide, Math, Syntax]
 comments: true
 ---
-<h1 align="center">
+<!-- <h1 align="center">
     Nội dung
-</h1> 
+</h1>  -->
 
 <!-- <h4>
 	<a href="#" style="text-decoration: none; color: black">Mục lục</a>

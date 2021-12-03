@@ -7,17 +7,6 @@ tags: [Crypto CTF, Writeup]
 feature: https://user-images.githubusercontent.com/86739367/141987523-68a87eae-f4b0-4c0e-b40d-5c5415491fe9.png
 comments: true
 ---
-<h1 align="center">
-    Write up
-</h1> 
-
-<div align="center">
-    <h4>
-        <a href="#mod-26" style="text-decoration: none; color:#bb86fc">Mod 26 | </a>
-        <a href="#mind-your-ps-and-qs" style="text-decoration: none; color:#bb86fc">Mind your Ps and Qs | </a>
-        <a href="#list-of-challenge" style="text-decoration: none; color:#bb86fc">List of challenge</a> 
-    </h4>
-</div>
 
 ## Mod 26
 
@@ -56,10 +45,10 @@ Sau khi chạy đoạn code trên, ta sẽ nhận được flag
 ## List of challenge
 
 <div align="center">
-  <h5>
+  <div>
     <a href="https://play.picoctf.org/practice/challenge/144?category=2&originalEvent=34&page=1" class="btn btn-success">Mod 26</a> 
     <a href="https://play.picoctf.org/practice/challenge/162?category=2&originalEvent=34&page=1" class="btn btn-success">Mind your Ps and Qs</a>
-  </h5>
+  </div>
 </div>
 
 <br>

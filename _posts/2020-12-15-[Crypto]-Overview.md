@@ -14,10 +14,10 @@ comments: true
 </p> 
 <br><br>
 <div align="center">
-    <h4>
+    <div>
         <a href="https://hieuhdh.github.io/deuteri/Crypto-Rot-X/" class="btn btn-success">ROT-X</a> 
         <a href="https://hieuhdh.github.io/deuteri/Crypto-RSA/" class="btn btn-success">RSA</a>
-    </h4>
+    </div>
 </div>
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">

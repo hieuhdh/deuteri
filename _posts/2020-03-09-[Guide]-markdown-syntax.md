@@ -9,9 +9,6 @@ tag:
 - Guide
 comments: true
 ---
-<h1 align="center">
-    Nội dung
-</h1> 
 <!-- <h4>
 	<a href="#" style="text-decoration: none; color: black">Mục lục</a>
 </h4>

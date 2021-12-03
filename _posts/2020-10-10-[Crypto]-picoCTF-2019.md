@@ -7,20 +7,6 @@ tags: [Crypto CTF, Writeup]
 feature: https://user-images.githubusercontent.com/86739367/141987523-68a87eae-f4b0-4c0e-b40d-5c5415491fe9.png
 comments: true
 ---
-<h1 align="center">
-    Write up
-</h1> 
-
-<div align="center">
-  <h4>
-    <a href="#the-numbers" style="text-decoration: none; color:#bb86fc">The numbers | </a> 
-    <a href="#easy1" style="text-decoration: none; color:#bb86fc">Easy 1 | </a>
-    <a href="#13" style="text-decoration: none; color:#bb86fc">13 | </a> 
-    <a href="#caesar" style="text-decoration: none; color:#bb86fc">Caesar | </a>
-    <a href="#tapping" style="text-decoration: none; color:#bb86fc">Tapping | </a>
-    <a href="#list-of-challenge" style="text-decoration: none; color:#bb86fc">List of challenge</a> 
-  </h4>
-</div>
 
 ## The numbers 
 
@@ -118,13 +104,13 @@ Và đúng, tôi có nghiên cứu về loại mật mã này, đây là mật m
 ## List of challenge
 
 <div align="center">
-  <h5>
+  <div>
     <a href="https://play.picoctf.org/practice/challenge/68?category=2&originalEvent=1&page=1" class="btn btn-success">The numbers</a> 
     <a href="https://play.picoctf.org/practice/challenge/43?category=2&originalEvent=1&page=1" class="btn btn-success">Easy1</a>
     <a href="https://play.picoctf.org/practice/challenge/62?category=2&originalEvent=1&page=1" class="btn btn-success">13</a>
     <a href="https://play.picoctf.org/practice/challenge/64?category=2&originalEvent=1&page=1" class="btn btn-success">caesar</a>
     <a href="https://play.picoctf.org/practice/challenge/21?category=2&originalEvent=1&page=1" class="btn btn-success">Tapping</a>
-  </h5>
+  </div>
 </div>
 
 <br>

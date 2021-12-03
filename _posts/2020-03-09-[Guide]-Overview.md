@@ -14,10 +14,10 @@ comments: true
 </p> 
 <br><br>
 <div align="center">
-    <h4>
+    <div>
         <a href="https://hieuhdh.github.io/deuteri/Guide-Latex-Syntax/" class="btn btn-success">Latex Syntax</a> 
         <a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn btn-success">Markdown Syntax</a>
-    </h4>
+    </div>
 </div>
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">

@@ -13,9 +13,9 @@ comments: true
 </p> 
 <br><br>
 <div align="center">
-    <h4>
+    <div>
         <a href="https://hieuhdh.github.io/deuteri/Project-Multi-tasking-program/" class="btn btn-success">Multi tasking program</a> 
-    </h4>
+    </div>
 </div>
 
 <br>
