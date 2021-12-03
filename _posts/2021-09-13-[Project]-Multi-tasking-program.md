@@ -169,67 +169,11 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <div align="center">
     <div>
-        <!-- <div class="btn btn-info">
-            <div class="icon"><i class="fa fa-fw fa-facebook-square"></i></div>
-            <span>Facebook</span>
-        </div>  -->
-        <!-- <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info"><img src = "https://user-images.githubusercontent.com/86739367/142802640-4651b56a-f829-4537-8244-650feaf4564e.png"><span>Facebook</span></a> -->
         <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info">Facebook</a>
         <a href="https://github.com/hieuhdh/" class="btn btn-info">Github</a>
         <a href="https://www.linkedin.com/in/hieuhdh/" class="btn btn-info">LinkedIn</a>
     </div>
 </div><br><br>
-
-<!-- <br>
-<h2 id = "about-me">About me</h2>
-
-<div class="button">
-    <div class="icon">
-        <i class="fab fa-facebook-f"></i>
-    </div>
-    <span>Facebook</span>
-</div>
-<div class="button">
-    <div class="icon">
-        <i class="fab fa-github"></i>
-    </div>
-    <span>Github</span>
-</div>
-<div class="button">
-    <div class="icon">
-        <i class="fab fa-linkedin-in"></i>
-    </div>
-    <span>LinkedIn</span>
-</div> -->
-
-<!-- 
-<div align="left">
-    <button class="slide_from_left_contact"><a href="https://www.facebook.com/ao.lncb/" style = "text-decoration: none">Facebook</a> </button>
-    <button class="slide_from_left_contact"><a href="https://github.com/hieuhdh/" style = "text-decoration: none">Github</a> </button>
-    <button class="slide_from_left_contact"><a href="https://www.linkedin.com/in/hieuhdh/" style = "text-decoration: none">LinkedIn</a> </button>
-</div> -->
-
-<!-- <div class = "hover-box">
-    <a class = "btnn" href = "#">
-        <span class = "name-desc">Facebook</span>
-        <div class = "btn-icon fb">
-       <i class = "\f230">
-        </div>
-    </a>
-    <a class = "btnn" href = "#">
-        <span class = "name-desc">Github</span>
-        <div class = "btn-icon github">
-       <i class = "\f09b">
-        </div>
-    </a>
-    <a class = "btnn" href = "#">
-        <span class = "name-desc">LinkedIn</span>
-        <div class = "btn-icon linkedin">
-       <i class = "\f0e1">
-        </div>
-    </a>
-    
-</div> -->
 
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
     <div class="item item1" style="text-align: right; position: relative;">
