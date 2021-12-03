@@ -6,9 +6,9 @@ excerpt: "Something about ROT-X which I know"
 tags: [Crypto, ROT]
 comments: true
 ---
-<h1 align="center">
+<!-- <h1 align="center">
     Contents
-</h1> 
+</h1>  -->
 
 <!-- <div align="center">
     <h4>
