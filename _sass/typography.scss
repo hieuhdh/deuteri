@@ -1,6 +1,6 @@
 // content area
 .content {
-	@include font-size(14);
+	@include font-size(12);
 	padding: 0 2rem;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
@@ -94,7 +94,7 @@ blockquote {
 
 // figcaption
 figcaption {
-    @include font(12);
+    @include font(11);
     color: $color_stack;
 }
 
@@ -126,7 +126,7 @@ p code,
 li code,
 p pre,
 li pre {
-    @include font(14);
+    @include font(12);
     background-color: $color_note_1_line;
     // border: 1px solid $color_mischka;
     @include rounded(4px);
@@ -173,7 +173,7 @@ table{
     margin-top: 1.5em;
     padding: .5em 1em;
     text-indent: 0;
-    @include font-rem(14);
+    @include font-rem(12);
     background-color: $color_button;
     border: 1px solid $color_primary;
     @include rounded(3px);

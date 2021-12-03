@@ -362,7 +362,7 @@ kbd {
     padding: 15px 30px;
     position: fixed;
     transform: translate(950px, 10px);
-    margin: -24.2rem 10rem 10rem -14rem;
+    margin: -24.2rem 10rem 10rem -18rem;
     @media #{"only screen and (max-width: 992px)"} {
         display: none;
     }
@@ -370,12 +370,12 @@ kbd {
     ol{
         padding-left: 30px;
         text-align: justify;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     ol ol{
         padding-left: 30px;
-        font-size: 13px;
+        font-size: 11px;
     }
 
 
