@@ -1,9 +1,9 @@
 // Buttons
 %btnextend {
 	display: inline-block;
-	border: 1px solid $color_button; 
+	border: 1px solid $color_primary; 
 	// border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
-	border-radius: 3px;
+	border-radius: 0.25rem;
 	text-decoration: none;
 	background: $color_button;
 	// color: $color_shark;
@@ -33,7 +33,7 @@ h3.title a {
 }
 
 .btn {
-	padding: 10px 18px;
+	padding: 8px 16px;
 	@include font-rem(14);
 	margin: 4px auto;
 	@extend %btnextend;
@@ -143,7 +143,7 @@ h3.title a {
         // }
 
         // &.btn-info .icon i{
-        //     color: #fff;
+        //     color: $color_primary_text;
         // }
 
         // &.btn-info span{
@@ -183,7 +183,159 @@ h3.title a {
     }
 }
 
+// readmore
+.read-more{
+	color:#bb86fc !important;
+    text-decoration: none; 
+    width: 100%;
+    font-size: 0.875rem !important
+}
+.read-more:hover{
+	color: #823af7 !important
+}
 
+// 404 click 
+.notification-page{
+    width: 100%;
+    text-align: center;
+    color: $color_primary_text;
+}
+
+.notification-page h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url(https://user-images.githubusercontent.com/86739367/144701975-615b3c94-1a91-4777-98bb-09411b20f8cf.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.btn-404-click {
+    /* Clean style */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    color: $color_primary_text;
+    cursor: pointer;
+    /* Clean style */
+    
+    --button-text-color: #0f1923;
+    --button-text-color-hover:  #0f1923;
+    --border-color: #7D8082;
+    --button-background-color: #ece8e1;
+    --highlight-color: #ff4655;
+    --button-inner-border-color: transparent;
+    --button-bits-color: var(--background-color);
+    --button-bits-color-hover: var(--button-background-color);
+    
+    position: relative;
+    padding: 8px;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all .15s ease;
+}
+
+.btn-404-click::before,
+.btn-404-click::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0; left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid var(--border-color);
+    transition: all .15s ease;
+}
+
+.btn-404-click::before {
+    top: 0;
+    border-bottom-width: 0;
+}
+
+.btn-404-click::after {
+    bottom: 0;
+    border-top-width: 0;
+}
+
+.btn-404-click:active,
+.btn-404-click:focus {
+    outline: none;
+}
+
+.btn-404-click:active::before,
+.btn-404-click:active::after {
+    right: 3px;
+    left: 3px;
+}
+
+.btn-404-click:active::before {
+    top: 3px;
+}
+
+.btn-404-click:active::after {
+    bottom: 3px;
+}
+
+.btn-404-click__inner {
+    position: relative;
+    display: block;
+    padding: 10px 25px;
+    background-color: $color_primary;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+}
+
+.btn-404-click__inner::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+}
+
+.btn-404-click__inner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+}
+
+.btn-404-click__slide {
+    display: block;
+    position: absolute;
+    top: 0; bottom: -1px; left: -8px;
+    width: 0; 
+    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    transform: skew(-15deg);
+    transition: all .2s ease;
+}
+
+.btn-404-click__content {
+    position: relative;
+}
+
+.btn-404-click:hover {
+    color:$color_primary_text;
+}
+
+.btn-404-click:hover .btn-404-click__slide {
+    width: calc(100% + 15px);
+}
+
+.btn-404-click:hover .btn-404-click__inner::after {
+    background-color: $color_primary_text;
+    color: $color_primary_text
+}
 
 // hr break
 hr {
