@@ -240,7 +240,7 @@ h3.title a {
     position: absolute;
     right: 0; left: 0;
     height: calc(50% - 5px);
-    border: 1px solid $color_secondary;
+    border: 1px solid #7D8082;
     transition: all .15s ease;
 }
 
@@ -318,7 +318,7 @@ h3.title a {
 }
 
 .btn-404-click:hover {
-    color:$color_primary_text;
+    color:$color_primary_text !important;
 }
 
 .btn-404-click:hover .btn-404-click__slide {
@@ -347,7 +347,7 @@ h3.title a {
 }
 
 .link-for-404:hover{
-    color: $color_primary_text !important;
+    color: red !important;
 }
 
 
