@@ -224,7 +224,6 @@ h3.title a {
     color: $color_primary_text;
     cursor: pointer;
     /* Clean style */
-    --border-color: #7D8082;
     position: relative;
     padding: 8px;
     margin-top: 1.5rem;
@@ -241,7 +240,7 @@ h3.title a {
     position: absolute;
     right: 0; left: 0;
     height: calc(50% - 5px);
-    border: 1px solid var(--border-color);
+    border: 1px solid $color_secondary;
     transition: all .15s ease;
 }
 
@@ -278,9 +277,7 @@ h3.title a {
     position: relative;
     display: block;
     color: $color_primary;
-    border: 1px solid $color_primary;
     padding: 10px 25px;
-    background-color: $color_primary;
     overflow: hidden;
     box-shadow: inset 0px 0px 0px 1px$color_primary;
 }
@@ -321,7 +318,7 @@ h3.title a {
 }
 
 .btn-404-click:hover {
-    color:$color_background;
+    color:$color_primary_text;
 }
 
 .btn-404-click:hover .btn-404-click__slide {
@@ -346,12 +343,11 @@ h3.title a {
 // link for 404
 .link-for-404{
     text-decoration: none; 
-    color:$color_primary;
+    color:$color_primary !important;
 }
 
 .link-for-404:hover{
-    text-decoration: none; 
-    color: $color_primary_text;
+    color: $color_primary_text !important;
 }
 
 
