@@ -221,7 +221,7 @@ h3.title a {
     border: none;
     background: none;
     padding: 0;
-    color: $color_primary_text;
+    color: $color_primary;
     cursor: pointer;
     /* Clean style */
     position: relative;
@@ -276,7 +276,6 @@ h3.title a {
 .btn-404-click__inner {
     position: relative;
     display: block;
-    color: $color_primary;
     padding: 10px 25px;
     overflow: hidden;
     box-shadow: inset 0px 0px 0px 1px$color_primary;
