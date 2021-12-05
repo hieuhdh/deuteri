@@ -202,7 +202,8 @@ h3.title a {
 }
 
 .notification-page h1{
-    margin: 0.67em !important;
+    // margin: 0.67em !important;
+    padding: 3rem !important;
     font-size: 160px;
     margin: 0;
     font-weight: 900;
@@ -223,16 +224,7 @@ h3.title a {
     color: $color_primary_text;
     cursor: pointer;
     /* Clean style */
-    
-    --button-text-color: #0f1923;
-    --button-text-color-hover:  #0f1923;
     --border-color: #7D8082;
-    --button-background-color: #ece8e1;
-    --highlight-color: #ff4655;
-    --button-inner-border-color: transparent;
-    --button-bits-color: var(--background-color);
-    --button-bits-color-hover: var(--button-background-color);
-    
     position: relative;
     padding: 8px;
     margin-top: 1.5rem;
@@ -285,10 +277,12 @@ h3.title a {
 .btn-404-click__inner {
     position: relative;
     display: block;
+    color: $color_primary;
+    border: 1px solid $color_primary;
     padding: 10px 25px;
     background-color: $color_primary;
     overflow: hidden;
-    box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+    box-shadow: inset 0px 0px 0px 1px$color_primary;
 }
 
 .btn-404-click__inner::before {
@@ -298,7 +292,7 @@ h3.title a {
     top: 0; left: 0;
     width: 2px;
     height: 2px;
-    background-color: #0f1923;
+    background-color: $color_secondary;
 }
 
 .btn-404-click__inner::after {
@@ -308,7 +302,7 @@ h3.title a {
     right: 0; bottom: 0;
     width: 4px;
     height: 4px;
-    background-color: #0f1923;
+    background-color: $color_background;
     transition: all .2s ease;
 }
 
@@ -317,7 +311,7 @@ h3.title a {
     position: absolute;
     top: 0; bottom: -1px; left: -8px;
     width: 0; 
-    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background: $color_primary;
     transform: skew(-15deg);
     transition: all .2s ease;
 }
@@ -327,7 +321,7 @@ h3.title a {
 }
 
 .btn-404-click:hover {
-    color:$color_primary_text;
+    color:$color_background;
 }
 
 .btn-404-click:hover .btn-404-click__slide {
@@ -338,6 +332,28 @@ h3.title a {
     background-color: $color_primary_text;
     color: $color_primary_text
 }
+
+// text - 404
+.text-404 {
+    margin: 0px;
+}
+
+.text-404-1 {
+    margin: 0px;
+    margin-top: 1rem;
+}
+
+// link for 404
+.link-for-404{
+    text-decoration: none; 
+    color:$color_primary;
+}
+
+.link-for-404:hover{
+    text-decoration: none; 
+    color: $color_primary_text;
+}
+
 
 // hr break
 hr {
