@@ -185,7 +185,7 @@ h3.title a {
 
 // readmore
 .read-more{
-	color:#bb86fc !important;
+	color:$color_primary !important;
     text-decoration: none; 
     width: 100%;
     font-size: 0.875rem !important
@@ -598,4 +598,20 @@ kbd {
     path {
         transition: all 0.3s ease;
     }
+}
+
+
+// Bôi màu 
+
+::selection {
+    background:$color_primary; 
+    color:$color_black;
+}
+::-moz-selection {
+    background:$color_primary; 
+    color:$color_black;
+}
+::-webkit-selection {
+    background:$color_primary; 
+    color:$color_black;
 }
