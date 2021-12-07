@@ -14,21 +14,11 @@ comments: true
 <br><br>
 <div align="center">
     <div>
-        <a href="https://hieuhdh.github.io/deuteri/Food-inspection-program/" class="btn btn-success">Food inspection program</a> 
-    </div>
-    <div>
-        <a href="https://hieuhdh.github.io/deuteri/Robotic-vacuum-cleaner/" class="btn btn-success">Robotic vacuum cleaner</a> 
-    </div>
-    <div>
-        <a href="https://hieuhdh.github.io/deuteri/Attendance-management-system/" class="btn btn-success">Attendance management system</a> 
-    </div>
-    <div>
-        <a href="https://hieuhdh.github.io/deuteri/Brute-force-insider-attack/" class="btn btn-success">Brute-Force insider attack</a> 
-    </div>
-    <div>
-        <a href="https://hieuhdh.github.io/deuteri/Quadratic-equations/" class="btn btn-success">Quadratic equations</a> 
-    </div>
-    <div>
+        <a href="https://hieuhdh.github.io/deuteri/Project-Food-inspection-program/" class="btn btn-success">Food inspection program</a> 
+        <a href="https://hieuhdh.github.io/deuteri/Project-Robotic-vacuum-cleaner/" class="btn btn-success">Robotic vacuum cleaner</a> 
+        <a href="https://hieuhdh.github.io/deuteri/Project-Attendance-management-system/" class="btn btn-success">Attendance management system</a> 
+        <a href="https://hieuhdh.github.io/deuteri/Project-Brute-force-insider-attack/" class="btn btn-success">Brute-Force insider attack</a>
+        <a href="https://hieuhdh.github.io/deuteri/Project-Quadratic-equations/" class="btn btn-success">Quadratic equations</a> 
         <a href="https://hieuhdh.github.io/deuteri/Project-Multi-tasking-program/" class="btn btn-success">Multi tasking program</a> 
     </div>
 </div>

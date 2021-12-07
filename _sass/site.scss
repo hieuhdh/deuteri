@@ -75,11 +75,11 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $color_background;
+	background-color: $color_bg_wrapper;
 	color: $color_primary_text;
 	z-index: 1;
 	border-radius: 0.25rem;
-	box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+	box-shadow: 0 0 30px 0 rgb(0 0 0 / 50%) !important;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 100%;
@@ -104,32 +104,34 @@ body {
 	width: 75%;
 	max-width: 950px;
 	margin: 4rem auto;
-	background: $color_background;
+	background: $color_bg_wrapper;
 	color: $color_primary_text;
 	padding: 2em;
 	border-radius: 0.25rem;
 	// box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
     // box-shadow: 0 1.25rem 1rem 0.3125rem;
-    box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 50%) !important;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
 		padding: 2em 0;
         box-shadow: none;
 	}
+
+    opacity: 0.9 !important;
 }
 
 .wrapper-2 {
 	width: calc(100% - 15.75em);
 	max-width: 830px;
 	margin: 4rem 6rem;
-	background: $color_background;
+	background: $color_bg_wrapper;
 	color: $color_primary_text;
 	padding: 2em;
 	border-radius: 0.25rem;
 	// box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
     // box-shadow: 0 1.25rem 1rem 0.3125rem;
-    box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 50%) !important;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -137,6 +139,8 @@ body {
         margin: 4rem auto;
         box-shadow: none;
 	}
+
+    opacity: 0.9 !important;
 }
 
 #disqus_thread {
@@ -148,7 +152,7 @@ body {
 	padding: 2em;
 	border-radius: 0.25rem;
 	// box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
-    box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 50%) !important;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -156,6 +160,8 @@ body {
         margin: 4rem auto;
         box-shadow: none;
 	}
+
+    opacity: 0.9 !important;
 }
 // entry meta
 .entry-meta {
@@ -185,12 +191,12 @@ body {
 			padding: 2px 6px;
 		}
 		.count {
-			background-color: $color_primary,15;
+			background-color: $color_primary;
             color:$color_black !important;
 			@include border-radius(0.25rem,0.25rem,0,0);
 		}
 		&:hover {
-			background-color: $color_primary,15;
+			background-color: $color_primary;
 			box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
             color: $black;
 		}

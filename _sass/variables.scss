@@ -1,15 +1,18 @@
 //colors
 $color_background    : #100e17;
+$color_bg_wrapper    : #181826;
 $color_primary       : #bb86fc;
+$color_bg_highlight  : #2f2943;
 $color_primary_text  : #e4e6eb;
-$color_button        : #262232;
+$color_button        : #1f1f32;
 $color_black         : #000;
 $color_success       : $color_primary;
 $color_secondary     : #1c1925;
 $color_table_1       : #201a30;
 $color_table_2       : #2f2943;   
 $color_primary_line  : #bb86e0;
-$color_note_1_line   : #2f2943;
+// $color_note_1_line   : #2f2943;
+$color_note_1_line   : $color_bg_highlight;
 
 
 $black           	 : #000;
