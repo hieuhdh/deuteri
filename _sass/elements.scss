@@ -191,7 +191,19 @@ h3.title a {
     font-size: 0.875rem !important
 }
 .read-more:hover{
-	color: #823af7 !important
+	color: $color_hover_link !important
+}
+
+// a link for somelink
+
+.link_for_hover{
+	color:$color_primary !important;
+    text-decoration: none; 
+    width: 100%;
+    font-size: 0.875rem !important
+}
+.link_for_hover:hover{
+	color: $color_hover_link !important
 }
 
 // 404 click 
@@ -225,7 +237,7 @@ h3.title a {
     cursor: pointer;
     /* Clean style */
     position: relative;
-    padding: 8px;
+    padding: 6px;
     margin-top: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -276,7 +288,7 @@ h3.title a {
 .btn-404-click__inner {
     position: relative;
     display: block;
-    padding: 10px 25px;
+    padding: 6px 25px;
     overflow: hidden;
     box-shadow: inset 0px 0px 0px 1px$color_primary;
 }
@@ -598,20 +610,4 @@ kbd {
     path {
         transition: all 0.3s ease;
     }
-}
-
-
-// Bôi màu 
-
-::selection {
-    background:$color_primary; 
-    color:$color_black;
-}
-::-moz-selection {
-    background:$color_primary; 
-    color:$color_black;
-}
-::-webkit-selection {
-    background:$color_primary; 
-    color:$color_black;
 }

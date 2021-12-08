@@ -18,7 +18,7 @@ comments: true
     <strong>Đại số Boole</strong> được đặt tên theo George Boole (1815-1864) – Một nhà toán học người Anh.
 </div>
 <div>
-    <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_Boole" style="text-decoration: none; color:#bb86fc" >Xem thêm</a>
+    <a class = "link_for_hover" href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_Boole" >Xem thêm</a>
 </div>
 <br>
 <h2 id="tinh-chat">Tính chất</h2>
@@ -154,7 +154,7 @@ Từ bìa Kar ở trên ta dễ dàng thấy được dạng nối rời chính 
 
 $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \neg z \neg t + xyzt + xy \neg z t + \neg x yzt + \neg x yz \neg t + \neg x y \neg z t$$
 
-<h3 id = "huong-tiep-can-bia-kar-theo-dang-the-hien-ki-so">Hướng tiếp cận bìa Kar theo dạng thể hiện các kí số (ở hình dưới)</h3>
+<h3 id = "huong-tiep-can-bia-kar-theo-dang-the-hien-ki-so">Hướng tiếp cận bìa Kar theo dạng thể hiện các kí số</h3>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142407432-4f93badc-caff-4cdb-bc90-74c4bfdc98dd.png"><img src="https://user-images.githubusercontent.com/86739367/142407432-4f93badc-caff-4cdb-bc90-74c4bfdc98dd.png"></a>
 	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh biểu diễn bìa Kar theo dạng kí số (đưa từ đơn ra ngoài)</i></a></figcaption>
