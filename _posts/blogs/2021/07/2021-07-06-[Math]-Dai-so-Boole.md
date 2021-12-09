@@ -119,14 +119,14 @@ $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \n
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142407228-59d06a12-64f3-4e9c-b0f3-0878de2397f9.png"><img src="https://user-images.githubusercontent.com/86739367/142407228-59d06a12-64f3-4e9c-b0f3-0878de2397f9.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh biểu diễn bìa Kar theo từ đơn</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover"><i>Hình ảnh biểu diễn bìa Kar theo từ đơn</i></a></figcaption>
 </figure>
 
 <br>
 <h4 id="bieu-dien-bia-kar-theo-ki-so">Biểu diễn theo dạng kí số (đưa từ đơn ra ngoài)</h4>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142407432-4f93badc-caff-4cdb-bc90-74c4bfdc98dd.png"><img src="https://user-images.githubusercontent.com/86739367/142407432-4f93badc-caff-4cdb-bc90-74c4bfdc98dd.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh biểu diễn bìa Kar theo dạng kí số (đưa từ đơn ra ngoài)</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Hình ảnh biểu diễn bìa Kar theo dạng kí số (đưa từ đơn ra ngoài)</i></a></figcaption>
 </figure>
 <br>
 <h3 id="mot-vai-thuat-ngu-trong-bia-kar">Một vài thuật ngữ trong bìa Kar</h3>
@@ -146,7 +146,7 @@ Giả sử T là 1 tế bào lớn của bìa Kar thì:
 <div>Ta cùng quay lại bài toán 1, ở đây ta sẽ điền các kí số 0 hoặc 1 vào bìa Kar sao cho hợp lí</div>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142408551-b59d37fb-3c2d-4ea2-80b5-5aa71af33c97.png"><img src="https://user-images.githubusercontent.com/86739367/142408551-b59d37fb-3c2d-4ea2-80b5-5aa71af33c97.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh bìa Kar sau khi điền đầy đủ kí số</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Hình ảnh bìa Kar sau khi điền đầy đủ kí số</i></a></figcaption>
 </figure>
 <div>
 Từ bìa Kar ở trên ta dễ dàng thấy được dạng nối rời chính tắc của hàm Boole đã cho, bản chất nó chính là tổng các tế bào gồm 1 ô duy nhất. Và công dạng nối rời chính tắc cần tìm
@@ -157,13 +157,13 @@ $$f = xyz \neg t + x \neg y z \neg t + x \neg y \neg z \neg t + \neg x \neg y \n
 <h3 id = "huong-tiep-can-bia-kar-theo-dang-the-hien-ki-so">Hướng tiếp cận bìa Kar theo dạng thể hiện các kí số</h3>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142407432-4f93badc-caff-4cdb-bc90-74c4bfdc98dd.png"><img src="https://user-images.githubusercontent.com/86739367/142407432-4f93badc-caff-4cdb-bc90-74c4bfdc98dd.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh biểu diễn bìa Kar theo dạng kí số (đưa từ đơn ra ngoài)</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Hình ảnh biểu diễn bìa Kar theo dạng kí số (đưa từ đơn ra ngoài)</i></a></figcaption>
 </figure>
 <div><strong>Thắc mắc:</strong> Các bạn sẽ thấy điều kì lạ ở hình trên và sẽ đặt ra câu hỏi là tại sao đi theo hàng ngang và hàng dọc thì lại là 01 rồi đến 11, nó phải là 01 rồi mới đến 10 chứ ?. Để trả lời cho câu hỏi này chúng ta sẽ đi tiếp phần phía dưới.</div>
 <div><strong>Ràng buộc:</strong> Nếu bạn biểu diễn bìa Kar theo dạng đưa kí số vào thì bắt buộc bạn phải điền bộ số gồm 2 kí số giống hệt hình phía bên trên và đặt chỉ số như sau:</div>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142409233-13ab2c65-0543-4011-97d9-69b9132f25d9.png"><img src="https://user-images.githubusercontent.com/86739367/142409233-13ab2c65-0543-4011-97d9-69b9132f25d9.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh sau khi đã add thứ tự chỉ số vào bìa Kar</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Hình ảnh sau khi đã add thứ tự chỉ số vào bìa Kar</i></a></figcaption>
 </figure>
 
 Những con số $$0, 1, 2,... , 15$$ đã điền ở trên thật chính là các con số chỉ thứ tự của bộ trạng thái $$\big(x, y, z, t \big)$$ được thể hiện trong bảng chân trị 4 biến theo mã Gray trải dài từ trạng thái $$0000$$ đến trạng thái $$1111$$ chứ hoàn toàn không phải điền một cách tùy ý.
@@ -171,7 +171,7 @@ Những con số $$0, 1, 2,... , 15$$ đã điền ở trên thật chính là c
 Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biến thì ta sẽ tìm cách đơn giản hơn (cho máy tính hiểu) chuyển hết về kí số và điền như sau:
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142409588-f0653c91-8531-4977-b045-4895137adb16.png"><img src="https://user-images.githubusercontent.com/86739367/142409588-f0653c91-8531-4977-b045-4895137adb16.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh cho sự khoanh vùng 1 vài tế bào trong bìa Kar - đảm bảo sơ đồ phủ</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Hình ảnh cho sự khoanh vùng 1 vài tế bào trong bìa Kar - đảm bảo sơ đồ phủ</i></a></figcaption>
 </figure>
 
 <h4 id = "giai-thich-cho-cach-khoanh">Giải thích cho cách khoanh</h4>
@@ -186,7 +186,7 @@ Quay trở lại **bài toán 1**, thay vì ta xem $$x, y, z, t$$ là các biế
 </div>
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142410839-be652e67-43bc-42e5-8021-6265d0c20450.png"><img src="https://user-images.githubusercontent.com/86739367/142410839-be652e67-43bc-42e5-8021-6265d0c20450.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh cho việc khoanh tối giản bìa Kar </i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Hình ảnh cho việc khoanh tối giản bìa Kar </i></a></figcaption>
 </figure>
 
 <br>
@@ -241,14 +241,14 @@ Tìm các công thức đa thức tối tiểu của hàm Boole $$f$$ được t
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142414194-e4c3f84f-c032-49f5-a924-42dd5d2f3f64.png"><img src="https://user-images.githubusercontent.com/86739367/142414194-e4c3f84f-c032-49f5-a924-42dd5d2f3f64.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Mô tả hàm Boole f bởi bìa Kar</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Mô tả hàm Boole f bởi bìa Kar</i></a></figcaption>
 </figure>
 
 **Bước 1:** Ta tiến hành tiếp cận bài toán trên bằng việc tìm đánh chỉ số cho các tế bào lớn - hình bên dưới
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142414505-c691108c-f862-4c03-8b06-0b91750cb46c.png"><img src="https://user-images.githubusercontent.com/86739367/142414505-c691108c-f862-4c03-8b06-0b91750cb46c.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Mô tả hàm bìa Kar sau khi đã đánh dấu</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Mô tả hàm bìa Kar sau khi đã đánh dấu</i></a></figcaption>
 </figure>
 
 **Bước 2:** Ta có các tế bào lớn: $$T_1 = yt, T_2 = \neg y \neg t, T_3 = xy, T_4 = x\neg t $$
@@ -259,7 +259,7 @@ Tìm các công thức đa thức tối tiểu của hàm Boole $$f$$ được t
 Từ các bước trên, ta có sơ đồ phủ dưới đây: 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/142415332-43321bcc-9c38-464c-a9c2-9dc69c8394e4.png"><img src="https://user-images.githubusercontent.com/86739367/142415332-43321bcc-9c38-464c-a9c2-9dc69c8394e4.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Hình ảnh mô tả sơ đồ phủ</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Hình ảnh mô tả sơ đồ phủ</i></a></figcaption>
 </figure>
 
 Từ sơ đồ phủ trên, dễ dàng thấy được $$\left[ \begin{array}{cc}  Kar\big(f\big) = T_1 \cup T_2 \cup T_3 \ \big(1\big) \\  Kar\big(f\big) = T_1 \cup T_2 \cup T_4 \ \big(2\big) \end{array} \right. $$
@@ -290,7 +290,7 @@ $$f\big (x, y, z, t \big)=xyzt + \neg x yzt \Longleftrightarrow f^{-1}\big(1\big
 <table>
   <thead>
     <tr>
-<td style = "font-weight: bold">Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:#bb86fc" >tại đây</a>.</td>
+<td style = "font-weight: bold">Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a class = "link_for_hover" href="https://hieuhdh.github.io/deuteri/">tại đây</a>.</td>
     </tr>
   </thead>
 </table>

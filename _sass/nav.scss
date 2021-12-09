@@ -141,7 +141,7 @@
 		left: 0;
 		// background: $comp-color;
         background: $color_background;
-        box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+        // box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
 		border: none;
 		width: 48px;
 		height: 45px;
@@ -253,7 +253,8 @@
 		opacity: 0;
 		pointer-events: none;
 		// box-shadow: 0 12px 24px rgba($black,0.4);
-        box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+        // box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+        box-shadow:0 1.25rem 1rem .3125rem $color_black;
 		-webkit-transform: translateY(10px);
 		-moz-transform: translateY(10px);
 		transform: translateY(10px);
@@ -440,7 +441,7 @@ All this is done for any sub-level being entered.
 /* No Touch Fallback */
 .no-touchevents .dl-menuwrapper li a:hover {
 	// background: rgba(255,248,213,0.1);
-    background: rgba(126, 50, 187, 0.1);
+    background: rgba(31, 31, 50, 0.1);
 }
 /* No JS Fallback */
 .no-js {
@@ -485,7 +486,7 @@ All this is done for any sub-level being entered.
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
 	// background: $comp-color;
-    background: $color_background;
+    background: $color_bg_wrapper;
 }
 // Fix for IE
 .dl-menu li {

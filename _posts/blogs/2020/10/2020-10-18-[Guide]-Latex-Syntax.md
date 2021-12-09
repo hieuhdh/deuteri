@@ -2,6 +2,7 @@
 layout: post
 title: "Latex Syntax"
 date: 2020-10-18
+update: 2020-12-09
 excerpt: "Một vài cú pháp Latex mà tôi thường dùng trong Markdown"
 tags: [Guide, Math, Syntax]
 comments: true
@@ -255,8 +256,13 @@ comments: true
   Lời kết
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:#bb86fc" >tại đây</a>.
-{: .notice}
+<table>
+  <thead>
+    <tr>
+<td style = "font-weight: bold">Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a class = "link_for_hover" href="https://hieuhdh.github.io/deuteri/">tại đây</a>.</td>
+    </tr>
+  </thead>
+</table>
 
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">

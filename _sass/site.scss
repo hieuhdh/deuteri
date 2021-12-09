@@ -79,7 +79,7 @@ body {
 	color: $color_primary_text;
 	z-index: 1;
 	border-radius: 0.25rem;
-	box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+	// box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 100%;
@@ -110,7 +110,8 @@ body {
 	border-radius: 0.25rem;
 	// box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
     // box-shadow: 0 1.25rem 1rem 0.3125rem;
-    box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+    // box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+    box-shadow:0 1.25rem 1rem .3125rem $color_black;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -131,7 +132,31 @@ body {
 	border-radius: 0.25rem;
 	// box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
     // box-shadow: 0 1.25rem 1rem 0.3125rem;
-    box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+    // box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+    box-shadow:0 1.25rem 1rem .3125rem $color_black;
+	@include transition(.5s);
+	@media #{$small} {
+		width: 90%;
+		padding: 2em 0;
+        margin: 4rem auto;
+        box-shadow: none;
+	}
+
+    opacity: 0.85 !important;
+}
+
+.wrapper-project  {
+	width: calc(100% - 15.75em);
+	max-width: 1200px;
+	margin: 4rem 6rem;
+	background: $color_bg_wrapper;
+	color: $color_primary_text;
+	padding: 2em;
+	border-radius: 0.25rem;
+	// box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+    // box-shadow: 0 1.25rem 1rem 0.3125rem;
+    // box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+    box-shadow:0 1.25rem 1rem .3125rem $color_black;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -152,7 +177,8 @@ body {
 	padding: 2em;
 	border-radius: 0.25rem;
 	// box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
-    box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+    // box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+    box-shadow:0 1.25rem 1rem .3125rem $color_black;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;

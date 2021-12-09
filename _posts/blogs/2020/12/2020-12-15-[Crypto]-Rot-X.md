@@ -2,6 +2,7 @@
 layout: post
 title: "ROT-X"
 date: 2020-12-15
+update: 2020-12-15
 excerpt: "Something about ROT-X which I know"
 tags: [Crypto, ROT]
 comments: true
@@ -33,8 +34,13 @@ comments: true
   Epilogue
 </h1> 
 
-After what I have shared above, I hope it will be of some help to readers. If you have any questions or comments, you can contact me <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:#bb86fc" >here</a>.
-{: .notice}
+<table>
+  <thead>
+    <tr>
+<td style = "font-weight: bold">After what I have shared above, I hope it will be of some help to readers. If you have any questions or comments, you can contact me <a href="https://hieuhdh.github.io/deuteri/" class = "link_for_hover">here</a>.</td>
+    </tr>
+  </thead>
+</table>
 
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">

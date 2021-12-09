@@ -2,7 +2,8 @@
 layout: post
 title:  "Markdown Syntax"
 date:   2021-03-09
-excerpt: "Just about everything you'll need to style in the theme: Tiêu đềs, paragraphs, blockquotes, tables, code blocks, and more."
+update: 2021-12-09
+excerpt: "Một và cú pháp markdown về: Tiêu đề, đoạn văn, ghi chú, tạo bảng,..."
 tag:
 - Markdown 
 - Syntax
@@ -72,7 +73,7 @@ Ví dụ tôi gõ
 
 Và dưới đây là kết quả
 
-<a href="https://vi-vn.facebook.com/" style="text-decoration: none; color:#bb86fc">Đây là một link dẫn đến facebook</a>
+<a href="https://vi-vn.facebook.com/" class = "link_for_hover" >Đây là một link dẫn đến facebook</a>
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg"><img src="https://user-images.githubusercontent.com/86739367/143173794-ef2ac736-f3d6-4fa0-8b1a-87e86d74afa3.jpg"></a>
@@ -298,8 +299,13 @@ Xem ví dụ về tạo các đoạn ghi chú dưới đây:
   Lời kết
 </h1> 
 
-Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a href="https://hieuhdh.github.io/deuteri/" style="text-decoration: none; color:#bb86fc" >tại đây</a>.
-{: .notice}
+<table>
+  <thead>
+    <tr>
+<td style = "font-weight: bold">Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a class = "link_for_hover" href="https://hieuhdh.github.io/deuteri/">tại đây</a>.</td>
+    </tr>
+  </thead>
+</table>
 
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">

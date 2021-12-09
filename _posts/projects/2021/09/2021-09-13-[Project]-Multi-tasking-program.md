@@ -2,8 +2,11 @@
 layout: post
 title:  "Multi tasking program"
 date:   2021-09-13
+update: 2021-12-09
 excerpt: "This program that provides login framework, registration framework and basic applications."
+description: "This program that provides login framework, registration framework and basic applications."
 feature: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
+cover: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
 project: true
 tag:
 - Python 
@@ -71,12 +74,12 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 ## Documents
 
-  For help getting started with python, view our online <a href="https://www.python.org/" style="text-decoration: none; color:#bb86fc" >documentation.</a>
+  For help getting started with python, view our online <a href="https://www.python.org/" class = "link_for_hover"  >documentation.</a>
 
 
 ## Bugs and Issues
 
-  Have a bug or an issue with this project? <a href="https://github.com/hieuhdh/Multi-tasking-program/issues" style="text-decoration: none; color:#bb86fc" >Open a new issue</a> here on GitHub.
+  Have a bug or an issue with this project? <a href="https://github.com/hieuhdh/Multi-tasking-program/issues" class = "link_for_hover"  >Open a new issue</a> here on GitHub.
 
 <h2 id = "screenshots">Screenshots</h2>
 
@@ -84,7 +87,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png"><img src="https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for home screen</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Screenshot for home screen</i></a></figcaption>
 </figure>
 
 <br>
@@ -92,7 +95,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132999147-b5fe975b-dc5c-455c-ad82-aa496a7919f7.png"><img src="https://user-images.githubusercontent.com/86739367/132999147-b5fe975b-dc5c-455c-ad82-aa496a7919f7.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for Home interface</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Screenshot for Home interface</i></a></figcaption>
 </figure>
 
 <br>
@@ -100,7 +103,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132989561-425cf48d-c77e-4c7c-a3a1-f849134299ae.png"><img src="https://user-images.githubusercontent.com/86739367/132989561-425cf48d-c77e-4c7c-a3a1-f849134299ae.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for Login interface</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Screenshot for Login interface</i></a></figcaption>
 </figure>
 
 <br>
@@ -108,7 +111,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132989641-7acb111d-7d45-463b-83e1-d0dd89d1280b.png"><img src="https://user-images.githubusercontent.com/86739367/132989641-7acb111d-7d45-463b-83e1-d0dd89d1280b.png"></a>
-	<figcaption><a href="#" title="" style = "text-decoration: none"><i>Screenshot for Sign up interface</i></a></figcaption>
+	<figcaption><a href="#" title="" class = "link_for_hover" ><i>Screenshot for Sign up interface</i></a></figcaption>
 </figure>
 
 <br>
