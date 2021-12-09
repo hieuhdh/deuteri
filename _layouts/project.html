@@ -24,7 +24,7 @@ layout: compress
                 <div class="post-list">
                     {% for post in site.posts %} 
                         {% if post.project %}
-                        <div class="container py-4">
+                        <div class="container-pj py-4">
                             <article class="postcard dark pri">
                                 <a class="postcard__img_link" href="#">
                                     <img class="postcard__img" src="{{ post.cover }}" alt="Image Title" />
@@ -49,7 +49,7 @@ layout: compress
                                                 </a>
                                         </li>
                                         {%unless forloop.last %}{% endunless %}{% endfor %}
-                                        <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                        <li class="tag__item"><i class="fas fa-clock mr-2"></i>2 minutes</li>
                                     </ul>
                                 </div>
                             </article>

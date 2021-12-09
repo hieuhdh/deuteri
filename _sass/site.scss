@@ -146,9 +146,9 @@ body {
 }
 
 .wrapper-project  {
-	width: calc(100% - 15.75em);
+    width: 75%;
 	max-width: 1200px;
-	margin: 4rem 6rem;
+	margin: 4rem auto;
 	background: $color_bg_wrapper;
 	color: $color_primary_text;
 	padding: 2em;
@@ -161,7 +161,6 @@ body {
 	@media #{$small} {
 		width: 90%;
 		padding: 2em 0;
-        margin: 4rem auto;
         box-shadow: none;
 	}
 

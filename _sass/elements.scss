@@ -710,6 +710,15 @@ a, a:hover {
             &:hover {
                 background: rgba(83, 83, 83, 0.8);
             }
+
+            .add-tag{
+                font-size: 0.85rem !important;
+                padding-left: .15rem;
+            }
+
+            .fa-clock{
+                padding-left: .15rem;
+            }
         }
     }
 
@@ -878,4 +887,5 @@ a, a:hover {
     font-family: 'FontAwesome';
     content: "\f017";
     color:$color_primary;
+    padding-right: 0.15rem;
 }
