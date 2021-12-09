@@ -17,7 +17,7 @@ $color_hover_link    : #f4abc4;
 
 // project
 $color-primary-pj    : #bb86e0 !default;
-$color-rgba-01       : rgba(0, 0, 0, 0.1) !default;
+$color-rgba-01       : $color_bg_wrapper !default;
 
 $black           	 : #000;
 $white               : #fff;

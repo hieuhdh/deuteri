@@ -626,12 +626,16 @@ a, a:hover {
 .postcard {
     flex-wrap: wrap;
     display: flex;
-    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+    box-shadow: 0 4px 10px -1px rgba(0, 0, 0, 0.66);
     border-radius: 10px;
     margin: 0 0 2rem 0;
     overflow: hidden;
     position: relative;
     color: $color_primary_text;
+
+    &:hover{
+        box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.66);
+    }
 
 	&.dark {
 		background-color: #18151f;
@@ -709,6 +713,7 @@ a, a:hover {
 
             &:hover {
                 background: rgba(83, 83, 83, 0.8);
+                color: $color_primary;
             }
 
             .add-tag{
@@ -735,7 +740,7 @@ a, a:hover {
     }
 
     &:hover .postcard__bar {
-        width: 100px;
+        width: 100%;
     }
 }
 
@@ -846,6 +851,15 @@ a, a:hover {
 	}
 }
 
+.name-project{
+    text-decoration: none;
+    color: $color_primary;
+}
+
+.name-project:hover{
+    color: $color_hover_link;
+}
+
 // footer for post
 
 .post-datetime,
@@ -862,7 +876,8 @@ a, a:hover {
     font-family: 'FontAwesome';
     content: "\f073";
     font-size: 0.9rem;
-    color:$color_hover_link;
+    color:$color_primary_text;
+    font-style: inherit;
 }
 
 .fa-calendar-alt{
