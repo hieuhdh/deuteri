@@ -853,17 +853,16 @@ a, a:hover {
 
 .name-project{
     text-decoration: none;
-    color: $color_primary;
+    color: $color_primary !important;
 }
 
 .name-project:hover{
-    color: $color_hover_link;
+    color: $color_hover_link !important;
 }
 
 // footer for post
 
-.post-datetime,
-.post-list-tags {
+.post-datetime{
     display: inline-block;
 }
 
@@ -881,12 +880,13 @@ a, a:hover {
     font-style: initial;
 }
 
-.fa-calendar-alt{
-    color:$color_hover_link;
+.post-list-footer-main-i{
+    font-style: inherit;
+    color: $color_hover_link;
 }
 
-.post-list-footer-i{
-    font-style: inherit;
+.fa-calendar-alt{
+    color:$color_hover_link;
 }
 
 .fa-tag:before {
@@ -907,27 +907,3 @@ a, a:hover {
     font-style: initial;
 }
 
-.post-datetime{
-    display: inline-block;
-}
-
-.post-datetime {
-    .fa {
-        color: $color_hover_link;
-    }
-}
-.fa-calendar-alt:before {
-    font-family: 'FontAwesome';
-    content: "\f073";
-    font-size: 0.9rem;
-    color:$color_hover_link;
-    font-style: initial;
-}
-
-.fa-calendar-alt{
-    color:$color_hover_link;
-}
-
-.post-list-footer-i{
-    font-style: inherit;
-}
