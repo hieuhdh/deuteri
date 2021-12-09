@@ -763,7 +763,7 @@ a, a:hover {
         }
 
         .postcard__text {
-            padding: 2rem;
+            padding: 1rem;
             padding-left: 3rem;
             width: 100%;
         }
@@ -861,8 +861,8 @@ a, a:hover {
 }
 
 // footer for post
-
-.post-datetime{
+.post-datetime,
+.post-list-tags {
     display: inline-block;
 }
 
@@ -871,6 +871,7 @@ a, a:hover {
         color: $color_hover_link;
     }
 }
+
 .fa-calendar-alt:before {
     font-family: 'FontAwesome';
     content: "\f073";
@@ -880,13 +881,13 @@ a, a:hover {
     font-style: initial;
 }
 
-.post-list-footer-main-i{
-    font-style: inherit;
-    color: $color_hover_link;
-}
-
 .fa-calendar-alt{
     color:$color_hover_link;
+}
+
+.post-list-footer-i{
+    font-style: inherit;
+    color: $color_hover_link;
 }
 
 .fa-tag:before {
@@ -906,4 +907,3 @@ a, a:hover {
     padding-right: 0.15rem;
     font-style: initial;
 }
-
