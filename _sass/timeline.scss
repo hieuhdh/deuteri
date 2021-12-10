@@ -33,6 +33,7 @@
 }
 .timeline-item:nth-child(even){
     padding-left: calc(50% + 30px);
+    text-align: left !important;
 }
 .timeline-dot{
 	height: 16px;
