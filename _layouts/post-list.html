@@ -27,14 +27,14 @@ layout: compress
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
                             <div class="post-list-footer">
                                 <div class="post-datetime">
-                                    <i class="far fa-calendar-alt"></i>
+                                    <i class="far fa-calendar-Alt"></i>
                                     <i class = "post-list-footer-i"> {{ post.date | date:'%b %d, %Y' }} {% if post.update and post.update != "" %}| Updated:
                                         {{ post.update | date: "%b %-d, %Y"}}{% endif %} </i>
                                 </div>
                             </div>
+                            <p>{{ post.excerpt }}</p>
                             <a class ="read-more" href="{{ site.url }}{{ post.url }}">
                                 <div> Read More  &rarr;</div>
                             </a>

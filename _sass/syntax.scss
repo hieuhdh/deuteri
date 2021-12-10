@@ -9,7 +9,7 @@ pre.highlight {
     font-family: Fira Sans,sans-serif;
 	@include font-size(12);
 	// color: #f8f8f2;
-    color: #e4e6eb;
+    color: $color_primary_text;
 	border-radius: 4px;
 	pre {
 		position: relative;

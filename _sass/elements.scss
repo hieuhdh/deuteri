@@ -876,14 +876,28 @@ a, a:hover {
     font-family: 'FontAwesome';
     content: "\f073";
     font-size: 0.9rem;
-    color:$color_primary_text;
-    padding-right: .15 rem;
+    color:$color_primary;
+    padding-right: .15rem;
     font-style: initial;
 }
 
 .fa-calendar-alt{
     color:$color_hover_link;
 }
+
+.fa-calendar-Alt:before {
+    font-family: 'FontAwesome';
+    content: "\f073";
+    font-size: 0.9rem;
+    color:$color_primary;
+    padding-right: .15rem;
+    font-style: initial;
+}
+
+.fa-calendar-Alt{
+    color:$color_hover_link;
+}
+
 
 .post-list-footer-i{
     font-style: inherit;
@@ -894,6 +908,7 @@ a, a:hover {
     font-family: 'FontAwesome';
     content: "\f02c";
     color:$color_primary;
+    font-size: 0.8rem;
 }
 
 .fa-tag{
@@ -906,4 +921,5 @@ a, a:hover {
     color:$color_primary;
     padding-right: 0.15rem;
     font-style: initial;
+    font-size: 0.8rem;
 }

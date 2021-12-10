@@ -55,14 +55,15 @@ h3.title a {
 		a {
 			@include font-rem(20);
 			text-decoration: none;
-			color: $color_primary_text;
+			color: $color_primary;
 			font-weight: bolder;
             &:hover {
-                color: $color_primary;
+                color: $color_hover_link;
             }
 		}
 		p {
 			font-weight: lighter;
+            margin: 0.25rem 0rem 1rem 0rem;
 			@include font-rem(16);
 		}
 	}
@@ -132,7 +133,7 @@ li pre {
     background-color: $color_note_1_line;
     // border: 1px solid $color_mischka;
     @include rounded(4px);
-    color: $color_primary;
+    color: $color_primary_text;
     margin: 0 2px;
     padding: 3px 5px;
 }

@@ -254,7 +254,8 @@
 		pointer-events: none;
 		// box-shadow: 0 12px 24px rgba($black,0.4);
         // box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
-        box-shadow:0 1.25rem 1rem .3125rem $color_black;
+        // box-shadow:0 1.25rem 1rem .3125rem $color_black;
+        box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
 		-webkit-transform: translateY(10px);
 		-moz-transform: translateY(10px);
 		transform: translateY(10px);
