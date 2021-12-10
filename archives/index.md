@@ -8,7 +8,7 @@ comments: false
 <section class="timeline-section">
     <div class="timeline-items">
         {% for post in site.posts %} 
-            <!-- {% if post.project %} -->
+            {% if post.blog == null %}
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">{{ post.date | date:'%b %d, %Y' }}</div>
@@ -17,7 +17,7 @@ comments: false
                     <p>{{ post.excerpt }}</p>
                 </div>
             </div>
-            <!-- {% endif %} -->
+            {% endif %}
         {% endfor %}
     </div>
 </section>

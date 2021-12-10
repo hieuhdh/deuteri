@@ -59,6 +59,9 @@
 	margin:0 0 10px;
 	text-transform: capitalize;
 	font-weight: 500;
+    a {
+        color: $color_primary;
+    }
 }
 .timeline-content p{
     color: $color_primary_text;
