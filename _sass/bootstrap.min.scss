@@ -180,7 +180,7 @@ address {
 .col-xs-7,
 .col-xs-8,
 .col-xs-9 {
-    float: left
+    float: right
 }
 
 .col-xs-12 {
@@ -1060,7 +1060,7 @@ table {
 caption {
     padding-top: 8px;
     padding-bottom: 8px;
-    color: #777;
+    color: $color_primary_text;
     text-align: left
 }
 
@@ -2172,12 +2172,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .nav>li.disabled>a {
-    color: #777
+    color: $color_primary_text
 }
 
 .nav>li.disabled>a:focus,
 .nav>li.disabled>a:hover {
-    color: #777;
+    color: $color_primary_text;
     text-decoration: none;
     cursor: not-allowed;
     background-color: transparent
@@ -2785,7 +2785,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-brand {
-    color: #777
+    color: $color_primary_text
 }
 
 .navbar-default .navbar-brand:focus,
@@ -2795,11 +2795,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-text {
-    color: #777
+    color: $color_primary_text
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #777
+    color: $color_primary_text
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -2849,7 +2849,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (max-width:767px) {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-        color: #777
+        color: $color_primary_text
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
@@ -2874,7 +2874,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-link {
-    color: #777
+    color: $color_primary_text
 }
 
 .navbar-default .navbar-link:hover {
@@ -2882,7 +2882,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .btn-link {
-    color: #777
+    color: $color_primary_text
 }
 
 .navbar-default .btn-link:focus,
@@ -3042,7 +3042,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 }
 
 .breadcrumb>.active {
-    color: #777
+    color: $color_primary_text
 }
 
 .pagination {
@@ -3111,7 +3111,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .pagination>.disabled>span,
 .pagination>.disabled>span:focus,
 .pagination>.disabled>span:hover {
-    color: #777;
+    color: $color_primary_text;
     cursor: not-allowed;
     background-color: #fff;
     border-color: #ddd
@@ -3167,7 +3167,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-color: #777;
+    background-color: $color_primary_text;
     border-radius: 10px
 }
 
@@ -3510,7 +3510,7 @@ button.list-group-item {
 .list-group-item.disabled,
 .list-group-item.disabled:focus,
 .list-group-item.disabled:hover {
-    color: #777;
+    color: $color_primary_text;
     cursor: not-allowed;
     background-color: #eee
 }
@@ -3524,7 +3524,7 @@ button.list-group-item {
 .list-group-item.disabled .list-group-item-text,
 .list-group-item.disabled:focus .list-group-item-text,
 .list-group-item.disabled:hover .list-group-item-text {
-    color: #777
+    color: $color_primary_text
 }
 
 .list-group-item.active,
@@ -4954,4 +4954,14 @@ button.close {
     .hidden-print {
         display: none !important
     }
+}
+
+
+nav[data-toggle=toc] .nav>.active:focus>a, nav[data-toggle=toc] .nav>.active:hover>a, nav[data-toggle=toc] .nav>.active>a{
+    padding-left: 18px;
+    font-weight: 700;
+    color: #bb86fc !important;
+    background-color: transparent;
+    border-left: 2px solid #bb86fc !important;
+}
 }
