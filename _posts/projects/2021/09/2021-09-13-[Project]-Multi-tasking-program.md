@@ -14,6 +14,7 @@ tag:
 - Thread
 comments: true
 ---
+
 ## About project
 
 With the sketchy knowledge that I learned from tkinter, I tried to create a software with many functions, to help users monitor system time, display RAM. More specifically, the login as well as the system registration with a rudimentary data encryption algorithm. Hope this project can help readers have a new look at python language.
@@ -193,7 +194,3 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
         </a>
     </div>
 </div>
-
-
-
-<!-- <img src = "https://user-images.githubusercontent.com/86739367/142817022-00b897d0-f9ab-4a22-8bc3-273d991ff228.png"> -->
