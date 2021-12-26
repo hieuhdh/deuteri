@@ -612,61 +612,61 @@ kbd {
 //     }
 // }
 
-// .scroll-navv {
-//     padding-left: 0px;
-//     position: fixed;
-//     margin: -19.8rem 10rem 10rem -10rem;
-// }
-// /* all anchors */
+.scroll-navv {
+    padding-left: 0px;
+    position: fixed;
+    margin: -19.8rem 10rem 10rem -10rem;
+}
+/* all anchors */
 
-// .scroll-navv>li>a {
-//     padding: 3px;
-//     border-left: 0px rgba(0, 0, 0, 0);
-// }
-// /* first level */
+.scroll-navv>li>a {
+    padding: 3px;
+    border-left: 0px rgba(0, 0, 0, 0);
+}
+/* first level */
 
-// .scroll-navv li>a {
-//     padding-left: 10px;
-// }
-// /* second */
+.scroll-navv li>a {
+    padding-left: 10px;
+}
+/* second */
 
-// .scroll-navv .scroll-navv li>a {
-//     padding-left: 20px;
-//     font-size: .9em;
-// }
-// /* third */
+.scroll-navv .scroll-navv li>a {
+    padding-left: 20px;
+    font-size: .9em;
+}
+/* third */
 
-// .scroll-navv.scroll-navv .scroll-navv li>a {
-//     padding-left: 30px;
-//     font-size: .8em;
-// }
-// /* fourth */
+.scroll-navv.scroll-navv .scroll-navv li>a {
+    padding-left: 30px;
+    font-size: .8em;
+}
+/* fourth */
 
-// .scroll-navv .scroll-navv .scroll-navv .scroll-navv li>a {
-//     padding-left: 40px;
-// }
-// /* fifth */
+.scroll-navv .scroll-navv .scroll-navv .scroll-navv li>a {
+    padding-left: 40px;
+}
+/* fifth */
 
-// .scroll-navv .scroll-navv .scroll-navv .scroll-navv .scroll-navv li>a {
-//     padding-left: 50px;
-// }
-// /* active link */
+.scroll-navv .scroll-navv .scroll-navv .scroll-navv .scroll-navv li>a {
+    padding-left: 50px;
+}
+/* active link */
 
-// li.visible>a {
-//     font-weight: bold;
-//     border-left: 2px solid gray;
-// }
-// /* hide second level lists */
+li.visible>a {
+    font-weight: bold;
+    border-left: 2px solid gray;
+}
+/* hide second level lists */
 
-// .scroll-navv .scroll-navv {
-//     display: none;
-// }
-// /* show second-level when active */
+.scroll-navv .scroll-navv {
+    //display: none;
+}
+/* show second-level when active */
 
-// .scroll-navv>.visible>.scroll-navv {
-//     display: block;
-// }
-// /* headings on the page (easier to see h5, h6) */
+.scroll-navv>.visible>.scroll-navv {
+    display: block;
+}
+/* headings on the page (easier to see h5, h6) */
 
 
 
