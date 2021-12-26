@@ -614,6 +614,7 @@ kbd {
 
 .scroll-nav {
     padding-left: 0px;
+    position: fixed;
 }
 /* all anchors */
 
@@ -650,7 +651,7 @@ kbd {
 }
 /* active link */
 
-li.active>a {
+li.visible>a {
     font-weight: bold;
     border-left: 2px solid gray;
 }
@@ -661,7 +662,7 @@ li.active>a {
 }
 /* show second-level when active */
 
-.scroll-nav>.active>.scroll-nav {
+.scroll-nav>.visible>.scroll-nav {
     display: block;
 }
 /* headings on the page (easier to see h5, h6) */
