@@ -612,42 +612,42 @@ kbd {
 //     }
 // }
 
-.scroll-navv {
+.scroll-nav {
     padding-left: 0px;
     position: fixed;
     margin: -19.8rem 10rem 10rem -10rem;
 }
 /* all anchors */
 
-.scroll-navv>li>a {
+.scroll-nav>li>a {
     padding: 3px;
     border-left: 0px rgba(0, 0, 0, 0);
 }
 /* first level */
 
-.scroll-navv li>a {
+.scroll-nav li>a {
     padding-left: 10px;
 }
 /* second */
 
-.scroll-navv .scroll-navv li>a {
+.scroll-nav .scroll-nav li>a {
     padding-left: 20px;
     font-size: .9em;
 }
 /* third */
 
-.scroll-navv.scroll-navv .scroll-navv li>a {
+.scroll-nav.scroll-nav .scroll-nav li>a {
     padding-left: 30px;
     font-size: .8em;
 }
 /* fourth */
 
-.scroll-navv .scroll-navv .scroll-navv .scroll-navv li>a {
+.scroll-nav .scroll-nav .scroll-nav .scroll-nav li>a {
     padding-left: 40px;
 }
 /* fifth */
 
-.scroll-navv .scroll-navv .scroll-navv .scroll-navv .scroll-navv li>a {
+.scroll-nav .scroll-nav .scroll-nav .scroll-nav .scroll-nav li>a {
     padding-left: 50px;
 }
 /* active link */
@@ -658,12 +658,12 @@ li.visible>a {
 }
 /* hide second level lists */
 
-.scroll-navv .scroll-navv {
+.scroll-nav .scroll-nav {
     //display: none;
 }
 /* show second-level when active */
 
-.scroll-navv>.visible>.scroll-navv {
+.scroll-nav>.visible>.scroll-nav {
     display: block;
 }
 /* headings on the page (easier to see h5, h6) */
