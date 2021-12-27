@@ -220,7 +220,7 @@ h3.title a {
     margin: 0;
     font-weight: 900;
     letter-spacing: 20px;
-    background: url(https://user-images.githubusercontent.com/86739367/144701975-615b3c94-1a91-4777-98bb-09411b20f8cf.jpg) center no-repeat;
+    background: url(../assets/img/a.jpg) center no-repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -358,7 +358,7 @@ h3.title a {
 }
 
 .link-for-404:hover{
-    color: red !important;
+    color: $color_hover_link !important;
 }
 
 
@@ -535,14 +535,14 @@ kbd {
     max-width: 20em;
     text-align: left;
     // background-color: $color_background;
-    box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+    // box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
     border-left: 2px solid $color_bg_wrapper;
     border: 1px solid #a2a9b1;
     padding: 15px 30px;
     position: fixed;
     line-height: 0.875em;
     transform: translate(950px, 10px);
-    margin-top: -15%;
+    // margin-top: -15%;
     margin: -19.8rem 10rem 10rem -10rem;
     @media #{"only screen and (max-width: 992px)"} {
         display: none;
