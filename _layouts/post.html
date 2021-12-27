@@ -15,28 +15,36 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper-2 animated fadeIn">
             <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <h1>{{ page.title }}</h1>
-                    <h4>{{ page.date | date_to_string }}</h4>
-                    {% if site.reading_time %}
-                    <p class="reading-time">
-                        <i class="fa fa-clock-o"></i>
-                        {% include read-time.html %}
-                    </p><!-- /.entry-reading-time -->
-                    {% endif %}
-                    {% if page.project %}
-                    <a class="btn zoombtn" href="{{site.url}}/projects/">
-                    {% else if page.blog %}
-                    <a class="btn zoombtn" href="{{site.url}}/blogs/">
-                    {% else %}
-                    <a class="btn zoombtn" href="{{site.url}}/posts/">
-                    {% endif %}
-                        <i class="fa fa-chevron-left"></i>
-                    </a>
+                <div class="row">
+                    <div class="col-sm-9">
+
+
+                        <div class="post-title {% if page.feature %} feature {% endif %}">
+                            <h1>{{ page.title }}</h1>
+                            <h4>{{ page.date | date_to_string }}</h4>
+                            {% if site.reading_time %}
+                            <p class="reading-time">
+                                <i class="fa fa-clock-o"></i>
+                                {% include read-time.html %}
+                            </p><!-- /.entry-reading-time -->
+                            {% endif %}
+                            {% if page.project %}
+                            <a class="btn zoombtn" href="{{site.url}}/projects/">
+                            {% else if page.blog %}
+                            <a class="btn zoombtn" href="{{site.url}}/blogs/">
+                            {% else %}
+                            <a class="btn zoombtn" href="{{site.url}}/posts/">
+                            {% endif %}
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
+                        </div>
+                        <!-- <div class='post-content post-article'> -->
+                        {% include sidebar-toc.html html=content %}
+                        {{ content }}
+                    </div>
+                    <div class="col-sm-3" id="scrollspy">
+                    </div>
                 </div>
-                <!-- <div class='post-content post-article'> -->
-                {% include sidebar-toc.html html=content %}
-                {{ content }}
                 <!-- </div> -->
 
                 <!-- <div class="containerrrr">
@@ -60,6 +68,22 @@ layout: compress
     {% if site.mathjax == true %}
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="../assets/js/dynamicscrollspy.js"></script>
+    <script>
+        $(function() {
+
+
+            $('#scrollspy').DynamicScrollspy({
+                genIDs: true,
+                testing: true
+            });
+
+
+        })
+    </script>
     {% endif %}
 </body>
 </html>
