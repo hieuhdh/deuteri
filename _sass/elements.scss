@@ -509,95 +509,95 @@ kbd {
 
 // Toc scroll
 
-// .scroll-nav {
-//     position: fixed;
-//     li a {
-//         display: inline-block;
-//         color: $color_primary_text;
-//         text-decoration: none;
-//         transition: all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
-//     }
-//     li.visible>a {
-//         color: $color_primary;
-//         transform: translate( 5px );
-//     }
-//     li.visible > .scroll-nav__item{
-//         color: $color_primary;
-//         transform: translate( 5px );
-//     }
-// }
+.scroll-nav {
+    position: fixed;
+    li a {
+        display: inline-block;
+        color: $color_primary_text;
+        text-decoration: none;
+        transition: all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    }
+    li.visible>a {
+        color: $color_primary;
+        transform: translate( 5px );
+    }
+    li.visible > .scroll-nav__item{
+        color: $color_primary;
+        transform: translate( 5px );
+    }
+}
 
-// .scroll-nav {
-//     // border-radius: 0.25em;
-//     font-size: 20px;
-//     color: $color_primary_text;
-//     font-weight: bold;
-//     max-width: 20em;
-//     text-align: left;
-//     // background-color: $color_background;
-//     // box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
-//     border-left: 2px solid $color_bg_wrapper;
-//     //border: 1px solid #a2a9b1;
-//     padding: 15px 30px;
-//     position: fixed;
-//     line-height: 0.875em;
-//     transform: translate(950px, 10px);
-//     margin: -19.8rem 10rem 10rem -10rem;
-//     @media #{"only screen and (max-width: 992px)"} {
-//         display: none;
-//     }
+.scroll-nav {
+    // border-radius: 0.25em;
+    font-size: 20px;
+    color: $color_primary_text;
+    font-weight: bold;
+    max-width: 20em;
+    text-align: left;
+    // background-color: $color_background;
+    // box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+    border-left: 2px solid $color_bg_wrapper;
+    //border: 1px solid #a2a9b1;
+    padding: 15px 30px;
+    position: fixed;
+    line-height: 0.875em;
+    transform: translate(950px, 10px);
+    margin: -19.8rem 10rem 10rem -10rem;
+    @media #{"only screen and (max-width: 992px)"} {
+        display: none;
+    }
 
-//     ol{
-//         padding-left: 10px;
-//         text-align: justify;
-//         font-size: 13px;
-//     }
+    ol{
+        padding-left: 10px;
+        text-align: justify;
+        font-size: 13px;
+    }
 
-//     ol ol{
-//         padding-left: 10px;
-//         font-size: 11px;
-//     }
+    ol ol{
+        padding-left: 10px;
+        font-size: 11px;
+    }
 
 
-//     a {
-//         color: $color_primary_text;
-//         text-decoration: none;
-//     }
+    a {
+        color: $color_primary_text;
+        text-decoration: none;
+    }
     
-//     a:hover {
-//         color:$color_primary
-//     }
+    a:hover {
+        color:$color_primary
+    }
     
-//     &:before {
-//         font-family: 'FontAwesome';
-//         content: "\f02e";
-//         font-weight: bold;
-//         color: $color_primary;
-//         margin: -22px;
-//         margin-right: 0.25em;
-//         font-size: 20px;
-//     }
-// }
+    &:before {
+        font-family: 'FontAwesome';
+        content: "\f02e";
+        font-weight: bold;
+        color: $color_primary;
+        margin: -22px;
+        margin-right: 0.25em;
+        font-size: 20px;
+    }
+}
 
-// .scroll-nav__list {
-//     margin: 0;
-//     margin-top: 1em;
-//     padding-left: 1.4em;
-//     list-style-type: upper-roman;
-//     text-align: justify;
-// }
+.scroll-nav__list {
+    margin: 0;
+    margin-top: 1em;
+    padding-left: 1.4em;
+    list-style-type: upper-roman;
+    text-align: justify;
+}
 
-// .scroll-nav__item {
-//    // margin-bottom: 5px;
-// }
+.scroll-nav__item {
+   // margin-bottom: 5px;
+}
 
-// .scroll-nav__link {
-//     color: $color_primary;
-//     text-decoration: none;
-//     //display: block;
-//     //margin: 0 auto;
-//     //padding-left: 42px;
-// }
+.scroll-nav__link {
+    color: $color_primary;
+    text-decoration: none;
+    //display: block;
+    //margin: 0 auto;
+    //padding-left: 42px;
+}
 
 // .toc-marker {
 //     position: absolute;
@@ -612,67 +612,67 @@ kbd {
 //     }
 // }
 
-.scroll-nav {
-    padding-left: 0px;
-    position: fixed;
-    margin: -19.8rem 10rem 10rem -10rem;
-}
-/* all anchors */
+// .scroll-nav {
+//     padding-left: 0px;
+//     position: fixed;
+//     margin: -19.8rem 10rem 10rem -10rem;
+// }
+// /* all anchors */
 
-.scroll-nav>li>a {
-    padding: 3px;
-    border-left: 0px rgba(0, 0, 0, 0);
-}
-/* first level */
+// .scroll-nav>li>a {
+//     padding: 3px;
+//     border-left: 0px rgba(0, 0, 0, 0);
+// }
+// /* first level */
 
-.scroll-nav li>a {
-    padding-left: 10px;
-}
-/* second */
+// .scroll-nav li>a {
+//     padding-left: 10px;
+// }
+// /* second */
 
-.scroll-nav .scroll-nav li>a {
-    padding-left: 20px;
-    font-size: .9em;
-}
-/* third */
+// .scroll-nav .scroll-nav li>a {
+//     padding-left: 20px;
+//     font-size: .9em;
+// }
+// /* third */
 
-.scroll-nav.scroll-nav .scroll-nav li>a {
-    padding-left: 30px;
-    font-size: .8em;
-}
-/* fourth */
+// .scroll-nav.scroll-nav .scroll-nav li>a {
+//     padding-left: 30px;
+//     font-size: .8em;
+// }
+// /* fourth */
 
-.scroll-nav .scroll-nav .scroll-nav .scroll-nav li>a {
-    padding-left: 40px;
-}
-/* fifth */
+// .scroll-nav .scroll-nav .scroll-nav .scroll-nav li>a {
+//     padding-left: 40px;
+// }
+// /* fifth */
 
-.scroll-nav .scroll-nav .scroll-nav .scroll-nav .scroll-nav li>a {
-    padding-left: 50px;
-}
-/* active link */
+// .scroll-nav .scroll-nav .scroll-nav .scroll-nav .scroll-nav li>a {
+//     padding-left: 50px;
+// }
+// /* active link */
 
-li.visible>a {
-    font-weight: bold;
-    border-left: 2px solid gray;
-}
-/* hide second level lists */
+// li.visible>a {
+//     font-weight: bold;
+//     border-left: 2px solid gray;
+// }
+// /* hide second level lists */
 
-.scroll-nav .scroll-nav {
-    //display: none;
-}
-/* show second-level when active */
+// .scroll-nav .scroll-nav {
+//     //display: none;
+// }
+// /* show second-level when active */
 
-.scroll-nav>.visible>.scroll-nav {
-    display: block;
-}
-/* headings on the page (easier to see h5, h6) */
+// .scroll-nav>.visible>.scroll-nav {
+//     display: block;
+// }
+// /* headings on the page (easier to see h5, h6) */
 
 
 
-.exclude {
-    background-color: red;
-}
+// .exclude {
+//     background-color: red;
+// }
 
 
 // project
