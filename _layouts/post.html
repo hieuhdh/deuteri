@@ -14,37 +14,33 @@ layout: compress
     <!-- Header -->
     <header class="header" role="banner">
         <div class="wrapper-2 animated fadeIn">
-            <div class="row">
+            <div class="content">
+                <div class="post-title {% if page.feature %} feature {% endif %}">
+                    <h1>{{ page.title }}</h1>
+                    <h4>{{ page.date | date_to_string }}</h4>
+                    {% if site.reading_time %}
+                    <p class="reading-time">
+                        <i class="fa fa-clock-o"></i>
+                        {% include read-time.html %}
+                    </p><!-- /.entry-reading-time -->
+                    {% endif %}
+                    {% if page.project %}
+                    <a class="btn zoombtn" href="{{site.url}}/projects/">
+                    {% else if page.blog %}
+                    <a class="btn zoombtn" href="{{site.url}}/blogs/">
+                    {% else %}
+                    <a class="btn zoombtn" href="{{site.url}}/posts/">
+                    {% endif %}
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                </div>
+                <!-- <div class='post-content post-article'> -->
                 <div class="col-sm-3" id="scrollspy">
                     {% include sidebar-toc.html html=content %}
                 </div>
                 <div class="col-sm-9">
-                    <div class="content">
-                        <div class="post-title {% if page.feature %} feature {% endif %}">
-                            <h1>{{ page.title }}</h1>
-                            <h4>{{ page.date | date_to_string }}</h4>
-                            {% if site.reading_time %}
-                            <p class="reading-time">
-                                <i class="fa fa-clock-o"></i>
-                                {% include read-time.html %}
-                            </p><!-- /.entry-reading-time -->
-                            {% endif %}
-                            {% if page.project %}
-                            <a class="btn zoombtn" href="{{site.url}}/projects/">
-                            {% else if page.blog %}
-                            <a class="btn zoombtn" href="{{site.url}}/blogs/">
-                            {% else %}
-                            <a class="btn zoombtn" href="{{site.url}}/posts/">
-                            {% endif %}
-                                <i class="fa fa-chevron-left"></i>
-                            </a>
-                        </div>
-                        <!-- <div class='post-content post-article'> -->
                         {{ content }}
-                    </div>
-                    
                 </div>
-                        
                 <!-- </div> -->
 
                 <!-- <div class="containerrrr">
