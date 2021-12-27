@@ -652,7 +652,7 @@ kbd {
 }
 /* active link */
 
-li.visible>a {
+li.active>a {
     font-weight: bold;
     border-left: 2px solid gray;
 }
@@ -663,7 +663,7 @@ li.visible>a {
 }
 /* show second-level when active */
 
-.scroll-nav>.visible>.scroll-nav {
+.scroll-nav>.active>.scroll-nav {
     display: block;
 }
 /* headings on the page (easier to see h5, h6) */
