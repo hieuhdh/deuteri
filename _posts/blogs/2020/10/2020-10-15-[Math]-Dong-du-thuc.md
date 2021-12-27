@@ -125,7 +125,7 @@ Mà $$A = a_na_{n-1}...a_1 = a_n10^{n-1} + a_{n-1}10^{n-2} +...+a_1 \ \big(2\big
 Kết hợp $$\big(1\big)$$ và $$\big(2\big)$$ suy ra $$a_n10^{n-1} + a_{n-1}10^{n-2} +...+a_1 \equiv 0 \ \big(\text{ mod }5\big) \ \big(3\big) $$
 
 Mặc khác vì 
-$$10 \equiv 0 \text{ mod 5} \Longrightarrow 10^{k} \equiv 0 \text{ mod 5} \big( \forall k \in \mathbb{N} \big)
+$$10 \equiv 0 \text{ mod 5} \Longrightarrow 10^{k} \equiv 0 \text{ mod 5} \big( \forall k \in \mathbb{N} \big)$$
 
 Do đó, $$\big(3\big) \Longleftrightarrow 0 + 0 +...+ a_1 \equiv 0 \ \big(\text{ mod }5\big) \Longleftrightarrow a_1 \equiv 0 \big(\text{ mod }5\big) $$
 
