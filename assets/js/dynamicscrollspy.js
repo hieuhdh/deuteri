@@ -96,7 +96,8 @@
       function showTesting() {
         selectAllH().append(function() {
           // let's see the tag names (for test)
-          return ' (' + $(this).prop('tagName') + ', ' + $(this).prop('id') + ')';
+        //   return ' (' + $(this).prop('tagName') + ', ' + $(this).prop('id') + ')';
+            return ;
         });
       }
   
