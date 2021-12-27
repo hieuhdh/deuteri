@@ -9,7 +9,7 @@ tags:
 comments: true
 ---
 
-<h2 id="dinh-nghia">Định nghĩa</h2>
+## Định nghĩa
 
 <div>
     Trong đại số trừu tượng, <strong>đại số Boole</strong> là một cấu trúc đại số có các tính chất cơ bản của cả các phép toán trên tập hợp và các phép toán logic. Cụ thể, phép toán trên tập hợp được quan tâm là phép toán giao, phép toán hợp, phép toán bù và các phép toán logic là <strong>Và</strong>, <strong>Hoặc</strong>, <strong>Không</strong>.
@@ -20,8 +20,8 @@ comments: true
 <div>
     <a class = "link_for_hover" href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_Boole" >Xem thêm</a>
 </div>
-<br>
-<h2 id="tinh-chat">Tính chất</h2>
+
+## Tính chất
 
 Cho một đại số Boole $$\big(A, \wedge, \vee, \neg, 0, 1 \big)$$. Ta có bảng mô tả các tính chất sau:
 
