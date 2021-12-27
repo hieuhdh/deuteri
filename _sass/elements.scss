@@ -510,7 +510,7 @@ kbd {
 // Toc scroll
 
 .scroll-nav {
-    position: fixed;
+    // position: fixed;
     li a {
         display: inline-block;
         color: $color_primary_text;
@@ -538,11 +538,12 @@ kbd {
     // box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
     border-left: 2px solid $color_bg_wrapper;
     //border: 1px solid #a2a9b1;
-    padding: 15px 30px;
+    // padding: 15px 30px;
     position: fixed;
     line-height: 0.875em;
-    transform: translate(950px, 10px);
-    margin: -19.8rem 10rem 10rem -10rem;
+    // transform: translate(950px, 10px);
+    margin-top: -15%;
+    // margin: -19.8rem 10rem 10rem -10rem;
     @media #{"only screen and (max-width: 992px)"} {
         display: none;
     }
