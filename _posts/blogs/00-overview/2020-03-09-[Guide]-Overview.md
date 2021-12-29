@@ -20,6 +20,19 @@ comments: true
         <a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn btn-success">Markdown Syntax</a>
     </div>
 </div>
+{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+    {% if this_word == "Guide" %}
+        <article>
+        <h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
+            <ul class = "main-entry-title">
+        {% for post in site.tags[this_word] %}{% if post.title != null %}
+            <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        {% endif %}{% endfor %}
+            </ul>
+        </article><!-- /.hentry -->
+    {% endif %}
+{% endunless %}{% endfor %}
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
     <div class="item item1" style="text-align: right; position: relative;">
