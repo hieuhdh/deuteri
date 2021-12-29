@@ -14,15 +14,9 @@ comments: true
     An overview of some of the tutorials I've written
 </p> 
 <br><br>
-<div align="center">
-    <div>
-        <a href="https://hieuhdh.github.io/deuteri/Guide-Latex-Syntax/" class="btn btn-success">Latex Syntax</a> 
-        <a href="https://hieuhdh.github.io/deuteri/Guide-markdown-syntax/" class="btn btn-success">Markdown Syntax</a>
-    </div>
-</div>
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-    {% if this_word == "Guide" %}
+    {% if this_word == Guide %}
         <article>
         <h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
             <ul class = "main-entry-title">
