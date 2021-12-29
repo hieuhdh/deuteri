@@ -523,7 +523,7 @@ kbd {
     }
     li.visible > .scroll-nav__item{
         color: $color_primary;
-        transform: translate( 5px );
+        // transform: translate( 5px );
     }
 }
 
@@ -557,6 +557,7 @@ kbd {
     ol ol{
         padding-left: 10px;
         font-size: 11px;
+        display: none;
     }
 
 
@@ -610,6 +611,10 @@ kbd {
     max-width: 120px;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.scroll-nav ol > .visible > ol{
+    display: block;
 }
 
 // .toc-marker {
