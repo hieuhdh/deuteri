@@ -16,7 +16,7 @@ comments: true
 <br><br>
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-    {% if this_word == Guide %}
+    {% if tags_list[item] == "Guide" %}
         <article>
         <h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
             <ul class = "main-entry-title">
