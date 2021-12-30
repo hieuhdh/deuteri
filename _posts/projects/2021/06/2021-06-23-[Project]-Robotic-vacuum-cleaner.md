@@ -1,0 +1,100 @@
+---
+layout: post
+title:  "Robotic Vacuum Cleaner"
+date:   2021-06-23
+update: 
+excerpt: "Đây là đồ án môn học Data structure and Algorithms mà tôi đã học tại trường."
+description: "Đây là đồ án môn học Data structure and Algorithms mà tôi đã học tại trường."
+feature: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
+cover: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
+project: true
+tag:
+- C++ 
+- Robot
+- DSA
+comments: true
+---
+
+## **Thông tin chung**
+
+Đây là đồ án mà tôi đã làm để kết thúc môn Cấu trúc dữ liệu và giải thuật.
+
+**Đề bài**
+1. Hãy thiết kế robot hút bụi với các tính năng sau:
+    * Tên thương hiệu
+    * Mã số sản phẩm
+    * Hướng di chuyển (hiện hành): Bắc, Nam, Đông, Tây 
+    * Tiến lên n bước
+    * Lùi lại n bước
+    * Xoay trái 90 độ
+    * Xoay phải 90 độ
+    * Xoay 180 độ
+    * Tự động di chuyển về phía trước, nếu có chướng ngại vật thì rẽ sang bên phải, nếu bên phải có chướng ngại vật thì rẽ sang bên trái, nếu cả hai phía phải và trái đều có chướng ngại vật thì lùi lại một bước và tìm hướng có thể di chuyển theo nguyên tắc trên. Không ràng buộc lộ trình di chuyển của robot hút bụi.
+    * Hút bụi trên lộ trình di chuyển.
+ 
+2. Robot hút bụi có chế độ tự kiểm tra nguồn điện còn bao nhiêu %. Robot sẽ di chuyển cho đến khi gần hết nguồn điện thì phát tín hiệu thông báo (khi nguồn điện còn 15%, 10%, 5%).
+3. Sau mỗi bước, in ra sơ đồ phòng và vị trí hiện hành của robot (không bắt buộc thiết kế giao diên đồ họa).  ↑ : Robot (hướng Bắc)
+
+<div align="left">
+    <a href="https://github.com/hieuhdh/DOAN_CTDLGT" class="btn">Source code</a> 
+</div>
+
+
+## **Đặc trưng trong project**
+
+Trong chương trình này, Robot sẽ được đặc tả bộ não - gồm 4 chế độ di chuyển: Normal, Medium, Hard, User
+
+* **Chế độ normal:** Robot sẽ tránh các va chạm và sẽ tự động di chuyển tùy ý.
+* **Chế độ medium:** Robot sẽ được khởi động thông minh hơn, biết chọn lọc những điểm đã đi qua và tránh đi lại để giảm thiểu thời gian cũng như nguồn điện cấp phát.
+* **Chế độ hard:** Robot được trang bị 1 con AI cơ bản, nhằm giúp tối ưu việc di chuyển cũng như tránh lặp lại các bước đi. Tuy nhiên, do kiến thức hạn hẹp nên AI chỉ được build ở chế độ cơ bản trên nền BFS. 
+* **Chế độ USER:** Ở chế độ này, người dùng sẽ tự do điều khiển robot nhưng robot cũng được trang bị 1 con AI nhằm quản lý cách di chuyển của người dùng, hòng tránh việc người dùng lỡ may di chuyển khiến robot va vào tuờng, robot sẽ tự động điều hướng.
+
+Hiển nhiên, đối với bộ não của Robot như trên, hoàn toàn có thể đáp ứng đủ và hơn những thứ đề bài mong đợi.
+
+## **Demo 4 chế độ**
+
+1. Chế độ Normal
+
+<figure class="video_container">
+  <iframe src="https://user-images.githubusercontent.com/86739367/147782704-c68f9abf-c8ad-4c0b-8136-9779615b2b73.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+2. Chế độ Medium
+3. Chế độ Hard
+4. Chế độ User
+
+## **Cài đặt**
+
+### Git clone
+
+    git clone https://github.com/hieuhdh/DOAN_CTDLGT.git
+    
+### Chạy chương trình
+
+1. Dùng VS2019 để chạy file `robothutbui.sln`trong thư mục CODE.
+
+## **Báo cáo sự cố**
+
+Bạn có thể báo cáo sự cố bằng việc <a href="https://github.com/hieuhdh/DOAN_CTDLGT/issues" class = "link_for_hover"  >mở một issues</a> trên github, hoặc bình luận dưới bài viết này.
+
+<br>
+
+<div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
+    <div class="item item1" style="text-align: right; position: relative;">
+        <a href="#" class="btn" style="width: 100%">
+            <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
+            <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
+            	<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+            </div>
+            <div style = "position: relative; font-size: 16px; font-weight: 500 ">None</div>
+        </a>
+    </div>
+    <div class="item item2" style="text-align: left; position: relative; ">
+        <a href="https://hieuhdh.github.io/deuteri/Math-Overview/" class="btn" style="width: 100%">
+        	<div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
+        	<div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+            </div>
+        	<div style = "position: relative; font-size: 16px; font-weight: 500 ">[Math] Overview</div>
+        </a>
+    </div>
+</div>

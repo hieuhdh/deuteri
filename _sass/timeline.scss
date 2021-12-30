@@ -127,14 +127,14 @@
 }
 .overview-timeline li > span:before,  .overview-timeline li > span:after {
     content: '';
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    border: 2px solid $color_primary_text;
+    border: 3px solid #2f363e;
     position: absolute;
     background: $color_primary;
-    left: -7px;
-    top: 0;
+    left: -8px;
+    top: -14px;
 }
 .overview-timeline li span:after {
     top: 100%;
