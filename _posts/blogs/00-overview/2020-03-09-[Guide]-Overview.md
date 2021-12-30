@@ -20,7 +20,7 @@ comments: true
         <article>
         <h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
             <ul class = "main-entry-title">
-        {% for post in site.tags[this_word] %}{% if post.title != null and post.tags == "Guide" %}
+        {% for post in site.tags[this_word] %}{% if post.title != null and post.tags[item] == "Guide" %}
             <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endif %}{% endfor %}
             </ul>
