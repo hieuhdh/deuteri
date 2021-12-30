@@ -59,26 +59,26 @@ Hiển nhiên, đối với bộ não của Robot như trên, hoàn toàn có th
 
 1. Chế độ Normal
 
-<figure class="video_container" style ="height: 406px; width: 100%; border-radius: 10px">
-  <iframe src="https://user-images.githubusercontent.com/86739367/147782704-c68f9abf-c8ad-4c0b-8136-9779615b2b73.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+<figure class="video_container">
+  <iframe style ="height: 406px; width: 100%; border-radius: 10px" src="https://user-images.githubusercontent.com/86739367/147782704-c68f9abf-c8ad-4c0b-8136-9779615b2b73.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 2. Chế độ Medium
 
-<figure class="video_container" style ="height: 406px; width: 100%; border-radius: 10px">
-  <iframe src="https://user-images.githubusercontent.com/86739367/147786595-676677c7-7407-461b-a10e-1f5d37890b9d.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+<figure class="video_container">
+  <iframe style ="height: 406px; width: 100%; border-radius: 10px" src="https://user-images.githubusercontent.com/86739367/147786595-676677c7-7407-461b-a10e-1f5d37890b9d.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 3. Chế độ Hard
 
-<figure class="video_container" style ="height: 406px; width: 100%; border-radius: 10px">
-  <iframe src="https://user-images.githubusercontent.com/86739367/147786549-4730f590-98d2-46e7-a245-22b44b9850d0.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+<figure class="video_container">
+  <iframe style ="height: 406px; width: 100%; border-radius: 10px" src="https://user-images.githubusercontent.com/86739367/147786549-4730f590-98d2-46e7-a245-22b44b9850d0.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 4. Chế độ User
 
-<figure class="video_container" style ="height: 406px; width: 100%; border-radius: 10px">
-  <iframe src="https://user-images.githubusercontent.com/86739367/147785933-94f28dfb-7b1a-4f05-ab0b-b2160ef477bc.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+<figure class="video_container">
+  <iframe style ="height: 406px; width: 100%; border-radius: 10px" src="https://user-images.githubusercontent.com/86739367/147785933-94f28dfb-7b1a-4f05-ab0b-b2160ef477bc.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## **Cài đặt**
