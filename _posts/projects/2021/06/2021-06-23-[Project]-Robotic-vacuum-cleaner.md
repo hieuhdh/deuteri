@@ -5,10 +5,11 @@ date:   2021-06-23
 update: 
 excerpt: "Đây là đồ án môn học Data structure and Algorithms mà tôi đã học tại trường."
 description: "Đây là đồ án môn học Data structure and Algorithms mà tôi đã học tại trường."
-feature: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
-cover: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
+feature: https://user-images.githubusercontent.com/86739367/147783893-11a21b6f-fbf7-47be-8a35-c3d9a58931ae.png
+cover: https://user-images.githubusercontent.com/86739367/147783893-11a21b6f-fbf7-47be-8a35-c3d9a58931ae.png
 project: true
 tag:
+- Project
 - C++ 
 - Robot
 - DSA
@@ -19,7 +20,7 @@ comments: true
 
 Đây là đồ án mà tôi đã làm để kết thúc môn Cấu trúc dữ liệu và giải thuật.
 
-**Đề bài**
+### **Đề bài**
 1. Hãy thiết kế robot hút bụi với các tính năng sau:
     * Tên thương hiệu
     * Mã số sản phẩm
@@ -47,7 +48,10 @@ Trong chương trình này, Robot sẽ được đặc tả bộ não - gồm 4 
 * **Chế độ normal:** Robot sẽ tránh các va chạm và sẽ tự động di chuyển tùy ý.
 * **Chế độ medium:** Robot sẽ được khởi động thông minh hơn, biết chọn lọc những điểm đã đi qua và tránh đi lại để giảm thiểu thời gian cũng như nguồn điện cấp phát.
 * **Chế độ hard:** Robot được trang bị 1 con AI cơ bản, nhằm giúp tối ưu việc di chuyển cũng như tránh lặp lại các bước đi. Tuy nhiên, do kiến thức hạn hẹp nên AI chỉ được build ở chế độ cơ bản trên nền BFS. 
-* **Chế độ USER:** Ở chế độ này, người dùng sẽ tự do điều khiển robot nhưng robot cũng được trang bị 1 con AI nhằm quản lý cách di chuyển của người dùng, hòng tránh việc người dùng lỡ may di chuyển khiến robot va vào tuờng, robot sẽ tự động điều hướng.
+* **Chế độ USER:** 
+    * Ở chế độ này, người dùng sẽ tự do điều khiển robot nhưng robot cũng được trang bị 1 con AI nhằm quản lý cách di chuyển của người dùng, hòng tránh việc người dùng lỡ may di chuyển khiến robot va vào tuờng, robot sẽ tự động điều hướng.
+    * Tức là mặc dù người dùng điều khiển robot, nhưng robot sẽ tránh né và tự điều hướng nếu như người dùng cố tình điều khiển robot vào vật cản gây ra va chạm.
+    * Chế độ này nên tự trải nghiệm chạy code, thì mới biết cách thức Robot hoạt động thế nào.
 
 Hiển nhiên, đối với bộ não của Robot như trên, hoàn toàn có thể đáp ứng đủ và hơn những thứ đề bài mong đợi.
 
@@ -55,13 +59,27 @@ Hiển nhiên, đối với bộ não của Robot như trên, hoàn toàn có th
 
 1. Chế độ Normal
 
-<figure class="video_container">
+<figure class="video_container" style ="height: 406px; width: 100%; border-radius: 10px">
   <iframe src="https://user-images.githubusercontent.com/86739367/147782704-c68f9abf-c8ad-4c0b-8136-9779615b2b73.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 2. Chế độ Medium
+
+<figure class="video_container" style ="height: 406px; width: 100%; border-radius: 10px">
+  <iframe src="https://user-images.githubusercontent.com/86739367/147786595-676677c7-7407-461b-a10e-1f5d37890b9d.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 3. Chế độ Hard
+
+<figure class="video_container" style ="height: 406px; width: 100%; border-radius: 10px">
+  <iframe src="https://user-images.githubusercontent.com/86739367/147786549-4730f590-98d2-46e7-a245-22b44b9850d0.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 4. Chế độ User
+
+<figure class="video_container" style ="height: 406px; width: 100%; border-radius: 10px">
+  <iframe src="https://user-images.githubusercontent.com/86739367/147785933-94f28dfb-7b1a-4f05-ab0b-b2160ef477bc.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## **Cài đặt**
 
@@ -90,11 +108,11 @@ Bạn có thể báo cáo sự cố bằng việc <a href="https://github.com/hi
         </a>
     </div>
     <div class="item item2" style="text-align: left; position: relative; ">
-        <a href="https://hieuhdh.github.io/deuteri/Math-Overview/" class="btn" style="width: 100%">
+        <a href="https://hieuhdh.github.io/deuteri/Project-Multi-tasking-program/" class="btn" style="width: 100%">
         	<div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
         	<div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
             </div>
-        	<div style = "position: relative; font-size: 16px; font-weight: 500 ">[Math] Overview</div>
+        	<div style = "position: relative; font-size: 16px; font-weight: 500 ">[Project] Multi tasking program</div>
         </a>
     </div>
 </div>

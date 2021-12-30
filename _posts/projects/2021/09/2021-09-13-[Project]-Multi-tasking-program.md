@@ -9,6 +9,7 @@ feature: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4
 cover: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
 project: true
 tag:
+- Project
 - Python 
 - Multi
 - Thread
@@ -177,12 +178,12 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
     <div class="item item1" style="text-align: right; position: relative;">
-        <a href="#" class="btn" style="width: 100%">
+        <a href="https://hieuhdh.github.io/deuteri/Project-Robotic-vacuum-cleaner/" class="btn" style="width: 100%">
             <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
             <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
             	<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
             </div>
-            <div style = "position: relative; font-size: 16px; font-weight: 500 ">None</div>
+            <div style = "position: relative; font-size: 16px; font-weight: 500 ">[Project] Robotic Vacuum Cleaner</div>
         </a>
     </div>
     <div class="item item2" style="text-align: left; position: relative; ">
