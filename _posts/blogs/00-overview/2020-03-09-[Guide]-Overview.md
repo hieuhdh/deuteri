@@ -16,7 +16,7 @@ comments: true
 <br><br>
 {% for post in site.posts %} 
     {% for tag in post.tags %}
-        {% if tag != null %}
+        {% if tag == "Guide" %}
             <div>
                 ABC ABC ABC
             </div>
