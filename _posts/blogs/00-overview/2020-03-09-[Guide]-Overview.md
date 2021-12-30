@@ -14,19 +14,15 @@ comments: true
     An overview of some of the tutorials I've written
 </p> 
 <br><br>
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-    {% if tags_list[item] == "Guide" %}
-        <article>
-        <h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
-            <ul class = "main-entry-title">
-        {% for post in site.tags[this_word] %}{% if post.title != null %}
-            <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-        {% endif %}{% endfor %}
-            </ul>
-        </article><!-- /.hentry -->
-    {% endif %}
-{% endunless %}{% endfor %}
+{% for post in site.posts %} 
+    {% for tag in post.tags %}
+        {% if tag == "Guide" %}
+            <div>
+                ABC ABC ABC
+            </div>
+        {% endif %}
+    {%unless forloop.last %}{% endunless %}{% endfor %}
+{% endfor %}
 <br>
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
     <div class="item item1" style="text-align: right; position: relative;">
