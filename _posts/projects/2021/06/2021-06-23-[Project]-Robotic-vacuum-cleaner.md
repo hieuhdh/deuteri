@@ -60,25 +60,25 @@ Hiển nhiên, đối với bộ não của Robot như trên, hoàn toàn có th
 1. Chế độ Normal
 
 <figure class="video_container">
-  <iframe style ="height: 406px; width: 100%; border-radius: 10px" src="https://user-images.githubusercontent.com/86739367/147782704-c68f9abf-c8ad-4c0b-8136-9779615b2b73.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe style ="height: 406px; width: 100%; border-radius: 0.25rem" src="https://user-images.githubusercontent.com/86739367/147782704-c68f9abf-c8ad-4c0b-8136-9779615b2b73.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 2. Chế độ Medium
 
 <figure class="video_container">
-  <iframe style ="height: 406px; width: 100%; border-radius: 10px" src="https://user-images.githubusercontent.com/86739367/147786595-676677c7-7407-461b-a10e-1f5d37890b9d.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe style ="height: 406px; width: 100%; border-radius: 0.25rem" src="https://user-images.githubusercontent.com/86739367/147786595-676677c7-7407-461b-a10e-1f5d37890b9d.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 3. Chế độ Hard
 
 <figure class="video_container">
-  <iframe style ="height: 406px; width: 100%; border-radius: 10px" src="https://user-images.githubusercontent.com/86739367/147786549-4730f590-98d2-46e7-a245-22b44b9850d0.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe style ="height: 406px; width: 100%; border-radius: 0.25rem" src="https://user-images.githubusercontent.com/86739367/147786549-4730f590-98d2-46e7-a245-22b44b9850d0.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 4. Chế độ User
 
 <figure class="video_container">
-  <iframe style ="height: 406px; width: 100%; border-radius: 10px" src="https://user-images.githubusercontent.com/86739367/147785933-94f28dfb-7b1a-4f05-ab0b-b2160ef477bc.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe style ="height: 406px; width: 100%; border-radius: 0.25rem" src="https://user-images.githubusercontent.com/86739367/147785933-94f28dfb-7b1a-4f05-ab0b-b2160ef477bc.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## **Cài đặt**
@@ -100,7 +100,7 @@ Bạn có thể báo cáo sự cố bằng việc <a href="https://github.com/hi
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
     <div class="item item1" style="text-align: right; position: relative;">
         <a href="#" class="btn" style="width: 100%">
-            <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
+            <div style = "font-size: 12px; margin-bottom:-0.25rem">Previous</div>
             <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
             	<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
             </div>
@@ -109,7 +109,7 @@ Bạn có thể báo cáo sự cố bằng việc <a href="https://github.com/hi
     </div>
     <div class="item item2" style="text-align: left; position: relative; ">
         <a href="https://hieuhdh.github.io/deuteri/Project-Multi-tasking-program/" class="btn" style="width: 100%">
-        	<div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
+        	<div style = "font-size: 12px; margin-bottom:-0.25rem"> Next</div>
         	<div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
             </div>
         	<div style = "position: relative; font-size: 16px; font-weight: 500 ">[Project] Multi tasking program</div>

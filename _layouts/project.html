@@ -34,12 +34,11 @@ layout: compress
                                     <div class="postcard__subtitle small">
                                         <time>
                                             <i class="far fa-calendar-alt"></i>
-                                            <i class = "post-list-footer-i"> {{ post.date | date:'%b %d, %Y' }} {% if post.update and post.update != "" %}| Updated:
-                                        {{ post.update | date: "%b %-d, %Y"}}{% endif %} </i>
+                                            <i class = "post-list-footer-i"> {{ post.date | date:'%b %d, %Y' }} {% if post.update and post.update != "" %}| Updated: {{ post.update | date: "%b %-d, %Y"}}{% endif %} </i>
                                         </time>
                                     </div>
                                     <div class="postcard__bar"></div>
-                                    <div class="postcard__preview-txt">{{ post.description}}</div>
+                                    <div class="postcard__preview-txt">{{ post.description }}</div>
                                     <ul class="postcard__tagbox">
                                         {% for tag in post.tags %}
                                         <li class="tag__item">

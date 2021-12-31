@@ -119,7 +119,7 @@ body {
         box-shadow: none;
 	}
 
-    opacity: 0.85 !important;
+    // opacity: 0.85 !important;
 }
 
 .wrapper-2 {
@@ -142,7 +142,7 @@ body {
         box-shadow: none;
 	}
 
-    opacity: 0.85 !important;
+    // opacity: 0.85 !important;
 }
 
 .wrapper-project  {
@@ -164,7 +164,7 @@ body {
         box-shadow: none;
 	}
 
-    opacity: 0.85 !important;
+    // opacity: 0.85 !important;
 }
 
 #disqus_thread {
@@ -186,7 +186,7 @@ body {
         box-shadow: none;
 	}
 
-    opacity: 0.85 !important;
+    // opacity: 0.85 !important;
 }
 // entry meta
 .entry-meta {
@@ -318,7 +318,7 @@ header .entry-meta {
         padding: 4em;
         margin-left: -4rem;
         margin-right: -4rem;
-        margin-top: -2rem;
+        margin-top: -4rem;
         border-radius: 0.25rem 0.25rem 0 0;
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
@@ -326,10 +326,10 @@ header .entry-meta {
     }
     @media #{$notsmall} {
         color: white;
-        padding: 10em;
+        padding: 8em;
         margin-left: -4rem;
         margin-right: -4rem;
-        margin-top: -2rem;
+        margin-top: -4rem;
         border-radius: 0.25rem 0.25rem 0 0;
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;

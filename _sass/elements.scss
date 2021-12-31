@@ -734,7 +734,7 @@ a, a:hover {
 	
 	
 	.small {
-		font-size: 80%;
+		font-size: 0.85rem;
 	}
 
     .postcard__title {
@@ -754,7 +754,7 @@ a, a:hover {
 
     .postcard__bar {
         width: 50px;
-        height: 10px;
+        height: 3px !important;
         margin: 10px 0;
         border-radius: 5px;
         background-color: #424242;
@@ -773,6 +773,7 @@ a, a:hover {
         text-overflow: ellipsis;
         text-align: justify;
         height: 100%;
+        width: 95%;
     }
 
     .postcard__tagbox {
@@ -785,7 +786,7 @@ a, a:hover {
 
         .tag__item {
             display: inline-block;
-            background: rgba(83, 83, 83, 0.4);
+            background: $color_button;
             border-radius: 3px;
             padding: 2.5px 10px;
             margin: 0 5px 5px 0;
@@ -794,7 +795,7 @@ a, a:hover {
             transition: background-color 0.3s;
 
             &:hover {
-                background: rgba(83, 83, 83, 0.8);
+                background: rgba(31, 31, 50, 0.8);
                 color: $color_primary;
             }
 
@@ -822,7 +823,7 @@ a, a:hover {
     }
 
     &:hover .postcard__bar {
-        width: 100%;
+        width: 95%;
     }
 }
 

@@ -20,7 +20,7 @@ comments: true
                     <li>
                         <span></span>
                         <div>
-                            <div class="title-of-post">{{ post.title }}</div>
+                            <h2 class="title-of-post">{{ post.title }}</h2>
                             <div class="des-of-post">{{ post.excerpt }}</div>
                             <a class ="read-more" href="{{ site.url }}{{ post.url }}">
                                 <div> Read More  &rarr;</div>
