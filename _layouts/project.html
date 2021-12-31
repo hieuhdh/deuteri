@@ -22,9 +22,9 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
-                    {% for post in site.posts %} 
-                        {% if post.project %}
-                        <div class="container-pj py-4">
+                    <div class="container-pj py-4">
+                        {% for post in site.posts %} 
+                            {% if post.project %}
                             <article class="postcard dark pri">
                                 <a class="postcard__img_link" href="#">
                                     <img class="postcard__img" src="{{ post.cover }}" alt="Image Title" />
@@ -53,9 +53,9 @@ layout: compress
                                     </ul>
                                 </div>
                             </article>
-                        </div>
-                        {% endif %}
-                    {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
