@@ -418,7 +418,7 @@ figure {
     @include clearfix();
     img {
         margin-bottom: 10px;
-        @include rounded(4px);
+        @include rounded(0.25rem);
     }
     &.half {
         @media only screen and (min-width: 62.5em) {

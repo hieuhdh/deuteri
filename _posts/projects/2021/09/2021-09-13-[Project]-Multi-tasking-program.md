@@ -32,7 +32,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 * `Encode password`
 * `Display hardware information (use thread)`
 
-## **Install**
+## Install
 
 ### Git clone
 
@@ -83,9 +83,9 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 
   Have a bug or an issue with this project? <a href="https://github.com/hieuhdh/Multi-tasking-program/issues" class = "link_for_hover"  >Open a new issue</a> here on GitHub.
 
-<h2 id = "screenshots">Screenshots</h2>
+## Screenshots
 
-<h3>1. Home screen</h3>
+### 1. Home screen
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png"><img src="https://user-images.githubusercontent.com/86739367/132988864-ecadc18b-c73c-40eb-9c46-436a76f21157.png"></a>
@@ -93,7 +93,8 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </figure>
 
 <br>
-<h3>2. Home interface</h3>
+
+### 2. Home interface
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132999147-b5fe975b-dc5c-455c-ad82-aa496a7919f7.png"><img src="https://user-images.githubusercontent.com/86739367/132999147-b5fe975b-dc5c-455c-ad82-aa496a7919f7.png"></a>
@@ -101,7 +102,8 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </figure>
 
 <br>
-<h3>3. Login</h3>
+
+### 3. Login
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132989561-425cf48d-c77e-4c7c-a3a1-f849134299ae.png"><img src="https://user-images.githubusercontent.com/86739367/132989561-425cf48d-c77e-4c7c-a3a1-f849134299ae.png"></a>
@@ -109,7 +111,8 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </figure>
 
 <br>
-<h3>4. Sign up</h3>
+
+### 4. Sign up
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132989641-7acb111d-7d45-463b-83e1-d0dd89d1280b.png"><img src="https://user-images.githubusercontent.com/86739367/132989641-7acb111d-7d45-463b-83e1-d0dd89d1280b.png"></a>
@@ -117,10 +120,12 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </figure>
 
 <br>
-<h3>5. Applications</h3>
+
+### 5. Applications
 
 <br>
-<h3>6. About me</h3>
+
+### 6. About me
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/133070589-ade6b1c2-188d-4710-87a9-9f87f2f3dfaa.png"><img src="https://user-images.githubusercontent.com/86739367/133070589-ade6b1c2-188d-4710-87a9-9f87f2f3dfaa.png"></a>
@@ -128,7 +133,8 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </figure>
 
 <br>
-<h3>7. Notifications</h3>
+
+### 7. Notifications
 
 <figure class="third">
 	<img src="https://user-images.githubusercontent.com/86739367/132998794-33f72299-8ad6-48c7-8913-62ecc2bcf789.png">
@@ -144,7 +150,8 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
 </figure>
     
 <br>
-<h3>8. User information</h3>
+
+### 8. User information
 
 <figure align="center">
 	<a href="https://user-images.githubusercontent.com/86739367/132998817-2a0cb670-ab77-4a3e-89f8-39b4380f7538.png"><img src="https://user-images.githubusercontent.com/86739367/132998817-2a0cb670-ab77-4a3e-89f8-39b4380f7538.png"></a>
@@ -163,18 +170,7 @@ With the sketchy knowledge that I learned from tkinter, I tried to create a soft
     <a href="https://opensource.org/licenses/MIT" class="btn">MIT</a> 
 </div>
 
----
-
 <br>
-<h2 id = "about-me" align="center">About me</h2>
-
-<div align="center">
-    <div>
-        <a href="https://www.facebook.com/ao.lncb/" class="btn btn-info">Facebook</a>
-        <a href="https://github.com/hieuhdh/" class="btn btn-info">Github</a>
-        <a href="https://www.linkedin.com/in/hieuhdh/" class="btn btn-info">LinkedIn</a>
-    </div>
-</div><br><br>
 
 <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
     <div class="item item1" style="text-align: right; position: relative;">
