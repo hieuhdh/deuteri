@@ -98,7 +98,8 @@ blockquote {
 // figcaption
 figcaption {
     @include font(11);
-    color: $color_primary_text
+    color: $color_primary_text;
+    text-align: center;
 }
 
 // links
