@@ -39,31 +39,33 @@ layout: compress
             
                     {% include sidebar-toc.html html=content %}
                     {{ content }}
-                    {% if page.previous.url %}
+                    {% if page.previous.url and page.next.url == null %}
                         <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
                             <div class="item item1" style="text-align: right; position: relative;">
-                                <a href="{{page.previous.url}}" class="btn" style="width: 100%">
+                                <a href="{{site.url}} {{page.previous.url}}" class="btn" style="width: 100%">
                                     <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
                                     <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
                                     </div>
                                     <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.previous.title }}</div>
-                                </a>
-                            </div>
-                            <div class="item item2" style="text-align: left; position: relative; ">
-                                <a href="{{page.next.url}}" class="btn" style="width: 100%">
-                                    <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
-                                    <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-                                    </div>
-                                    <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}/</div>
                                 </a>
                             </div>
                         </div>
-                    {% endif %}
-                    {% if page.next.url %}
+                    {% else if page.previous.url == null and page.next.url %}
+                        <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
+                            <div class="item item2" style="text-align: left; position: relative; ">
+                                <a href="{{site.url}} {{page.next.url}}" class="btn" style="width: 100%">
+                                    <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
+                                    <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                                    </div>
+                                    <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}</div>
+                                </a>
+                            </div>
+                        </div>
+                    {% else if page.previous and page.next.url %}
                         <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
                             <div class="item item1" style="text-align: right; position: relative;">
-                                <a href="{{page.previous.url}}" class="btn" style="width: 100%">
+                                <a href="{{site.url}} {{page.previous.url}}" class="btn" style="width: 100%">
                                     <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
                                     <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
@@ -72,7 +74,7 @@ layout: compress
                                 </a>
                             </div>
                             <div class="item item2" style="text-align: left; position: relative; ">
-                                <a href="{{page.next.url}}" class="btn" style="width: 100%">
+                                <a href="{{site.url}} {{page.next.url}}" class="btn" style="width: 100%">
                                     <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
                                     <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
                                     </div>
@@ -81,6 +83,7 @@ layout: compress
                             </div>
                         </div>
                     {% endif %}
+
                 <!-- </div> -->
 
                 <!-- <div class="containerrrr">
