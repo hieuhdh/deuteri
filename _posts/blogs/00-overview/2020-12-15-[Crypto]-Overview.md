@@ -18,10 +18,11 @@ comments: true
         {% if post.blog == null %}
             {% for tag in post.tags %}
                 {% if tag == "Crypto" %}
-                    <li>
+                    <li class="main-post">
                         <span></span>
                         <div>
                             <h2 class="title-of-post">{{ post.title }}</h2>
+                            <div class = "line-of-post"></div>
                             <div class="des-of-post">{{ post.excerpt }}</div>
                             <a class ="read-more" href="{{ site.url }}{{ post.url }}">
                                 <div> Read More  &rarr;</div>

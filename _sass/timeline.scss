@@ -103,7 +103,8 @@
     width: 1px;
     height: 100%;
     position: absolute;
-    border-left: 2px dashed #2f363e;
+    // border-left: 2px dashed #2f363e;
+    border-left: 2px dashed $color_primary;
 
 }
 .overview-timeline li {
@@ -112,7 +113,7 @@
     background-color: $color_button;
     padding: 14px;
     border-radius: 6px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+    // box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
 }
 .overview-timeline li:not(:first-child) {
     margin-top: 80px;
@@ -120,20 +121,21 @@
 .overview-timeline li > span {
     width: 2px;
     height: 100%;
-    background: $color_table_2;
+    // background: $color_table_2;
+    background: $color_primary;
     left: -30px;
     top: 0;
     position: absolute;
 }
 .overview-timeline li > span:before,  .overview-timeline li > span:after {
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
-    border: 3px solid #2f363e;
+    border: 2px solid $color_primary;
     position: absolute;
-    background: $color_primary;
-    left: -8px;
+    background: $color_bg_wrapper;
+    left: -7px;
     top: -14px;
 }
 .overview-timeline li span:after {
@@ -183,9 +185,21 @@ span.number span:last-child {
     font-weight: 500;
     text-align: left;
     margin: 0px;
+    margin-top: 0.45rem !important;
 }
 
 .overview-timeline .des-of-post{
     font-size: 1rem;
     font-weight: 500;
+}
+
+.line-of-post{
+    content: '';
+    border-bottom: 1px solid $color_primary;
+    margin-top: 1rem;
+    margin-bottom: 0.45rem;
+}
+
+.main-post:hover{
+    box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08);
 }

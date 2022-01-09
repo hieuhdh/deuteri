@@ -58,7 +58,7 @@ comments: true
         	<div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
         	<div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
             </div>
-        	<div style = "position: relative; font-size: 16px; font-weight: 500 ">RSA</div>
+        	<div style = "position: relative; font-size: 16px; font-weight: 500 ">[Crypto] RSA</div>
         </a>
     </div>
 </div>
