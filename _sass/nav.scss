@@ -509,7 +509,7 @@ All this is done for any sub-level being entered.
 
 /*--- Remove lines 31-39 and add 42-52 for DEMO-2 ---*/
 
-.percent {
+.percent-tt {
     position: fixed;
     display: flex;
     top: 50%;
@@ -522,7 +522,7 @@ All this is done for any sub-level being entered.
     border-radius: 50%;
 }
 
-.fill {
+.fill-ll {
     position: absolute;
     bottom: 0;
     width: 100%;

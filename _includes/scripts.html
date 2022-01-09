@@ -11,7 +11,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
 <script>
     //Remove lines 41-55 for DEMO-2
-    var counter = document.querySelector(".percent");
+    var counter = document.querySelector(".percent-tt");
 
     TweenLite.set(counter, {
         xPercent: -5,
@@ -36,11 +36,11 @@
         var $bgColor = progress > 99 ? "#bb86fc" : "#bb86fc";
         var $textColor = progress > 99 ? "#bb86fc" : "#bb86fc";
 
-        $("h1")
+        $(".per-page")
             .text(Math.round(progress) + "%")
             .css({ color: $textColor });
 
-        $(".fill")
+        $(".fill-ll")
             .height(progress + "%")
             .css({ backgroundColor: $bgColor });
     }
