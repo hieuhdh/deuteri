@@ -6,47 +6,7 @@
 <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
 <script src="{{ site.url }}/assets/js/cursor-effects.js"></script>
 
-<!-- per page -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
-<script>
-    //Remove lines 41-55 for DEMO-2
-    var counter = document.querySelector(".percent-tt");
 
-    TweenLite.set(counter, {
-        xPercent: -5,
-        yPercent: -5,
-    });
-
-    window.addEventListener("mousemove", moveCounter);
-
-    function moveCounter(e) {
-        TweenLite.to(counter, 0.5, {
-            x: windowHeight,
-            y: windowHeight,
-        });
-    }
-
-    function progress() {
-        var windowScrollTop = $(window).scrollTop();
-        var docHeight = $(document).height();
-        var windowHeight = $(window).height();
-        var progress = (windowScrollTop / (docHeight - windowHeight)) * 100;
-
-        var $bgColor = progress > 99 ? "#bb86fc" : "#bb86fc";
-        var $textColor = progress > 99 ? "#bb86fc" : "#bb86fc";
-
-        $(".per-page")
-            .text(Math.round(progress) + "%")
-            .css({ color: $textColor });
-
-        $(".fill-ll")
-            .height(progress + "%")
-            .css({ backgroundColor: $bgColor });
-    }
-    progress();
-    $(document).on("scroll", progress);
-</script>
 
 <!-- <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script> -->
 <script id="canvas_nest" defer="" color="187,134,252" opacity="0.7" z-index="-1" count="99" mobile="true" src="{{ site.url }}/assets/js/canvas-nest.min.js"></script>
