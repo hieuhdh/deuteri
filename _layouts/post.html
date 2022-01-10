@@ -11,12 +11,6 @@ layout: compress
 </head>
 <body data-spy="true">
     {% include nav.html %}
-
-    <div class="percent-tt">
-        <div class="fill-ll"></div>
-        <div class="counter"><h1 class = "per-page"></h1></div>
-    </div>
-
     <!-- Header -->
     <header class="header" role="banner">
         <div class="wrapper-2 animated fadeIn">
@@ -113,48 +107,6 @@ layout: compress
     {% if site.mathjax == true %}
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-    <!-- per page -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
-<script>
-    //Remove lines 41-55 for DEMO-2
-    var counter = document.querySelector(".percent-tt");
-
-    TweenLite.set(counter, {
-        xPercent: -5,
-        yPercent: -5,
-    });
-
-    window.addEventListener("mousemove", moveCounter);
-
-    function moveCounter(e) {
-        TweenLite.to(counter, 0.5, {
-            x: windowHeight,
-            y: windowHeight,
-        });
-    }
-
-    function progress() {
-        var windowScrollTop = $(window).scrollTop();
-        var docHeight = $(document).height();
-        var windowHeight = $(window).height();
-        var progress = (windowScrollTop / (docHeight - windowHeight)) * 100;
-
-        var $bgColor = progress > 99 ? "#bb86fc" : "#bb86fc";
-        var $textColor = progress > 99 ? "#bb86fc" : "#bb86fc";
-
-        $(".per-page")
-            .text(Math.round(progress) + "%")
-            .css({ color: $textColor });
-
-        $(".fill-ll")
-            .height(progress + "%")
-            .css({ backgroundColor: $bgColor });
-    }
-    progress();
-    $(document).on("scroll", progress);
-</script>
     {% endif %}
 </body>
 </html>
