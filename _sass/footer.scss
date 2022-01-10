@@ -1,0 +1,97 @@
+#footer {
+	width: calc(100% - 15.75em);
+	max-width: 850px;
+	margin: -3rem auto 4rem;
+	background: #181826;
+	color: #e4e6eb;
+	border-radius: 0.25rem;
+	// box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+    box-shadow: 0 .5rem 1rem rgba(33,31,47,.15)!important;
+    // box-shadow:0 1.25rem 1rem .3125rem $color_black;
+	@include transition(.5s);
+	@media #{$small} {
+		width: 90%;
+		padding: 2em 0;
+        margin: 4rem auto;
+        box-shadow: none;
+	}
+
+    // opacity: 0.85 !important;
+}
+
+.author{
+    width: 100%;
+    background: #090415;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.0rem;
+    border-radius: 0 0 0.25rem 0.25rem;
+    color: #e4e6eb
+
+}
+
+.text-author{
+	color: #bb86fc;
+    background: #090415;
+    font-weight: 500
+}
+
+.info-f{
+	background: #090415;
+}
+
+.line-of-footer {
+    content: '';
+    border-bottom: 1px solid #bb86fc;
+    margin: 1rem 0.5rem 0.45rem 0.5rem;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: 'FontAwesome';
+    background: transparent !important
+}
+
+
+.fa-facebook:before {
+    font-family: 'FontAwesome';
+    content: "\f09a";
+    font-size: 1rem;
+}
+
+.fa-github:before {
+    font-family: 'FontAwesome';
+    content: "\f09b";
+    font-size: 1rem;
+}
+
+.fa-envelope:before {
+    font-family: 'FontAwesome';
+    content: "\f0e0";
+    font-size: 1rem;
+}
+
+.fa-linkedin-in:before {
+    font-family: 'FontAwesome';
+    content: "\f0e1";
+    font-size: 1rem;
+}
+
+
+.footer-social{
+	background: transparent !important;
+    padding: 1rem;
+    text-decoration: none;
+    color: #e4e6eb;   
+}
+
+.footer-social:hover{
+	color: #bb86fc !important
+}
+

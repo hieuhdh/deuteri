@@ -471,16 +471,17 @@ kbd {
 .goup-container {
     border-radius: 5px !important;
     // border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka !important;
-    border: 3px solid $color_primary;
-    background: $color_background !important;
+    // border: 3px solid $color_primary;
+    background: transparent !important;
 	@media #{$small} {
 		display: none !important;
 	}
-
+    height: 0 !important;
     bottom: 65px !important;
 }
 .goup-arrow {
     border-color: transparent transparent $color_primary !important;
+    padding-top: 12px !important;
 }
 
 // reading time

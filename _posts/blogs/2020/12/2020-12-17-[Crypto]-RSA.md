@@ -28,11 +28,13 @@ Trong mật mã học, **RSA** là một thuật toán mật mã hóa khóa côn
 
 ### **Lưu ý**
 
-Ớ bước 3: Theo tiêu chuẩn [PKCS#1 v2.1](https://aita.gov.vn/tieu-chuan-rsa-crytography-standard-version-2.2-pkcs-1-v2.2){: .link_for_hover} người ta dùng $$\lambda = LCM(p-1,q-1)$$ thay cho $$\phi(n) = \big(p - 1\big)\big(q-1\big)$$
+Ớ bước 3: Theo tiêu chuẩn [PKCS#1 v2.1](https://aita.gov.vn/tieu-chuan-rsa-crytography-standard-version-2.2-pkcs-1-v2.2){: .link_for_hover} người ta dùng $$\lambda = LCM(p-1,q-1)$$ thay cho 
+
+$$\phi(n) = \big(p - 1\big)\big(q-1\big)$$
 
 Ở bước 5: Ta dễ dàng biến đổi như sau:
 
-$$de \equiv 1 \ \big(mod \ \phi(n) \big)  \Rightarrow de-1 \equiv \ \big(mod \ \phi(n) \big)  \Rightarrow de - 1 \vdots \phi(n) \\\ \ \\ \Rightarrow de-1 = k .\phi(n) \\\ \ \\ \Rightarrow d = \frac{k.\phi(n) + 1}{e} =  \frac{k(p-1)(q-1) + 1}{e} $$
+$$de \equiv 1 \ \big(mod \ \phi(n) \big)  \Rightarrow & de-1 \equiv \ \big(mod \ \phi(n) \big)  \Rightarrow de - 1 \vdots \phi(n) \\\ \ \\ \Rightarrow & de-1 = k .\phi(n) \\\ \ \\ \Rightarrow d = \frac{k.\phi(n) + 1}{e} =  \frac{k(p-1)(q-1) + 1}{e} $$
 
 ###  **Quá trình mã hóa**
 

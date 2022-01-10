@@ -55,6 +55,8 @@ Trong chương trình này, Robot sẽ được đặc tả bộ não - gồm 4 
 
 Hiển nhiên, đối với bộ não của Robot như trên, hoàn toàn có thể đáp ứng đủ và hơn những thứ đề bài mong đợi.
 
+Chương trình được hiện thực toàn bộ bằng console và độ dài cũng như độ rộng khung hình lấy từ dữ liệu động ứng với các màn hình thiết bị, nên không bị lỗi sai tỉ lệ khung hình hay bất kì lỗi vặt nào linh tinh.
+
 ## **Demo 4 chế độ**
 
 1. Chế độ Normal
@@ -94,6 +96,14 @@ Hiển nhiên, đối với bộ não của Robot như trên, hoàn toàn có th
 ## **Báo cáo sự cố**
 
 Bạn có thể báo cáo sự cố bằng việc <a href="https://github.com/hieuhdh/DOAN_CTDLGT/issues" class = "link_for_hover"  >mở một issues</a> trên github, hoặc bình luận dưới bài viết này.
+
+<table>
+  <thead>
+    <tr>
+<td style = "font-weight: bold">Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a class = "link_for_hover" href="https://hieuhdh.github.io/deuteri/">tại đây</a>.</td>
+    </tr>
+  </thead>
+</table>
 
 <br>
 
