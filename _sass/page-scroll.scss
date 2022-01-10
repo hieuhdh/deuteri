@@ -1,23 +1,23 @@
-#progress{
-    height: 70px;
-    width: 70px;
+#scroll-progress{
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     position: fixed;
-    bottom: 30px;
-    right: 20px;
+    bottom: 10px;
+    right: 18px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     display: grid;
     place-items: center;
 }
-#progress-value{
+#scroll-progress-value{
     display: block;
-    height: calc(100% - 15px);
-    width: calc(100% - 15px);
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
     background-color: #100e17;
     border-radius: 50%;
     display: grid;
     place-items: center;
-    font-weight: 600;
-    font-size: 1.25rem;
+    font-weight: 500;
+    font-size: 0.85rem;
     color: #e4e6eb;
 }

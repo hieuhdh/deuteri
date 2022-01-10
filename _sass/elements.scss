@@ -476,6 +476,8 @@ kbd {
 	@media #{$small} {
 		display: none !important;
 	}
+
+    bottom: 65px !important;
 }
 .goup-arrow {
     border-color: transparent transparent $color_primary !important;
