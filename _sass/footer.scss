@@ -1,7 +1,7 @@
 #footer {
 	width: calc(100% - 15.75em);
 	// max-width: 850px;
-	margin: -4rem auto 4rem;
+	margin: -5rem auto 4rem;
 	background: #181826;
 	color: $color_primary_text;
     padding: 0px !important;
@@ -22,9 +22,9 @@
 
 .author{
     width: 100%;
-    background: #090415;
+    background: #0b0b18;
     text-align: center;
-    padding: 10px 0px 0 0;
+    padding: 20px 0px 10px 0px;
     font-size: 1.0rem;
     border-radius: 0 0 0.25rem 0.25rem;
     color: $color_primary_text
@@ -33,18 +33,18 @@
 
 .text-author{
 	color: $color_primary;
-    background: #090415;
+    background:  #0b0b18;
     font-weight: 500
 }
 
 .text-author-pre{
 	color: $color_primary_text;
-    background: #090415;
+    background:  #0b0b18;
     font-weight: 500
 }
 
 .info-f{
-	background: #090415;
+	background: #0b0b18;
 }
 
 .line-of-footer {
@@ -60,7 +60,7 @@
     font-size: 1.5rem;
 }
 
-.fa-github:before {
+.fa-github-alt:before {
     font-style: normal;
     font-family: 'FontAwesome';
     content: "\f09b";
