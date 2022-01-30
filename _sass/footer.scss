@@ -1,4 +1,4 @@
-.arch .header #footer {
+#footer {
 	// max-width: 850px;
 	margin: -5rem auto 4rem;
 	background: #181826;
@@ -19,7 +19,7 @@
     // opacity: 0.85 !important;
 }
 
-.psst .header #footer {
+#footer-wrapper-2 {
 	width: calc(100% - 15.75em);
 	// max-width: 850px;
 	margin: -5rem auto 4rem;
@@ -41,7 +41,7 @@
     // opacity: 0.85 !important;
 }
 
-.prje .header #footer {
+#footer-project {
 	// max-width: 850px;
 	margin: -5rem auto 4rem;
 	background: #181826;
