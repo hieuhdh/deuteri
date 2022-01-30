@@ -1,4 +1,4 @@
-#footer {
+.wrapper #footer {
 	// max-width: 850px;
 	margin: -5rem auto 4rem;
 	background: #181826;
@@ -19,7 +19,7 @@
     // opacity: 0.85 !important;
 }
 
-#footer-wrapper-2 {
+.wrapper-2 #footer {
 	width: calc(100% - 15.75em);
 	// max-width: 850px;
 	margin: -5rem auto 4rem;
@@ -41,7 +41,7 @@
     // opacity: 0.85 !important;
 }
 
-#footer-project {
+.wrapper-project #footer {
 	// max-width: 850px;
 	margin: -5rem auto 4rem;
 	background: #181826;

@@ -26,26 +26,7 @@ layout: compress
             </div>
         </div>
         {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
-        <footer id="footer" class="wrapper animated fadeIn">
-            <div class="author">
-                <a class = "footer-social" href = "http://facebook.com/{{ site.facebook }}">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a class = "footer-social" href = "http://github.com/{{ site.github-url }}">
-                    <i class="fab fa-github-alt"></i>
-                </a>
-                <a class = "footer-social" href = "mailto:{{ site.email }}">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a class = "footer-social" href = "http://linkedin.com/in/{{ site.linkedin }}">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <div class = "line-of-footer"></div>
-                <p class = "info-f">
-                    <span class = "text-author-pre">Copyright &copy; 2020 </span><span class = "text-author">Deuteri</span>
-                </p>
-            </div>
-        </footer>
+        {% include footer.html %}
     </header>
     {% include scripts.html %}
     {% if site.mathjax == true %}
