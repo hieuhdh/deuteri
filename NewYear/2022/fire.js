@@ -121,7 +121,7 @@ function Firework() {
     }
     
     this.explode = function() {
-        for (var i = 0; i < floor(random(10,500)); i++) {
+        for (var i = 0; i < floor(random(1000,5000)); i++) {
         var p = new Particle(this.firework.pos.x, this.firework.pos.y, false, this.hu);
         this.particles.push(p);
         }
