@@ -40,7 +40,7 @@ layout: compress
             
                     {% include sidebar-toc.html html=content %}
                     {{ content }}
-                    {% if page.previous.url and page.next.url == null %}
+                    <!-- {% if page.previous.url and page.next.url == null %}
                         <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
                             <div class="item item1" style="text-align: right; position: relative;">
                                 <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
@@ -63,7 +63,7 @@ layout: compress
                                 </a>
                             </div>
                         </div>
-                    {% else if page.previous.url and page.next.url %}
+                    {% else if page.previous.url and page.next.url %} -->
                         <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
                             <div class="item item1" style="text-align: right; position: relative;">
                                 <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
@@ -83,7 +83,7 @@ layout: compress
                                 </a>
                             </div>
                         </div>
-                    {% endif %}
+                    <!-- {% endif %} -->
 
                 <!-- </div> -->
 
