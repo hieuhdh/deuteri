@@ -129,7 +129,7 @@ function Firework() {
     
     this.show = function() {
         if(!this.exploded){
-        this.firework.show();
+        this.firework.show(); 
         }
         for (var i = 0; i < this.particles.length; i++) {
         this.particles[i].show();
