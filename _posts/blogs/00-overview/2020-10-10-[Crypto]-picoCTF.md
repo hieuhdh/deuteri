@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Crypto] picoCTF"
+title: "[CRYPTO] picoCTF"
 date: 2021-10-10
 excerpt: "Some writeup of me about Crypto in picoCTF"
 blog: true
