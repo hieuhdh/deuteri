@@ -8,7 +8,7 @@ function setup() {
 	canvas = document.getElementById("canvas");
 	setSize(canvas);
 	ctx = canvas.getContext("2d");
-	ctx.fillStyle = "#000000";
+	// ctx.fillStyle = "#000000";
 	ctx.fillRect(0, 0, width, height);
 	fireworks.push(new Firework(Math.random()*(width-200)+100));
 	window.addEventListener("resize",windowResized);
@@ -19,7 +19,7 @@ setTimeout(setup,1);
 
 function loop(){
 	ctx.globalAlpha = 0.1;
-	ctx.fillStyle = "#000000";
+	// ctx.fillStyle = "#000000";
 	ctx.fillRect(0, 0, width, height);
 	ctx.globalAlpha = 1;
 
