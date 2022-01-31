@@ -221,7 +221,7 @@ h3.title a {
     font-weight: 900;
     letter-spacing: 20px;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text !important;
 }
 
 .btn-404-click {

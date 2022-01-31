@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Overview"
+title: "[MATH] Overview"
 date: 2020-10-15
 excerpt: "Some of my knowledge about math"
 blog: true

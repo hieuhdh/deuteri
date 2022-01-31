@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Overview"
+title: "[PROJECT] Overview"
 date: 2020-01-01
 excerpt: "An overview of some of projects I've done"
 blog: true
