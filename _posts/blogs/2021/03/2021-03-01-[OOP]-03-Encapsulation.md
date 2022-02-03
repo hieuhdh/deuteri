@@ -22,8 +22,6 @@ Vì tính đóng gói giúp che giấu thông tin của lớp đối tượng, d
 Hãy xem xét đoạn mã dưới đây
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -45,8 +43,6 @@ Lúc này, ta có thể dùng phương thức GET (hay còn gọi là getter) đ
 
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -73,8 +69,6 @@ Lúc này, ta cần dùng đến phương thức SET (xem phần bên dưới)
 Đoạn mã hoàn chỉnh thể hiện việc thay đổi giá trị của thuộc tính `a`.
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -99,8 +93,7 @@ int main(){
 
 ## Tham khảo thêm
 
-[Tính đóng gói](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
-{: .link_for_hover}
+<a class = "link_for_hover" href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)">Tính đóng gói</a>
 
 <br>
 <h1 align="center">

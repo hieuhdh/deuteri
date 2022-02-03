@@ -1,0 +1,42 @@
+.notice-checker {
+    border-left: 0.25rem solid $color_primary;
+    padding-left: 35px;
+    margin-top: 1.5em;
+    padding: .5em 1em;
+    text-indent: 0;
+    @include font-rem(12);
+    background-color: $color_button;
+    border: 1px solid $color_primary;
+    @include rounded(3px);
+
+    &:before {
+        content: "\f05a";
+        font-family: 'FontAwesome';
+        position: absolute;
+        transform: translate(-30px, 0px);
+    }
+}
+
+.notice-alert {
+    border-left: 0.25rem solid $color_primary;
+    padding-left: 35px;
+    margin-top: 1.5em;
+    padding: .5em 1em;
+    text-indent: 0;
+    @include font-rem(12);
+    background-color: $color_button;
+    border: 1px solid $color_primary;
+    @include rounded(3px);
+}
+
+.notice-dangerous {
+    border-left: 0.25rem solid $color_primary;
+    padding-left: 35px;
+    margin-top: 1.5em;
+    padding: .5em 1em;
+    text-indent: 0;
+    @include font-rem(12);
+    background-color: $color_button;
+    border: 1px solid $color_primary;
+    @include rounded(3px);
+}

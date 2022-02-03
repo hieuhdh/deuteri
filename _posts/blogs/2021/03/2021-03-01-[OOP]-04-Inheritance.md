@@ -109,8 +109,6 @@ Trong trường hợp kế thừa nhiều tầng, thì contructor sẽ thực th
 Hãy xem xét và dự đoán đầu ra của đoạn chương trình bên dưới:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -150,8 +148,6 @@ Tương tự contructor nhưng destructor nó sẽ được thực thi theo th�
 Hãy xem xét và dự đoán đầu ra của đoạn chương trình bên dưới:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -189,8 +185,6 @@ Trong phương thức destructor ta còn 1 vấn đề nhỏ là `virtual destru
 Với tình huống giả định có nhiều hơn 1 lớp cơ sở ứng với 1 lớp dẫn xuất, thì lúc này sẽ xảy ra trường hợp lỗi mơ hồ tức là lúc này lớp dẫn xuất đang không hiểu nó muốn được kế thứa từ lớp nào. Ta dùng kế thừa ảo để giải quyết trường hợp này bằng việc thêm từ khóa `virtual` trước loại kế thừa. Xem xét đoạn code bên dưới:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -213,8 +207,6 @@ int main(){
 Lúc này dòng `A *a = new D` sẽ bị lỗi mơ hồ vì cụ thể là có một sự ngắt quãng liên kết động giữa con trỏ thuộc lớp A tham chiếu đến lớp D. Để sửa lỗi này, ta chỉ cần thêm từ khóa `virtual` vào trước kiểu kế thừa của lớp B và C đối với lớp A. Xem xét đoạn mã hoàn chỉnh dưới đây:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -243,8 +235,6 @@ Trong một số trường hợp, ta phải dùng kế thừa ảo để giải 
 Xem xét và dự đoán đầu ra của đoạn chương trình bên dưới:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -274,8 +264,6 @@ Với đoạn chương trình trên đầu ra sẽ là chữ cái `B`. Điều n
 **Upcasting** được hiểu đơn giản là khai báo một con trỏ đối tượng thuộc lớp cơ sở liên kết động với đối tượng ở lớp dẫn xuất hoặc từ một đối tượng con trỏ của lớp cơ sở tham chiếu đến một đối tượng của lớp dẫn xuất. Nghe có vẻ khá là khó hiểu đúng không? Hãy xem xét ví dụ bên dưới:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -309,8 +297,6 @@ Tóm lại, Upcasting dùng để tạo mối quan hệ giữa lớp cơ sở v�
 **Downcasting** là một quá trình ngược lại đối với **Upcasting**, nếu quá trình upcast là quá trình khai báo một con trỏ đối tượng thuộc lớp cơ sở để thực hiện việc liên kết động với đối tượng ở lớp dẫn xuất thì downcast là việc tạo một liên kết động giữa con trỏ thuộc lớp dẫn xuất sang một đối tượng thuộc lớp cơ sở. Nghe có vẻ vô lý đúng không? Chúng ta cùng xem ví dụ bên dưới:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -342,8 +328,6 @@ Hiển nhiên, đoạn chương trình trên sẽ in ra chữ `B`. Câu hỏi đ
 Có rất nhiều cách để chương trình xuất ra chữ `A`. Ví dụ ta có thể thay đổi đối tượng con trỏ `b` thuộc lớp B thành 1 đối tượng `a` thuộc lớp `A`, ta có đoạn mã cho cách giải quyết này như sau:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -371,8 +355,6 @@ int main(){
 Hoặc ta có thể dùng đối tượng con trỏ cho lớp đối tượng `A` như sau:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -413,8 +395,6 @@ Và còn nhiều cách nữa...
 Thì để giải quyết trường hợp này, ta có thể dùng cơ chế `Downcasting`, và đoạn mã chương trình sẽ như sau:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -472,8 +452,6 @@ Diamond problem được hiểu nôm na là trạng thái xung đột giữa m�
 Hãy xem xét ví dụ bên dưới:
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -543,18 +521,15 @@ Vấn đề ở đây là chương trình đang gặp lỗi phân giải tĩnh m
 
 Xem thêm tại 
 
-[https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Polymorphism/runTime/DiamondProblem](https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Polymorphism/runTime/DiamondProblem) {: .link_for_hover}
+<a class = "link_for_hover" href="https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Polymorphism/runTime/DiamondProblem">https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Polymorphism/runTime/DiamondProblem</a>
 
 ## Tham khảo thêm
 
-[Tính kế thừa](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-{: .link_for_hover}
+<a class = "link_for_hover" href="https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)">Tính kế thừa</a>
 
-[Diamond Problem](https://www.cprogramming.com/tutorial/virtual_inheritance.html)
-{: .link_for_hover}
+<a class = "link_for_hover" href="https://www.cprogramming.com/tutorial/virtual_inheritance.html">Diamond Problem</a>
 
-[Upcasting and Downcasting](https://www.javatpoint.com/upcasting-and-downcasting-in-cpp#:~:text=The%20Downcasting%20is%20an%20opposite,must%20specify%20the%20explicit%20typecast.)
-{: .link_for_hover}
+<a class = "link_for_hover" href="https://www.javatpoint.com/upcasting-and-downcasting-in-cpp#:~:text=The%20Downcasting%20is%20an%20opposite,must%20specify%20the%20explicit%20typecast.">Upcasting and Downcasting</a>
 
 <br>
 <h1 align="center">

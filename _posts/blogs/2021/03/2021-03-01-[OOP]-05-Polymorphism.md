@@ -303,8 +303,6 @@ Ta thêm từ khóa `virtual` trước phương thức hủy bất kì, thì nga
 Quay trở lại một đoạn mã tương tự phần `destructor` mà ta đã gặp ở phần kế thừa
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -341,8 +339,6 @@ Sau khi thực thi chương trình, chương trình sẽ xuất ra chữ `A` t�
 Lúc này đây, việc làm cho phương thức hủy ở lớp đối tượng A thành phương thức hủy ảo làm hoàn toàn cần thiết và nó giúp cho chúng ta dễ dàng giải quyết vấn đề trên. Đoạn mã hoàn chỉnh
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -448,8 +444,6 @@ Dù là cùng 1 hàm `cong`, nhưng chỉ cần thay đổi đối số truyền
 Hoặc hãy xem một ví dụ khác cụ thể hơn về hướng đối tượng
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -487,7 +481,7 @@ Trong ngôn ngữ lập trình C++, có rất nhiều loại toán tử khác nh
 
 Trong ngôn ngữ lập trình C++, ta chỉ được quyền nạp chồng những toán tử mà bản thân những toán tử đó cho phép nạp chồng. Và đây cũng chứng tỏ được toán tử có khả năng đa năng hóa.
 
-Hãy xem các ví dụ về nạp chồng toán tử tại [https://github.com/hieuhdh/OOP/tree/master/Practice/04](https://github.com/hieuhdh/OOP/tree/master/Practice/04){: .link_for_hover}
+Hãy xem các ví dụ về nạp chồng toán tử tại <a class = "link_for_hover" href="https://github.com/hieuhdh/OOP/tree/master/Practice/04">https://github.com/hieuhdh/OOP/tree/master/Practice/04</a>
 
 ### Đa hình tại thời điểm thực thi (Runtime)
 
@@ -513,8 +507,6 @@ Quy tắc ghi đè 1 phương thức:
 Lỗi phân giải tĩnh là lỗi xảy ra khi thực thi chương trình bằng việc ta ghi đè 1 phương thức nhưng gây ra hiện tượng đối tượng hiểu sai thông điệp mà phương thức truyền tải. Ta xem xét đoạn mã sau
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -542,8 +534,6 @@ Nhận thấy đầu ra của chương trình trên là chữ `A`. Ở đây, r�
 Với ví dụ trên, đây là một trường hợp điển hình thể hiện lỗi phân giải tĩnh, việc sửa lỗi này cũng khá là đơn giản, ta chỉ cần biến phương thức `action()` trong lớp đối tượng `A` thành phương thức ảo là được. Đoạn mã hoàn chỉnh sau đây
 
 {% highlight c++ %}
-#include<iostream>
-
 using namespace std;
 
 class A{
@@ -576,11 +566,9 @@ Các phương thức Overriding được chọn dựa trên kiểu đối tượ
 
 ## Tham khảo thêm
 
-[Tính đa hình](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-{: .link_for_hover}
+<a class = "link_for_hover" href="https://en.wikipedia.org/wiki/Polymorphism_(computer_science)">Tính đa hình</a>
 
-[Overloading and Overriding](https://www.freecodecamp.org/news/polymorphism-in-java-tutorial-with-object-oriented-programming-example-code/)
-{: .link_for_hover}
+<a class = "link_for_hover" href="https://www.freecodecamp.org/news/polymorphism-in-java-tutorial-with-object-oriented-programming-example-code/">Overloading and Overriding</a>
 
 <br>
 <h1 align="center">

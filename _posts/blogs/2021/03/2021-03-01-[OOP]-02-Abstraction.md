@@ -19,5 +19,4 @@ Tuy tính trừu tượng chỉ vỏn vẹn trong vòng vài câu dẫn trên nh
 
 ## Tham khảo thêm
 
-[Tính trừu tượng](https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming))
-{: .link_for_hover}
+<a class = "link_for_hover" href="https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming)">Tính trừu tượng</a>
