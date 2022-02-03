@@ -25,14 +25,14 @@ Trong phương pháp lập trình hướng đối tượng, liên kết tĩnh kh
 
 Hãy xem xét đoạn chương trình sau
 
-```C++
+{% highlight c++ %}
 class A{}
 class B:public A{}
 
 int main(){
     B b;
 }
-```
+{% endhighlight %}
 
 Vì đối tượng giá trị b thuộc lớp đối tượng B đã được hình thành tại thời điểm biên dịch, do đó đây là 1 loại liên kết tĩnh.
 
@@ -40,14 +40,14 @@ Vì đối tượng giá trị b thuộc lớp đối tượng B đã được h
 
 Liên kết động là loại liên kết chỉ xuất hiện khi thực thi (runtime). Ví dụ
 
-```C++
+{% highlight c++ %}
 class A{}
 class B:public A{}
 
 int main(){
     A *a = new B;
 }
-```
+{% endhighlight %}
 
 Với đoạn chương trình trên, sự kết nối giữa lời gọi lớp A đến lớp B chỉ xuất hiện lúc chương trình được thực thi tức là con trỏ đối tượng thuộc lớp đối tượng A chỉ được tham chiếu đến lớp đối tượng B khi thực thi chương trình. Lúc chưa thực thi chương trình, không có bất kì chuyện gì xảy ra cả. Thì đây là một ví dụ điển hình cho liên kết động.
 
@@ -63,7 +63,7 @@ Yêu cầu hãy viết đoạn chương trình nhập và xuất danh sách các
 
 Dễ dàng ta có thể viết đoạn mã như sau:
 
-```C++
+{% highlight c++ %}
 class Nguoi{
 protected:
     string ho_va_ten;
@@ -112,11 +112,11 @@ void xuatDanhSachSinhVien(SinhVien sv[], int so_luong){
     for (int i = 0; i < so_luong; i++)
         sv[i].xuatThongTinSinhVien();
 }
-```
+{% endhighlight %}
 
 Hoặc ta có thể dùng phân loại `enum` để giải quyết bài toán trên một cách tường minh (nhưng khá rườm rà) bằng cách tạo ra một phân loại `enum loai{Ng, SV}` và đoạn mã chuyển đổi bên dưới
 
-```C++
+{% highlight c++ %}
 enum loai{
     Ng,
     SV
@@ -169,7 +169,7 @@ public:
         cout <<"Ma so sinh vien: " << this -> MSSV << endl;
     }
 };
-```
+{% endhighlight %}
 
 Về mặc cú pháp thì cả hai đoạn code trên đều ổn thỏa, nhưng suy nghĩ một xíu là cả `người` và `sinh viên` đều cùng có phương thức `nhap` cũng như `xuat` nhưng cách hiểu hai phương thức của hai đối tượng là khác nhau, thế tại sao không dùng cùng phương thức mà lại đặc thêm phương thức `nhapThongTinSinhVien` và `xuatThongTinSinhVien` gây thêm dài dòng (tôi không nói việc tạo ra nhiều phương thức là sai mà chỉ là gây ra phức tạp bài toán, dài dòng, khó sửa chữa).
 
@@ -185,7 +185,7 @@ Các phương thức ở lớp cơ sở có tính đa hình phải được đ�
 
 Quan trọng hơn, nhờ phương thức ảo sẽ giúp cho các đối tượng thể hiện cách hiểu của nó đối với một thông điệp nào đó. Và đoạn chương trình trên ta có thể thay bằng.
 
-```C++
+{% highlight c++ %}
 class Nguoi{
 protected:
     string ho_va_ten;
@@ -234,7 +234,7 @@ void xuatDanhSachSinhVien(SinhVien sv[], int so_luong){
     for (int i = 0; i < so_luong; i++)
         sv[i].xuat();
 }
-```
+{% endhighlight %}
 
 Như ở phần tính kế thừa, ta đã biết rằng lớp đối tượng `SinhVien` sẽ kế thừa tất cả các thuộc tính và phương thức của lớp đối tượng `Nguoi` và phương thức `nhap` với `xuat` trong lớp đối tượng `Nguoi` đang ở phạm vi public tức lớp đối tượng `SinhVien` sẽ sử dụng được 2 phương thức đó:
 
@@ -243,7 +243,7 @@ Như ở phần tính kế thừa, ta đã biết rằng lớp đối tượng `
 
 Từ hai nhận định trên, ta đã có thể rút gọn đoạn mã cho 2 lớp đối tượng `Nguoi` và `SinhVien` đi rất nhiều. Và đây là mã sau khi rút gọn:
 
-```C++
+{% highlight c++ %}
 class Nguoi{
 protected:
     string ho_va_ten;
@@ -278,7 +278,7 @@ public:
         cout <<"Ma so sinh vien: " << this -> MSSV << endl;
     }
 };
-```
+{% endhighlight %}
 
 Và chúng ta đã áp dụng được tính đa hình lẫn kế thừa trong đoạn mã trên.
 
@@ -302,7 +302,7 @@ Ta thêm từ khóa `virtual` trước phương thức hủy bất kì, thì nga
 
 Quay trở lại một đoạn mã tương tự phần `destructor` mà ta đã gặp ở phần kế thừa
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -332,7 +332,7 @@ int main(){
     A *a = new C; 
     delete a;
 }
-```
+{% endhighlight %}
 
 Sau khi thực thi chương trình, chương trình sẽ xuất ra chữ `A` tức là con trỏ a thuộc lớp đối tượng A đã bị hủy. Câu hỏi đặt ra là có chắc chắn rằng sau dòng `delete a` được thực thi thì toàn bộ vùng nhớ trong chương trình đều đã được giải phóng không?
 
@@ -340,7 +340,7 @@ Sau khi thực thi chương trình, chương trình sẽ xuất ra chữ `A` t�
 
 Lúc này đây, việc làm cho phương thức hủy ở lớp đối tượng A thành phương thức hủy ảo làm hoàn toàn cần thiết và nó giúp cho chúng ta dễ dàng giải quyết vấn đề trên. Đoạn mã hoàn chỉnh
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -370,7 +370,7 @@ int main(){
     A *a = new C; 
     delete a;
 }
-```
+{% endhighlight %}
 
 Lúc này, trình biên dịch sẽ biết được rằng khi thực thi lệnh `delete a` tức sẽ thực thi phương thức hủy của lớp đối tượng C (thông qua từ khóa `virtual`). Và hiển nhiên, theo tính chất của tính kế thừa thì lần lượt phương thức hủy của lớp đối tượng B và của lớp đối tượng A sẽ được thực thi sau đó. Tóm lại, toàn bộ vùng nhớ sẽ được giải phóng hoàn toàn.
 
@@ -398,7 +398,7 @@ Ta không thể tạo ra đối tượng giá trị thuộc lớp cơ sở trừ
 
 Các lớp dẫn xuất muốn được tạo đối tượng khi và chỉ khi lớp dẫn xuất đó đã định nghĩa lại toàn bộ các phương thức thuần ảo đã có trong lớp cơ sở trừu tượng. Nếu không, lớp dẫn xuất đó sẽ trở thành một lớp đối tượng trừu tượng. Ví dụ
 
-```C++
+{% highlight c++ %}
 class A{
 public:
     void virtual action() = 0;
@@ -408,11 +408,11 @@ class B: public A{
 public:
     void action(){}
 };
-```
+{% endhighlight %}
 
 Trong đoạn mã trên, lớp B có thể tạo đối tượng vì lớp B đã định nghĩa lại phương thức thuần ảo `action()` của lớp A. Còn đoạn mã bên dưới, thì cả A và B đều không thể tạo đối tượng.
 
-```C++
+{% highlight c++ %}
 class A{
 public:
     void virtual action() = 0;
@@ -421,7 +421,7 @@ public:
 class B: public A{
 public:
 };
-```
+{% endhighlight %}
 
 ## Các vấn đề trong đa hình
 
@@ -433,7 +433,7 @@ Câu hỏi đặt ra là ta đang có một hàm `cong` để thực hiện vi�
 
 Lúc này, ta có thể định nghĩa hàm `cong` với các đối số truyền vào khác nhau để thực hiện chức năng ta cần. Việc làm này được gọi chung là nạp chồng hàm. Xem đoạn mã dưới đây
 
-```C++
+{% highlight c++ %}
 int cong(int x, int y){
     return x + y;
 }
@@ -441,13 +441,13 @@ int cong(int x, int y){
 double cong(double x, double y){
     return x + y;
 }
-```
+{% endhighlight %}
 
 Dù là cùng 1 hàm `cong`, nhưng chỉ cần thay đổi đối số truyền vào và trả về khác kiểu, ta đã thực hiện được chức năng cộng hai số nguyên và cộng hai số thực một cách dễ dàng.
 
 Hoặc hãy xem một ví dụ khác cụ thể hơn về hướng đối tượng
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -465,7 +465,7 @@ int main(){
     a.output(1.2);
     a.output(1.3);
 }
-```
+{% endhighlight %}
 
 Ở ví dụ trên, ta có lớp đối tượng `A` và có 1 phương thức `output` thể hiện giá trị của 1 đối số truyền vào bất kì (khác kiểu trả về). Trong hàm `main()` ta đã gọi phương thức `output` ra với các kiểu đối số truyền vào khác nhau và hiển nhiên kiểu dữ liệu của giá trị đầu ra trong 3 lần gọi là khác nhau.
 
@@ -512,7 +512,7 @@ Quy tắc ghi đè 1 phương thức:
 
 Lỗi phân giải tĩnh là lỗi xảy ra khi thực thi chương trình bằng việc ta ghi đè 1 phương thức nhưng gây ra hiện tượng đối tượng hiểu sai thông điệp mà phương thức truyền tải. Ta xem xét đoạn mã sau
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -535,13 +535,13 @@ int main(){
     A *a = new B;
     a->action();
 }
-```
+{% endhighlight %}
 
 Nhận thấy đầu ra của chương trình trên là chữ `A`. Ở đây, rõ ràng ta đang dùng 1 con trỏ thuộc lớp đối tượng A thực hiện việc liên kết động với lớp đối tượng B và điều mong muốn của ta tại thời điểm này chính là việc thực thi phương thức `action()` hiện diện trong lớp đối tượng B, tức là đầu ra mong muốn phải là chữ `B`. 
 
 Với ví dụ trên, đây là một trường hợp điển hình thể hiện lỗi phân giải tĩnh, việc sửa lỗi này cũng khá là đơn giản, ta chỉ cần biến phương thức `action()` trong lớp đối tượng `A` thành phương thức ảo là được. Đoạn mã hoàn chỉnh sau đây
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -564,7 +564,7 @@ int main(){
     A *a = new B;
     a->action();
 }
-```
+{% endhighlight %}
 
 ### Sự khác nhau giữa Overriding và Overloading
 
@@ -581,3 +581,16 @@ Các phương thức Overriding được chọn dựa trên kiểu đối tượ
 
 [Overloading and Overriding](https://www.freecodecamp.org/news/polymorphism-in-java-tutorial-with-object-oriented-programming-example-code/)
 {: .link_for_hover}
+
+<br>
+<h1 align="center">
+  Lời kết
+</h1> 
+
+<table>
+  <thead>
+    <tr>
+<td style = "font-weight: bold">Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a class = "link_for_hover" href="https://hieuhdh.github.io/deuteri/">tại đây</a>.</td>
+    </tr>
+  </thead>
+</table>

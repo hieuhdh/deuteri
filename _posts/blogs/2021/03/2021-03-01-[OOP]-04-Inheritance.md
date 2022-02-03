@@ -52,10 +52,10 @@ Tuy nhiên, riêng trường hợp thuộc tính (lẫn phương thức) đang �
 
 Giả sử rằng ta có 1 lớp A, ta lại có 1 lớp B và muốn B kế thừa lớp A theo phương thức public, ta code như sau
 
-```C++
+{% highlight c++ %}
 class A{}
 class B: public A{}
-```
+{% endhighlight %}
 
 Khi đó lớp A được gọi là lớp `cơ sở` (base class), lớp B được gọi là lớp `dẫn xuất` (derived class).
 
@@ -63,11 +63,11 @@ Khi đó lớp A được gọi là lớp `cơ sở` (base class), lớp B đư�
 
 Một ví dụ khác:
 
-```C++
+{% highlight c++ %}
 class A{}
 class B: public A{}
 class C: public B{}
-```
+{% endhighlight %}
 
 Về mặt ngữ nghĩa, lớp C lúc này là lớp dẫn xuất của lớp B và lớp B là lớp cơ sở của lớp C. Việc nhận định lớp C là lớp dẫn xuất của lớp A (vì có sự bắc cầu kế thừa từ lớp A sang lớp B) là chưa đúng.
 
@@ -79,7 +79,7 @@ Và ví dụ trên cũng thể hiện cho 1 loại kế thừa tầng phổ bi�
 
 Xét đoạn chương trình sau
 
-```C++
+{% highlight c++ %}
 class A{
 public:
     int a = 1;
@@ -92,7 +92,7 @@ public:
         std::cout << a;
     }
 }
-```
+{% endhighlight %}
 
 Lúc này chúng ta đã cập nhật giá trị của biến `a` từ giá trị `1` (trong lớp cơ sở) thành giá trị `2` (trong lớp dẫn xuất).
 
@@ -108,7 +108,7 @@ Trong trường hợp kế thừa nhiều tầng, thì contructor sẽ thực th
 
 Hãy xem xét và dự đoán đầu ra của đoạn chương trình bên dưới:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -137,7 +137,7 @@ public:
 int main(){
     C c;
 }
-```
+{% endhighlight %}
 
 Muốn khởi tạo 1 đối tượng giá trị `c` ở lớp đối tượng `C` thì contructor của lớp `B` sẽ được thực thi trước (hay có thể nói rằng đối tượng B sẽ được khởi tạo trước) vì `B` hiện đang là lớp cơ sở của lớp `C`, mà `B` khởi tạo thì contructor của lớp `A` sẽ được thực thi trước vì `A` là lớp cơ sở của `B`. 
 
@@ -149,7 +149,7 @@ Tương tự contructor nhưng destructor nó sẽ được thực thi theo th�
 
 Hãy xem xét và dự đoán đầu ra của đoạn chương trình bên dưới:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -178,7 +178,7 @@ public:
 int main(){
     C c;
 }
-```
+{% endhighlight %}
 
 Đoạn chương trình trên có đầu ra là dòng chữ `CBA`.
 
@@ -188,7 +188,7 @@ Trong phương thức destructor ta còn 1 vấn đề nhỏ là `virtual destru
 
 Với tình huống giả định có nhiều hơn 1 lớp cơ sở ứng với 1 lớp dẫn xuất, thì lúc này sẽ xảy ra trường hợp lỗi mơ hồ tức là lúc này lớp dẫn xuất đang không hiểu nó muốn được kế thứa từ lớp nào. Ta dùng kế thừa ảo để giải quyết trường hợp này bằng việc thêm từ khóa `virtual` trước loại kế thừa. Xem xét đoạn code bên dưới:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -208,11 +208,11 @@ class D: public B, public C{
 int main(){
     A *a = new D;
 }
-```
+{% endhighlight %}
 
 Lúc này dòng `A *a = new D` sẽ bị lỗi mơ hồ vì cụ thể là có một sự ngắt quãng liên kết động giữa con trỏ thuộc lớp A tham chiếu đến lớp D. Để sửa lỗi này, ta chỉ cần thêm từ khóa `virtual` vào trước kiểu kế thừa của lớp B và C đối với lớp A. Xem xét đoạn mã hoàn chỉnh dưới đây:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -232,7 +232,7 @@ class D: public B, public C{
 int main(){
     A *a = new D;
 }
-```
+{% endhighlight %}
 
 Và đây cũng là một `Diamond problem` mà tôi đã đề cập phía dưới.
 
@@ -242,7 +242,7 @@ Trong một số trường hợp, ta phải dùng kế thừa ảo để giải 
 
 Xem xét và dự đoán đầu ra của đoạn chương trình bên dưới:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -267,13 +267,13 @@ int main(){
     B b;
     b.action();
 }
-```
+{% endhighlight %}
 
 Với đoạn chương trình trên đầu ra sẽ là chữ cái `B`. Điều này không có gì để bàn cãi nhỉ?
 
 **Upcasting** được hiểu đơn giản là khai báo một con trỏ đối tượng thuộc lớp cơ sở liên kết động với đối tượng ở lớp dẫn xuất hoặc từ một đối tượng con trỏ của lớp cơ sở tham chiếu đến một đối tượng của lớp dẫn xuất. Nghe có vẻ khá là khó hiểu đúng không? Hãy xem xét ví dụ bên dưới:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -298,7 +298,7 @@ int main(){
     A *b = new B;
     b->action();
 }
-```
+{% endhighlight %}
 
 Hiển nhiên, với đoạn chương trình trên đầu ra sẽ là chữ cái `B` y hệt chương trình cũ (để giải thích đầu ra cụ thể hơn, tôi sẽ nói rõ ở phần lý thuyết về đa hình). Nhưng rõ ràng trong đoạn code lúc này ta thấy rõ rằng có sự xuất hiện 1 con trỏ `b` của lớp đối tượng A tham chiếu đến lớp đối tượng B (tức con trỏ thuộc lớp cơ sở tham chiếu đến lớp dẫn xuất) 
 
@@ -308,7 +308,7 @@ Tóm lại, Upcasting dùng để tạo mối quan hệ giữa lớp cơ sở v�
 
 **Downcasting** là một quá trình ngược lại đối với **Upcasting**, nếu quá trình upcast là quá trình khai báo một con trỏ đối tượng thuộc lớp cơ sở để thực hiện việc liên kết động với đối tượng ở lớp dẫn xuất thì downcast là việc tạo một liên kết động giữa con trỏ thuộc lớp dẫn xuất sang một đối tượng thuộc lớp cơ sở. Nghe có vẻ vô lý đúng không? Chúng ta cùng xem ví dụ bên dưới:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -333,7 +333,7 @@ int main(){
     B *b = new B;
     b->action();
 }
-```
+{% endhighlight %}
 
 Hiển nhiên, đoạn chương trình trên sẽ in ra chữ `B`. Câu hỏi đặt ra ở đây là làm thế nào để đoạn chương trình trên có thể in ra chữ `A` mà không làm xuất hiện lỗi phân giải tĩnh?
 
@@ -341,7 +341,7 @@ Hiển nhiên, đoạn chương trình trên sẽ in ra chữ `B`. Câu hỏi đ
 
 Có rất nhiều cách để chương trình xuất ra chữ `A`. Ví dụ ta có thể thay đổi đối tượng con trỏ `b` thuộc lớp B thành 1 đối tượng `a` thuộc lớp `A`, ta có đoạn mã cho cách giải quyết này như sau:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -366,11 +366,11 @@ int main(){
     A a;
     a.action();
 }
-```
+{% endhighlight %}
 
 Hoặc ta có thể dùng đối tượng con trỏ cho lớp đối tượng `A` như sau:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -395,7 +395,7 @@ int main(){
     A *a = new A;
     a->action();
 }
-```
+{% endhighlight %}
 
 Và còn nhiều cách nữa...
 
@@ -412,7 +412,7 @@ Và còn nhiều cách nữa...
 
 Thì để giải quyết trường hợp này, ta có thể dùng cơ chế `Downcasting`, và đoạn mã chương trình sẽ như sau:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -439,7 +439,7 @@ int main(){
     b = (B *)&a;
     b->action();
 }
-```
+{% endhighlight %}
 
 Lúc này, ta đã downcast bằng cú pháp `b = (B *)&a` và đã giải quyết được vấn đề.
 
@@ -471,7 +471,7 @@ Diamond problem được hiểu nôm na là trạng thái xung đột giữa m�
 
 Hãy xem xét ví dụ bên dưới:
 
-```C++
+{% highlight c++ %}
 #include<iostream>
 
 using namespace std;
@@ -517,7 +517,7 @@ int main(){
     a->output();
     return 0;
 }
-```
+{% endhighlight %}
 
 Từ đoạn chương trình trên: Dễ hiểu rằng ta đang có 1 lớp cơ sở A, lớp B và lớp C lần lượt là 2 lớp dẫn xuất tương ứng với lớp cơ sở A. Lớp D là lớp dẫn xuất của hai lớp cơ sở B và C (tức đang xét trên phương diện lớp D).
 
@@ -541,7 +541,9 @@ Quay trở lại đoạn code, ta đang cung cấp 1 liên kết động giữa 
 
 Vấn đề ở đây là chương trình đang gặp lỗi phân giải tĩnh mà tôi sẽ đề cập ở phần lý thuyết về đa hình.
 
-Xem thêm tại [https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Polymorphism/runTime/DiamondProblem](https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Polymorphism/runTime/DiamondProblem) {: .link_for_hover}
+Xem thêm tại 
+
+[https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Polymorphism/runTime/DiamondProblem](https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Polymorphism/runTime/DiamondProblem) {: .link_for_hover}
 
 ## Tham khảo thêm
 
@@ -553,3 +555,16 @@ Xem thêm tại [https://github.com/hieuhdh/OOP/tree/master/Theory/Problems/Poly
 
 [Upcasting and Downcasting](https://www.javatpoint.com/upcasting-and-downcasting-in-cpp#:~:text=The%20Downcasting%20is%20an%20opposite,must%20specify%20the%20explicit%20typecast.)
 {: .link_for_hover}
+
+<br>
+<h1 align="center">
+  Lời kết
+</h1> 
+
+<table>
+  <thead>
+    <tr>
+<td style = "font-weight: bold">Sau những gì mà tôi đã chia sẻ ở trên mong rằng sẽ giúp ích được phần nào đó cho bạn đọc. Mọi thắc mắc hoặc góp ý bạn đọc có thể liên hệ <a class = "link_for_hover" href="https://hieuhdh.github.io/deuteri/">tại đây</a>.</td>
+    </tr>
+  </thead>
+</table>
