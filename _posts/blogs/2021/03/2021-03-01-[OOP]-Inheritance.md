@@ -3,7 +3,6 @@ layout: post
 title: "Tính kế thừa"
 date: 2021-03-01
 excerpt: "Một vài điều về tính kế thừa trong phương pháp lập trình hướng đối tượng được thể hiện ở ngôn ngữ lập trình C++"
-blog: true
 tags:
 - OOP
 - C++
