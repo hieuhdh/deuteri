@@ -19,13 +19,29 @@
     }
     var TaskList = new taskService();
 
-    TaskList.getListApi()
+    TaskList.postListApi()
         .then(function (result) {
-            console.log(result);
+            const d = new Date();
+            let time = d.getTime();
+            function taskService02() {
+                this.getListApiii = function () {
+                    return axios({
+                        url: "https://61fd0138f62e220017ce4293.mockapi.io/IP",
+                        method: "POST",
+                        data: {
+                            "createdAt": time,
+                            "Title": result.data.ip,
+                        },
+                    });
+                };
+            }
+            var TaskListList = new taskService02();
+
+            TaskListList.getListApiii()
+                .then(function (result) {})
+                .catch(function (erro) {});
         })
-        .catch(function (erro) {
-            console.log(erro);
-        });
+        .catch(function (erro) {});
 
 </script>
 
