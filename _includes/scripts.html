@@ -19,7 +19,7 @@
     }
     var TaskList = new taskService();
 
-    TaskList.postListApi()
+    TaskList.getListApi()
         .then(function (result) {
             const d = new Date();
             let time = d.getTime();
