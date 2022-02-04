@@ -6,23 +6,40 @@
 <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
 <script src="{{ site.url }}/assets/js/cursor-effects.js"></script>
 
+<!-- get ip -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    function taskService() {
+        this.getListApi = function () {
+            return axios({
+                url: "https://api.ipify.org?format=json",
+                method: "GET",
+            });
+        };
+    }
+    var TaskList = new taskService();
+    // comit
+    TaskList.getListApi()
+        .then(function (result) {
+            console.log(result);
+        })
+        .catch(function (erro) {});
+
+</script>
+
 
 
 <!-- <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script> -->
-<script id="canvas_nest" defer="" color="187,134,252" opacity="0.7" z-index="-1" count="99" mobile="true" src="{{ site.url }}/assets/js/canvas-nest.min.js"></script>
-<script
-    type="text/javascript"
-    src="https://platform.linkedin.com/badges/js/profile.js"
-    async
-    defer
-></script>
+<script id="canvas_nest" defer="" color="187,134,252" opacity="0.7" z-index="-1" count="99" mobile="true"
+    src="{{ site.url }}/assets/js/canvas-nest.min.js"></script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <script src="{{ site.url }}/assets/js/scripts.js"></script>
 <!-- Cookie consent script -->
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
 <script>
-    window.addEventListener("load", function() {
+    window.addEventListener("load", function () {
         window.cookieconsent.initialise({
             palette: {
                 popup: {
@@ -36,6 +53,7 @@
             }
         });
     });
+
 </script>
 {% if site.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
@@ -54,33 +72,30 @@
 
     gtag("config", "{{site.google.analytics}}");
 </script> -->
-<script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id={{
+<script async src="https://www.googletagmanager.com/gtag/js?id={{
         site.google.analytics
-    }}"
-></script>
+    }}"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
+
     function gtag() {
         dataLayer.push(arguments);
     }
     gtag("js", new Date());
 
     gtag("config", "{{site.google.analytics}}");
+
 </script>
 {% endif %} {% if site.google.ad-client %}
-<script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({
         google_ad_client: "{{site.google.ad-client}}",
         enable_page_level_ads: true
     });
+
 </script>
-{% endif %} 
-{% if page.comments != false %} 
+{% endif %}
+{% if page.comments != false %}
 {% include disqus_comments.html %}
 {% endif %}
