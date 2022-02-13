@@ -23,16 +23,16 @@ layout: compress
                                 <p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
                             </a>
                         </h3>
-                    <hr class="hr-line">
                     <h3 class="title">
                         <a href="{{ site.url }}">
-                            <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+                            <p style="font-size:1rem;font-weight:300; transform: translate(0px, -20px)">{{ site.bio }}</p>
                         </a>
                     </h3>
-                    <h3 class="view-page">
-                        <p style="font-size:1rem;font-weight:300; text-align: center">Số lượng truy cập: <span id = "so-luong-truy-cap">00</span> lần</p>
-                        <p style="font-size:1rem;font-weight:300; text-align: center">Bạn đã truy cập: <span id = "so-luong-truy-cap">00</span> lần</p>
-                    </h3>
+                    <hr class="hr-line">
+                    <div class="view-page" style="justify-content: space-around; display:flex">
+                        <p style="font-size:0.85rem; text-align: center;">Số lượng truy cập: <span id = "so-luong-truy-cap">00</span> lần</p>
+                        <p style="font-size:0.85rem; text-align: center;">Bạn đã truy cập: <span id = "so-luong-truy-cap">00</span> lần</p>
+                    </div>
                     {% include social-links.html %}
                     <hr class="hr-line">
                     <h3 class="title">
