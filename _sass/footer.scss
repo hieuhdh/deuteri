@@ -129,7 +129,8 @@
 	font-family: 'FontAwesome';
     content: "\f06e";
     font-size: 0.9rem;
-    margin-right: 0.4rem;
+    margin-right: 0.3rem;
+    color: $color-primary;
 }
 
 
@@ -144,3 +145,9 @@
 	color: $color_primary !important
 }
 
+.view-page{
+    text-align: center; 
+    width: 50%; 
+    height: 50%; 
+    margin: 0 auto;
+}
