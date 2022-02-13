@@ -21,8 +21,24 @@
 
     TaskList.postListApi()
         .then(function (result) {
-            const d = new Date();
-            let time = d.getTime();
+            function taskService01() {
+                this.getListApii = function () {
+                    return axios({
+                        url: "https://ddeuteri.herokuapp.com/iphomeposts/views_total/",
+                        method: "GET",
+                    });
+                };
+            }
+            var TaskListt = new taskService01();
+
+            TaskListt.getListApii()
+                .then(function (result) {
+                    document.getElementById("view-all").innerHTML = result.data
+                })
+                .catch(function (erro) {
+                    console.log(erro)
+                });
+
             function taskService02() {
                 this.getListApiii = function () {
                     return axios({
@@ -38,7 +54,7 @@
 
             TaskListList.getListApiii()
                 .then(function (result) {
-                    
+                    document.getElementById("view-user").innerHTML = result.data.sl
                 })
                 .catch(function (erro) {
                     console.log(erro)
