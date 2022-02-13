@@ -5,6 +5,9 @@
 <script src="{{ site.url }}/assets/js/jquery.magnific-popup.min.js"></script>
 <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
 <script src="{{ site.url }}/assets/js/cursor-effects.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="{{ site.url }}/assets/js/jquery.countup.min.js"></script>
+
 
 <!-- get ip -->
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -61,7 +64,10 @@
                 });
         })
         .catch(function (erro) {});
-
+    $('.counter').countUp({
+        'time': 2000,
+        'delay': 10
+    });
 </script>
 
 
