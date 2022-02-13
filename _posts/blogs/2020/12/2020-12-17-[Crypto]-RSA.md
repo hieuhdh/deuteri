@@ -34,7 +34,15 @@ $$\phi(n) = \big(p - 1\big)\big(q-1\big)$$
 
 Ở bước 5: Ta dễ dàng biến đổi như sau:
 
-$$de \equiv 1 \ \big(mod \ \phi(n) \big)  \Rightarrow & de-1 \equiv \ \big(mod \ \phi(n) \big)  \Rightarrow de - 1 \vdots \phi(n) \\\ \ \\ \Rightarrow & de-1 = k .\phi(n) \\\ \ \\ \Rightarrow d = \frac{k.\phi(n) + 1}{e} =  \frac{k(p-1)(q-1) + 1}{e} $$
+$$ \begin{align*} 
+    de  \equiv 1 \ \big(mod \ \phi(n) \big)  \Rightarrow & de - 1 \equiv \ \big(mod \ \phi(n) \big) 
+    \\
+    \Rightarrow &de  - 1 \vdots \phi(n) 
+   \\ 
+    \Rightarrow  &de  - 1 = k .\phi(n) 
+    \\
+    \Rightarrow &d = \frac{k.\phi(n) + 1}{e} =  \frac{k(p-1)(q-1) + 1}{e}
+\end{align*}$$
 
 ###  **Quá trình mã hóa**
 
