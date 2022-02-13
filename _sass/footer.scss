@@ -87,6 +87,7 @@
 
 .info-f{
 	background: #0b0b18;
+    margin-top: -0.5rem;
 }
 
 .line-of-footer {
@@ -120,6 +121,13 @@
     font-style: normal;
     font-family: 'FontAwesome';
     content: "\f0e1";
+    font-size: 1.2rem;
+}
+
+.fa-eye::before{
+    font-style: normal;
+	font-family: 'FontAwesome';
+    content: "\f06e";
     font-size: 1.2rem;
 }
 
