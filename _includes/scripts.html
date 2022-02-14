@@ -64,7 +64,67 @@
 
 </script>
 
+<script>
+    function taskServicePost() {
+        this.postListApiTotal = function () {
+            return axios({
+                url: "https://api.ipify.org?format=json",
+                method: "GET",
+            });
+        };
+    }
+    var TaskList = new taskServicePost();
 
+    TaskList.postListApiTotal()
+        .then(function (result) {
+            function taskServicePost01() {
+                this.getListApiTotal = function () {
+                    return axios({
+                        url: "https://ddeuteri.herokuapp.com/ipposts/views_total/",
+                        method: "GET",
+                        data: {
+                            "post": page.title,
+                        },
+                    });
+                };
+            }
+            var TaskListTotal = new taskServicePost01();
+
+            TaskListTotal.getListApiTotal()
+                .then(function (result) {
+                    console.log(result);
+                    document.getElementById("view-post-all").innerHTML = result.data;
+                })
+                .catch(function (erro) {
+                    console.log(erro)
+                });
+
+            function taskServicePost02() {
+                this.getListApiUser = function () {
+                    return axios({
+                        url: "https://ddeuteri.herokuapp.com/ipposts/views/",
+                        method: "POST",
+                        data: {
+                            "ip": result.data.ip,
+                            "post": page.title,
+                        },
+                    });
+                };
+            }
+            var TaskListUser = new taskServicePost02();
+
+            TaskListUser.getListApiUser()
+                .then(function (result) {
+                    console.log(result);
+                    document.getElementById("view-post-user").innerHTML = result.data.sl;
+                })
+                .catch(function (erro) {
+                    console.log(erro)
+                });
+        })
+        .catch(function (erro) {});
+
+</script>
 
 
 
