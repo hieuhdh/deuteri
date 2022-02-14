@@ -32,8 +32,8 @@
             var TaskListt = new taskService01();
 
             TaskListt.getListApii()
-                .then(function (resultHomeTotal) {
-                    document.getElementById("view-all").innerHTML = resultHomeTotal.data
+                .then(function (result) {
+                    document.getElementById("view-all").innerHTML = result.data
                 })
                 .catch(function (erro) {
                     console.log(erro)
@@ -53,61 +53,8 @@
             var TaskListList = new taskService02();
 
             TaskListList.getListApiii()
-                .then(function (resultHomeUser) {
-                    document.getElementById("view-user").innerHTML = resultHomeUser.data.sl + " lần"
-                })
-                .catch(function (erro) {
-                    console.log(erro)
-                });
-
-            
-
-
-
-
-
-
-            // ippost
-            function taskServicePost01() {
-                this.getListApiTotal = function () {
-                    return axios({
-                        url: "https://ddeuteri.herokuapp.com/ipposts/views_total/",
-                        method: "GET",
-                        data: {
-                            "post": page.title,
-                        },
-                    });
-                };
-            }
-            var TaskListTotal = new taskServicePost01();
-
-            TaskListTotal.getListApiTotal()
-                .then(function (resultPostTotal) {
-                    console.log(resultPostTotal);
-                    document.getElementById("view-post-all").innerHTML = resultPostTotal.data;
-                })
-                .catch(function (erro) {
-                    console.log(erro)
-                });
-
-            function taskServicePost02() {
-                this.getListApiUser = function () {
-                    return axios({
-                        url: "https://ddeuteri.herokuapp.com/ipposts/views/",
-                        method: "POST",
-                        data: {
-                            "ip": result.data.ip,
-                            "post": page.title,
-                        },
-                    });
-                };
-            }
-            var TaskListUser = new taskServicePost02();
-
-            TaskListUser.getListApiUser()
-                .then(function (resultPostUser) {
-                    console.log(resultPostUser);
-                    document.getElementById("view-post-user").innerHTML = resultPostUser.data.sl;
+                .then(function (result) {
+                    document.getElementById("view-user").innerHTML = result.data.sl + " lần"
                 })
                 .catch(function (erro) {
                     console.log(erro)
@@ -127,6 +74,8 @@
         };
     }
     var TaskList = new taskServicePost();
+    var arr = window.location.pathname.split('/');
+
 
     TaskList.postListApiTotal()
         .then(function (result) {
@@ -136,7 +85,7 @@
                         url: "https://ddeuteri.herokuapp.com/ipposts/views_total/",
                         method: "GET",
                         data: {
-                            "post": page.title,
+                            "post": arr[arr.length - 2],
                         },
                     });
                 };
@@ -159,7 +108,7 @@
                         method: "POST",
                         data: {
                             "ip": result.data.ip,
-                            "post": page.title,
+                            "post": arr[arr.length - 2],
                         },
                     });
                 };
