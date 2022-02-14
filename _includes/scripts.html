@@ -95,7 +95,7 @@
             TaskListTotal.getListApiTotal()
                 .then(function (result) {
                     console.log(result);
-                    document.getElementById("view-post-all").innerHTML = result.data.sl;
+                    document.getElementById("view-post-all").innerHTML = result.data;
                 })
                 .catch(function (erro) {
                     console.log(erro)
