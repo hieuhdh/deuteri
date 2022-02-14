@@ -159,20 +159,20 @@ layout: compress
     <!-- get ip -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-        function taskService() {
-            this.postListApi = function () {
+        function taskServicePost() {
+            this.postListApiTotal = function () {
                 return axios({
                     url: "https://api.ipify.org?format=json",
                     method: "GET",
                 });
             };
         }
-        var TaskList = new taskService();
+        var TaskList = new taskServicePost();
     
-        TaskList.postListApi()
+        TaskList.postListApiTotal()
             .then(function (result) {
-                function taskService01() {
-                    this.getListApii = function () {
+                function taskServicePost01() {
+                    this.getListApiTotal = function () {
                         return axios({
                             url: "https://ddeuteri.herokuapp.com/ipposts/views_total/",
                             method: "GET",
@@ -182,18 +182,19 @@ layout: compress
                         });
                     };
                 }
-                var TaskListt = new taskService01();
+                var TaskListTotal = new taskServicePost01();
     
-                TaskListt.getListApii()
+                TaskListTotal.getListApiTotal()
                     .then(function (result) {
-                        document.getElementById("view-post-all").innerHTML = result.data
+                        console.log(result);
+                        document.getElementById("view-post-all").innerHTML = result.data;
                     })
                     .catch(function (erro) {
                         console.log(erro)
                     });
     
-                function taskService02() {
-                    this.getListApiii = function () {
+                function taskServicePost02() {
+                    this.getListApiUser = function () {
                         return axios({
                             url: "https://ddeuteri.herokuapp.com/ipposts/views/",
                             method: "POST",
@@ -204,11 +205,12 @@ layout: compress
                         });
                     };
                 }
-                var TaskListList = new taskService02();
+                var TaskListUser = new taskServicePost02();
     
-                TaskListList.getListApiii()
+                TaskListUser.getListApiUser()
                     .then(function (result) {
-                        document.getElementById("view-post-user").innerHTML = result.data.sl
+                        console.log(result);
+                        document.getElementById("view-post-user").innerHTML = result.data.sl;
                     })
                     .catch(function (erro) {
                         console.log(erro)
