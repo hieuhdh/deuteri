@@ -176,6 +176,9 @@ layout: compress
                         return axios({
                             url: "https://ddeuteri.herokuapp.com/ipposts/views_total/",
                             method: "GET",
+                            data: {
+                                "post": page.title,
+                            },
                         });
                     };
                 }
@@ -192,10 +195,11 @@ layout: compress
                 function taskService02() {
                     this.getListApiii = function () {
                         return axios({
-                            url: "https://ddeuteri.herokuapp.com/ipposts/" + page.url + "/views/",
+                            url: "https://ddeuteri.herokuapp.com/ipposts/views/",
                             method: "POST",
                             data: {
                                 "ip": result.data.ip,
+                                "post": page.title,
                             },
                         });
                     };
