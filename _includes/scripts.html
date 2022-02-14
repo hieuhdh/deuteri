@@ -83,7 +83,7 @@
                 this.getListApiTotal = function () {
                     return axios({
                         url: "https://ddeuteri.herokuapp.com/ipposts/views_total/",
-                        method: "GET",
+                        method: "POST",
                         data: {
                             "post": arr[arr.length - 2],
                         },
