@@ -95,7 +95,7 @@
             TaskListTotal.getListApiTotal()
                 .then(function (result) {
                     console.log(result);
-                    document.getElementById("view-post-all").innerHTML = result.data;
+                    document.getElementById("view-post-all").innerHTML = result.data.sl;
                 })
                 .catch(function (erro) {
                     console.log(erro)
@@ -118,7 +118,7 @@
             TaskListUser.getListApiUser()
                 .then(function (result) {
                     console.log(result);
-                    document.getElementById("view-post-user").innerHTML = result.data.sl;
+                    document.getElementById("view-post-user").innerHTML = result.data.sl + " lần";
                 })
                 .catch(function (erro) {
                     console.log(erro)
