@@ -19,10 +19,7 @@ layout: compress
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
                     <h4>{{ page.date | date_to_string }}</h4>
-                    <div class="view-page" style="justify-content: space-around; display:flex">
-                        <p style="font-size:0.85rem; text-align: center;">Số lượng truy cập: <span class="counter" id = "view-post-all">Đang cập nhật</span></p>
-                        <p style="font-size:0.85rem; text-align: center;">Bạn đã truy cập: <span class="counter" id = "view-post-user">Đang cập nhật</span></p>
-                    </div>
+                    {% include view-page.html %}
                     {% if site.reading_time %}
                     <p class="reading-time">
                         <i class="fa fa-clock-o"></i>
@@ -44,6 +41,7 @@ layout: compress
             
                     {% include sidebar-toc.html html=content %}
                     {{ content }}
+                    <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script>
                     <br><br>
                     {% if page.previous.url and page.next.url %}
                         <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
@@ -137,12 +135,7 @@ layout: compress
                     <i class="fab fa-linkedin-in"></i>
                 </a>
                 <div class = "line-of-footer"></div>
-                <div class = "view-page" style = "text-align: center; width: 50%; height: 50%; margin: 0 auto;">
-                    <div class="view-page-c" style="justify-content: center; display:flex">
-                        <p style="font-size:0.85rem; text-align: center; padding-right: 0.2rem"><i class="far fa-eye"></i> <span class="counter" id = "view-all" style="color: #bb86fc;">Đang cập nhật</span></p>
-                        <p style="font-size:0.85rem; text-align: center;"> -   Bạn đã truy cập: <span class="counter" id = "view-user">Đang cập nhật</span></p>
-                    </div>
-                </div>
+                {% include view-page.html %}
                 <p class = "info-f">
                     <span class = "text-author-pre">Copyright &copy; 2022 </span><span class = "text-author">Deuteri</span>
                 </p>
@@ -150,7 +143,7 @@ layout: compress
         </footer>
     
     </header>
-    <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script>
+    <!-- <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script> -->
     {% include scripts.html %}
     {% if site.mathjax == true %}
     <!-- MathJax -->
