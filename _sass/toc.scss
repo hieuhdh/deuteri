@@ -1,44 +1,33 @@
-/* nav */
-.nav {
-    padding-left: 0px;
+nav[data-toggle=toc] {
+    margin-top: 30px;
   }
-  /* all anchors */
-  .nav > li > a {
-    padding: 3px;
-    border-left: 0px rgba(0,0,0,0);
+  
+  /* small screens */
+  @media (max-width: 768px) {
+    /* override the Affix plugin so that the navigation isn't sticky */
+    nav.affix[data-toggle='toc'] {
+      position: static;
+    }
+  
+    /* don't expand nested items, which pushes down the rest of the page when navigating */
+    nav[data-toggle=toc] .nav .active .nav {
+      display: none;
+    }
   }
-  /* first level */
-  .nav li >  a {
-    padding-left: 10px;
+  
+  .affix {
+   border: 1px solid #eee;
+  max-height: 90%;
+      overflow-y: scroll;
   }
-  /* second */
-  .nav .nav li >  a {
-    padding-left: 20px;
-    font-size:.9em;
+  
+  nav[data-toggle=toc] .nav>li>a {
+      
+      font-size: 16px;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
   }
-  /* third */
-  .nav .nav .nav li >  a {
-    padding-left: 30px;
-    font-size:.8em;
-  }
-  /* fourth */
-  .nav .nav .nav .nav li >  a {
-    padding-left: 40px;
-  }
-  /* fifth */
-  .nav .nav .nav .nav .nav li >  a {
-    padding-left: 50px;
-  }
-  /* active link */
-  li.active > a {
-    font-weight:bold;
-    border-left: 2px solid gray;
-  }
-  /* hide second level lists */
-  .nav .nav {
-    display:none;
-  }
-  /* show second-level when active */
-  .nav > .active > .nav {
-    display: block;
+  nav[data-toggle=toc] .nav .nav>li>a {
+      font-size: 14px;
+      padding: 8px;
   }
