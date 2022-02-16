@@ -45,7 +45,7 @@ layout: compress
                     {% include sidebar-toc.html html=content %}
                     {{ content }}
                     <script src="{{ site.url }}/assets/js/jquery-1.12.0.min.js"></script>
-                    <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script>
+                    <script type="text/javascript" src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script>
                     <br><br>
                     {% if page.previous.url and page.next.url %}
                         <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
@@ -149,6 +149,19 @@ layout: compress
     </header>
     <!-- <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script> -->
     {% include scripts.html %}
+    <script>
+        $('#somediv').DynamicScrollspy({
+  affix: true, //affix by default, doesn't work on Bootstrap 4
+  tH: 2, //lowest-level header to be included (H2)
+  bH: 6, //highest-level header to be included (H6)
+  exclude: false, //exclude from the tree/outline any H tags matching this jquery selector
+  genIDs: false, //generate random IDs for headers?
+  offset: 100, //offset from viewport top for scrollspy
+  ulClassNames: 'hidden-print', //add this class to top-most UL
+  activeClass: '', //active class (besides .active) to add to LI
+  testing: false //if testing, append heading tagName and ID to each heading
+})
+    </script>
     {% if site.mathjax == true %}
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
