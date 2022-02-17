@@ -5,10 +5,14 @@ layout: compress
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<html lang="en" class="no-js"></html>
+<html lang="en" class="no-js">
+
+</html>
+
 <head>
     {% include head.html %}
 </head>
+
 <body data-spy="scroll" data-target="#toc">
     {% include nav.html %}
     {% include page-scroll.html %}
@@ -20,8 +24,10 @@ layout: compress
                     <h1>{{ page.title }}</h1>
                     <h4>{{ page.date | date_to_string }}</h4>
                     <div class="view-page" style="justify-content: space-around; display:flex">
-                        <p style="font-size:0.85rem; text-align: center;">Số lượng truy cập: <span class="counter" id = "view-post-all">Đang cập nhật</span></p>
-                        <p style="font-size:0.85rem; text-align: center;">Bạn đã truy cập: <span class="counter" id = "view-post-user">Đang cập nhật</span></p>
+                        <p style="font-size:0.85rem; text-align: center;">Số lượng truy cập: <span class="counter"
+                                id="view-post-all">Đang cập nhật</span></p>
+                        <p style="font-size:0.85rem; text-align: center;">Bạn đã truy cập: <span class="counter"
+                                id="view-post-user">Đang cập nhật</span></p>
                     </div>
                     {% if site.reading_time %}
                     <p class="reading-time">
@@ -31,136 +37,206 @@ layout: compress
                     {% endif %}
                     {% if page.project %}
                     <a class="btn zoombtn" href="{{site.url}}/projects/">
-                    {% else if page.blog %}
-                    <a class="btn zoombtn" href="{{site.url}}/blogs/">
-                    {% else %}
-                    <a class="btn zoombtn" href="{{site.url}}/posts/">
-                    {% endif %}
-                        <i class="fa fa-chevron-left"></i>
-                    </a>
+                        {% else if page.blog %}
+                        <a class="btn zoombtn" href="{{site.url}}/blogs/">
+                            {% else %}
+                            <a class="btn zoombtn" href="{{site.url}}/posts/">
+                                {% endif %}
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
                 </div>
                 <!-- <div class='post-content post-article'> -->
                 <h1 class="toc-title" style="text-align: center;">Contents</h1>
-            
-                    {% include sidebar-toc.html html=content %}
-                    {{ content }}
-                    <script src="{{ site.url }}/assets/js/jquery-1.12.0.min.js"></script>
-                    <script type="text/javascript" src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script>
-                    <br><br>
-                    {% if page.previous.url and page.next.url %}
-                        <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
-                            <div class="item item1" style="text-align: right; position: relative;">
-                                <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
-                                    <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
-                                    <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
-                                    </div>
-                                    <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.previous.title }}</div>
-                                </a>
+
+                {% include sidebar-toc.html html=content %}
+                {{ content }}
+                <script src="{{ site.url }}/assets/js/jquery-1.12.0.min.js"></script>
+                <script type="text/javascript" src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script>
+                <br><br>
+                {% if page.previous.url and page.next.url %}
+                <div class="pre_next"
+                    style="display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
+                    <div class="item item1" style="text-align: right; position: relative;">
+                        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
+                            <div style="font-size: 12px; margin-bottom:-10px">Previous</div>
+                            <div
+                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet"
+                                    data-rnw-int- style="vertical-align: middle;">
+                                    <path d="M19 12H5M12 19l-7-7 7-7"></path>
+                                </svg>
                             </div>
-                            <div class="item item2" style="text-align: left; position: relative; ">
-                                <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
-                                    <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
-                                    <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-                                    </div>
-                                    <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}</div>
-                                </a>
+                            <div style="position: relative; font-size: 16px; font-weight: 500 ">
+                                {{ page.previous.title }}</div>
+                        </a>
+                    </div>
+                    <div class="item item2" style="text-align: left; position: relative; ">
+                        <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
+                            <div style="font-size: 12px; margin-bottom:-10px"> Next</div>
+                            <div
+                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
                             </div>
-                        </div>
-                    {% else if page.previous.url %}
-                        {% if page.previous.title %}
-                            <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
-                                <div class="item item1" style="text-align: right; position: relative;">
-                                    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
-                                        <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
-                                        <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
-                                        </div>
-                                        <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.previous.title }}</div>
-                                    </a>
-                                </div>
+                            <div style="position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}
                             </div>
-                        {% else %}
-                            <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
-                                <div class="item item1" style="text-align: right; position: relative;">
-                                    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
-                                        <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
-                                        <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
-                                        </div>
-                                        <div style = "position: relative; font-size: 16px; font-weight: 500 ">Updating</div>
-                                    </a>
-                                </div>
+                        </a>
+                    </div>
+                </div>
+                {% else if page.previous.url %}
+                {% if page.previous.title %}
+                <div class="pre_next"
+                    style="display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
+                    <div class="item item1" style="text-align: right; position: relative;">
+                        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
+                            <div style="font-size: 12px; margin-bottom:-10px">Previous</div>
+                            <div
+                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet"
+                                    data-rnw-int- style="vertical-align: middle;">
+                                    <path d="M19 12H5M12 19l-7-7 7-7"></path>
+                                </svg>
                             </div>
-                        {% endif %}
-                    {% else if and page.next.url %}
-                        {% if page.next.title %}
-                            <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
-                                <div class="item item2" style="text-align: left; position: relative; ">
-                                    <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
-                                        <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
-                                        <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-                                        </div>
-                                        <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}</div>
-                                    </a>
-                                </div>
+                            <div style="position: relative; font-size: 16px; font-weight: 500 ">
+                                {{ page.previous.title }}</div>
+                        </a>
+                    </div>
+                </div>
+                {% else %}
+                <div class="pre_next"
+                    style="display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
+                    <div class="item item1" style="text-align: right; position: relative;">
+                        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
+                            <div style="font-size: 12px; margin-bottom:-10px">Previous</div>
+                            <div
+                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet"
+                                    data-rnw-int- style="vertical-align: middle;">
+                                    <path d="M19 12H5M12 19l-7-7 7-7"></path>
+                                </svg>
                             </div>
-                        {% else %}
-                            <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
-                                <div class="item item2" style="text-align: left; position: relative; ">
-                                    <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
-                                        <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
-                                        <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-                                        </div>
-                                        <div style = "position: relative; font-size: 16px; font-weight: 500 ">Updating</div>
-                                    </a>
-                                </div>
+                            <div style="position: relative; font-size: 16px; font-weight: 500 ">Updating</div>
+                        </a>
+                    </div>
+                </div>
+                {% endif %}
+                {% else if and page.next.url %}
+                {% if page.next.title %}
+                <div class="pre_next"
+                    style="display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
+                    <div class="item item2" style="text-align: left; position: relative; ">
+                        <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
+                            <div style="font-size: 12px; margin-bottom:-10px"> Next</div>
+                            <div
+                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
                             </div>
-                        {% endif %}
-                    {% endif %}
+                            <div style="position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                {% else %}
+                <div class="pre_next"
+                    style="display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
+                    <div class="item item2" style="text-align: left; position: relative; ">
+                        <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
+                            <div style="font-size: 12px; margin-bottom:-10px"> Next</div>
+                            <div
+                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                            <div style="position: relative; font-size: 16px; font-weight: 500 ">Updating</div>
+                        </a>
+                    </div>
+                </div>
+                {% endif %}
+                {% endif %}
                 <div class="entry-meta">
-                {% include meta.html %}
+                    {% include meta.html %}
                 </div>
             </div>
         </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section>
+        <!-- /#disqus_thread -->{% endif %}
         <footer id="footer-wrapper-2" class="wrapper-2 animated fadeIn">
             <div class="author">
-                <a class = "footer-social" href = "http://facebook.com/{{ site.facebook }}">
+                <a class="footer-social" href="http://facebook.com/{{ site.facebook }}">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a class = "footer-social" href = "http://github.com/{{ site.github-url }}">
+                <a class="footer-social" href="http://github.com/{{ site.github-url }}">
                     <i class="fab fa-github-alt"></i>
                 </a>
-                <a class = "footer-social" href = "mailto:{{ site.email }}">
+                <a class="footer-social" href="mailto:{{ site.email }}">
                     <i class="fas fa-envelope"></i>
                 </a>
-                <a class = "footer-social" href = "http://linkedin.com/in/{{ site.linkedin }}">
+                <a class="footer-social" href="http://linkedin.com/in/{{ site.linkedin }}">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-                <div class = "line-of-footer"></div>
+                <div class="line-of-footer"></div>
                 {% include view-page.html %}
-                <p class = "info-f">
-                    <span class = "text-author-pre">Copyright &copy; 2022 </span><span class = "text-author">Deuteri</span>
+                <p class="info-f">
+                    <span class="text-author-pre">Copyright &copy; 2022 </span><span class="text-author">Deuteri</span>
                 </p>
             </div>
         </footer>
-    
+
     </header>
     <!-- <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script> -->
     {% include scripts.html %}
     <script>
-        $('#somediv').DynamicScrollspy({
-  affix: true, //affix by default, doesn't work on Bootstrap 4
-  tH: 2, //lowest-level header to be included (H2)
-  bH: 6, //highest-level header to be included (H6)
-  exclude: false, //exclude from the tree/outline any H tags matching this jquery selector
-  genIDs: false, //generate random IDs for headers?
-  offset: 100, //offset from viewport top for scrollspy
-  ulClassNames: 'hidden-print', //add this class to top-most UL
-  activeClass: '', //active class (besides .active) to add to LI
-  testing: false //if testing, append heading tagName and ID to each heading
-})
+        sync()
+        function sync() {
+
+            var windowHeight = window.innerHeight;
+
+            var pathStart = Number.MAX_VALUE,
+                pathEnd = 0;
+
+            var visibleItems = 0;
+
+            tocItems.forEach(function (item) {
+
+                var targetBounds = item.target.getBoundingClientRect();
+
+                if (targetBounds.bottom > windowHeight * TOP_MARGIN && targetBounds.top < windowHeight * (1 -
+                        BOTTOM_MARGIN)) {
+                    pathStart = Math.min(item.pathStart, pathStart);
+                    pathEnd = Math.max(item.pathEnd, pathEnd);
+
+                    visibleItems += 1;
+
+                    item.listItem.classList.add('visible');
+                } else {
+                    item.listItem.classList.remove('visible');
+                }
+
+            });
+
+            // Specify the visible path or hide the path altogether
+            // if there are no visible items
+            if (visibleItems > 0 && pathStart < pathEnd) {
+                tocPath.setAttribute('stroke-dashoffset', '1');
+                tocPath.setAttribute('stroke-dasharray', '1, ' + pathStart + ', ' + (pathEnd - pathStart) + ', ' +
+                    pathLength);
+                tocPath.setAttribute('opacity', 1);
+            } else {
+                tocPath.setAttribute('opacity', 0);
+            }
+
+        }
+
     </script>
     {% if site.mathjax == true %}
     <!-- MathJax -->
@@ -168,6 +244,7 @@ layout: compress
     {% endif %}
 
     <!-- get ip -->
-    
+
 </body>
+
 </html>
