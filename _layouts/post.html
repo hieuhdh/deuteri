@@ -253,6 +253,7 @@ layout: compress
                 }
             },
             async created() {
+                console.log(content);
                 let url = content;
                 let response = await fetch(url)
                 let data = await response.text()
