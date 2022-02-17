@@ -149,19 +149,10 @@ layout: compress
     </header>
     <!-- <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script> -->
     {% include scripts.html %}
-    <script>
-        $('#somediv').DynamicScrollspy({
-  affix: true, //affix by default, doesn't work on Bootstrap 4
-  tH: 2, //lowest-level header to be included (H2)
-  bH: 6, //highest-level header to be included (H6)
-  exclude: false, //exclude from the tree/outline any H tags matching this jquery selector
-  genIDs: false, //generate random IDs for headers?
-  offset: 100, //offset from viewport top for scrollspy
-  ulClassNames: 'hidden-print', //add this class to top-most UL
-  activeClass: '', //active class (besides .active) to add to LI
-  testing: false //if testing, append heading tagName and ID to each heading
-})
-    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+
     {% if site.mathjax == true %}
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
