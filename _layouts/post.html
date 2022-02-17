@@ -5,44 +5,10 @@ layout: compress
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<html lang="en" class="no-js">
-
-</html>
-
+<html lang="en" class="no-js"></html>
 <head>
     {% include head.html %}
-    <style>
-        .is-active {
-            font-weight: 700;
-            color: #bb2205;
-        }
-
-        .is-child {
-            padding-left: 1em;
-        }
-
-        .list-leave-active,
-        .list-move {
-            transition: transform 0.8s, opacity 0.4s;
-        }
-
-        .list-enter-active {
-            transition: transform 0.8s ease 0.4s, opacity 0.4s ease 0.4s;
-        }
-
-        .list-enter,
-        .list-leave-to {
-            opacity: 0;
-            transform: translateY(10px);
-        }
-
-        .list-leave-active {
-            position: absolute;
-        }
-
-    </style>
 </head>
-
 <body data-spy="scroll" data-target="#toc">
     {% include nav.html %}
     {% include page-scroll.html %}
@@ -54,10 +20,8 @@ layout: compress
                     <h1>{{ page.title }}</h1>
                     <h4>{{ page.date | date_to_string }}</h4>
                     <div class="view-page" style="justify-content: space-around; display:flex">
-                        <p style="font-size:0.85rem; text-align: center;">Số lượng truy cập: <span class="counter"
-                                id="view-post-all">Đang cập nhật</span></p>
-                        <p style="font-size:0.85rem; text-align: center;">Bạn đã truy cập: <span class="counter"
-                                id="view-post-user">Đang cập nhật</span></p>
+                        <p style="font-size:0.85rem; text-align: center;">Số lượng truy cập: <span class="counter" id = "view-post-all">Đang cập nhật</span></p>
+                        <p style="font-size:0.85rem; text-align: center;">Bạn đã truy cập: <span class="counter" id = "view-post-user">Đang cập nhật</span></p>
                     </div>
                     {% if site.reading_time %}
                     <p class="reading-time">
@@ -67,342 +31,143 @@ layout: compress
                     {% endif %}
                     {% if page.project %}
                     <a class="btn zoombtn" href="{{site.url}}/projects/">
-                        {% else if page.blog %}
-                        <a class="btn zoombtn" href="{{site.url}}/blogs/">
-                            {% else %}
-                            <a class="btn zoombtn" href="{{site.url}}/posts/">
-                                {% endif %}
-                                <i class="fa fa-chevron-left"></i>
-                            </a>
+                    {% else if page.blog %}
+                    <a class="btn zoombtn" href="{{site.url}}/blogs/">
+                    {% else %}
+                    <a class="btn zoombtn" href="{{site.url}}/posts/">
+                    {% endif %}
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
                 </div>
                 <!-- <div class='post-content post-article'> -->
                 <h1 class="toc-title" style="text-align: center;">Contents</h1>
-
-                {% include sidebar-toc.html html=content %}
-                <!-- {{ content }} -->
-                <main id="app" class="wrapper">
-                    <aside class="sticky top-0 ml-8 pt-16">
-                        <transition-group name="list" tag="ul" ref="links">
-                            <li v-for="(item, index) in activeHeadings" v-bind:key="item.id">
-                                <a @click="(e) => handleLinkClick(e, item.id)" :href="item.id" v-bind:class="{ 
-                                        'is-active': item.id === visibleId,
-                                        'is-child': item.depth === 2}">
-                                    {{ item.text }}
+            
+                    {% include sidebar-toc.html html=content %}
+                    {{ content }}
+                    <script src="{{ site.url }}/assets/js/jquery-1.12.0.min.js"></script>
+                    <script type="text/javascript" src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script>
+                    <br><br>
+                    {% if page.previous.url and page.next.url %}
+                        <div class="pre_next" style = "display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
+                            <div class="item item1" style="text-align: right; position: relative;">
+                                <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
+                                    <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
+                                    <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+                                    </div>
+                                    <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.previous.title }}</div>
                                 </a>
-                            </li>
-                        </transition-group>
-                    </aside>
-                    <div class="max-w-2xl content mt-32" v-html="compiledMarkdown" ref="content"></div>
-                </main>
-                <br><br>
-                {% if page.previous.url and page.next.url %}
-                <div class="pre_next"
-                    style="display: grid;grid-template-columns: 45% 45% 20px; grid-gap: 0 10%; font-weight: 500">
-                    <div class="item item1" style="text-align: right; position: relative;">
-                        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
-                            <div style="font-size: 12px; margin-bottom:-10px">Previous</div>
-                            <div
-                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet"
-                                    data-rnw-int- style="vertical-align: middle;">
-                                    <path d="M19 12H5M12 19l-7-7 7-7"></path>
-                                </svg>
                             </div>
-                            <div style="position: relative; font-size: 16px; font-weight: 500 ">
-                                {{ page.previous.title }}</div>
-                        </a>
-                    </div>
-                    <div class="item item2" style="text-align: left; position: relative; ">
-                        <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
-                            <div style="font-size: 12px; margin-bottom:-10px"> Next</div>
-                            <div
-                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
+                            <div class="item item2" style="text-align: left; position: relative; ">
+                                <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
+                                    <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
+                                    <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                                    </div>
+                                    <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}</div>
+                                </a>
                             </div>
-                            <div style="position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}
+                        </div>
+                    {% else if page.previous.url %}
+                        {% if page.previous.title %}
+                            <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
+                                <div class="item item1" style="text-align: right; position: relative;">
+                                    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
+                                        <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
+                                        <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+                                        </div>
+                                        <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.previous.title }}</div>
+                                    </a>
+                                </div>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                {% else if page.previous.url %}
-                {% if page.previous.title %}
-                <div class="pre_next"
-                    style="display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
-                    <div class="item item1" style="text-align: right; position: relative;">
-                        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
-                            <div style="font-size: 12px; margin-bottom:-10px">Previous</div>
-                            <div
-                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet"
-                                    data-rnw-int- style="vertical-align: middle;">
-                                    <path d="M19 12H5M12 19l-7-7 7-7"></path>
-                                </svg>
+                        {% else %}
+                            <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
+                                <div class="item item1" style="text-align: right; position: relative;">
+                                    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
+                                        <div style = "font-size: 12px; margin-bottom:-10px">Previous</div>
+                                        <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" data-rnw-int- style="vertical-align: middle;"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+                                        </div>
+                                        <div style = "position: relative; font-size: 16px; font-weight: 500 ">Updating</div>
+                                    </a>
+                                </div>
                             </div>
-                            <div style="position: relative; font-size: 16px; font-weight: 500 ">
-                                {{ page.previous.title }}</div>
-                        </a>
-                    </div>
-                </div>
-                {% else %}
-                <div class="pre_next"
-                    style="display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
-                    <div class="item item1" style="text-align: right; position: relative;">
-                        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" style="width: 100%">
-                            <div style="font-size: 12px; margin-bottom:-10px">Previous</div>
-                            <div
-                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; left: 25px">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet"
-                                    data-rnw-int- style="vertical-align: middle;">
-                                    <path d="M19 12H5M12 19l-7-7 7-7"></path>
-                                </svg>
+                        {% endif %}
+                    {% else if and page.next.url %}
+                        {% if page.next.title %}
+                            <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
+                                <div class="item item2" style="text-align: left; position: relative; ">
+                                    <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
+                                        <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
+                                        <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                                        </div>
+                                        <div style = "position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}</div>
+                                    </a>
+                                </div>
                             </div>
-                            <div style="position: relative; font-size: 16px; font-weight: 500 ">Updating</div>
-                        </a>
-                    </div>
-                </div>
-                {% endif %}
-                {% else if and page.next.url %}
-                {% if page.next.title %}
-                <div class="pre_next"
-                    style="display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
-                    <div class="item item2" style="text-align: left; position: relative; ">
-                        <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
-                            <div style="font-size: 12px; margin-bottom:-10px"> Next</div>
-                            <div
-                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
+                        {% else %}
+                            <div class="pre_next" style = "display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
+                                <div class="item item2" style="text-align: left; position: relative; ">
+                                    <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
+                                        <div style = "font-size: 12px; margin-bottom:-10px"> Next</div>
+                                        <div style = "top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" ><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                                        </div>
+                                        <div style = "position: relative; font-size: 16px; font-weight: 500 ">Updating</div>
+                                    </a>
+                                </div>
                             </div>
-                            <div style="position: relative; font-size: 16px; font-weight: 500 ">{{ page.next.title }}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                {% else %}
-                <div class="pre_next"
-                    style="display: grid;grid-template-columns: 100% 0% 20px; grid-gap: 0 10%; font-weight: 500">
-                    <div class="item item2" style="text-align: left; position: relative; ">
-                        <a href="{{ site.url }}{{ page.next.url }}" class="btn" style="width: 100%">
-                            <div style="font-size: 12px; margin-bottom:-10px"> Next</div>
-                            <div
-                                style="top:50%;bottom:50%; transform:translate(-50%, -50%); position: absolute; width: 25px; height:25px; right: 0px">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </div>
-                            <div style="position: relative; font-size: 16px; font-weight: 500 ">Updating</div>
-                        </a>
-                    </div>
-                </div>
-                {% endif %}
-                {% endif %}
+                        {% endif %}
+                    {% endif %}
                 <div class="entry-meta">
-                    {% include meta.html %}
+                {% include meta.html %}
                 </div>
             </div>
         </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section>
-        <!-- /#disqus_thread -->{% endif %}
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
         <footer id="footer-wrapper-2" class="wrapper-2 animated fadeIn">
             <div class="author">
-                <a class="footer-social" href="http://facebook.com/{{ site.facebook }}">
+                <a class = "footer-social" href = "http://facebook.com/{{ site.facebook }}">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a class="footer-social" href="http://github.com/{{ site.github-url }}">
+                <a class = "footer-social" href = "http://github.com/{{ site.github-url }}">
                     <i class="fab fa-github-alt"></i>
                 </a>
-                <a class="footer-social" href="mailto:{{ site.email }}">
+                <a class = "footer-social" href = "mailto:{{ site.email }}">
                     <i class="fas fa-envelope"></i>
                 </a>
-                <a class="footer-social" href="http://linkedin.com/in/{{ site.linkedin }}">
+                <a class = "footer-social" href = "http://linkedin.com/in/{{ site.linkedin }}">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-                <div class="line-of-footer"></div>
+                <div class = "line-of-footer"></div>
                 {% include view-page.html %}
-                <p class="info-f">
-                    <span class="text-author-pre">Copyright &copy; 2022 </span><span class="text-author">Deuteri</span>
+                <p class = "info-f">
+                    <span class = "text-author-pre">Copyright &copy; 2022 </span><span class = "text-author">Deuteri</span>
                 </p>
             </div>
         </footer>
-
+    
     </header>
     <!-- <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script> -->
     {% include scripts.html %}
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script>
-        const App = {
-            el: '#app',
-            data() {
-                return {
-                    input: '# Loading...',
-                    visibleId: '',
-                    previousVisibleId: '',
-                    mdLength: 0,
-                    headings: [],
-                }
-            },
-            async created() {
-                console.log(content);
-                let url = content;
-                let response = await fetch(url)
-                let data = await response.text()
-                this.input = data
-            },
-            mounted() {
-                let options = {
-                    rootMargin: "0px 0px -200px 0px",
-                    threshold: 1
-                }
-                const debouncedFunction = this.debounce(this.handleObserver)
-                this.observer = new IntersectionObserver(debouncedFunction, options)
-                this.motionQuery = window.matchMedia('(prefers-reduced-motion)')
-            },
-            methods: {
-                findHeadings() {
-                    if (this.observer) {
-                        this.headings = [...this.$refs.content.querySelectorAll('[id]')]
-                        this.headings.map(heading => this.observer.observe(heading))
-                    }
-                },
-                slugify(text) {
-                    return text.toString()
-                        .normalize('NFD')
-                        .replace(/[\u0300-\u036f]/g, '')
-                        .toLowerCase()
-                        .trim()
-                        .replace(/\s+/g, '-')
-                        .replace(/[^\w-]+/g, '')
-                        .replace(/--+/g, '-')
-                },
-                getRelated(item) {
-                    if (item) {
-                        const items = this.compiledHeadings
-                        const currentIdx = items.indexOf(item)
-                        let idx = 0
-
-                        // find the correct (parent) index
-                        if (item.depth === 1) {
-                            idx = currentIdx + 1
-                        } else {
-                            // find parent index
-                            let found = false
-                            for (let j = currentIdx; j >= 0; j--) {
-                                if (items[j].depth === 1 && !found) {
-                                    idx = j + 1
-                                    found = true
-                                }
-                            }
-                        }
-
-                        let children = []
-                        let isSameLevel = true
-                        for (idx; idx < items.length; idx++) {
-                            if (items[idx].depth === 2 && isSameLevel) {
-                                children.push(items[idx])
-                            } else if (items[idx].depth === 1) {
-                                isSameLevel = false
-                            }
-                        }
-                        return children
-                    }
-                },
-                handleObserver(entries, observer) {
-                    entries.forEach((entry) => {
-                        const {
-                            target,
-                            isIntersecting,
-                            intersectionRatio
-                        } = entry
-                        if (isIntersecting && intersectionRatio >= 1) {
-                            this.visibleId = `#${target.getAttribute('id')}`
-                        }
-                    })
-                },
-                handleLinkClick(evt, itemId) {
-                    evt.preventDefault()
-                    let id = itemId.replace('#', '')
-                    let section = this.headings.find(heading => heading.getAttribute('id') === id)
-                    section.setAttribute('tabindex', -1)
-                    section.focus()
-                    this.visibleId = itemId
-
-                    window.scroll({
-                        behavior: this.motionQuery.matches ? 'instant' : 'smooth',
-                        top: section.offsetTop - 20,
-                        block: 'start'
-                    })
-                },
-                debounce(fn) {
-                    var timeout;
-                    return function () {
-                        var context = this;
-                        var args = arguments;
-                        if (timeout) {
-                            window.cancelAnimationFrame(timeout);
-                        }
-                        timeout = window.requestAnimationFrame(function () {
-                            fn.apply(context, args);
-                        });
-                    }
-                }
-            },
-            watch: {
-                mdLength: function (val) {
-                    this.findHeadings()
-                },
-            },
-            computed: {
-                compiledMarkdown() {
-                    let htmlFromMarkdown = marked(this.input, {
-                        sanitize: true
-                    });
-                    this.mdLength = htmlFromMarkdown.length
-                    return htmlFromMarkdown
-                },
-                compiledHeadings() {
-                    let regexString = /#(.*)/g
-                    const found = this.input.match(regexString);
-                    const headings = found.map(item => {
-                        let depth = (item.match(/#/g) || []).length
-                        let text = item.replace(/#/gi, '', '').trim()
-                        return {
-                            depth,
-                            id: `#${this.slugify(text)}`,
-                            text
-                        }
-                    })
-                    return headings
-                },
-                activeHeadings() {
-                    let activeItem = this.compiledHeadings.find(item => item.id === this.visibleId)
-                    let relatedItems = this.getRelated(activeItem) || []
-                    return this.compiledHeadings.filter(item => item.depth === 1 || relatedItems.includes(item))
-                }
-            },
-        };
-
-        new Vue(App)
-
+        $('#somediv').DynamicScrollspy({
+  affix: true, //affix by default, doesn't work on Bootstrap 4
+  tH: 2, //lowest-level header to be included (H2)
+  bH: 6, //highest-level header to be included (H6)
+  exclude: false, //exclude from the tree/outline any H tags matching this jquery selector
+  genIDs: false, //generate random IDs for headers?
+  offset: 100, //offset from viewport top for scrollspy
+  ulClassNames: 'hidden-print', //add this class to top-most UL
+  activeClass: '', //active class (besides .active) to add to LI
+  testing: false //if testing, append heading tagName and ID to each heading
+})
     </script>
-
     {% if site.mathjax == true %}
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
 
     <!-- get ip -->
-
+    
 </body>
-
 </html>
