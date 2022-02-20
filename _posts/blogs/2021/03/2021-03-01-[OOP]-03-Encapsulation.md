@@ -69,7 +69,7 @@ Lúc này, ta cần dùng đến phương thức SET (xem phần bên dưới)
 
 Đoạn mã hoàn chỉnh thể hiện việc thay đổi giá trị của thuộc tính `a`.
 
-{% highlight c++ linenos %}
+{% highlight c++ linenos=table %}
 using namespace std;
 
 class A{
