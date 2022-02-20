@@ -60,6 +60,7 @@ int main(){
 }
 {% endhighlight %}
 
+---
 
 Hiển nhiên, chỉ cần 1 phương thức nhỏ, ta đã có thể truy xuất được thuộc tính `a` rồi. Câu hỏi đặt ra là làm cách nào để có thể thay đổi luôn giá trị của `a` mà lại không vi phạm tính đóng gói?
 

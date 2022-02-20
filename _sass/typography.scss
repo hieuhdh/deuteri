@@ -70,24 +70,24 @@ h3.title a {
 }
 
 // quotes
-// blockquote {
-//     font-family: serif;
-//     /* font-style: italic; */
-//     border-left: 0.25rem solid $color_primary;
-//     padding-left: 35px;
-//     margin: 0px;
-//     margin-block-start: 1em;
-//     position: relative;
-//     background-color: $color_button;
-//     color: $color_primary;
-//     transform: translate(30px, 0px);
-//     border-radius: 0.1875rem;
-//     &:before {
-//         content: "✔️";
-//         position: absolute;
-//         transform: translate(-30px, 0px);
-//     }
-// }
+blockquote {
+    font-family: serif;
+    /* font-style: italic; */
+    border-left: 0.25rem solid $color_primary;
+    padding-left: 35px;
+    margin: 0px;
+    margin-block-start: 1em;
+    position: relative;
+    background-color: $color_button;
+    color: $color_primary;
+    transform: translate(30px, 0px);
+    border-radius: 0.1875rem;
+    &:before {
+        content: "✔️";
+        position: absolute;
+        transform: translate(-30px, 0px);
+    }
+}
 
 @media only screen and (min-width: 48em) {
 	blockquote {
@@ -145,24 +145,24 @@ li .highlight pre {
 }
 
 // table - Tinh chỉnh border
-// table{
-// 	width: 100%;
-//     border-collapse: collapse;
-//     vertical-align: center;
-//     box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
-//     th {
-//         text-align: center;
-//         background-color: $color_primary;
-//         color: $color_black;
-//     }
+table{
+	width: 100%;
+    border-collapse: collapse;
+    vertical-align: center;
+    box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+    th {
+        text-align: center;
+        background-color: $color_primary;
+        color: $color_black;
+    }
 
-//     td, th {
-//         padding: 10px;
-//     }
+    td, th {
+        padding: 10px;
+    }
 
-//     tr:nth-child(even) {background-color: $color_table_2;}
-//     tr:nth-child(odd) {background-color: $color_table_1}
-// }
+    tr:nth-child(even) {background-color: $color_table_2;}
+    tr:nth-child(odd) {background-color: $color_table_1}
+}
 
 
 
@@ -189,201 +189,3 @@ dt {
     font-weight: bolder;
 }
 
-
-// button {
-//     background: #6200ee;
-//     color: #fff;
-//     border: 1px solid #6200ee;
-//     padding: 10px 10px;
-//     // margin: 1rem;
-//     position: relative;
-//     z-index: 1;
-//     overflow: hidden;
-// }
-// button:hover {
-//     color: #6200ee;
-// }
-// button::after {
-//     content: "";
-//     background: #ecf0f1;
-//     position: absolute;
-//     z-index: -1;
-//     padding:  10px 10px;
-//     display: block;
-// }
-// button[class^="slide"]::after {
-//     transition: all 0.35s;
-// }
-// button[class^="slide"]:hover::after {
-//     left: 0;
-//     right: 0;
-//     top: 0;
-//     bottom: 0;
-//     transition: all 0.35s;
-// }
-// button.slide_from_left_contact::after {
-//     top: 0;
-//     bottom: 0;
-//     left: -100%;
-//     right: 100%;
-// }
-
-
-
-// .hover-box{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 100%;
-//     height: 100vh;
-
-// }
-
-// .btnn {
-//     width: 200px;
-//     position: relative;
-//     display: inline-block;
-//     border-radius: 30px;
-//     background-color: #fcfcfc;
-//     color: #6200ee;
-//     text-align: center;
-//     font-size: 16px;
-//     padding: 15px 0;
-//     transition: all 0.3s;
-//     padding-right: 40px;
-//     margin: 20px 5px;
-//     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.06);
-
-
-// }
-
-// .btnn .btn-icon{
-//     background-color: #6200ee;
-//     width: 92px;
-//     height: 52px;
-//     float: right;
-//     position: absolute;
-//     border-radius: 30px 30px 30px 0;
-//     right: 0px;
-//     top: 0px;
-//     transition: all 0.3s;
-
-
-// }
-
-// .btnn .btn-icon::after{
-//     content: '';
-//     width: 0;
-//     height: 0;
-//     border-top: 52px solid #fcfcfc;
-//     border-right: 40px solid transparent;
-//     position: absolute;
-//     top: 0px;
-//     left: 0px;
-
-
-// }
-
-// .name-desc{
-//     position: relative;
-//     z-index: 9999;
-
-// }
-
-// .btnn:hover .btn-icon{
-//     width: 100%;
-//     border-radius: 30px;
-
-// }
-
-// .btnn:hover .btn-icon::after{
-//     display: none;
-//     opacity: 0.1;   
-// }
-
-// .btn-icon i{
-//     position: absolute;
-//     right: 25px;
-//     top: 20px;
-//     color: #fff;
-// }
-
-// .btnn:hover{
-//     color: #fff !important;
-// }
-
-// @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-// *{
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-//     font-family: 'Poppins', sans-serif;
-// }
-// html,body{
-//     display: grid;
-//     height: 100%;
-//     width: 100%;
-//     place-items: center;
-//     background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-// }
-
-// .button{
-//     display: inline-block;
-//     height: 60px;
-//     width: 60px;
-//     float: left;
-//     margin: 0 5px;
-//     overflow: hidden;
-//     background: #fff;
-//     border-radius: 50px;
-//     cursor: pointer;
-//     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-//     transition: all 0.3s ease-out;
-// }
-// .button:hover{
-//     width: 200px;
-// }
-// .button .icon{
-//     display: inline-block;
-//     height: 40px;
-//     width: 40px;
-//     text-align: center;
-//     border-radius: 50px;
-//     box-sizing: border-box;
-//     line-height: 40px;
-//     transition: all 0.3s ease-out;
-// }
-// .button:nth-child(1):hover .icon{
-//     background: #4267B2;
-// }
-// .button:nth-child(2):hover .icon{
-//     background: #ff0000;
-// }
-// .button:nth-child(3):hover .icon{
-//     background: #215ac4;
-// }
-
-// .button .icon i{
-//     font-size: 25px;
-//     line-height: 40px;
-//     transition: all 0.3s ease-out;
-// }
-// .button:hover .icon i{
-//     color: #fff;
-// }
-// .button span{
-//     font-size: 20px;
-//     font-weight: 500;
-//     line-height: 40px;
-//     margin-left: 10px;
-//     transition: all 0.3s ease-out;
-// }
-// .button:nth-child(1) span{
-//     color: #4267B2;
-// }
-// .button:nth-child(2) span{
-//     color: #ff0000;
-// }
-// .button:nth-child(3) span{
-//     color: #215ac4;
-// }
