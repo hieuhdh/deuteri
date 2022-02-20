@@ -42,7 +42,7 @@ Hiển nhiên, ta có thể thêm một hàm bạn, một lớp bạn nhưng tô
 Lúc này, ta có thể dùng phương thức GET (hay còn gọi là getter) để truy xuất thuộc tính `a` mà không làm phá vỡ tính đóng gói. Hãy xem xét đoạn mã hoàn chỉnh bên dưới:
 
 
-{% highlight c++ %}
+```c++
 using namespace std;
 
 class A{
@@ -58,7 +58,7 @@ int main(){
     A a;
     cout << a.get();
 }
-{% endhighlight %}
+```
 
 Hiển nhiên, chỉ cần 1 phương thức nhỏ, ta đã có thể truy xuất được thuộc tính `a` rồi. Câu hỏi đặt ra là làm cách nào để có thể thay đổi luôn giá trị của `a` mà lại không vi phạm tính đóng gói?
 
@@ -68,7 +68,7 @@ Lúc này, ta cần dùng đến phương thức SET (xem phần bên dưới)
 
 Đoạn mã hoàn chỉnh thể hiện việc thay đổi giá trị của thuộc tính `a`.
 
-```c++ linenos
+{% highlight c++ linenos %}
 using namespace std;
 
 class A{
@@ -89,7 +89,7 @@ int main(){
     a.set(20);
     cout << a.get();
 }
-```
+{% endhighlight %}
 
 ## Tham khảo thêm
 
