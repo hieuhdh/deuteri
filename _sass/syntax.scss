@@ -2,6 +2,13 @@ pre.highlight {
 	padding: 1em;
 }
 
+pre.lineno {
+	color: $color_primary;
+	border-right: 1px solid #c5c5c5;
+	text-align: right;
+	border-radius: 0;
+}
+
 .highlight {
 	// background-color: #21252b;
     background-color: $color_bg_highlight;
