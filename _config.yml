@@ -86,6 +86,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-tidy
 
 jekyll-mentions:
     base_url: https://github.com
