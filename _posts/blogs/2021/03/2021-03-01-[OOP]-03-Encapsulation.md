@@ -11,6 +11,24 @@ comments: true
 
 ## Tính đóng gói
 
+{% highlight c++ linenos %}
+using namespace std;
+
+class A{
+private:
+    int a = 10;
+public:
+    int get(){
+        return a;
+    }
+};
+
+int main(){
+    A a;
+    cout << a.get();
+}
+{% endhighlight %}
+
 Tính đóng gói của một lớp đối tượng giúp cho lớp đó có thể che giấu những thông điệp tuyệt mật mà những thông điệp này chỉ có thể truy xuất trong nội tại chính nó (một cách phá vỡ tính đóng gói là sử dụng hàm bạn, lớp bạn).
 
 Đây là một tính chất giúp ràng buộc toàn vẹn dữ liệu của một lớp và đây cũng chính là điểm yếu chí mạng giúp cho rò rỉ thông tin của lớp đó bằng một số thủ thuật phá vỡ tính chất này.
@@ -21,8 +39,7 @@ Vì tính đóng gói giúp che giấu thông tin của lớp đối tượng, d
 
 Hãy xem xét đoạn mã dưới đây
 
-{% highlight c++ linenos %}
-
+{% highlight c++ linenos=table  %}
 using namespace std;
 
 class A{
@@ -34,7 +51,6 @@ public:
 int main(){
     A a;
 }
-
 {% endhighlight %}
 
 Làm thế nào ta có thể truy xuất được thuộc tính `a` trong lớp đối tượng A tại hàm `main()`?
@@ -44,7 +60,7 @@ Hiển nhiên, ta có thể thêm một hàm bạn, một lớp bạn nhưng tô
 Lúc này, ta có thể dùng phương thức GET (hay còn gọi là getter) để truy xuất thuộc tính `a` mà không làm phá vỡ tính đóng gói. Hãy xem xét đoạn mã hoàn chỉnh bên dưới:
 
 
-{% highlight python linenos %}
+{% highlight c++ linenos %}
 using namespace std;
 
 class A{
