@@ -21,7 +21,8 @@ Vì tính đóng gói giúp che giấu thông tin của lớp đối tượng, d
 
 Hãy xem xét đoạn mã dưới đây
 
-{% highlight c++ %}
+{% highlight c++ linenos %}
+```C++
 using namespace std;
 
 class A{
@@ -33,6 +34,7 @@ public:
 int main(){
     A a;
 }
+```
 {% endhighlight %}
 
 Làm thế nào ta có thể truy xuất được thuộc tính `a` trong lớp đối tượng A tại hàm `main()`?
