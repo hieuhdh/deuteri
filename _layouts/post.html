@@ -47,9 +47,12 @@ layout: compress
                 </div>
                 <!-- <div class='post-content post-article'> -->
                 <h1 class="toc-title" style="text-align: center;">Contents</h1>
-
-                {% include sidebar-toc.html html=content %}
-                {{ content }}
+                
+                <div class='post-content post-article'>
+                    {% include sidebar-toc.html html=content %}
+                    {{ content }}
+                </div>
+                
                 <br><br>
                 {% if page.previous.url and page.next.url %}
                 <div class="pre_next"
@@ -192,8 +195,28 @@ layout: compress
 
     </header>
     <!-- <script src="{{ site.url }}/assets/js/dynamicscrollspy.js"></script> -->
-    {% include scripts.html %}
+    <script src="{{ site.url }}/assets/js/scrollnav.min.umd.js"></script>
     <script>
+        //Scroll Nav
+        const content = document.querySelector('.post-article');
+        scrollnav.init(content, {
+            debug: false,
+            //easingStyle: 'linear',
+            sections: ($('.post-content > h1').length > 0) ? 'h1' : 'h2',
+            subSections: ($('.post-content > h1').length > 0) ? 'h2' : 'h3'
+        });
+        //Dynamically positon
+        var sideNav = function () {
+            var mainRect = document.getElementById('post-content').getBoundingClientRect();
+            //var oldReac = document.getElementsByClassName('scroll-nav')[0].getBoundingClientRect();
+            $('#post-content > div.content.loading > nav').css('left', mainRect.right + 10 + 'px');
+        }
+
+        sideNav();
+        window.addEventListener("resize", sideNav);            
+    </script>
+    {% include scripts.html %}
+    <!-- <script>
         sync()
         function sync() {
 
@@ -235,7 +258,7 @@ layout: compress
 
         }
 
-    </script>
+    </script> -->
     {% if site.mathjax == true %}
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
