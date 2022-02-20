@@ -218,3 +218,15 @@ let scrollPercentage = () => {
 
 window.onscroll = scrollPercentage;
 window.onload = scrollPercentage;
+
+
+
+
+
+
+
+
+
+$(document).ready(function () {
+	$( ".highlighttable" ).wrap("<div class='table-responsive'></div>");
+});
