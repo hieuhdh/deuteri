@@ -68,7 +68,7 @@ Lúc này, ta cần dùng đến phương thức SET (xem phần bên dưới)
 
 Đoạn mã hoàn chỉnh thể hiện việc thay đổi giá trị của thuộc tính `a`.
 
-{% highlight c++ linenos %}
+```c++
 using namespace std;
 
 class A{
@@ -89,7 +89,7 @@ int main(){
     a.set(20);
     cout << a.get();
 }
-{% endhighlight %}
+```
 
 ## Tham khảo thêm
 
