@@ -70,24 +70,24 @@ h3.title a {
 }
 
 // quotes
-blockquote {
-    font-family: serif;
-    /* font-style: italic; */
-    border-left: 0.25rem solid $color_primary;
-    padding-left: 35px;
-    margin: 0px;
-    margin-block-start: 1em;
-    position: relative;
-    background-color: $color_button;
-    color: $color_primary;
-    transform: translate(30px, 0px);
-    border-radius: 0.1875rem;
-    &:before {
-        content: "✔️";
-        position: absolute;
-        transform: translate(-30px, 0px);
-    }
-}
+// blockquote {
+//     font-family: serif;
+//     /* font-style: italic; */
+//     border-left: 0.25rem solid $color_primary;
+//     padding-left: 35px;
+//     margin: 0px;
+//     margin-block-start: 1em;
+//     position: relative;
+//     background-color: $color_button;
+//     color: $color_primary;
+//     transform: translate(30px, 0px);
+//     border-radius: 0.1875rem;
+//     &:before {
+//         content: "✔️";
+//         position: absolute;
+//         transform: translate(-30px, 0px);
+//     }
+// }
 
 @media only screen and (min-width: 48em) {
 	blockquote {
@@ -145,24 +145,24 @@ li .highlight pre {
 }
 
 // table - Tinh chỉnh border
-table{
-	width: 100%;
-    border-collapse: collapse;
-    vertical-align: center;
-    box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
-    th {
-        text-align: center;
-        background-color: $color_primary;
-        color: $color_black;
-    }
+// table{
+// 	width: 100%;
+//     border-collapse: collapse;
+//     vertical-align: center;
+//     box-shadow: 0 0 30px 0 rgba($color_black, 0.5);
+//     th {
+//         text-align: center;
+//         background-color: $color_primary;
+//         color: $color_black;
+//     }
 
-    td, th {
-        padding: 10px;
-    }
+//     td, th {
+//         padding: 10px;
+//     }
 
-    tr:nth-child(even) {background-color: $color_table_2;}
-    tr:nth-child(odd) {background-color: $color_table_1}
-}
+//     tr:nth-child(even) {background-color: $color_table_2;}
+//     tr:nth-child(odd) {background-color: $color_table_1}
+// }
 
 
 
