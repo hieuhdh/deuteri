@@ -10,6 +10,11 @@ tiled_bg:           false   # Set this true if you want to tile your background 
 locale:             en_US
 url:                https://hieuhdh.github.io/deuteri
 
+
+collections:
+   projects:
+      output: true
+
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
@@ -28,6 +33,17 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+
+assets:
+  compress:
+    css:  sass
+    js:   uglifier
+  autoprefixer:
+    browsers:
+        - "last 5 versions"
+        - "IE > 9"
+  plugins:
+    css: { autoprefixer: {}}
 
 # Comments
 disqus_shortname:   https-hieuhdh-github-io-deuteri
@@ -72,7 +88,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-tidy
+  - jekyll-seo-tag
 
 jekyll-mentions:
     base_url: https://github.com
