@@ -8,4 +8,13 @@ gem 'jekyll-feed'
 
 group  : jekyll_plugins  do 
     gem  "jekyll-inherit" 
-  end
+end
+
+gem 'jekyll-seo-tag'
+
+gem "autoprefixer-rails"
+gem "uglifier"
+
+group :jekyll_plugins do
+    gem 'jekyll-assets'
+end
