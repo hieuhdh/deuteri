@@ -1009,3 +1009,18 @@ a, a:hover {
     font-style: initial;
     font-size: 0.8rem;
 }
+
+.previous-bn{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+    margin-left: 10% !important;
+}
+
+.next-bn{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+}
