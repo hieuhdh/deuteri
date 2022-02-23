@@ -18,53 +18,53 @@ layout: compress
     {% include page-scroll.html %}
     <!-- Header -->
     <header class="header" role="banner">
-        <div class="row">
-            <div class="column left">
-                <div class="wrapper-2 animated fadeIn">
-                    <div class="content">
-                        <div class="post-title {% if page.feature %} feature {% endif %}">
-                            <h1>{{ page.title }}</h1>
-                            <div>{{ page.date | date_to_string }}</div>
-                            <div class="view-page" style="justify-content: space-around; display:flex">
-                                <p style="font-size:0.85rem; text-align: center;">Số lượng truy cập<br><span class="counter"
-                                        id="view-post-all">Đang cập nhật</span></p>
-                                <p style="font-size:0.85rem; text-align: center;">Bạn đã truy cập<br><span class="counter"
-                                        id="view-post-user">Đang cập nhật</span></p>
-                            </div>
-                            {% if site.reading_time %}
-                            <p class="reading-time">
-                                <i class="fa fa-clock-o"></i>
-                                {% include read-time.html %}
-                            </p><!-- /.entry-reading-time -->
-                            {% endif %}
-                            {% if page.project %}
-                            <a class="btn zoombtn" href="{{site.url}}/projects/">
-                                {% else if page.blog %}
-                                <a class="btn zoombtn" href="{{site.url}}/blogs/">
-                                    {% else %}
-                                    <a class="btn zoombtn" href="{{site.url}}/posts/">
-                                        {% endif %}
-                                        <i class="fa fa-chevron-left"></i>
-                                    </a>
-                        </div>
-                        <!-- <div class='post-content post-article'> -->
-                        <h1 class="toc-title" style="text-align: center;">Contents</h1>
-                        
-                        <div class='post-content post-article'>
+        <div class="wrapper-2 animated fadeIn">
+            <div class="content">
+                <div class="post-title {% if page.feature %} feature {% endif %}">
+                    <h1>{{ page.title }}</h1>
+                    <div>{{ page.date | date_to_string }}</div>
+                    <div class="view-page" style="justify-content: space-around; display:flex">
+                        <p style="font-size:0.85rem; text-align: center;">Số lượng truy cập<br><span class="counter"
+                                id="view-post-all">Đang cập nhật</span></p>
+                        <p style="font-size:0.85rem; text-align: center;">Bạn đã truy cập<br><span class="counter"
+                                id="view-post-user">Đang cập nhật</span></p>
+                    </div>
+                    {% if site.reading_time %}
+                    <p class="reading-time">
+                        <i class="fa fa-clock-o"></i>
+                        {% include read-time.html %}
+                    </p><!-- /.entry-reading-time -->
+                    {% endif %}
+                    {% if page.project %}
+                    <a class="btn zoombtn" href="{{site.url}}/projects/">
+                        {% else if page.blog %}
+                        <a class="btn zoombtn" href="{{site.url}}/blogs/">
+                            {% else %}
+                            <a class="btn zoombtn" href="{{site.url}}/posts/">
+                                {% endif %}
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
+                </div>
+                <!-- <div class='post-content post-article'> -->
+                <h1 class="toc-title" style="text-align: center;">Contents</h1>
+                
+                <div class='post-content post-article'>
+                    <div class="row">
+                        <div class="column left" style="background-color:#aaa;">
                             {{ content }}
                         </div>
-                        
-                        <br><br>
-                        {% include page-navigation.html %}
-                        
-                        <div class="entry-meta">
-                            {% include meta.html %}
+                        <div class="column right" style="background-color:#bbb;">
+                            {% include sidebar-toc.html html=content %}
                         </div>
                     </div>
                 </div>
-            </div> 
-            <div class="column right">
-                {% include sidebar-toc.html html=content %}
+                
+                <br><br>
+                {% include page-navigation.html %}
+                
+                <div class="entry-meta">
+                    {% include meta.html %}
+                </div>
             </div>
         </div>
         {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section>
