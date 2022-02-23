@@ -49,14 +49,8 @@ layout: compress
                 <h1 class="toc-title" style="text-align: center;">Contents</h1>
                 
                 <div class='post-content post-article'>
-                    <div class="row">
-                        <div class="column right">
-                            {% include sidebar-toc.html html=content %}
-                        </div>
-                        <div class="column left">
-                            {{ content }}
-                        </div>
-                    </div>
+                    {% include sidebar-toc.html html=content %}
+                    {{ content }}
                 </div>
                 
                 <br><br>
