@@ -50,11 +50,11 @@ layout: compress
                 
                 <div class='post-content post-article'>
                     <div class="row">
-                        <div class="column left" style="background-color:#aaa;">
-                            {{ content }}
-                        </div>
-                        <div class="column right" style="background-color:#bbb;">
+                        <div class="column right">
                             {% include sidebar-toc.html html=content %}
+                        </div>
+                        <div class="column left">
+                            {{ content }}
                         </div>
                     </div>
                 </div>
