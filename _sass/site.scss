@@ -399,3 +399,25 @@ body.loaded::-webkit-scrollbar-thumb {
     background:$color_primary; 
     color:$color_black;
 }
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    margin-right: 5%;
+  }
+  
+  .left {
+    width: 70%;
+  }
+  
+  .right {
+    width: 20%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
