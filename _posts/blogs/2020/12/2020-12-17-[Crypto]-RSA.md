@@ -12,6 +12,8 @@ comments: true
 
 Trong mật mã học, **RSA** là một thuật toán mật mã hóa khóa công khai. Đây là thuật toán đầu tiên phù hợp với việc tạo ra chữ ký điện tử đồng thời với việc mã hóa. Nó đánh dấu một sự tiến bộ vượt bậc của lĩnh vực mật mã học trong việc sử dụng khóa công cộng. RSA đang được sử dụng phổ biến trong thương mại điện tử và được cho là đảm bảo an toàn với điều kiện độ dài khóa đủ lớn.
 
+RSA được xây dựng dựa trên lý thuyết số.
+
 ## **Lý thuyết cơ bản toán học trong RSA**
 ### **Mô tả sơ lược lý thuyết**
 
