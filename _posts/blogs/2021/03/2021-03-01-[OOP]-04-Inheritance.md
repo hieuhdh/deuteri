@@ -387,7 +387,7 @@ Và còn nhiều cách nữa...
       <td align="left">
         ❓ 
       </td>
-<td>Nhưng làm thế nào để đoạn chương trình trên có thể in ra chữ `A` với <strong>trường hợp dùng đối tượng thuộc lớp đối tượng B</strong> mà không làm xuất hiện lỗi phân giải tĩnh?</td>
+<td>Nhưng làm thế nào để đoạn chương trình trên có thể in ra chữ `A` với <strong style = "color: #bb86fc">trường hợp dùng đối tượng thuộc lớp đối tượng B</strong> mà không làm xuất hiện lỗi phân giải tĩnh?</td>
     </tr>
   </thead>
 </table>

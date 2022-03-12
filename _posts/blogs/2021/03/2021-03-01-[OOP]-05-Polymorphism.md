@@ -482,7 +482,6 @@ Trong ngôn ngữ lập trình C++, có rất nhiều loại toán tử khác nh
 Trong ngôn ngữ lập trình C++, ta chỉ được quyền nạp chồng những toán tử mà bản thân những toán tử đó cho phép nạp chồng. Và đây cũng chứng tỏ được toán tử có khả năng đa năng hóa.
 
 Hãy xem các ví dụ về nạp chồng toán tử tại 
-
 <a class = "link_for_hover" href="https://github.com/hieuhdh/OOP/tree/master/Practice/04">https://github.com/hieuhdh/OOP/tree/master/Practice/04</a>
 
 ### Đa hình tại thời điểm thực thi (Runtime)
