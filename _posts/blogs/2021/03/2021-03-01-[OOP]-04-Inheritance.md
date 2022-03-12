@@ -501,13 +501,13 @@ Từ đoạn chương trình trên: Dễ hiểu rằng ta đang có 1 lớp cơ 
 
 Ta có sơ đồ lớp minh họa cho đoạn code trên như sau:
 
-```
+{% highlight c++ %}
   A   A  
   |   |
   B   C  
    \ /  
     D 
-```
+{% endhighlight %}
 
 Nhìn thì đoạn code trên có vẻ là hợp lý nhưng điều gì sẽ xảy ra nếu ta biên dịch nó? Đúng vậy, khi biên dịch chúng ta sẽ nhận lỗi mơ hồ (ambiguous) ngay thời điểm ta tạo liên kết động (A *a = new D) vì lúc này lớp D đang kế thừa cả 2 lớp C và B và chưa biết rốt cuộc lớp D sẽ kế thừa thuộc tính và phương thức của lớp C hay là B (vì lúc này trình biên dịch sẽ không hiểu được).
 

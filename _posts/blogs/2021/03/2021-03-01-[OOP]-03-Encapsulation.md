@@ -11,7 +11,7 @@ comments: true
 
 ## Tính đóng gói
 
-{% highlight c++ linenos %}
+{% highlight c++ %}
 using namespace std;
 
 class A{
@@ -39,7 +39,7 @@ Vì tính đóng gói giúp che giấu thông tin của lớp đối tượng, d
 
 Hãy xem xét đoạn mã dưới đây
 
-{% highlight c++ linenos=table  %}
+{% highlight c++ %}
 using namespace std;
 
 class A{
@@ -60,7 +60,7 @@ Hiển nhiên, ta có thể thêm một hàm bạn, một lớp bạn nhưng tô
 Lúc này, ta có thể dùng phương thức GET (hay còn gọi là getter) để truy xuất thuộc tính `a` mà không làm phá vỡ tính đóng gói. Hãy xem xét đoạn mã hoàn chỉnh bên dưới:
 
 
-{% highlight c++ linenos %}
+{% highlight c++ %}
 using namespace std;
 
 class A{
@@ -88,7 +88,7 @@ Lúc này, ta cần dùng đến phương thức SET (xem phần bên dưới)
 
 Đoạn mã hoàn chỉnh thể hiện việc thay đổi giá trị của thuộc tính `a`.
 
-{% highlight c++ linenos %}
+{% highlight c++ %}
 using namespace std;
 
 class A{

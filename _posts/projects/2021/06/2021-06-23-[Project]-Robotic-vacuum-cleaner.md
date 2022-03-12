@@ -87,7 +87,7 @@ Chương trình được hiện thực toàn bộ bằng console và độ dài 
 
 ### Git clone
 
-git clone https://github.com/hieuhdh/DOAN_CTDLGT.git
+>git clone https://github.com/hieuhdh/DOAN_CTDLGT.git
     
 ### Chạy chương trình
 
