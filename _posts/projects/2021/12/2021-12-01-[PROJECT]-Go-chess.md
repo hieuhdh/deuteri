@@ -6,7 +6,7 @@ update: 2022-05-09
 excerpt: "Đây là đồ án môn lập trình mạng căn bản mà tôi đã học tại trường."
 description: "Đây là đồ án môn lập trình mạng căn bản mà tôi đã học tại trường."
 feature: https://user-images.githubusercontent.com/86739367/142738689-fab24d68-4373-47f8-80f1-46e90149c0c7.png
-cover: url('{{site.url}}/assets/ImgsPost/2021-12-01-background-gochess.png')
+cover: {{site.url}}/assets/ImgsPost/2021-12-01-background-gochess.png
 project: true
 tag:
 - Project
